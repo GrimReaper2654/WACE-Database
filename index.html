@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Practice Questions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>WACE Database</h1>
+    </header>
+    <div class="search">
+        <h2>Advanced Search</h2>
+        <div id="subject" class="filter">
+            <div class="filterLabel">Subject: </div>
+            <select class="filterSelect">
+                <option value="spec">Mathematics Specialist</option>
+                <option value="meth">Mathematics Methods</option>
+                <option value="chem">Chemistry</option>
+                <option value="phys">Physics</option>
+            </select>
+        </div>
+        <div id="year" class="filter">
+            <div class="filterLabel">Year: </div>
+            <select class="filterSelect">
+                <option value="-1">All Years</option>
+                <option value="1">2023</option>
+                <option value="2">2022</option>
+                <option value="3">2021</option>
+                <option value="4">2020</option>
+                <option value="5">2019</option>
+                <option value="6">2018</option>
+                <option value="7">2017</option>
+                <option value="8">2016</option>
+            </select>
+        </div>
+        <div id="source" class="filter">
+            <div class="filterLabel">Source: </div>
+            <select class="filterSelect">
+                <option value="-1">All</option>
+                <option value="1">WACE</option>
+            </select>
+        </div>
+        <div id="tags" class="filter">
+            <div class="filterLabel">Tags: </div>
+            <div class="tagsContainer">
+                <label class="tag">
+                    <input type="checkbox" id="Tag1" class="tagSelect">
+                    <span class="tagLabel">Tag1</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Trignometry" class="tagSelect">
+                    <span class="tagLabel">Trignometry</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Calculus" class="tagSelect">
+                    <span class="tagLabel">Calculus</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag4" class="tagSelect">
+                    <span class="tagLabel">a</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag5" class="tagSelect">
+                    <span class="tagLabel">a pretty long tag</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag6" class="tagSelect">
+                    <span class="tagLabel">this tag do be kinda chonky</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag7" class="tagSelect">
+                    <span class="tagLabel">hmmmmmmmmmmmmmmmmmmmmmmmmmmmm</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag7" class="tagSelect">
+                    <span class="tagLabel">hmmmmmmmmmmmmmmm</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag7" class="tagSelect">
+                    <span class="tagLabel">hmmmmmmmmmmmmmmmmmmm</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag7" class="tagSelect">
+                    <span class="tagLabel">hmmmmmmmmmmmmmmmmmmm</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag7" class="tagSelect">
+                    <span class="tagLabel">hmmmmmmmmmmmmmmmm</span>
+                </label>
+                <label class="tag">
+                    <input type="checkbox" id="Tag7" class="tagSelect">
+                    <span class="tagLabel">bruh</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    
+    <div class="display-question-section">
+        <h2>Display Question</h2>
+        <input type="text" id="questionID" placeholder="Question ID">
+        <button id="displayQuestionBtn">Display Question</button>
+        <div id="questionContainer"></div>
+        <div id="markingKeyContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
