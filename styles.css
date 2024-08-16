@@ -64,6 +64,17 @@ header {
 
 .tagLabel {
     font-size: smaller;
+    margin-left: 5px;
+}
+
+.standardButton {
+    padding: 10px 20px;
+    background-color: #404040;
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .add-question-section, .display-question-section {
