@@ -18,11 +18,11 @@
             <li class="dropdown">
                 <a href="tools.html" class="dropbtn">Study Tools</a>
                 <ul class="dropdownContent">
+                    <li><a href="https://www.vaultofthewace.xyz/" target="_blank">Vault of the Wace</a></li>
                     <li><a href="https://grimreaper2654.github.io/Booklet/main.html" target="_blank">Printable Booklet Maker</a></li>
                     <li><a href="https://grimreaper2654.github.io/Chemistry-Revision/Game/main.html" target="_blank">Chemistry Revision</a></li>
                     <li><a href="https://ed.toomwn.xyz/" target="_blank">Ed's Obsidian Notes</a></li>
                     <li><a href="https://demeter.toomwn.xyz/" target="_blank">Demeter</a></li>
-                    <li><a href="https://www.vaultofthewace.xyz/" target="_blank">Vault of the Wace</a></li>
                 </ul>
             </li>
             <li class="dropdown">
@@ -47,57 +47,29 @@
             </li>
         </ul>
     </nav>
-    <div class="search">
-        <h2>Advanced Search</h2>
-        <div id="subject" class="filter">
-            <div class="filterLabel">Subject: </div>
-            <select class="filterSelect">
-                <option value="spec">Mathematics Specialist</option>
-                <option value="meth">Mathematics Methods</option>
-                <option value="chem">Chemistry</option>
-                <option value="phys">Physics</option>
-            </select>
+    <div class="content">
+        <h1>Tools:</h1>
+        <p>A list of tools that could be useful.</p>
+        <div class="box">
+            <h2><a href="https://www.vaultofthewace.xyz/" target="_blank">Vault of the Wace</a></h2>
+            <p>One of the largest collections of wace resources on the internet. Objectively superior to all other wacevault clones.</p>
         </div>
-        <div id="year" class="filter">
-            <div class="filterLabel">Year: </div>
-            <select class="filterSelect">
-                <option value="-1">All Years</option>
-                <option value="2023">2023</option>
-                <option value="2022">2022</option>
-                <option value="2021">2021</option>
-                <option value="2020">2020</option>
-                <option value="2019">2019</option>
-                <option value="2018">2018</option>
-                <option value="2017">2017</option>
-                <option value="2016">2016</option>
-            </select>
+        <div class="box">
+            <h2><a href="https://grimreaper2654.github.io/Booklet/main.html" target="_blank">Printable Booklet Maker</a></h2>
+            <p>A simple tool that turns a pdf into a printable booklet. You print double sided then fold along the middle to create a booklet. How to staple the booklet is not my problem.</p>
         </div>
-        <div id="source" class="filter">
-            <div class="filterLabel">Source: </div>
-            <select class="filterSelect">
-                <option value="all">All</option>
-                <option value="WACE">WACE</option>
-            </select>
+        <div class="box">
+            <h2><a href="https://grimreaper2654.github.io/Chemistry-Revision/Game/main.html" target="_blank">Chemistry Revision</a></h2>
+            <p>A small thing I made to help me memorise the periodic table and common polyatomic ions in year 10.</p>
         </div>
-        <div id="tags" class="filter">
-            <div class="filterLabel">Tags: </div>
-            <select class="filterSelect">
-                <option value="and">AND</option>
-                <option value="or">OR</option>
-            </select>
-            <div id="tagsContainer" class="tagsContainer"></div>
+        <div class="box">
+            <h2><a href="https://ed.toomwn.xyz/" target="_blank">Ed's Obsidian Notes</a></h2>
+            <p>My good friend Edward's notes website. He has great chemistry notes and some other stuff as well.</p>
         </div>
-        <button id="searchButton" class="standardButton" onclick="search()">Search</button>
+        <div class="box">
+            <h2><a href="https://demeter.toomwn.xyz/" target="_blank">Demeter</a></h2>
+            <p>A study tool using Google Docs viewer. Made by Edward.</p>
+        </div>
     </div>
-    
-    <div class="searchResults">
-        <h2>Display Question (placeholder)</h2>
-        <input type="text" id="questionID" placeholder="Question ID">
-        <button id="displayQuestionBtn">Display Question</button>
-        <div id="questionContainer"></div>
-        <div id="markingKeyContainer"></div>
-    </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
