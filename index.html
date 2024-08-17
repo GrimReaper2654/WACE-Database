@@ -14,7 +14,7 @@
     <nav class="navBar">
         <ul class="navLinks">
             <li><a href="home.html">Home</a></li>
-            <li><a href="index.html">Search Database</a></li>
+            <li><a href="index.html">Database</a></li>
             <li class="dropdown">
                 <a href="tools.html" class="dropbtn">Study Tools</a>
                 <ul class="dropdownContent">
@@ -41,7 +41,6 @@
                     <li><a href="https://github.com/EddieTheEd" target="_blank">Eddie the Ed</a></li>
                     <li><a href="https://github.com/Grim4Reaper" target="_blank">==[JAT]== MQ69-Reaper 2</a></li>
                     <li><a href="https://github.com/MaceChettiyadan" target="_blank">MacELine™ CEO</a></li>
-                    <li><a href="https://github.com/Shan-Mei" target="_blank">Our Lord and Saviour</a></li>
                     <li><a href="https://github.com/the-tOOMwn" target="_blank">The Toomwn</a></li>
                 </ul>
             </li>
@@ -89,15 +88,26 @@
         </div>
         <button id="searchButton" class="standardButton" onclick="search()">Search</button>
     </div>
-    
-    <div class="searchResults">
-        <h2>Display Question (placeholder)</h2>
-        <input type="text" id="questionID" placeholder="Question ID">
-        <button id="displayQuestionBtn">Display Question</button>
-        <div id="questionContainer"></div>
-        <div id="markingKeyContainer"></div>
+    <div class="content">
+        <h2>Search Results</h2>
+        <div class="searchResults">
+            <div id="result0" class="box whiteBackground">
+                <div class="resultTopRow">
+                    <h3 class="alignLeft">WACE 2023 Question 1</h3>
+                    <span class="alignRight">
+                        <button id="button0" class="toggleButton" onclick="toggleContent(0)">▼</button>
+                    </span>
+                </div>
+                <div class="extraContent" id="extraContent0">
+                    <div id="question0" class="questionArea">
+                        <img src="questionBank/spec/WACE2023Q1.webp" class="questionImage">
+                    </div>
+                    <button class="standardButton" onclick="toggleKey(0)">Show Marking Key</button>
+                    <a href="pdfDownloads/spec/WACE2023Q1.pdf" download="WACE2023Q1.pdf"><button class="standardButton">Download PDF</button></a>
+                </div>
+            </div>
+        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>

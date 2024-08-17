@@ -76,9 +76,12 @@ header {
 }
 
 .search {
+    max-width: 1200px;
     width: 75%;
+    min-width: 600px;
     font-size: x-large;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .filter {
@@ -137,14 +140,20 @@ header {
     font-size: large;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
+    margin: 5px;
+    margin-left: 0;
 }
 
 .content {
     min-height: 100vh;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1000px;
+    width: 80%;
+    min-width: 600px;
     padding: 20px;
     background-color: #eeeeee;
 }
@@ -160,66 +169,50 @@ header {
     margin: 20px;
 }
 
-.add-question-section, .display-question-section {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
+.whiteBackground {
+    background-color: white;
 }
 
-.add-question-section textarea {
-    width: 100%;
-    height: 150px;
-    padding: 8px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+.resultTopRow {
+    justify-content: space-between;
 }
 
-.add-question-section button {
-    padding: 8px 15px;
-    font-size: 16px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.display-question-section input {
-    width: 200px;
-    padding: 8px;
-    font-size: 16px;
-}
-
-.display-question-section button {
-    padding: 8px 15px;
-    font-size: 16px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-#questionContainer, #markingKeyContainer {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-
-th, td {
-    padding: 8px;
+.alignLeft {
     text-align: left;
+    display: inline;
 }
 
-.katex {
-    display: inline-block;
-    font-size: 1.2em;
+.alignRight {
+    text-align: right;
+    display: inline;
+    float: right;
+}
+
+.toggleButton {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}
+  
+.extraContent {
+    display: none;
+    margin-top: 10px;
+}
+  
+.toggleButton.active {
+    transform: rotate(180deg);
+}
+
+.questionArea {
+    justify-content: center;
+    display: flex;
+}
+
+.questionImage {
+    width: 90%;
+    height: auto;
 }
