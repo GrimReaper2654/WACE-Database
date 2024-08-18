@@ -79,7 +79,7 @@ async function search() {
     console.log(data.questions);
     let questionsHtml = ``;
     for (let i in data.questions) {
-        questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="alignRight"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i})">▼</button></span></div><div class="extraContent" id="extraContent${i}"><div id="question${i}" class="questionArea"><img src="questionBank/spec/${data.questions[i].id}.webp" class="questionImage"></div><button class="standardButton" onclick="toggleKey(${i})">Show Marking Key</button><a href="pdfDownloads/spec/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
+        questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="alignRight"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i})">▼</button></span></div><div class="extraContent" id="extraContent${i}"><div id="question${i}" class="questionArea"><img src="questionBank/spec/${data.questions[i].id}.webp" class="questionImage"></div><button class="standardButton" onclick="toggleKey(${i})">Toggle Marking Key</button><a href="pdfDownloads/spec/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
     }
     console.log(questionsHtml);
     if (questionsHtml == ``) questionsHtml = `<h3>No Results Found</h3>`;
