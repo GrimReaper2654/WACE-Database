@@ -1,4 +1,68 @@
 {
+    "chem": [
+        "Organic",
+        "Redox",
+        "Synthesis",
+        "Stoichiometry",
+        "Green Chemistry",
+
+        "Collision Theory",
+        "Le Chatelier's Principle",
+        "Galvanic Cells",
+        "Electrolytic Cells",
+        "Fuel Cells",
+        "Functional Groups",
+        "Polymers",
+        "Catalysts",
+        "Enzymes",
+
+        "Haber Process",
+        "Contact Process",
+
+        "Soaps and Detergents",
+
+        "Graphing",
+        "Calculaton",
+        "Theory"
+    ],
+    "meth": [
+        "Calculus", 
+        "Integration", 
+        "Area",
+        "Differentiation", 
+        "Product Rule",
+        "Quotient Rule",
+        "Chain Rule",
+
+        "Trigonometry", 
+        "Trigonometric Identities", 
+        "Logarithm", 
+        "Exponential",
+
+        "Functions",
+        "Polynomials",
+
+        "Sampling",
+        "Confidence Intervals"
+    ],
+    "phys": [
+        "Short Answer",
+        "Problem Solving",
+        "Comprehension",
+
+        "Special Relativity",
+        "Projectile Motion",
+        "Circular Motion",
+        "Standard Model",
+        "Electromagnetism",
+        "DC Current",
+        "AC Current",
+        "Motors",
+        "Generators",
+
+        "Calculation",
+        "Theory"
+    ],
     "spec": [
         "Calculus", 
         "Integration", 

@@ -10,9 +10,18 @@ const data = {
     },
     questions: [],
     questionsRaw: null,
-}
+    tagsRaw: null,
+};
 let savedSettings = localStorage.getItem('WaceDatabaseSearchSettings');
 if (savedSettings) data.filters = JSON.parse(savedSettings);
+
+if (document.getElementById('subjectSelect')) {
+    document.getElementById('subjectSelect').addEventListener('input', function() {
+        console.log('subject changed!');
+        data.filters.subject = document.getElementById('subjectSelect').value;
+        setTags();
+    });
+}
 
 function toggleContent(id) {
     const extraContent = document.getElementById(`extraContent${id}`);
@@ -42,8 +51,8 @@ async function loadJson(path) {
 }
 
 async function setTags() {
-    const allTags = await loadJson('tags');
-    const tagsList = allTags[data.filters.subject];
+    const tagsList = data.tagsRaw[data.filters.subject];
+    console.log(tagsList);
     let tagsHtml = ``;
     for (let tag of tagsList) {
         tagsHtml += `<label class="tag"><input type="checkbox" id="${tag}" class="tagSelect"><span class="tagLabel">${tag}</span></label>`
@@ -52,7 +61,6 @@ async function setTags() {
 }
 
 async function search() {
-    data.filters.subject = document.getElementById('subjectSelect').value;
     data.filters.year = document.getElementById('yearSelect').value;
     data.filters.calculator = document.getElementById('calculatorSelect').value;
     data.filters.source = document.getElementById('sourceSelect').value;
@@ -97,6 +105,7 @@ async function toggleKey(id) {
 
 async function load() {
     data.questionsRaw = await loadJson('questions');
+    data.tagsRaw = await loadJson('tags');
     setTags();
 }
 
