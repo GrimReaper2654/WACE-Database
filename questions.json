@@ -2,6 +2,7 @@
     "spec": [
         {
             "id": "WACE2023Q1",
+            "name": "WACE 2023 Calc Free Question 1",
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
@@ -9,6 +10,7 @@
         },
         {
             "id": "WACE2023Q2",
+            "name": "WACE 2023 Calc Free Question 2",
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
@@ -16,6 +18,7 @@
         },
         {
             "id": "WACE2023Q3",
+            "name": "WACE 2023 Calc Free Question 3",
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
@@ -23,6 +26,7 @@
         },
         {
             "id": "WACE2023Q4",
+            "name": "WACE 2023 Calc Free Question 4",
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
@@ -30,6 +34,7 @@
         },
         {
             "id": "WACE2023Q5",
+            "name": "WACE 2023 Calc Free Question 5",
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
@@ -37,6 +42,7 @@
         },
         {
             "id": "WACE2023Q6",
+            "name": "WACE 2023 Calc Free Question 6",
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
@@ -44,6 +50,7 @@
         },
         {
             "id": "WACE2023Q7",
+            "name": "WACE 2023 Calc Free Question 7",
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
@@ -51,6 +58,7 @@
         },
         {
             "id": "WACE2023Q8",
+            "name": "WACE 2023 Calc Free Question 8",
             "year": 2023,
             "source": "WACE",
             "calculator": "free",

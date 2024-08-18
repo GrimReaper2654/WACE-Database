@@ -48,18 +48,18 @@
     </nav>
     <div class="search">
         <h2>Advanced Search</h2>
-        <div id="subject" class="filter">
+        <div class="filter">
             <div class="filterLabel">Subject: </div>
-            <select class="filterSelect">
+            <select id="subjectSelect" class="filterSelect">
                 <option value="spec">Mathematics Specialist</option>
                 <option value="meth">Mathematics Methods</option>
                 <option value="chem">Chemistry</option>
                 <option value="phys">Physics</option>
             </select>
         </div>
-        <div id="year" class="filter">
+        <div class="filter">
             <div class="filterLabel">Year: </div>
-            <select class="filterSelect">
+            <select id="yearSelect" class="filterSelect">
                 <option value="-1">All Years</option>
                 <option value="2023">2023</option>
                 <option value="2022">2022</option>
@@ -71,25 +71,25 @@
                 <option value="2016">2016</option>
             </select>
         </div>
-        <div id="calculator" class="filter">
+        <div class="filter">
             <div class="filterLabel">Calculator: </div>
-            <select class="filterSelect">
+            <select id="calculatorSelect" class="filterSelect">
                 <option value="all">All</option>
                 <option value="necessary">Necessary</option>
                 <option value="assumed">Assumed</option>
                 <option value="free">Free</option>
             </select>
         </div>
-        <div id="source" class="filter">
+        <div class="filter">
             <div class="filterLabel">Source: </div>
-            <select class="filterSelect">
+            <select id="sourceSelect" class="filterSelect">
                 <option value="all">All</option>
                 <option value="WACE">WACE</option>
             </select>
         </div>
-        <div id="tags" class="filter">
+        <div class="filter">
             <div class="filterLabel">Tags: </div>
-            <select class="filterSelect">
+            <select id="tagsSelect" class="filterSelect">
                 <option value="and">AND</option>
                 <option value="or">OR</option>
             </select>
@@ -99,37 +99,8 @@
     </div>
     <div class="content">
         <h2>Search Results</h2>
-        <div class="searchResults">
-            <div id="result0" class="box whiteBackground">
-                <div class="resultTopRow">
-                    <h3 class="alignLeft">WACE 2023 Question 1</h3>
-                    <span class="alignRight">
-                        <button id="button0" class="toggleButton" onclick="toggleContent(0)">▼</button>
-                    </span>
-                </div>
-                <div class="extraContent" id="extraContent0">
-                    <div id="question0" class="questionArea">
-                        <img src="questionBank/spec/WACE2023Q1.webp" class="questionImage">
-                    </div>
-                    <button class="standardButton" onclick="toggleKey(0)">Show Marking Key</button>
-                    <a href="pdfDownloads/spec/WACE2023Q1.pdf" download="WACE2023Q1.pdf"><button class="standardButton">Download PDF</button></a>
-                </div>
-            </div>
-            <div id="result1" class="box whiteBackground">
-                <div class="resultTopRow">
-                    <h3 class="alignLeft">WACE 2023 Question 2</h3>
-                    <span class="alignRight">
-                        <button id="button1" class="toggleButton" onclick="toggleContent(1)">▼</button>
-                    </span>
-                </div>
-                <div class="extraContent" id="extraContent1">
-                    <div id="question1" class="questionArea">
-                        <img src="questionBank/spec/WACE2023Q2.webp" class="questionImage">
-                    </div>
-                    <button class="standardButton" onclick="toggleKey(1)">Show Marking Key</button>
-                    <a href="pdfDownloads/spec/WACE2023Q2.pdf" download="WACE2023Q2.pdf"><button class="standardButton">Download PDF</button></a>
-                </div>
-            </div>
+        <div id="searchResults" class="searchResults">
+            <h3>Press 'Search' to get started.</h3>
         </div>
     </div>
     <script src="script.js"></script>

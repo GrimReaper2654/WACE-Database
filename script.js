@@ -3,11 +3,11 @@ const data = {
     filters: {
         subject: 'spec',
         year: -1,
+        calculator: 'all',
         source: 'all',
         mode: 'and',
         tags: [],
     },
-    settingsChanged: true,
     questions: []
 }
 let savedSettings = localStorage.getItem('WaceDatabaseSearchSettings');
@@ -51,30 +51,38 @@ async function setTags() {
 }
 
 async function search() {
-    if (data.settingsChanged) { // spamming the search button with same settings does not require recalculating
-        const questionsRaw = await loadJson('questions');
-        const allQuestions = questionsRaw[data.filters.subject];
-        
-        data.questions = [];
-        allQuestions.forEach(function(question, index) {
-            if ((data.filters.year == -1 || question.year == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source)) {
-                if (data.filters.mode == 'and') {
-                    if (data.filters.tags.every(tag => question.tags.includes(tag))) {
-                        data.questions.push(allQuestions[index]);
-                    }
-                } else {
-                    if (data.filters.tags.some(tag => question.tags.includes(tag))) {
-                        data.questions.push(allQuestions[index]);
-                    }
+    data.filters.subject = document.getElementById('subjectSelect').value;
+    data.filters.year = document.getElementById('yearSelect').value;
+    data.filters.calculator = document.getElementById('calculatorSelect').value;
+    data.filters.source = document.getElementById('sourceSelect').value;
+    data.filters.mode = document.getElementById('tagsSelect').value;
+    data.filters.tags = Array.from(document.querySelectorAll('.tagSelect:checked')).map(checkbox => checkbox.id);
+
+    const questionsRaw = await loadJson('questions');
+    const allQuestions = questionsRaw[data.filters.subject];
+    
+    data.questions = [];
+    allQuestions.forEach(function(question, index) {
+        if ((data.filters.year == -1 || question.year == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.calculator == 'all' || (data.filters.calculator == 'assumed' && data.filters.calculator != "free") || (question.calculator == data.filters.calculator))) {
+            if (data.filters.mode == 'and') {
+                if (data.filters.tags.every(tag => question.tags.includes(tag))) {
+                    data.questions.push(allQuestions[index]);
+                }
+            } else {
+                if (data.filters.tags.some(tag => question.tags.includes(tag))) {
+                    data.questions.push(allQuestions[index]);
                 }
             }
-        });
-        
-        console.log(data.questions);
-
-
+        }
+    });
+    
+    console.log(data.questions);
+    let questionsHtml = ``;
+    for (let i in data.questions) {
+        questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="alignRight"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i})">▼</button></span></div><div class="extraContent" id="extraContent${i}"><div id="question${i}" class="questionArea"><img src="questionBank/spec/${data.questions[i].id}.webp" class="questionImage"></div><button class="standardButton" onclick="toggleKey(${i})">Show Marking Key</button><a href="pdfDownloads/spec/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
     }
-    settingsChanged = false;
+    if (questionsHtml == ``) questionsHtml = `<h3>No Results Found</h3>`;
+    document.getElementById('searchResults').innerHTML = questionsHtml;
 }
 
 async function toggleKey(id) {
