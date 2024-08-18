@@ -4,7 +4,57 @@
             "id": "WACE2023Q1",
             "year": 2023,
             "source": "WACE",
-            "tags": ["Functions", "Calculator Free"]
+            "calculator": "free",
+            "tags": ["Functions"]
+        },
+        {
+            "id": "WACE2023Q2",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": ["Functions", "Polynomials", "Complex Numbers"]
+        },
+        {
+            "id": "WACE2023Q3",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": ["Calculus", "Integration", "U Substitution"]
+        },
+        {
+            "id": "WACE2023Q4",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": ["Graphing", "Functions", "Inverse Functions", "Absolute Value", "Intersection"]
+        },
+        {
+            "id": "WACE2023Q5",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": ["Planes", "Vectors", "Intersection"]
+        },
+        {
+            "id": "WACE2023Q6",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": ["Complex Numbers", "Polar Form", "De Moivre's Theorem"]
+        },
+        {
+            "id": "WACE2023Q7",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": ["Calculus", "Integration", "U Substitution", "Area", "Trigonometry", "Trigonometric Identities"]
+        },
+        {
+            "id": "WACE2023Q8",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": ["Complex Numbers"]
         }
     ]
 }

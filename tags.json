@@ -1,15 +1,39 @@
 {
     "spec": [
         "Calculus", 
-        "Trigonometry", 
-        "Logarithm", 
         "Integration", 
+        "U Substitution",
+        "Area",
+        "Volume of Revolution",
         "Differentiation", 
+        "Product Rule",
+        "Quotient Rule",
+        "Chain Rule",
+        
+        "Functions",
+        "Intersection",
+        "Polynomials",
+        "Inverse Functions",
+
+        "Trigonometry", 
+        "Trigonometric Identities", 
+        "Logarithm", 
+        "Exponential",
+        "Absolute Value",
+
+        "Planes",
+        "Parametric",
+
         "Vectors", 
         "Complex Numbers", 
-        "Functions", 
+        "Polar Form",
+        "Component Form",
+        "De Moivre's Theorem",
+        
         "Graphing", 
         "Proofs", 
-        "Geometry"
+        "Geometry",
+        
+        "System of Equations"
     ]
 }
