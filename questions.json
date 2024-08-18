@@ -303,10 +303,162 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": []
-        }
+        },
 
-    
-    
+
+
+        {
+            "id": "WACE2017Q1",
+            "name": "WACE 2017 Calc Free Question 1",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q2",
+            "name": "WACE 2017 Calc Free Question 2",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q3",
+            "name": "WACE 2017 Calc Free Question 3",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q4",
+            "name": "WACE 2017 Calc Free Question 4",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q5",
+            "name": "WACE 2017 Calc Free Question 5",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q6",
+            "name": "WACE 2017 Calc Free Question 6",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q7",
+            "name": "WACE 2017 Calc Free Question 7",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q8",
+            "name": "WACE 2017 Calc Free Question 8",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q9",
+            "name": "WACE 2017 Calc Assumed Question 9",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q10",
+            "name": "WACE 2017 Calc Assumed Question 10",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q11",
+            "name": "WACE 2017 Calc Assumed Question 11",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q12",
+            "name": "WACE 2017 Calc Assumed Question 12",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q13",
+            "name": "WACE 2017 Calc Assumed Question 13",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q14",
+            "name": "WACE 2017 Calc Assumed Question 14",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q15",
+            "name": "WACE 2017 Calc Assumed Question 15",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q16",
+            "name": "WACE 2017 Calc Assumed Question 16",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q17",
+            "name": "WACE 2017 Calc Assumed Question 17",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q18",
+            "name": "WACE 2017 Calc Assumed Question 18",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q19",
+            "name": "WACE 2017 Calc Assumed Question 19",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        }
     ]
 
 }

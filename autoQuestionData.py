@@ -1,14 +1,14 @@
 template = '''{
-    "id": "WACE2023Q[i]",
-    "name": "WACE 2023 Calc Assumed Question [i]",
-    "year": 2023,
+    "id": "WACE2017Q[i]",
+    "name": "WACE 2017 Calc Free Question [i]",
+    "year": 2017,
     "source": "WACE",
-    "calculator": "assumed",
+    "calculator": "free",
     "tags": []
 },'''
 
-start = 10
-end = 19
+start = 1
+end = 8
 
 i = start
 while i <= end:
