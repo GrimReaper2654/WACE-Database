@@ -70,7 +70,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Vectors"]
         },
         {
             "id": "WACE2023Q10",
@@ -78,7 +78,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Complex Numbers", "Polar Form"]
         },
         {
             "id": "WACE2023Q11",
@@ -86,7 +86,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Slope Field", "Differentiation", "Integration"]
         },
         {
             "id": "WACE2023Q12",
@@ -94,7 +94,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Complex Numbers", "Polar Form", "Trigonometric Identities", "Graphing"]
         },
         {
             "id": "WACE2023Q13",
@@ -102,7 +102,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Sample Means", "Confidence Intervals", "Probability"]
         },
         {
             "id": "WACE2023Q14",
@@ -110,7 +110,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Vectors", "Planes"]
         },
         {
             "id": "WACE2023Q15",
@@ -118,7 +118,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Sample Means", "Confidence Intervals", "Probability"]
         },
         {
             "id": "WACE2023Q16",
@@ -126,7 +126,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Differentiation", "Integration", "Vectors"]
         },
         {
             "id": "WACE2023Q17",
@@ -134,7 +134,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Integration", "Volume of Revolution"]
         },
         {
             "id": "WACE2023Q18",
@@ -142,7 +142,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Functions", "Polynomials", "Area", "Intersection"]
         },
         {
             "id": "WACE2023Q19",
@@ -150,7 +150,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Differentiation", "Integration"]
         }
     ]
 }

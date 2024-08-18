@@ -9,6 +9,7 @@
         "Product Rule",
         "Quotient Rule",
         "Chain Rule",
+        "Slope Field",
         
         "Functions",
         "Intersection",
@@ -34,6 +35,8 @@
         "Proofs", 
         "Geometry",
         
-        "System of Equations"
+        "System of Equations",
+
+        "Sample Means"
     ]
 }
