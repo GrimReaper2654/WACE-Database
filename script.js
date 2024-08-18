@@ -8,7 +8,8 @@ const data = {
         mode: 'and',
         tags: [],
     },
-    questions: []
+    questions: [],
+    questionsRaw: null,
 }
 let savedSettings = localStorage.getItem('WaceDatabaseSearchSettings');
 if (savedSettings) data.filters = JSON.parse(savedSettings);
@@ -58,8 +59,7 @@ async function search() {
     data.filters.mode = document.getElementById('tagsSelect').value;
     data.filters.tags = Array.from(document.querySelectorAll('.tagSelect:checked')).map(checkbox => checkbox.id);
 
-    const questionsRaw = await loadJson('questions');
-    const allQuestions = questionsRaw[data.filters.subject];
+    const allQuestions = data.questionsRaw[data.filters.subject];
     
     data.questions = [];
     allQuestions.forEach(function(question, index) {
@@ -95,4 +95,9 @@ async function toggleKey(id) {
     imageContainer.innerHTML = image;
 }
 
-setTags();
+async function load() {
+    data.questionsRaw = await loadJson('questions');
+    setTags();
+}
+
+load();
