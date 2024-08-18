@@ -151,6 +151,162 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": ["Calculus", "Differentiation", "Integration"]
+        },
+        {
+            "id": "WACE2022Q1",
+            "name": "WACE 2022 Calc Free Question 1",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q2",
+            "name": "WACE 2022 Calc Free Question 2",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q3",
+            "name": "WACE 2022 Calc Free Question 3",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q4",
+            "name": "WACE 2022 Calc Free Question 4",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q5",
+            "name": "WACE 2022 Calc Free Question 5",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q6",
+            "name": "WACE 2022 Calc Free Question 6",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q7",
+            "name": "WACE 2022 Calc Free Question 7",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q8",
+            "name": "WACE 2022 Calc Assumed Question 8",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q9",
+            "name": "WACE 2022 Calc Assumed Question 9",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q10",
+            "name": "WACE 2022 Calc Assumed Question 10",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q11",
+            "name": "WACE 2022 Calc Assumed Question 11",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q12",
+            "name": "WACE 2022 Calc Assumed Question 12",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q13",
+            "name": "WACE 2022 Calc Assumed Question 13",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q14",
+            "name": "WACE 2022 Calc Assumed Question 14",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q15",
+            "name": "WACE 2022 Calc Assumed Question 15",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q16",
+            "name": "WACE 2022 Calc Assumed Question 16",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q17",
+            "name": "WACE 2022 Calc Assumed Question 17",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q18",
+            "name": "WACE 2022 Calc Assumed Question 18",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2022Q19",
+            "name": "WACE 2022 Calc Assumed Question 19",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
         }
+
+    
+    
     ]
+
 }
