@@ -5,7 +5,6 @@
 #
 #
 
-import os
 from PIL import Image
 
 src = 'imageProcessingArea/WACE2023Q.webp'
