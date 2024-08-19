@@ -10,9 +10,18 @@ const data = {
     },
     questions: [],
     questionsRaw: null,
-}
+    tagsRaw: null,
+};
 let savedSettings = localStorage.getItem('WaceDatabaseSearchSettings');
 if (savedSettings) data.filters = JSON.parse(savedSettings);
+
+if (document.getElementById('subjectSelect')) {
+    document.getElementById('subjectSelect').addEventListener('input', function() {
+        console.log('subject changed!');
+        data.filters.subject = document.getElementById('subjectSelect').value;
+        setTags();
+    });
+}
 
 function toggleContent(id) {
     const extraContent = document.getElementById(`extraContent${id}`);
@@ -42,8 +51,8 @@ async function loadJson(path) {
 }
 
 async function setTags() {
-    const allTags = await loadJson('tags');
-    const tagsList = allTags[data.filters.subject];
+    const tagsList = data.tagsRaw[data.filters.subject];
+    console.log(tagsList);
     let tagsHtml = ``;
     for (let tag of tagsList) {
         tagsHtml += `<label class="tag"><input type="checkbox" id="${tag}" class="tagSelect"><span class="tagLabel">${tag}</span></label>`
@@ -52,7 +61,6 @@ async function setTags() {
 }
 
 async function search() {
-    data.filters.subject = document.getElementById('subjectSelect').value;
     data.filters.year = document.getElementById('yearSelect').value;
     data.filters.calculator = document.getElementById('calculatorSelect').value;
     data.filters.source = document.getElementById('sourceSelect').value;
@@ -79,7 +87,7 @@ async function search() {
     console.log(data.questions);
     let questionsHtml = ``;
     for (let i in data.questions) {
-        questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="alignRight"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i})">▼</button></span></div><div class="extraContent" id="extraContent${i}"><div id="question${i}" class="questionArea"><img src="questionBank/spec/${data.questions[i].id}.webp" class="questionImage"></div><button class="standardButton" onclick="toggleKey(${i})">Show Marking Key</button><a href="pdfDownloads/spec/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
+        questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="alignRight"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i})">▼</button></span></div><div class="extraContent" id="extraContent${i}"><div id="question${i}" class="questionArea"><img src="questionBank/${data.filters.subject}/${data.questions[i].id}.webp" class="questionImage"></div><button class="standardButton" onclick="toggleKey(${i})">Toggle Marking Key</button><a href="pdfDownloads/${data.filters.subject}/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
     }
     console.log(questionsHtml);
     if (questionsHtml == ``) questionsHtml = `<h3>No Results Found</h3>`;
@@ -97,6 +105,7 @@ async function toggleKey(id) {
 
 async function load() {
     data.questionsRaw = await loadJson('questions');
+    data.tagsRaw = await loadJson('tags');
     setTags();
 }
 

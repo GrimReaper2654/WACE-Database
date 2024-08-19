@@ -1,4 +1,742 @@
 {
+    "chem": [
+
+    ],
+    "econs": [
+        {
+            "id": "WACE2023Q1",
+            "name": "WACE 2023 Question 1",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Internaitonal Trade", "Free Trade", "Exchange Rates" ]
+        },
+        {
+            "id": "WACE2023Q2",
+            "name": "WACE 2023 Question 2",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["International Trade", "Exchange Rates", "Labour Productivity" ]
+        },
+        {
+            "id": "WACE2023Q3",
+            "name": "WACE 2023 Question 3",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Exchange Rates", "BTC", "Free Trade", "Globalisaiton" ]
+        },
+        {
+            "id": "WACE2023Q4",
+            "name": "WACE 2023 Question 4",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Free Trade" ]
+        },
+        {
+            "id": "WACE2023Q5",
+            "name": "WACE 2023 Question 5",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Internaitonal Trade", "Free Trade", "A+C Advantages" ]
+        },
+        {
+            "id": "WACE2023Q6",
+            "name": "WACE 2023 Question 6",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Internaitonal Trade", "Free Trade", "A+C Advantages"]
+        },
+        {
+            "id": "WACE2023Q7",
+            "name": "WACE 2023 Question 7",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Free Trade" ]
+        },
+        {
+            "id": "WACE2023Q8",
+            "name": "WACE 2023 Question 8",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Free Trade"]
+        },
+        {
+            "id": "WACE2023Q9",
+            "name": "WACE 2023 Question 9",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Free Trade" ]
+        },
+        {
+            "id": "WACE2023Q10",
+            "name": "WACE 2023 Question 10",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Balance of Payments" ]
+        },
+        {
+            "id": "WACE2023Q11",
+            "name": "WACE 2023 Question 11",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Foreign Investment", "Exchange Rates" ]
+        },
+        {
+            "id": "WACE2023Q12",
+            "name": "WACE 2023 Question 12",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Foreign Investment", "Balance of Payments"]
+        },
+        {
+            "id": "WACE2023Q13",
+            "name": "WACE 2023 Question 13",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["BTC"]
+        },
+        {
+            "id": "WACE2023Q14",
+            "name": "WACE 2023 Question 14",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["BTC"]
+        },
+        {
+            "id": "WACE2023Q15",
+            "name": "WACE 2023 Question 15",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["AE Model "]
+        },
+        {
+            "id": "WACE2023Q16",
+            "name": "WACE 2023 Question 16",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["AE Model", "Multiplier" ]
+        },
+        {
+            "id": "WACE2023Q17",
+            "name": "WACE 2023 Question 17",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["AE Model", "Multiplier"]
+        },
+        {
+            "id": "WACE2023Q18",
+            "name": "WACE 2023 Question 18",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["AD/AS Model" ]
+        },
+        {
+            "id": "WACE2023Q19",
+            "name": "WACE 2023 Question 19",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Fiscal Policy", "Monetary Policy"]
+        },
+        {
+            "id": "WACE2023Q20",
+            "name": "WACE 2023 Question 20",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Fiscal Policy", "BTC" ]
+        },
+        {
+            "id": "WACE2023Q21",
+            "name": "WACE 2023 Question 21",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Fiscal Policy"]
+        },
+        {
+            "id": "WACE2023Q22",
+            "name": "WACE 2023 Question 22",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Monetary Policy"]
+        },
+        {
+            "id": "WACE2023Q23",
+            "name": "WACE 2023 Question 23",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Free Trade", "Fiscal Policy"]
+        },
+        {
+            "id": "WACE2023Q24",
+            "name": "WACE 2023 Question 24",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Labour Productivity" ]
+        },
+        {
+            "id": "WACE2023Q25",
+            "name": "WACE 2023 Question 25",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q26",
+            "name": "WACE 2023 Question 26",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q27",
+            "name": "WACE 2023 Question 27",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q28",
+            "name": "WACE 2023 Question 28",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q29",
+            "name": "WACE 2023 Question 29",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q30",
+            "name": "WACE 2023 Question 30",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q31",
+            "name": "WACE 2023 Question 31",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        }
+    ],
+    "meth": [
+
+    ],
+    "phys": [
+        {
+            "id": "WACE2023Q1",
+            "name": "WACE 2023 Question 1",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Motors", "DC Current", "Calculation"]
+        },
+        {
+            "id": "WACE2023Q2",
+            "name": "WACE 2023 Question 2",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Circular Motion", "Calculation", "Banked Track", "Theory"]
+        },
+        {
+            "id": "WACE2023Q3",
+            "name": "WACE 2023 Question 3",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation"]
+        },
+        {
+            "id": "WACE2023Q4",
+            "name": "WACE 2023 Question 4",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Light"]
+        },
+        {
+            "id": "WACE2023Q5",
+            "name": "WACE 2023 Question 5",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Projectile Motion"]
+        },
+        {
+            "id": "WACE2023Q6",
+            "name": "WACE 2023 Question 6",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Theory", "Light", "Photoelectric Effect"]
+        },
+        {
+            "id": "WACE2023Q7",
+            "name": "WACE 2023 Question 7",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Theory", "Electromagnetism", "Induction"]
+        },
+        {
+            "id": "WACE2023Q8",
+            "name": "WACE 2023 Question 8",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Estimation", "Big Bang Theory"]
+        },
+        {
+            "id": "WACE2023Q9",
+            "name": "WACE 2023 Question 9",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Special Relativity", "Waves"]
+        },
+        {
+            "id": "WACE2023Q10",
+            "name": "WACE 2023 Question 10",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Estimation", "Wave Particle Duality", "Waves"]
+        },
+        {
+            "id": "WACE2023Q11",
+            "name": "WACE 2023 Question 11",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Theory", "Standard Model"]
+        },
+        {
+            "id": "WACE2023Q12",
+            "name": "WACE 2023 Question 12",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Electromagnetism"]
+        },
+        {
+            "id": "WACE2023Q13",
+            "name": "WACE 2023 Question 13",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Electromagnetism", "Calculation", "Theory"]
+        },
+        {
+            "id": "WACE2023Q14",
+            "name": "WACE 2023 Question 14",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Special Relativity", "Calculation", "Theory", "Length Contraction", "Time Dilation"]
+        },
+        {
+            "id": "WACE2023Q15",
+            "name": "WACE 2023 Question 15",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Calculation", "Circular Motion", "Orbits"]
+        },
+        {
+            "id": "WACE2023Q16",
+            "name": "WACE 2023 Question 16",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Graphing", "Estimation", "Waves"]
+        },
+        {
+            "id": "WACE2023Q17",
+            "name": "WACE 2023 Question 17",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Calculation", "Torque"]
+        },
+        {
+            "id": "WACE2023Q18",
+            "name": "WACE 2023 Question 18",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Calculation", "Electromagnetism", "Charged Particles"]
+        },
+        {
+            "id": "WACE2023Q19",
+            "name": "WACE 2023 Question 19",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Comprehension", "Standard Model", "Calculation", "Theory"]
+        },
+        {
+            "id": "WACE2023Q20",
+            "name": "WACE 2023 Question 20",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Comprehension", "Light", "Waves", "Polarisation", "Calculation", "Theory"]
+        },
+        {
+            "id": "WACE2022Q1",
+            "name": "WACE 2022 Question 1",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Light", "Photoelectric Effect"]
+        },
+        {
+            "id": "WACE2022Q2",
+            "name": "WACE 2022 Question 2",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Torque"]
+        },
+        {
+            "id": "WACE2022Q3",
+            "name": "WACE 2022 Question 3",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Theory", "AC Current", "Electromagnetism", "Generators"]
+        },
+        {
+            "id": "WACE2022Q4",
+            "name": "WACE 2022 Question 4",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Charged Particles", "Electromagnetism"]
+        },
+        {
+            "id": "WACE2022Q5",
+            "name": "WACE 2022 Question 5",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Induction", "Electromagnetism"]
+        },
+        {
+            "id": "WACE2022Q6",
+            "name": "WACE 2022 Question 6",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Circular Motion"]
+        },
+        {
+            "id": "WACE2022Q7",
+            "name": "WACE 2022 Question 7",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Theory", "Electromagnetism"]
+        },
+        {
+            "id": "WACE2022Q8",
+            "name": "WACE 2022 Question 8",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Graphing"]
+        },
+        {
+            "id": "WACE2022Q9",
+            "name": "WACE 2022 Question 9",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Wave Particle Duality", "Waves"]
+        },
+        {
+            "id": "WACE2022Q10",
+            "name": "WACE 2022 Question 10",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Projectile Motion", "Calculation"]
+        },
+        {
+            "id": "WACE2022Q11",
+            "name": "WACE 2022 Question 11",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Short Response", "Calculation", "Theory", "Special Relativity", "Length Contraction"]
+        },
+        {
+            "id": "WACE2022Q12",
+            "name": "WACE 2022 Question 12",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Calculation"]
+        },
+        {
+            "id": "WACE2022Q13",
+            "name": "WACE 2022 Question 13",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Calculation", "Light"]
+        },
+        {
+            "id": "WACE2022Q14",
+            "name": "WACE 2022 Question 14",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Standard Model", "Calculation"]
+        },
+        {
+            "id": "WACE2022Q15",
+            "name": "WACE 2022 Question 15",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Calculation", "Theory", "Graphing", "Estimation", "Light", "Waves"]
+        },
+        {
+            "id": "WACE2022Q16",
+            "name": "WACE 2022 Question 16",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Calculation", "Theory", "Power Transmission", "DC Current", "AC Current", "Transformers", "Electricity"]
+        },
+        {
+            "id": "WACE2022Q17",
+            "name": "WACE 2022 Question 17",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Problem Solving", "Circular Motion", "Calculation"]
+        },
+        {
+            "id": "WACE2022Q18",
+            "name": "WACE 2022 Question 18",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Comprehension", "Theory", "Calculation", "Light"]
+        },
+        {
+            "id": "WACE2022Q19",
+            "name": "WACE 2022 Question 19",
+            "year": 2022,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": ["Comprehension", "Theory", "Calculation", "Circular Motion", "Orbits"]
+        },
+        {
+            "id": "WACE2021Q1",
+            "name": "WACE 2021 Question 1",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q2",
+            "name": "WACE 2021 Question 2",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q3",
+            "name": "WACE 2021 Question 3",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q4",
+            "name": "WACE 2021 Question 4",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q5",
+            "name": "WACE 2021 Question 5",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q6",
+            "name": "WACE 2021 Question 6",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q7",
+            "name": "WACE 2021 Question 7",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q8",
+            "name": "WACE 2021 Question 8",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q9",
+            "name": "WACE 2021 Question 9",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q10",
+            "name": "WACE 2021 Question 10",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q11",
+            "name": "WACE 2021 Question 11",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q12",
+            "name": "WACE 2021 Question 12",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q13",
+            "name": "WACE 2021 Question 13",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q14",
+            "name": "WACE 2021 Question 14",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q15",
+            "name": "WACE 2021 Question 15",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q16",
+            "name": "WACE 2021 Question 16",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q17",
+            "name": "WACE 2021 Question 17",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q18",
+            "name": "WACE 2021 Question 18",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q19",
+            "name": "WACE 2021 Question 19",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q20",
+            "name": "WACE 2021 Question 20",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q21",
+            "name": "WACE 2021 Question 21",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        }
+    ],
     "spec": [
         {
             "id": "WACE2023Q1",
@@ -303,10 +1041,162 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": []
-        }
+        },
 
-    
-    
+
+
+        {
+            "id": "WACE2017Q1",
+            "name": "WACE 2017 Calc Free Question 1",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q2",
+            "name": "WACE 2017 Calc Free Question 2",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q3",
+            "name": "WACE 2017 Calc Free Question 3",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q4",
+            "name": "WACE 2017 Calc Free Question 4",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q5",
+            "name": "WACE 2017 Calc Free Question 5",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q6",
+            "name": "WACE 2017 Calc Free Question 6",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q7",
+            "name": "WACE 2017 Calc Free Question 7",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q8",
+            "name": "WACE 2017 Calc Free Question 8",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q9",
+            "name": "WACE 2017 Calc Assumed Question 9",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q10",
+            "name": "WACE 2017 Calc Assumed Question 10",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q11",
+            "name": "WACE 2017 Calc Assumed Question 11",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q12",
+            "name": "WACE 2017 Calc Assumed Question 12",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q13",
+            "name": "WACE 2017 Calc Assumed Question 13",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q14",
+            "name": "WACE 2017 Calc Assumed Question 14",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q15",
+            "name": "WACE 2017 Calc Assumed Question 15",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q16",
+            "name": "WACE 2017 Calc Assumed Question 16",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q17",
+            "name": "WACE 2017 Calc Assumed Question 17",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q18",
+            "name": "WACE 2017 Calc Assumed Question 18",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q19",
+            "name": "WACE 2017 Calc Assumed Question 19",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        }
     ]
 
 }

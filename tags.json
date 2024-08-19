@@ -1,4 +1,109 @@
 {
+    "chem": [
+        "Organic",
+        "Redox",
+        "Synthesis",
+        "Stoichiometry",
+        "Green Chemistry",
+
+        "Collision Theory",
+        "Le Chatelier's Principle",
+        "Galvanic Cells",
+        "Electrolytic Cells",
+        "Fuel Cells",
+        "Functional Groups",
+        "Polymers",
+        "Catalysts",
+        "Enzymes",
+
+        "Haber Process",
+        "Contact Process",
+
+        "Soaps and Detergents",
+
+        "Graphing",
+        "Calculaton",
+        "Theory"
+    ],
+    "econs": [
+        "Multi Choice",
+        "Short Answer",
+        "Extended Response",
+        "Free Trade", 
+        "AE Model",
+        "BTC", 
+        "AD/AS Model",
+        "International Trade",
+        "Exchange Rates",
+        "Labour Productitivty",
+        "Globalisaiton",
+        "A+C Advantages", 
+        "Balance of Payments",
+        "Fiscal Policy",
+        "Monetary Policy", 
+        "Multiplier"
+        
+        
+    ],
+    "meth": [
+        "Calculus", 
+        "Integration", 
+        "Area",
+        "Differentiation", 
+        "Product Rule",
+        "Quotient Rule",
+        "Chain Rule",
+
+        "Trigonometry", 
+        "Trigonometric Identities", 
+        "Logarithm", 
+        "Exponential",
+
+        "Functions",
+        "Polynomials",
+
+        "Sampling",
+        "Confidence Intervals"
+    ],
+    "phys": [
+        "Short Response",
+        "Problem Solving",
+        "Comprehension",
+
+        "Blackbody Radiation",
+        "Wave Particle Duality",
+        "Special Relativity",
+        "Time Dilation",
+        "Length Contraction",
+        "Projectile Motion",
+
+        "Circular Motion",
+        "Banked Track",
+        "Orbits",
+
+        "Torque",
+        "Standard Model",
+        "Big Bang Theory",
+        "Electromagnetism",
+        "Induction",
+        "DC Current",
+        "AC Current",
+        "Motors",
+        "Generators",
+        "Power Transmission",
+        "Transformers",
+        "Electricity",
+        "Charged Particles",
+        "Waves",
+        "Light",
+        "Polarisation",
+        "Photoelectric Effect",
+
+        "Graphing",
+        "Calculation",
+        "Theory",
+        "Estimation"
+    ],
     "spec": [
         "Calculus", 
         "Integration", 

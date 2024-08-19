@@ -1,3 +1,10 @@
+#
+# For making pdf downloads of questions, run before stacking
+#  
+#
+#
+#
+
 import os
 from PIL import Image
 from fpdf import FPDF
