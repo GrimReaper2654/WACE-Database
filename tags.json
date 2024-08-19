@@ -29,11 +29,23 @@
         "Multi Choice",
         "Short Answer",
         "Extended Response",
-
-        "topic 1",
-        "topic 2",
-        "topic 3, idk I dont do econs"
-    ],
+        "Free Trade", 
+        "AE Model",
+        "BTC", 
+        "AD/AS Model",
+        "International Trade",
+        "Exchange Rates",
+        "Labour Productitivty",
+        "Globalisaiton",
+        "A+C Advantages", 
+        "Balance of Payments",
+        "Fiscal Policy",
+        "Monetary Policy", 
+        "Multiplier", 
+        
+        
+        ]
+    
     "meth": [
         "Calculus", 
         "Integration", 
