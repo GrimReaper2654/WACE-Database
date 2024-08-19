@@ -46,22 +46,40 @@
         "Confidence Intervals"
     ],
     "phys": [
-        "Short Answer",
+        "Short Response",
         "Problem Solving",
         "Comprehension",
 
+        "Blackbody Radiation",
+        "Wave Particle Duality",
         "Special Relativity",
+        "Time Dilation",
+        "Length Contraction",
         "Projectile Motion",
+
         "Circular Motion",
+        "Banked Track",
+        "Orbits",
+
+        "Torque",
         "Standard Model",
+        "Big Bang Theory",
         "Electromagnetism",
+        "Induction",
         "DC Current",
         "AC Current",
         "Motors",
         "Generators",
+        "Charged Particles",
+        "Waves",
+        "Light",
+        "Polarisation",
+        "Photoelectric Effect",
 
+        "Graphing",
         "Calculation",
-        "Theory"
+        "Theory",
+        "Estimation"
     ],
     "spec": [
         "Calculus", 

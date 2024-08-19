@@ -12,7 +12,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Motors", "DC Current", "Calculation"]
         },
         {
             "id": "WACE2023Q2",
@@ -20,7 +20,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Circular Motion", "Calculation", "Banked Track", "Theory"]
         },
         {
             "id": "WACE2023Q3",
@@ -28,7 +28,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Calculation"]
         },
         {
             "id": "WACE2023Q4",
@@ -36,7 +36,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Calculation", "Light"]
         },
         {
             "id": "WACE2023Q5",
@@ -44,7 +44,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Calculation", "Projectile Motion"]
         },
         {
             "id": "WACE2023Q6",
@@ -52,7 +52,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Theory", "Light", "Photoelectric Effect"]
         },
         {
             "id": "WACE2023Q7",
@@ -60,7 +60,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Theory", "Electromagnetism", "Induction"]
         },
         {
             "id": "WACE2023Q8",
@@ -68,7 +68,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Estimation", "Big Bang Theory"]
         },
         {
             "id": "WACE2023Q9",
@@ -76,7 +76,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Calculation", "Special Relativity", "Waves"]
         },
         {
             "id": "WACE2023Q10",
@@ -84,7 +84,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Estimation", "Wave Particle Duality", "Waves"]
         },
         {
             "id": "WACE2023Q11",
@@ -92,7 +92,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Theory", "Standard Model"]
         },
         {
             "id": "WACE2023Q12",
@@ -100,7 +100,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Calculation", "Electromagnetism"]
         },
         {
             "id": "WACE2023Q13",
@@ -108,7 +108,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Problem Solving", "Electromagnetism", "Calculation", "Theory"]
         },
         {
             "id": "WACE2023Q14",
@@ -116,7 +116,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Problem Solving", "Special Relativity", "Calculation", "Theory", "Length Contraction", "Time Dilation"]
         },
         {
             "id": "WACE2023Q15",
@@ -124,7 +124,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Problem Solving", "Calculation", "Circular Motion", "Orbits"]
         },
         {
             "id": "WACE2023Q16",
@@ -132,7 +132,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Problem Solving", "Graphing", "Estimation", "Waves"]
         },
         {
             "id": "WACE2023Q17",
@@ -140,7 +140,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Problem Solving", "Calculation", "Torque"]
         },
         {
             "id": "WACE2023Q18",
@@ -148,7 +148,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Problem Solving", "Calculation", "Electromagnetism", "Charged Particles"]
         },
         {
             "id": "WACE2023Q19",
@@ -156,7 +156,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Comprehension", "Standard Model", "Calculation", "Theory"]
         },
         {
             "id": "WACE2023Q20",
@@ -164,7 +164,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Comprehension", "Light", "Waves", "Polarisation", "Calculation", "Theory"]
         },
         {
             "id": "WACE2022Q1",
