@@ -2,6 +2,256 @@
     "chem": [
 
     ],
+    "econs": [
+        {
+            "id": "WACE2023Q1",
+            "name": "WACE 2023 Question 1",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q2",
+            "name": "WACE 2023 Question 2",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q3",
+            "name": "WACE 2023 Question 3",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q4",
+            "name": "WACE 2023 Question 4",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q5",
+            "name": "WACE 2023 Question 5",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q6",
+            "name": "WACE 2023 Question 6",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q7",
+            "name": "WACE 2023 Question 7",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q8",
+            "name": "WACE 2023 Question 8",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q9",
+            "name": "WACE 2023 Question 9",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q10",
+            "name": "WACE 2023 Question 10",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q11",
+            "name": "WACE 2023 Question 11",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q12",
+            "name": "WACE 2023 Question 12",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q13",
+            "name": "WACE 2023 Question 13",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q14",
+            "name": "WACE 2023 Question 14",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q15",
+            "name": "WACE 2023 Question 15",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q16",
+            "name": "WACE 2023 Question 16",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q17",
+            "name": "WACE 2023 Question 17",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q18",
+            "name": "WACE 2023 Question 18",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q19",
+            "name": "WACE 2023 Question 19",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q20",
+            "name": "WACE 2023 Question 20",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q21",
+            "name": "WACE 2023 Question 21",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q22",
+            "name": "WACE 2023 Question 22",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q23",
+            "name": "WACE 2023 Question 23",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q24",
+            "name": "WACE 2023 Question 24",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q25",
+            "name": "WACE 2023 Question 25",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q26",
+            "name": "WACE 2023 Question 26",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q27",
+            "name": "WACE 2023 Question 27",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q28",
+            "name": "WACE 2023 Question 28",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q29",
+            "name": "WACE 2023 Question 29",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q30",
+            "name": "WACE 2023 Question 30",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2023Q31",
+            "name": "WACE 2023 Question 31",
+            "year": 2023,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        }
+    ],
     "meth": [
 
     ],
