@@ -13,7 +13,7 @@ folder_path = os.path.dirname(os.path.realpath(__file__))
 
 # Iterate over all files in the folder
 for filename in os.listdir(folder_path):
-    if filename.endswith(".png"):
+    if filename.endswith(".png") or filename.endswith(".PNG"):
         # Construct full file path
         input_image_path = os.path.join(folder_path, filename)
         

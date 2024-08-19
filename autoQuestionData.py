@@ -1,16 +1,17 @@
 template = '''{
-    "id": "WACE2023Q[i]",
-    "name": "WACE 2023 Question [i]",
-    "year": 2023,
+    "id": "WACE[y]Q[i]",
+    "name": "WACE [y] Question [i]",
+    "year": [y],
     "source": "WACE",
     "calculator": "assumed",
     "tags": []
 },'''
 
-start = 6
-end = 14
+year = 2020
+start = 1
+end = 21
 
 i = start
 while i <= end:
-    print(template.replace('[i]', str(i)))
+    print(template.replace('[i]', str(i)).replace('[y]', str(year)))
     i += 1
