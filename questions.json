@@ -9,7 +9,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Internaitonal Trade", "Free Trade", "Exchange Rates" ]
         },
         {
             "id": "WACE2023Q2",
@@ -17,7 +17,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["International Trade", "Exchange Rates", "Labour Productivity" ]
         },
         {
             "id": "WACE2023Q3",
@@ -25,7 +25,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Exchange Rates", "BTC", "Free Trade", "Globalisaiton" ]
         },
         {
             "id": "WACE2023Q4",
@@ -33,7 +33,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Free Trade" ]
         },
         {
             "id": "WACE2023Q5",
@@ -41,7 +41,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Internaitonal Trade", "Free Trade", "A+C Advantages" ]
         },
         {
             "id": "WACE2023Q6",
@@ -49,7 +49,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Internaitonal Trade", "Free Trade", "A+C Advantages"]
         },
         {
             "id": "WACE2023Q7",
@@ -57,7 +57,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Free Trade" ]
         },
         {
             "id": "WACE2023Q8",
@@ -65,7 +65,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Free Trade"]
         },
         {
             "id": "WACE2023Q9",
@@ -73,7 +73,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Free Trade" ]
         },
         {
             "id": "WACE2023Q10",
@@ -81,7 +81,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Balance of Payments" ]
         },
         {
             "id": "WACE2023Q11",
@@ -89,7 +89,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Foreign Investment", "Exchange Rates" ]
         },
         {
             "id": "WACE2023Q12",
@@ -97,7 +97,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Foreign Investment", "Balance of Payments"]
         },
         {
             "id": "WACE2023Q13",
@@ -105,7 +105,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["BTC"]
         },
         {
             "id": "WACE2023Q14",
@@ -113,7 +113,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["BTC"]
         },
         {
             "id": "WACE2023Q15",
@@ -121,7 +121,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["AE Model "]
         },
         {
             "id": "WACE2023Q16",
@@ -129,7 +129,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["AE Model", "Multiplier" ]
         },
         {
             "id": "WACE2023Q17",
@@ -137,7 +137,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["AE Model", "Multiplier"]
         },
         {
             "id": "WACE2023Q18",
@@ -145,7 +145,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["AD/AS Model" ]
         },
         {
             "id": "WACE2023Q19",
@@ -153,7 +153,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Fiscal Policy", "Monetary Policy"]
         },
         {
             "id": "WACE2023Q20",
@@ -161,7 +161,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Fiscal Policy", "BTC" ]
         },
         {
             "id": "WACE2023Q21",
@@ -169,7 +169,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Fiscal Policy"]
         },
         {
             "id": "WACE2023Q22",
@@ -177,7 +177,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Monetary Policy"]
         },
         {
             "id": "WACE2023Q23",
@@ -185,7 +185,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Free Trade", "Fiscal Policy"]
         },
         {
             "id": "WACE2023Q24",
@@ -193,7 +193,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Labour Productivity" ]
         },
         {
             "id": "WACE2023Q25",
