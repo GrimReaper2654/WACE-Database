@@ -1,3 +1,10 @@
+#
+# For combining allthe part questions into a full image
+#  
+#
+#
+#
+
 import os
 from PIL import Image
 

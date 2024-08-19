@@ -1,3 +1,10 @@
+#
+# First step in image processing
+#  - turns .png into .webp and crops them
+#
+#
+#
+
 import os
 from PIL import Image
 
