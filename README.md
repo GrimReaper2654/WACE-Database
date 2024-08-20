@@ -1,7 +1,8 @@
 # WACE-Database by MacELine™
 A collection of practice questions for a variety of ATAR subjects. <br>
 Feel free to email me if you are interested in joining. <br>
-Also MacELine™ is not a real company. 
+Also MacELine™ is not a real company. <br>
+We have a discord now: https://discord.gg/4j7THDwz
 
 **Site can be accessed from:**<br>
 https://grimreaper2654.github.io/WACE-Database/ (most up to date) <br>
