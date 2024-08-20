@@ -31,10 +31,9 @@
         "Calculus": [
             "Integration", 
             "Area",
-            "Differentiation", 
-            "Product Rule",
-            "Quotient Rule",
-            "Chain Rule"
+            "Differentiation",
+            "Fundamental Theorem",
+            "Increments Formula"
         ], 
         "Trigonometry": [
             "Trigonometric Identities"
@@ -44,8 +43,18 @@
             "Exponential",
             "Polynomials"
         ],
-        "Sampling": [],
-        "Confidence Intervals": []
+        "Probability": [
+            "Discrete Random Variables",
+            "Bernoulli",
+            "Binomial",
+            "Normal Distribution",
+            "Continuous Random Variables"
+        ],
+        "Interval Proportions": [
+            "Sampling",
+            "Confidence Intervals",
+            "Sample Means"
+        ]
     },
     "phys": {
         "Circular Motion": [
@@ -95,9 +104,6 @@
             "Area",
             "Volume of Revolution",
             "Differentiation", 
-            "Product Rule",
-            "Quotient Rule",
-            "Chain Rule",
             "Slope Field"
         ],
         "Functions": [
