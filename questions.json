@@ -512,7 +512,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Terms of Trade", ]
         },
         {
             "id": "WACE2023Q26",
