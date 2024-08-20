@@ -320,7 +320,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": ["Internaitonal Trade", "Free Trade", "Exchange Rates", "Multi Choice" ]
+            "tags": ["International Trade", "Free Trade", "Exchange Rates", "Multi Choice" ]
         },
         {
             "id": "WACE2023Q2",
@@ -352,7 +352,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": ["Internaitonal Trade", "Free Trade", "A+C Advantages","Multi Choice" ]
+            "tags": ["International Trade", "Free Trade", "A+C Advantages","Multi Choice" ]
         },
         {
             "id": "WACE2023Q6",
@@ -360,7 +360,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": ["Internaitonal Trade", "Free Trade", "A+C Advantages","Multi Choice"]
+            "tags": ["International Trade", "Free Trade", "A+C Advantages","Multi Choice"]
         },
         {
             "id": "WACE2023Q7",
