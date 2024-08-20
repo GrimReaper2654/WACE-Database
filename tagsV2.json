@@ -21,6 +21,7 @@
             "Collision Theory",
             "Le Chatelier's Principle"
         ],
+        "Acids and Bases": [],
         "Stoichiometry": [],
         "Graphing": [],
         "Calculaton": [],
@@ -119,12 +120,13 @@
             "Component Form",
             "De Moivre's Theorem"
         ],
+        "Probability": [
+            "Sample Means",
+            "Confidence Intervals"
+        ],
         "System of Equations": [],
         "Graphing": [], 
         "Proofs": [], 
-        "Geometry": [],
-        "Probability": [],
-        "Sample Means": [],
-        "Confidence Intervals": []
+        "Geometry": []
     }
 }
