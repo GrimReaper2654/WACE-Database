@@ -33,7 +33,8 @@
             "Differentiation", 
             "Product Rule",
             "Quotient Rule",
-            "Chain Rule"
+            "Chain Rule",
+            "Fundamental Theorem"
         ], 
         "Trigonometry": [
             "Trigonometric Identities"
@@ -43,8 +44,17 @@
             "Exponential",
             "Polynomials"
         ],
-        "Sampling": [],
-        "Confidence Intervals": []
+        "Probability": [
+            "Discrete Random Variables",
+            "Bernoulli",
+            "Binomial",
+            "Continuous Random Variables"
+        ],
+        "Interval Proportions": [
+            "Sampling",
+            "Confidence Intervals",
+            "Sample Means"
+        ]
     },
     "phys": {
         "Circular Motion": [

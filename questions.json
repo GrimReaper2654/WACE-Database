@@ -578,7 +578,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Calculus", "Logarithm", "Exponential", "Integration", "Differentiation", "Product Rule"]
         },
         {
             "id": "WACE2023Q3",
@@ -586,7 +586,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Discrete Random Variables"]
         },
         {
             "id": "WACE2023Q4",
@@ -594,7 +594,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Logarithm"]
         },
         {
             "id": "WACE2023Q5",
@@ -602,7 +602,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Calculus", "Differentiation", "Integration", "Fundamental Theorem", "Chain Rule", "Product Rule"]
         },
         {
             "id": "WACE2023Q6",
