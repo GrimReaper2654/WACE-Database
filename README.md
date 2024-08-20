@@ -1,10 +1,14 @@
-# WACE-Database
+# WACE-Database by MacELine™
 A collection of practice questions for a variety of ATAR subjects.
 Feel free to email me if you are interested in joining.
+Also MacELine™ is not a real company. 
 
-Site can be accessed at https://wacedatabase.pages.dev/ or https://grimreaper2654.github.io/WACE-Database/
-Not all questions have been added and tagged yet, wace database is still under construction.
+Site can be accessed from:
+https://grimreaper2654.github.io/WACE-Database/ (most up to date)
+https://wacedatabase.pages.dev/ (might be out of date)
+A localhost of a clone of the repo would work as well and can function without internet.
 
+**Not all questions have been added and tagged yet, wace database is still under construction.**
 
 # Contributing Guide
 We are in need of people who are willing to help us set tags for questions as well as upload more questions. A guide for doing both of these is below. If you have contributions to make, create a pull request and a contributor will accept it. Tagging questions can be done on github's online editor, but scanning the questions requires a decently good moniter as well as python installed. We are working on a more automated method of scanning questions but having python is still going to be necessary.
