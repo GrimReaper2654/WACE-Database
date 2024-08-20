@@ -104,11 +104,14 @@
             "Area",
             "Volume of Revolution",
             "Differentiation", 
-            "Slope Field"
+            "Slope Field",
+            "Increments Formula",
+            "Related Rates"
         ],
         "Functions": [
             "Intersection",
             "Polynomials",
+            "Absolute Value",
             "Inverse Functions"
         ],
         "Trigonometry": [
@@ -119,6 +122,8 @@
         ],
         "Vectors": [
             "Planes",
+            "Spheres",
+            "Distance between objects",
             "Parametric"
         ],
         "Complex Numbers": [
