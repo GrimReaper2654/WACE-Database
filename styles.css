@@ -123,6 +123,7 @@ header {
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
+    width: min-content;
 }
 
 .tagSelect {
@@ -173,37 +174,50 @@ header {
     background-color: white;
 }
 
-.resultTopRow {
-    justify-content: space-between;
-}
-
 .alignLeft {
     text-align: left;
     display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 
 .alignRight {
     text-align: right;
     display: inline;
     float: right;
+    margin: 0;
+    padding: 0;
 }
 
 .toggleButton {
+    justify-content: space-between;
     background: none;
     border: none;
     font-size: 16px;
     cursor: pointer;
     margin-left: 5px;
+    width: 100%;
+}
+
+.tag
+.toggleButton {
+    width: auto;
+}
+
+.toggleButton
+.arrow {
     transform: rotate(0deg);
     transition: transform 0.3s;
 }
-  
+
 .extraContent {
     display: none;
     margin-top: 10px;
 }
   
-.toggleButton.active {
+.toggleButton.active
+.arrow {
     transform: rotate(180deg);
 }
 

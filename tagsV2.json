@@ -1,0 +1,130 @@
+{
+    "chem": {
+        "Organic": [
+            "Functional Groups",
+            "Polymers",
+            "Catalysts",
+            "Enzymes",
+            "Soaps and Detergents"
+        ],
+        "Redox": [
+            "Galvanic Cells",
+            "Electrolytic Cells",
+            "Fuel Cells"
+        ],
+        "Synthesis": [
+            "Green Chemistry",
+            "Haber Process",
+            "Contact Process"
+        ],
+        "Equilibrium": [
+            "Collision Theory",
+            "Le Chatelier's Principle"
+        ],
+        "Stoichiometry": [],
+        "Graphing": [],
+        "Calculaton": [],
+        "Theory": []
+    },
+    "meth": {
+        "Calculus": [
+            "Integration", 
+            "Area",
+            "Differentiation", 
+            "Product Rule",
+            "Quotient Rule",
+            "Chain Rule"
+        ], 
+        "Trigonometry": [
+            "Trigonometric Identities"
+        ], 
+        "Functions": [
+            "Logarithm", 
+            "Exponential",
+            "Polynomials"
+        ],
+        "Sampling": [],
+        "Confidence Intervals": []
+    },
+    "phys": {
+        "Circular Motion": [
+            "Banked Track",
+            "Orbits"
+        ],
+        "Special Relativity": [
+            "Time Dilation",
+            "Length Contraction"
+        ],
+        "Standard Model": [
+            "Big Bang Theory"
+        ],
+        "Electromagnetism": [
+            "Electromagnetism",
+            "Induction",
+            "Motors",
+            "Generators",
+            "Transformers"
+        ],
+        "Electricity": [
+            "DC Current",
+            "AC Current",
+            "Power Transmission",
+            "Charged Particles"
+        ],
+        "Waves": [
+            "Wave Particle Duality",
+            "Light",
+            "Polarisation",
+            "Photoelectric Effect"
+        ],
+        "Torque": [],
+        "Blackbody Radiation": [],
+        "Short Response": [],
+        "Problem Solving": [],
+        "Comprehension": [],
+        "Graphing": [],
+        "Calculation": [],
+        "Theory": [],
+        "Estimation": []
+    },
+    "spec": {
+        "Calculus": [
+            "Integration", 
+            "U Substitution",
+            "Area",
+            "Volume of Revolution",
+            "Differentiation", 
+            "Product Rule",
+            "Quotient Rule",
+            "Chain Rule",
+            "Slope Field"
+        ],
+        "Functions": [
+            "Intersection",
+            "Polynomials",
+            "Inverse Functions"
+        ],
+        "Trigonometry": [
+            "Identities", 
+            "Logarithm", 
+            "Exponential",
+            "Absolute Value"
+        ],
+        "Vectors": [
+            "Planes",
+            "Parametric"
+        ],
+        "Complex Numbers": [
+            "Polar Form",
+            "Component Form",
+            "De Moivre's Theorem"
+        ],
+        "System of Equations": [],
+        "Graphing": [], 
+        "Proofs": [], 
+        "Geometry": [],
+        "Probability": [],
+        "Sample Means": [],
+        "Confidence Intervals": []
+    }
+}

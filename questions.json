@@ -2046,7 +2046,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
-            "tags": ["Calculus", "Integration", "U Substitution", "Area", "Trigonometry", "Trigonometric Identities"]
+            "tags": ["Calculus", "Integration", "U Substitution", "Area", "Trigonometry", "Identities"]
         },
         {
             "id": "WACE2023Q8",
@@ -2086,7 +2086,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": ["Complex Numbers", "Polar Form", "Trigonometric Identities", "Graphing"]
+            "tags": ["Complex Numbers", "Polar Form", "Identities", "Graphing"]
         },
         {
             "id": "WACE2023Q13",
