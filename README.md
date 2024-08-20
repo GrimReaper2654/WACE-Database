@@ -1,11 +1,11 @@
 # WACE-Database by MacELine™
-A collection of practice questions for a variety of ATAR subjects. 
-Feel free to email me if you are interested in joining. 
+A collection of practice questions for a variety of ATAR subjects. <br>
+Feel free to email me if you are interested in joining. <br>
 Also MacELine™ is not a real company. 
 
-Site can be accessed from:
-https://grimreaper2654.github.io/WACE-Database/ (most up to date) 
-https://wacedatabase.pages.dev/ (might be out of date) 
+**Site can be accessed from:**<br>
+https://grimreaper2654.github.io/WACE-Database/ (most up to date) <br>
+https://wacedatabase.pages.dev/ (might be out of date) <br>
 A localhost of a clone of the repo would work as well and can function without internet. 
 
 **Not all questions have been added and tagged yet, wace database is still under construction.**
