@@ -570,7 +570,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
-            "tags": ["Calculus", "Differentiation", "Exponential", "Product Rule", "Integration", "Trigonometry"]
+            "tags": ["Calculus", "Differentiation", "Exponential", "Integration", "Trigonometry"]
         },
         {
             "id": "WACE2023Q2",
@@ -578,7 +578,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
-            "tags": ["Calculus", "Logarithm", "Exponential", "Integration", "Differentiation", "Product Rule"]
+            "tags": ["Calculus", "Logarithm", "Exponential", "Integration", "Differentiation"]
         },
         {
             "id": "WACE2023Q3",
@@ -602,7 +602,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "free",
-            "tags": ["Calculus", "Differentiation", "Integration", "Fundamental Theorem", "Chain Rule", "Product Rule"]
+            "tags": ["Calculus", "Differentiation", "Integration", "Fundamental Theorem"]
         },
         {
             "id": "WACE2023Q6",
@@ -610,7 +610,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Exponential", "Calculus", "Differentiation"]
         },
         {
             "id": "WACE2023Q7",
@@ -618,7 +618,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Interval Proportions", "Sampling", "Confidence Intervals", "Sample Means"]
         },
         {
             "id": "WACE2023Q8",
@@ -626,7 +626,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Differentiation", "Integration", "Trigonometry"]
         },
         {
             "id": "WACE2023Q9",
@@ -634,7 +634,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Differentiation", "Integration", "Trigonometry", "Area"]
         },
         {
             "id": "WACE2023Q10",
@@ -642,7 +642,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Probability", "Discrete Random Variables", "Binomial", "Normal Distribution"]
         },
         {
             "id": "WACE2023Q11",
@@ -650,7 +650,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Probability", "Integration", "Differentiation"]
         },
         {
             "id": "WACE2023Q12",
@@ -658,7 +658,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Interval Proportions", "Sampling", "Confidence Intervals"]
         },
         {
             "id": "WACE2023Q13",
@@ -666,7 +666,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Trigonometry", "Probability", "Binomial", "Confidence Intervals"]
         },
         {
             "id": "WACE2023Q14",
@@ -674,7 +674,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Integration", "Differentiation", "Increments Formula", "Probability", "Normal Distribution"]
         }
     ],
     "phys": [

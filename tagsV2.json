@@ -30,11 +30,9 @@
         "Calculus": [
             "Integration", 
             "Area",
-            "Differentiation", 
-            "Product Rule",
-            "Quotient Rule",
-            "Chain Rule",
-            "Fundamental Theorem"
+            "Differentiation",
+            "Fundamental Theorem",
+            "Increments Formula"
         ], 
         "Trigonometry": [
             "Trigonometric Identities"
@@ -48,6 +46,7 @@
             "Discrete Random Variables",
             "Bernoulli",
             "Binomial",
+            "Normal Distribution",
             "Continuous Random Variables"
         ],
         "Interval Proportions": [
