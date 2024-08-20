@@ -2062,7 +2062,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": ["Vectors"]
+            "tags": ["Vectors", "Spheres"]
         },
         {
             "id": "WACE2023Q10",
@@ -2126,7 +2126,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": ["Calculus", "Integration", "Volume of Revolution"]
+            "tags": ["Calculus", "Integration", "Volume of Revolution", "Increments Formula"]
         },
         {
             "id": "WACE2023Q18",
@@ -2142,7 +2142,7 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": ["Calculus", "Differentiation", "Integration"]
+            "tags": ["Calculus", "Differentiation", "Integration", "Related Rates"]
         },
         {
             "id": "WACE2022Q1",
@@ -2150,7 +2150,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Functions"]
         },
         {
             "id": "WACE2022Q2",
@@ -2158,7 +2158,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Functions", "Absolute Value", "Graphing"]
         },
         {
             "id": "WACE2022Q3",
@@ -2166,7 +2166,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Calculus", "Integration", "Trigonometry", "Identities"]
         },
         {
             "id": "WACE2022Q4",
@@ -2174,7 +2174,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Integration", "Calculus"]
         },
         {
             "id": "WACE2022Q5",
@@ -2182,7 +2182,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Vectors", "Planes"]
         },
         {
             "id": "WACE2022Q6",
@@ -2190,7 +2190,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Polar Form", "De Moivre's Theorem", "Complex Numbers"]
         },
         {
             "id": "WACE2022Q7",
@@ -2198,7 +2198,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Area", "Differentiation", "Calculus", "Integration"]
         },
         {
             "id": "WACE2022Q8",
@@ -2206,7 +2206,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Differentiation", "Related Rates"]
         },
         {
             "id": "WACE2022Q9",
@@ -2214,7 +2214,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Complex Numbers", "Component Form"]
         },
         {
             "id": "WACE2022Q10",
@@ -2222,7 +2222,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Vectors", "Calculus", "Integration", "Identities", "Trigonometry"]
         },
         {
             "id": "WACE2022Q11",
@@ -2230,7 +2230,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Differentiation", "Integration", "Calculus"]
         },
         {
             "id": "WACE2022Q12",
@@ -2238,7 +2238,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Probability", "Sample Means", "Confidence Intervals"]
         },
         {
             "id": "WACE2022Q13",
@@ -2246,7 +2246,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Area", "Integration", "Complex Numbers"]
         },
         {
             "id": "WACE2022Q14",
@@ -2254,7 +2254,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Probability", "Sample Means", "Confidence Intervals"]
         },
         {
             "id": "WACE2022Q15",
@@ -2262,7 +2262,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Functions", "Polynomials"]
         },
         {
             "id": "WACE2022Q16",
@@ -2270,7 +2270,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus"]
         },
         {
             "id": "WACE2022Q17",
@@ -2278,7 +2278,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Integration", "Volume of Revolution", "Increments Formula", "Differentiation"]
         },
         {
             "id": "WACE2022Q18",
@@ -2286,7 +2286,7 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Complex Numbers", "Polar Form"]
         },
         {
             "id": "WACE2022Q19",
@@ -2294,18 +2294,15 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Vectors", "Planes"]
         },
-
-
-
         {
             "id": "WACE2017Q1",
             "name": "WACE 2017 Calc Free Question 1",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Complex Numbers", "Component Form"]
         },
         {
             "id": "WACE2017Q2",
@@ -2313,7 +2310,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Complex Numbers", "Component Form"]
         },
         {
             "id": "WACE2017Q3",
@@ -2321,7 +2318,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Calculus", "Integration", "U Substitution", "Trigonometry", "Identities"]
         },
         {
             "id": "WACE2017Q4",
@@ -2329,7 +2326,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Functions", "Inverse Functions", "Graphing", "Intersection"]
         },
         {
             "id": "WACE2017Q5",
@@ -2337,7 +2334,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Functions", "Polynomials", "Graphing"]
         },
         {
             "id": "WACE2017Q6",
@@ -2345,7 +2342,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Complex Numbers", "Polar Form"]
         },
         {
             "id": "WACE2017Q7",
@@ -2353,7 +2350,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Vectors", "Planes"]
         },
         {
             "id": "WACE2017Q8",
@@ -2361,7 +2358,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": ["Calculus", "Volume of Revolution", "Integration"]
         },
         {
             "id": "WACE2017Q9",
@@ -2369,7 +2366,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Probability", "Sample Means"]
         },
         {
             "id": "WACE2017Q10",
@@ -2377,7 +2374,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Complex Numbers", "Polar Form", "De Moivre's Theorem"]
         },
         {
             "id": "WACE2017Q11",
@@ -2385,7 +2382,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Slope Field", "Integration"]
         },
         {
             "id": "WACE2017Q12",
@@ -2393,7 +2390,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Area", "Differentiation", "Integration"]
         },
         {
             "id": "WACE2017Q13",
@@ -2401,7 +2398,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Probability", "Sample Means", "Confidence Intervals"]
         },
         {
             "id": "WACE2017Q14",
@@ -2409,7 +2406,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Vectors", "Distance Between Objects"]
         },
         {
             "id": "WACE2017Q15",
@@ -2417,7 +2414,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Vectors", "Trigonometry", "Calculus", "Integration"]
         },
         {
             "id": "WACE2017Q16",
@@ -2425,7 +2422,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Functions", "Absolute Value", "U Substitution", "Calculus", "Integration"]
         },
         {
             "id": "WACE2017Q17",
@@ -2433,7 +2430,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Calculus", "Trigonometry", "Integration"]
         },
         {
             "id": "WACE2017Q18",
@@ -2441,7 +2438,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Related Rates", "Calculus", "Differentiation"]
         },
         {
             "id": "WACE2017Q19",
@@ -2449,7 +2446,7 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Complex Numbers", "De Moivre's Theorem", "Component Form"]
         }
     ]
 }
