@@ -5,6 +5,7 @@ const data = {
         year: -1,
         calculator: 'all',
         source: 'all',
+        type: 'all',
         mode: 'and',
         tags: [],
     },
@@ -83,6 +84,7 @@ async function search() {
     data.filters.year = document.getElementById('yearSelect').value;
     data.filters.calculator = document.getElementById('calculatorSelect').value;
     data.filters.source = document.getElementById('sourceSelect').value;
+    data.filters.type = document.getElementById('typeSelect').value;
     data.filters.mode = document.getElementById('tagsSelect').value;
     data.filters.tags = Array.from(document.querySelectorAll('.tagSelect:checked')).map(checkbox => checkbox.id);
 
@@ -90,7 +92,7 @@ async function search() {
     
     data.questions = [];
     allQuestions.forEach(function(question, index) {
-        if ((data.filters.year == -1 || question.year == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.calculator == 'all' || (data.filters.calculator == 'assumed' && data.filters.calculator != "free") || (question.calculator == data.filters.calculator))) {
+        if ((data.filters.year == -1 || question.year == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type) && (data.filters.calculator == 'all' || (data.filters.calculator == 'assumed' && data.filters.calculator != "free") || (question.calculator == data.filters.calculator))) {
             if (data.filters.mode == 'and') {
                 if (data.filters.tags.every(tag => question.tags.includes(tag))) {
                     data.questions.push(allQuestions[index]);
@@ -106,7 +108,12 @@ async function search() {
     console.log(data.questions);
     let questionsHtml = ``;
     for (let i in data.questions) {
-        questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i})"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="arrow alignRight">▼</span></button></div><div class="extraContent" id="extraContent${i}"><div id="question${i}" class="questionArea"><img src="questionBank/${data.filters.subject}/${data.questions[i].id}.webp" class="questionImage"></div><button class="standardButton" onclick="toggleKey(${i})">Toggle Marking Key</button><a href="pdfDownloads/${data.filters.subject}/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
+        let questionTags = `<div class="smallTagsContainer">`;
+        for (let j of data.questions[i].tags) {
+            questionTags += `<label class="tag"><span class="tagLabel">${j}</span></label>`;
+        }
+        questionTags += `</div>`;
+        questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i})"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="arrow alignRight">▼</span></button></div><div class="extraContent" id="extraContent${i}">${questionTags}<div id="question${i}" class="questionArea"><img src="questionBank/${data.filters.subject}/${data.questions[i].id}.webp" class="questionImage"></div><button class="standardButton" onclick="toggleKey(${i})">Toggle Marking Key</button><a href="pdfDownloads/${data.filters.subject}/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
     }
     console.log(questionsHtml);
     if (questionsHtml == ``) questionsHtml = `<h3>No Results Found</h3>`;
