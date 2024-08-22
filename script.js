@@ -53,31 +53,21 @@ async function loadJson(path) {
 }
 
 async function setTags() {
-    if (data.tagsV2[data.filters.subject]) { // Tags V2
-        const tagsList = data.tagsV2[data.filters.subject];
-        console.log(tagsList);
-        let tagsHtml = ``;
-        for (const [tag, subTags] of Object.entries(tagsList)) {
-            tagsHtml += `<label class="tag"><input type="checkbox" id="${tag}" class="tagSelect"><span class="tagLabel">${tag}</span>`;
-            if (subTags.length > 0) {
-                tagsHtml += `<button id="button${tag}" class="toggleButton" onclick="toggleContent('${tag}')"><span class="arrow">▼</span></button><div class="extraContent" id="extraContent${tag}">`;
-                for (let subTag of subTags) {
-                    tagsHtml += `<label class="tag"><input type="checkbox" id="${subTag}" class="tagSelect"><span class="tagLabel">${subTag}</span></label><br>`;
-                }
-                tagsHtml += `</div>`;
+    const tagsList = data.tagsV2[data.filters.subject];
+    console.log(tagsList);
+    let tagsHtml = ``;
+    for (const [tag, subTags] of Object.entries(tagsList)) {
+        tagsHtml += `<label class="tag"><input type="checkbox" id="${tag}" class="tagSelect"><span class="tagLabel">${tag}</span>`;
+        if (subTags.length > 0) {
+            tagsHtml += `<button id="button${tag}" class="toggleButton" onclick="toggleContent('${tag}')"><span class="arrow">▼</span></button><div class="extraContent" id="extraContent${tag}">`;
+            for (let subTag of subTags) {
+                tagsHtml += `<label class="tag"><input type="checkbox" id="${subTag}" class="tagSelect"><span class="tagLabel">${subTag}</span></label><br>`;
             }
-            tagsHtml += `</label>`;
+            tagsHtml += `</div>`;
         }
-        document.getElementById('tagsContainer').innerHTML = tagsHtml;
-    } else { // Old tags
-        const tagsList = data.tagsRaw[data.filters.subject];
-        console.log(tagsList);
-        let tagsHtml = ``;
-        for (let tag of tagsList) {
-            tagsHtml += `<label class="tag"><input type="checkbox" id="${tag}" class="tagSelect"><span class="tagLabel">${tag}</span></label>`;
-        }
-        document.getElementById('tagsContainer').innerHTML = tagsHtml;
+        tagsHtml += `</label>`;
     }
+    document.getElementById('tagsContainer').innerHTML = tagsHtml;
 }
 
 async function search() {
