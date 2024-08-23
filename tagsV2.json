@@ -39,7 +39,9 @@
         "Terms of Trade": [],
         "Exchange Rates": [],
         "Foreign Investment": [],
-        "Business Trade Cycle": [],
+        "Business Trade Cycle": [
+            "Economic Indicators"
+        ],
         "Aggregate Expenditure": [
             "The Consumption Function"
         ],
