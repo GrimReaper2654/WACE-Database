@@ -360,7 +360,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["International Trade", "Free Trade", "Exchange Rates", "Multi Choice" ]
+            "tags": ["International Trade", "Free Trade and Protection and Protection", "Exchange Rates", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q2",
@@ -369,7 +369,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["International Trade", "Exchange Rates", "Labour Productivity", "Multi Choice" ]
+            "tags": ["International Trade", "Exchange Rates", "Labour Productivity", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q3",
@@ -378,7 +378,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Exchange Rates", "BTC", "Free Trade", "Globalisaiton","Multi Choice" ]
+            "tags": ["Free Trade and Protection and Protection", "Exchange Rates", "Business Trade Cycle", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q4",
@@ -387,7 +387,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Free Trade", "Multi Choice" ]
+            "tags": ["International Trade", "Free Trade and Protection and Protection", "Foreign Investment", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q5",
@@ -396,7 +396,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["International Trade", "Free Trade", "A+C Advantages","Multi Choice" ]
+            "tags": ["Free Trade and Protection and Protection", "Comparative Advantage", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q6",
@@ -405,7 +405,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["International Trade", "Free Trade", "A+C Advantages","Multi Choice"]
+            "tags": ["Free Trade and Protection", "Comparative Advantage", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q7",
@@ -414,7 +414,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Free Trade","Multi Choice" ]
+            "tags": ["Free Trade and Protection", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q8",
@@ -423,7 +423,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Free Trade","Multi Choice"]
+            "tags": ["Free Trade and Protection", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q9",
@@ -432,7 +432,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Free Trade","Multi Choice" ]
+            "tags": ["International Trade", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q10",
@@ -441,7 +441,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Balance of Payments","Multi Choice" ]
+            "tags": ["Balance of Payments", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q11",
@@ -450,7 +450,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Foreign Investment", "Exchange Rates","Multi Choice" ]
+            "tags": ["Foreign Investment", "Exchange Rates", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q12",
@@ -459,7 +459,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Foreign Investment", "Balance of Payments","Multi Choice"]
+            "tags": ["Foreign Investment", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q13",
@@ -468,7 +468,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["BTC","Multi Choice"]
+            "tags": ["Business Trade Cycle", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q14",
@@ -477,7 +477,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["BTC","Multi Choice"]
+            "tags": ["Business Trade Cycle", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q15",
@@ -486,7 +486,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["AE Model", "Multi Choice" ]
+            "tags": ["Aggregate Expenditure", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q16",
@@ -495,7 +495,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["AE Model", "Multiplier", "Multi Choice" ]
+            "tags": ["Business Trade Cycle", "Economic Indicators", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q17",
@@ -504,7 +504,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["AE Model", "Multiplier","Multi Choice"]
+            "tags": ["Aggregate Expenditure", "The Consumption Function", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q18",
@@ -513,7 +513,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["AD/AS Model","Multi Choice" ]
+            "tags": ["Aggregate Demand and Supply", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q19",
@@ -522,7 +522,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Fiscal Policy", "Monetary Policy", "Multi Choice"]
+            "tags": ["Fiscal Policy", "Monetary Policy", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q20",
@@ -531,7 +531,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Fiscal Policy", "BTC", "Multi Choice" ]
+            "tags": ["Fiscal Policy", "Business Trade Cycle", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q21",
@@ -540,7 +540,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Fiscal Policy", "Multi Choice"]
+            "tags": ["Fiscal Policy", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q22",
@@ -549,7 +549,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Monetary Policy", "Multi Choice"]
+            "tags": ["Monetary Policy", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q23",
@@ -558,7 +558,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Free Trade", "Fiscal Policy", "Multi Choice"]
+            "tags": ["Free Trade and Protection", "Fiscal Policy", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q24",
@@ -567,7 +567,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Labour Productivity", "Multi Choice" ]
+            "tags": ["Labour Productivity", "Multiple-choice" ]
         },
         {
             "id": "WACE2023Q25",
@@ -576,7 +576,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Terms of Trade","Short Answer" ]
+            "tags": ["Terms of Trade", "Exchange Rates", "Short Answer" ]
         },
         {
             "id": "WACE2023Q26",
@@ -585,7 +585,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["International Trade", "Aggregate Demand and Supply", "Labour Productivity", "Short Answer" ]
         },
         {
             "id": "WACE2023Q27",
@@ -594,7 +594,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Aggregate Demand and Supply", "Fiscal Policy", "Short Answer" ]
         },
         {
             "id": "WACE2023Q28",
@@ -603,7 +603,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Free Trade and Protection", "Comparative Advantage", "Extended Response" ]
         },
         {
             "id": "WACE2023Q29",
@@ -612,7 +612,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Balance of Payments", "Exchange Rates", "Business Trade Cycle", "Extended Response" ]
         },
         {
             "id": "WACE2023Q30",
@@ -621,7 +621,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Aggregate Expenditure", "Monetary Policy", "Extended Response" ]
         },
         {
             "id": "WACE2023Q31",
@@ -630,7 +630,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Aggregate Demand and Supply", "Extended Response" ]
         }
     ],
     "meth": [
