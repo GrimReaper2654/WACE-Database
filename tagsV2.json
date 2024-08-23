@@ -105,7 +105,11 @@
             "Polarisation",
             "Photoelectric Effect"
         ],
-        "Torque": [],
+        "Forces": [
+            "Torque",
+            "Equilibrium"
+        ],
+        "Emission / Absorption Spectrum": [],
         "Blackbody Radiation": [],
         "Short Response": [],
         "Problem Solving": [],

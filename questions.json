@@ -787,7 +787,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Short Response", "Calculation"]
+            "tags": ["Short Response", "Calculation", "Forces"]
         },
         {
             "id": "WACE2023Q4",
@@ -913,7 +913,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Problem Solving", "Calculation", "Torque"]
+            "tags": ["Problem Solving", "Calculation", "Torque", "Forces"]
         },
         {
             "id": "WACE2023Q18",
@@ -1048,7 +1048,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Problem Solving", "Calculation"]
+            "tags": ["Problem Solving", "Calculation", "Forces"]
         },
         {
             "id": "WACE2022Q13",
@@ -1120,7 +1120,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Emission / Absorption Spectrum", "Short Response", "Calculation"]
         },
         {
             "id": "WACE2021Q2",
@@ -1129,7 +1129,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Standard Model", "Calculation"]
         },
         {
             "id": "WACE2021Q3",
@@ -1138,7 +1138,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "DC Current", "Motors", "Electricity", "Electromagnetism", "Calculation"]
         },
         {
             "id": "WACE2021Q4",
@@ -1147,7 +1147,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Calculation", "Charged Particles", "Special Relativity"]
         },
         {
             "id": "WACE2021Q5",
@@ -1156,7 +1156,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Standard Model", "Theory"]
         },
         {
             "id": "WACE2021Q6",
@@ -1165,7 +1165,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Calculation", "Torque", "Forces"]
         },
         {
             "id": "WACE2021Q7",
@@ -1174,7 +1174,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Theory", "Equilibrium", "Forces"]
         },
         {
             "id": "WACE2021Q8",
@@ -1183,7 +1183,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Standard Model", "Theory"]
         },
         {
             "id": "WACE2021Q9",
@@ -1192,7 +1192,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": ["Short Response", "Forces", "Circular Motion"]
         },
         {
             "id": "WACE2021Q10",
