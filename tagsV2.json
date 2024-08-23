@@ -139,12 +139,14 @@
             "Intersection",
             "Polynomials",
             "Absolute Value",
-            "Inverse Functions"
+            "Inverse Functions",
+            "Exponential",
+            "Logarithm",
+            "Logistic Equaion"
         ],
         "Trigonometry": [
             "Identities", 
-            "Logarithm", 
-            "Exponential"
+            "Simple Harmonic Motion"
         ],
         "Vectors": [
             "Planes",
@@ -155,7 +157,8 @@
         "Complex Numbers": [
             "Polar Form",
             "Component Form",
-            "De Moivre's Theorem"
+            "De Moivre's Theorem",
+            "Locus"
         ],
         "Probability": [
             "Sample Means",
