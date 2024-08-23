@@ -31,15 +31,18 @@
         "Multiple-choice": [],
         "Short Answer": [],
         "Extended Response": [],
-        "International Trade": [],
-        "Comparative Advantage": [], 
+        "International Trade": [
+            "Comparative Advantage"
+        ],
         "Free Trade and Protection": [], 
         "Balance of Payments": [],
         "Terms of Trade": [],
         "Exchange Rates": [],
         "Foreign Investment": [],
         "Business Trade Cycle": [],
-        "Aggregate Expenditure": [],
+        "Aggregate Expenditure": [
+            "The Consumption Function"
+        ],
         "Aggregate Demand and Supply": [],
         "Fiscal Policy": [],
         "Monetary Policy": [], 
