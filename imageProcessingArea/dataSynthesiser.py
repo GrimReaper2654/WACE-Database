@@ -8,8 +8,8 @@ template = '''{
 },'''
 
 year = 2022
-start = 1
-end = 39
+start = 7
+end = 15
 
 i = start
 while i <= end:

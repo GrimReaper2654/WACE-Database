@@ -18,8 +18,8 @@ def on_c_key():
 keyboard.add_hotkey('c', on_c_key)
 
 print("Press 'c' to trigger the screenshot keybind (Command + Shift + 5).")
-print("Press 'esc' to exit the program.")
+print("Press 'x' to exit the program.")
 
 # Keep the script running
-keyboard.wait('esc')
+keyboard.wait('x')
 
