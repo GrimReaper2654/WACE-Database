@@ -1,3 +1,5 @@
 pillow
 fpdf
 pytesseract
+pyautogui
+keyboard
