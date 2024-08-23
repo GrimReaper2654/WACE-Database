@@ -31,15 +31,17 @@
         "Multiple-choice": [],
         "Short Answer": [],
         "Extended Response": [],
-        "International Trade": [
+        "International Trade": [],
+        "Free Trade and Protection": [
             "Comparative Advantage"
-        ],
-        "Free Trade and Protection": [], 
+        ], 
         "Balance of Payments": [],
         "Terms of Trade": [],
         "Exchange Rates": [],
         "Foreign Investment": [],
-        "Business Trade Cycle": [],
+        "Business Trade Cycle": [
+            "Economic Indicators"
+        ],
         "Aggregate Expenditure": [
             "The Consumption Function"
         ],
