@@ -112,7 +112,11 @@ Multiple question parts can be put in the same image, this is fine. Only use mul
 If a question requires multiple images as it spans muliple pages, crop out any repeated question numbers like 'Question 1 (continued)'.<br>
 Make sure to save all the images with the same name as the question id so 2023 WACE question 1 would be named WACE2023Q1.png<br>
 Questions that require multiple images are handled differently. The images would be named WACE2023Q1.1.png, WACE2023Q1.2.png, WACE2023Q1.3.png and so on.<br>
-Make sure to only get the questions and NOT the marking keys as well. All images should be .png
+Make sure to only get the questions and NOT the marking keys as well. All images should be .png<br>
+<br>
+If you don't want to manually name the questions, just make sure you screenshot the parts of each question in order (part 1 before part 2 and so on). Then run `renamer.py` and it will automatically name the questions correctly. You will have to adjust the template to make sure the info is correct, but thats just changing the year and maybe source so its pretty simple.<br>
+<br>
+`screenshotter.py` is avalaible to make screenshotting easier by simplifying the keybind. Just input the keybind for screenshotting and run the program (maybe with sudo if it needs perms). Its a minor time save, but stops your hand from getting as tired so it is quite useful. THis program is not necessary though so don't worry if you can't get it working.
 
 ### Step 3: Process Images
 Once you have all the questions in the image processing folder, run `processor.py`. This will automatically crop all the images, as long as the background is completely white and turn the images into .webp format.<br>
