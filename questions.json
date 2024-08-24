@@ -879,6 +879,142 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": []
+        },
+        {
+            "id": "WACE2021Q1",
+            "name": "WACE 2021 Question 1",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q2",
+            "name": "WACE 2021 Question 2",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q3",
+            "name": "WACE 2021 Question 3",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q4",
+            "name": "WACE 2021 Question 4",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q5",
+            "name": "WACE 2021 Question 5",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q6",
+            "name": "WACE 2021 Question 6",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q7",
+            "name": "WACE 2021 Question 7",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q8",
+            "name": "WACE 2021 Question 8",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q9",
+            "name": "WACE 2021 Question 9",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q10",
+            "name": "WACE 2021 Question 10",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q11",
+            "name": "WACE 2021 Question 11",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q12",
+            "name": "WACE 2021 Question 12",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q13",
+            "name": "WACE 2021 Question 13",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q14",
+            "name": "WACE 2021 Question 14",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q15",
+            "name": "WACE 2021 Question 15",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q16",
+            "name": "WACE 2021 Question 16",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q17",
+            "name": "WACE 2021 Question 17",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
         }
     ],
     "phys": [

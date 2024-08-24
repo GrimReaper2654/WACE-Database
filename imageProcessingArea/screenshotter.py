@@ -1,5 +1,6 @@
 import pyautogui
 import keyboard
+import time
 
 '''
 This screenshot progam works on Mac only. You will need to change the keybind if you are using a different OS.
@@ -14,12 +15,19 @@ def press_screenshot_keybind():
 def on_c_key():
     press_screenshot_keybind()
 
-# Bind the 'c' key to trigger the screenshot keybind
-keyboard.add_hotkey('c', on_c_key)
 
-print("Press 'c' to trigger the screenshot keybind (Command + Shift + 5).")
-print("Press 'x' to exit the program.")
+def ss():
+    # Bind the 'c' key to trigger the screenshot keybind
+    keyboard.add_hotkey('c', on_c_key)
 
-# Keep the script running
-keyboard.wait('x')
+    print("Press 'c' to trigger the screenshot keybind (Command + Shift + 5).")
+    print("Press 'x' to exit the program.")
 
+    # Keep the script running
+    keyboard.wait('x')
+
+def reload():
+    time.sleep(2)
+    pyautogui.hotkey('command', 'r')
+
+ss()
