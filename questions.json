@@ -477,7 +477,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": ["Business Trade Cycle", "Multiple-choice"]
+            "tags": ["Business Trade Cycle", "Economic Indicators", "Multiple-choice"]
         },
         {
             "id": "WACE2023Q15",
