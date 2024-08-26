@@ -32,6 +32,8 @@ def rename_images(directory, template):
     question_parts = {}  # To track the number of parts for each question
     prev_question_number = 0
 
+    print(images)
+
     for image in images:
         image_path = os.path.join(directory, image)
         text = get_text_from_image(image_path)
@@ -63,5 +65,5 @@ def rename_images(directory, template):
 
 # Example usage
 directory = os.path.dirname(os.path.abspath(__file__))
-template = 'WACE2021'
+template = 'WACE2018'
 rename_images(directory, template)

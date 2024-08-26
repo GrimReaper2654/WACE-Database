@@ -5,19 +5,20 @@ import json
 # In case you fuck up really badly
 # Can find and replace in file names or add calculator into question names for math exams in question data
 # most other issues in question data can be fixed with built in find and replace
+# added function to replace .PNG with .png
 
 extension = 'webp'
-find = '2022'
-replace = '2021'
+find = '2021'
+replace = '2018'
 
 def fix_filenames():
     directory = os.path.dirname(os.path.abspath(__file__))
     things = [f for f in os.listdir(directory) if f.endswith(f'.{extension}')]
     for thing in things:
-            old_path = os.path.join(directory, thing)
-            new_path = os.path.join(directory, thing.replace(find, replace))
-            shutil.move(old_path, new_path)
-            print(f"Moved {old_path.rsplit('/', 1)[-1]} to {new_path.rsplit('/', 1)[-1]}")
+        old_path = os.path.join(directory, thing)
+        new_path = os.path.join(directory, thing.replace(find, replace))
+        shutil.move(old_path, new_path)
+        print(f"Moved {old_path.rsplit('/', 1)[-1]} to {new_path.rsplit('/', 1)[-1]}")
 
 subject = 'meth'
 year = '2023'
@@ -44,6 +45,16 @@ def find_and_replace_in_json(file_path):
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
 
+def png():
+    directory = os.path.dirname(os.path.abspath(__file__))
+    things = [f for f in os.listdir(directory) if f.endswith(f'.PNG')]
+    for thing in things:
+        old_path = os.path.join(directory, thing)
+        new_path = os.path.join(directory, thing.replace('.PNG', '.png'))
+        shutil.move(old_path, new_path)
+        print(f"Moved {old_path.rsplit('/', 1)[-1]} to {new_path.rsplit('/', 1)[-1]}")
 
-# fix_filenames()
-find_and_replace_in_json(file_path)
+
+fix_filenames()
+# find_and_replace_in_json(file_path)
+# png()

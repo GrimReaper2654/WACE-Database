@@ -3416,6 +3416,638 @@
             ]
         },
         {
+            "id": "WACE2021Q1",
+            "name": "WACE 2021 Calculator Free Question 1",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q2",
+            "name": "WACE 2021 Calculator Free Question 2",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q3",
+            "name": "WACE 2021 Calculator Free Question 3",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q4",
+            "name": "WACE 2021 Calculator Free Question 4",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q5",
+            "name": "WACE 2021 Calculator Free Question 5",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q6",
+            "name": "WACE 2021 Calculator Free Question 6",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q7",
+            "name": "WACE 2021 Calculator Free Question 7",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q8",
+            "name": "WACE 2021 Calculator Free Question 8",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q9",
+            "name": "WACE 2021 Calculator Assumed Question 9",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q10",
+            "name": "WACE 2021 Calculator Assumed Question 10",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q11",
+            "name": "WACE 2021 Calculator Assumed Question 11",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q12",
+            "name": "WACE 2021 Calculator Assumed Question 12",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q13",
+            "name": "WACE 2021 Calculator Assumed Question 13",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q14",
+            "name": "WACE 2021 Calculator Assumed Question 14",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q15",
+            "name": "WACE 2021 Calculator Assumed Question 15",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q16",
+            "name": "WACE 2021 Calculator Assumed Question 16",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q17",
+            "name": "WACE 2021 Calculator Assumed Question 17",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q18",
+            "name": "WACE 2021 Calculator Assumed Question 18",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2021Q19",
+            "name": "WACE 2021 Calculator Assumed Question 19",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q1",
+            "name": "WACE 2020 Calculator Free Question 1",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q2",
+            "name": "WACE 2020 Calculator Free Question 2",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q3",
+            "name": "WACE 2020 Calculator Free Question 3",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q4",
+            "name": "WACE 2020 Calculator Free Question 4",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q5",
+            "name": "WACE 2020 Calculator Free Question 5",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q6",
+            "name": "WACE 2020 Calculator Free Question 6",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q7",
+            "name": "WACE 2020 Calculator Free Question 7",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q8",
+            "name": "WACE 2020 Calculator Free Question 8",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q9",
+            "name": "WACE 2020 Calculator Assumed Question 9",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q10",
+            "name": "WACE 2020 Calculator Assumed Question 10",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q11",
+            "name": "WACE 2020 Calculator Assumed Question 11",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q12",
+            "name": "WACE 2020 Calculator Assumed Question 12",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q13",
+            "name": "WACE 2020 Calculator Assumed Question 13",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q14",
+            "name": "WACE 2020 Calculator Assumed Question 14",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q15",
+            "name": "WACE 2020 Calculator Assumed Question 15",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q16",
+            "name": "WACE 2020 Calculator Assumed Question 16",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q17",
+            "name": "WACE 2020 Calculator Assumed Question 17",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q18",
+            "name": "WACE 2020 Calculator Assumed Question 18",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q19",
+            "name": "WACE 2020 Calculator Assumed Question 19",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q20",
+            "name": "WACE 2020 Calculator Assumed Question 20",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2020Q21",
+            "name": "WACE 2020 Calculator Assumed Question 21",
+            "year": 2020,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q1",
+            "name": "WACE 2019 Calculator Free Question 1",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q2",
+            "name": "WACE 2019 Calculator Free Question 2",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q3",
+            "name": "WACE 2019 Calculator Free Question 3",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q4",
+            "name": "WACE 2019 Calculator Free Question 4",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q5",
+            "name": "WACE 2019 Calculator Free Question 5",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q6",
+            "name": "WACE 2019 Calculator Free Question 6",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q7",
+            "name": "WACE 2019 Calculator Free Question 7",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q8",
+            "name": "WACE 2019 Calculator Free Question 8",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q9",
+            "name": "WACE 2019 Calculator Free Question 9",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q10",
+            "name": "WACE 2019 Calculator Assumed Question 10",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q11",
+            "name": "WACE 2019 Calculator Assumed Question 11",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q12",
+            "name": "WACE 2019 Calculator Assumed Question 12",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q13",
+            "name": "WACE 2019 Calculator Assumed Question 13",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q14",
+            "name": "WACE 2019 Calculator Assumed Question 14",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q15",
+            "name": "WACE 2019 Calculator Assumed Question 15",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q16",
+            "name": "WACE 2019 Calculator Assumed Question 16",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q17",
+            "name": "WACE 2019 Calculator Assumed Question 17",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q18",
+            "name": "WACE 2019 Calculator Assumed Question 18",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2019Q19",
+            "name": "WACE 2019 Calculator Assumed Question 19",
+            "year": 2019,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q1",
+            "name": "WACE 2018 Calculator Free Question 1",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q2",
+            "name": "WACE 2018 Calculator Free Question 2",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q3",
+            "name": "WACE 2018 Calculator Free Question 3",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q4",
+            "name": "WACE 2018 Calculator Free Question 4",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q5",
+            "name": "WACE 2018 Calculator Free Question 5",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q6",
+            "name": "WACE 2018 Calculator Free Question 6",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q7",
+            "name": "WACE 2018 Calculator Free Question 7",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q8",
+            "name": "WACE 2018 Calculator Free Question 8",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q9",
+            "name": "WACE 2018 Calculator Free Question 9",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q10",
+            "name": "WACE 2018 Calculator Assumed Question 10",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q11",
+            "name": "WACE 2018 Calculator Assumed Question 11",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q12",
+            "name": "WACE 2018 Calculator Assumed Question 12",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q13",
+            "name": "WACE 2018 Calculator Assumed Question 13",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q14",
+            "name": "WACE 2018 Calculator Assumed Question 14",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q15",
+            "name": "WACE 2018 Calculator Assumed Question 15",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q16",
+            "name": "WACE 2018 Calculator Assumed Question 16",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q17",
+            "name": "WACE 2018 Calculator Assumed Question 17",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q18",
+            "name": "WACE 2018 Calculator Assumed Question 18",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q19",
+            "name": "WACE 2018 Calculator Assumed Question 19",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q20",
+            "name": "WACE 2018 Calculator Assumed Question 20",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
             "id": "WACE2017Q1",
             "name": "WACE 2017 Calc Free Question 1",
             "year": 2017,

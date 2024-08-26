@@ -3,3 +3,4 @@ fpdf
 pytesseract
 pyautogui
 keyboard
+simpleaudio
