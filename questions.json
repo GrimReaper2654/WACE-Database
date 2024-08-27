@@ -3514,7 +3514,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Trigonometry",
+                "Related Rates"
+            ]
         },
         {
             "id": "WACE2021Q10",
@@ -3522,7 +3526,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Slope Field",
+                "Functions",
+                "Implicit",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2021Q11",
@@ -3530,7 +3539,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Polar Form",
+                "Component Form",
+                "Locus"
+            ]
         },
         {
             "id": "WACE2021Q12",
@@ -3538,7 +3552,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Simple Harmonic Motion",
+                "Trigonometry",
+                "Differentiation"
+            ]
         },
         {
             "id": "WACE2021Q13",
@@ -3546,7 +3565,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Volume of Revolution",
+                "Integration"
+            ]
         },
         {
             "id": "WACE2021Q14",
@@ -3554,7 +3577,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "System of Equations",
+                "Planes"
+            ]
         },
         {
             "id": "WACE2021Q15",
@@ -3562,7 +3588,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Sample Means",
+                "Graphing",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q16",
@@ -3570,7 +3601,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "Spheres",
+                "Lines",
+                "Proofs",
+                "Geometry"
+            ]
         },
         {
             "id": "WACE2021Q17",
@@ -3578,7 +3615,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Sample Means",
+                "Confidence Intervals",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q18",
@@ -3586,7 +3628,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Implicit",
+                "Differentiation",
+                "Proofs"
+            ]
         },
         {
             "id": "WACE2021Q19",
@@ -3594,7 +3641,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "Calculus",
+                "Functions",
+                "Integration"
+            ]
         },
         {
             "id": "WACE2020Q1",

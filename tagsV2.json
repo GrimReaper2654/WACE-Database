@@ -134,7 +134,8 @@
             "Differentiation", 
             "Slope Field",
             "Increments Formula",
-            "Related Rates"
+            "Related Rates",
+            "Implicit"
         ],
         "Functions": [
             "Intersection",
@@ -151,6 +152,7 @@
         ],
         "Vectors": [
             "Planes",
+            "Lines",
             "Spheres",
             "Distance between objects",
             "Parametric"
@@ -163,7 +165,8 @@
         ],
         "Probability": [
             "Sample Means",
-            "Confidence Intervals"
+            "Confidence Intervals",
+            "Theory"
         ],
         "System of Equations": [],
         "Graphing": [], 
