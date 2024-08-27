@@ -3421,7 +3421,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Polar Form",
+                "Component Form"
+            ]
         },
         {
             "id": "WACE2021Q2",
@@ -3429,7 +3433,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Inverse Functions"
+            ]
         },
         {
             "id": "WACE2021Q3",
@@ -3437,7 +3444,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration",
+                "U Substitution"
+            ]
         },
         {
             "id": "WACE2021Q4",
@@ -3445,7 +3456,9 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2021Q5",
@@ -3453,7 +3466,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration"
+            ]
         },
         {
             "id": "WACE2021Q6",
@@ -3461,7 +3477,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomials",
+                "Complex Numbers"
+            ]
         },
         {
             "id": "WACE2021Q7",
@@ -3469,7 +3489,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "De Moivre's Theorem"
+            ]
         },
         {
             "id": "WACE2021Q8",
@@ -3477,7 +3500,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Calculus",
+                "Integration",
+                "Area",
+                "U Substitution"
+            ]
         },
         {
             "id": "WACE2021Q9",
