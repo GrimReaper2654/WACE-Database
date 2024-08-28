@@ -95,7 +95,8 @@
             "Random Sampling",
             "Sample Proportions",
             "Confidence Intervals"
-        ]
+        ],
+        "Graphing": []
     },
     "phys": {
         "Circular Motion": [
@@ -183,6 +184,7 @@
             "Sample Means",
             "Confidence Intervals"
         ],
-        "Proofs": []
+        "Proofs": [],
+        "Graphing": []
     }
 }
