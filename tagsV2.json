@@ -126,51 +126,46 @@
         "Estimation": []
     },
     "spec": {
-        "Calculus": [
-            "Integration", 
-            "U Substitution",
-            "Area",
-            "Volume of Revolution",
-            "Differentiation", 
-            "Slope Field",
-            "Increments Formula",
-            "Related Rates",
-            "Implicit"
+        "Complex Numbers": [
+            "Component Form",
+            "Factorisation",
+            "Polar Form",
+            "The Complex Plane",
+            "Roots of Complex Numbers"
         ],
         "Functions": [
-            "Intersection",
-            "Polynomials",
-            "Absolute Value",
+            "Composite Functions",
             "Inverse Functions",
-            "Exponential",
-            "Logarithm",
-            "Logistic Equaion"
-        ],
-        "Trigonometry": [
-            "Identities", 
-            "Simple Harmonic Motion"
+            "Absolute Value",
+            "Reciprocal Functions",
+            "Sketching Graphs"
         ],
         "Vectors": [
+            "2D Vectors",
+            "3D Vectors",
+            "Closest Approach",
+            "Cross Product",
             "Planes",
-            "Lines",
-            "Spheres",
-            "Distance between objects",
-            "Parametric"
+            "Systems of Linear Equations",
+            "Vector Calculus"
         ],
-        "Complex Numbers": [
-            "Polar Form",
-            "Component Form",
-            "De Moivre's Theorem",
-            "Locus"
+        "Calculus": [
+            "Implicit Differentiation",
+            "Related Rates",
+            "Integration By Substitution",
+            "Trigonometric Integration",
+            "Partial Fractions",
+            "Area Under a Curve",
+            "Volume of Revolution",
+            "Differential Equations",
+            "Logistic Model",
+            "Slope Field",
         ],
-        "Probability": [
+        "Simple Harmonic Motion": [],
+        "Statistical Inference": [
             "Sample Means",
             "Confidence Intervals",
-            "Theory"
         ],
-        "System of Equations": [],
-        "Graphing": [], 
-        "Proofs": [], 
-        "Geometry": []
+        "Proofs": []
     }
 }
