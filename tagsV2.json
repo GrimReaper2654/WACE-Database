@@ -1,31 +1,38 @@
 {
     "chem": {
-        "Organic": [
-            "Functional Groups",
-            "Polymers",
-            "Catalysts",
-            "Enzymes",
-            "Soaps and Detergents"
-        ],
+        "Multiple Choice": [],
+        "Short Answer": [],
+        "Extended Response": [],
         "Redox": [
             "Galvanic Cells",
+            "Corrosion",
             "Electrolytic Cells",
             "Fuel Cells"
         ],
+        "Equilibrium": [
+            "Le Chatelier's Principle",
+            "Collision Theory"            
+        ],
+        "Acids and Bases": [
+            "Buffers",
+            "Titration"
+        ],
+        "Organic Chemistry": [
+            "Homologous Series",
+            "Polymers",
+            "Proteins and Amino Acids"
+        ],
         "Synthesis": [
             "Green Chemistry",
-            "Haber Process",
-            "Contact Process"
+            "Yield and Atom Economy",
+            "Enzymes",
+            "Fats and Oils",
+            "Biodiesel",
+            "Soaps and Detergents"                        
         ],
-        "Equilibrium": [
-            "Collision Theory",
-            "Le Chatelier's Principle"
-        ],
-        "Acids and Bases": [],
-        "Stoichiometry": [],
-        "Graphing": [],
-        "Calculaton": [],
-        "Theory": []
+        "Theory": [],
+        "Calculations": [],
+        "Graphing": []
     },
     "econs": {
         "Multiple-choice": [],
