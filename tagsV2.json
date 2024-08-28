@@ -31,7 +31,7 @@
             "Soaps and Detergents"                        
         ],
         "Theory": [],
-        "Calculations": [],
+        "Calculation": [],
         "Graphing": []
     },
     "econs": {
@@ -137,9 +137,9 @@
         "Short Response": [],
         "Problem Solving": [],
         "Comprehension": [],
-        "Graphing": [],
-        "Calculation": [],
         "Theory": [],
+        "Calculation": [],
+        "Graphing": [],
         "Estimation": []
     },
     "spec": {
