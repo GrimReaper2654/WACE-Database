@@ -764,9 +764,11 @@
             "tags": [
                 "Calculus",
                 "Differentiation",
+                "Antidifferentiation",
                 "Exponential",
-                "Integration",
-                "Trigonometry"
+                "Trigonometric",
+                "Product Rule",
+                "Chain Rule"
             ]
         },
         {
@@ -778,10 +780,10 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Logarithm",
+                "Differentiation",
+                "Antidifferentiation",
                 "Exponential",
-                "Integration",
-                "Differentiation"
+                "Logarithmic"
             ]
         },
         {
@@ -792,6 +794,7 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
+                "Probability",
                 "Discrete Random Variables"
             ]
         },
@@ -803,7 +806,8 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Logarithm"
+                "Functions",
+                "Logarithmic"
             ]
         },
         {
@@ -816,8 +820,11 @@
             "tags": [
                 "Calculus",
                 "Differentiation",
-                "Integration",
-                "Fundamental Theorem"
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Chain Rule",
+                "Concavity",
+                "Graphing"
             ]
         },
         {
@@ -828,9 +835,11 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Functions",
                 "Exponential",
                 "Calculus",
-                "Differentiation"
+                "Differentiation",
+                "Chain Rule"
             ]
         },
         {
@@ -842,9 +851,9 @@
             "calculator": "assumed",
             "tags": [
                 "Interval Proportions",
-                "Sampling",
+                "Random Sampling",
                 "Confidence Intervals",
-                "Sample Means"
+                "Sample Proportions"
             ]
         },
         {
@@ -855,10 +864,12 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Trigonometric",
                 "Calculus",
                 "Differentiation",
-                "Integration",
-                "Trigonometry"
+                "Antidifferentiation",
+                "Applications of Differentiation",
+                "Rectilinear Motion"
             ]
         },
         {
