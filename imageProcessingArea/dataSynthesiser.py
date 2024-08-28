@@ -1,16 +1,15 @@
 template = '''{
     "id": "WACE[y]Q[i]",
-    "name": "WACE [y] [calc display] Question [i]",
+    "name": "WACE [y] Question [i]",
     "year": [y],
     "source": "WACE",
     "calculator": "[calc]",
     "tags": []
 },'''
 
-display_calc = True
-year = 2018
-cf = 9
-ca = 11
+year = 2023
+cf = 0
+ca = 39
 
 calc = 'Free'
 for i in range(cf):

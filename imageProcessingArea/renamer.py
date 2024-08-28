@@ -22,6 +22,9 @@ def extract_question_number(text):
     match = re.search(r'Question (\d+)', text)
     if match:
         return int(match.group(1))
+    match = re.search(r'^\s*(\d+)\.', text)
+    if match:
+        return int(match.group(1))
     return None
 
 def rename_images(directory, template):
@@ -35,6 +38,8 @@ def rename_images(directory, template):
     print(images)
 
     for image in images:
+        if (not 'Screenshot' in image): # remove this if your input images do not contain 'screenshot'. This is here so already remaned questions are not renamed again.
+            continue
         image_path = os.path.join(directory, image)
         text = get_text_from_image(image_path)
         question_number = extract_question_number(text)
@@ -65,5 +70,5 @@ def rename_images(directory, template):
 
 # Example usage
 directory = os.path.dirname(os.path.abspath(__file__))
-template = 'WACE2018'
+template = 'WACE2023'
 rename_images(directory, template)
