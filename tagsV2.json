@@ -53,31 +53,30 @@
     },
     "meth": {
         "Calculus": [
-            "Integration", 
-            "Area",
             "Differentiation",
-            "Fundamental Theorem",
-            "Increments Formula"
-        ], 
-        "Trigonometry": [
-            "Trigonometric Identities"
+            "Antidifferentiation",
+            "Chain Rule",
+            "Increments Formula",
+            "Area Under a Curve",
+            "Fundamental Theorem"
         ], 
         "Functions": [
-            "Logarithm", 
+            "Polynomial",
             "Exponential",
-            "Polynomials"
+            "Logarithmic",
+            "Trignometric"
         ],
         "Probability": [
             "Discrete Random Variables",
-            "Bernoulli",
-            "Binomial",
-            "Normal Distribution",
-            "Continuous Random Variables"
+            "Bernoulli Distribution",
+            "Binomial Distrubution",
+            "Continuous Random Variables",
+            "Normal Distribution"            
         ],
         "Interval Proportions": [
-            "Sampling",
-            "Confidence Intervals",
-            "Sample Means"
+            "Random Sampling",
+            "Sample Proportions",
+            "Confidence Intervals"
         ]
     },
     "phys": {
