@@ -52,20 +52,31 @@
         "Removed from Course": []
     },
     "meth": {
-        "Calculus": [
-            "Differentiation",
-            "Antidifferentiation",
-            "Chain Rule",
-            "Increments Formula",
-            "Area Under a Curve",
-            "Fundamental Theorem"
-        ], 
         "Functions": [
             "Polynomial",
             "Exponential",
             "Logarithmic",
             "Trignometric"
         ],
+        "Calculus": [
+            "Differentiation",
+            "Antidifferentiation",
+            "Area Under a Curve",
+            "Fundamental Theorem"
+        ],
+        "Differentiation Rules": [
+            "Product Rule",
+            "Quotient Rule",
+            "Chain Rule"
+        ]
+        "Applications of Differentiation": [
+            "Increments Formula",
+            "Second Derivative",
+            "Concavity",
+            "Optimisation",
+            "Marginal Rates of Change",
+            "Rectilinear Motion"
+        ]
         "Probability": [
             "Discrete Random Variables",
             "Bernoulli Distribution",
