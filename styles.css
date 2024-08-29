@@ -235,3 +235,14 @@ header {
     margin-top: 0;
     zoom: 75%;
 }
+
+.verticalSpacer {
+    display: block;
+    min-height: 50px;
+}
+
+
+.horizontalSpacer {
+    display: inline-block;
+    min-width: 50px;
+}
