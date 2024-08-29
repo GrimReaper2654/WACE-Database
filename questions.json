@@ -3263,7 +3263,8 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Functions"
+                "Functions",
+                "Reciprocal Functions"
             ]
         },
         {
@@ -3274,9 +3275,10 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Functions",
-                "Polynomials",
-                "Complex Numbers"
+                "Complex Numbers",
+                "Component Form",
+                "Factorisation",
+                "Functions"
             ]
         },
         {
@@ -3288,8 +3290,7 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Integration",
-                "U Substitution"
+                "Integration By Substitution"
             ]
         },
         {
@@ -3300,11 +3301,10 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Graphing",
                 "Functions",
                 "Inverse Functions",
                 "Absolute Value",
-                "Intersection"
+                "Graphing"
             ]
         },
         {
@@ -3315,9 +3315,9 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Planes",
                 "Vectors",
-                "Intersection"
+                "3D Vectors",
+                "Planes"
             ]
         },
         {
@@ -3329,8 +3329,9 @@
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
+                "Component Form",
                 "Polar Form",
-                "De Moivre's Theorem"
+                "Roots of Complex Numbers"
             ]
         },
         {
@@ -3342,11 +3343,9 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Integration",
-                "U Substitution",
-                "Area",
-                "Trigonometry",
-                "Identities"
+                "Integration By Substitution",
+                "Trignometric Integration",
+                "Area Under a Curve"
             ]
         },
         {
@@ -3357,7 +3356,9 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Complex Numbers"
+                "Complex Numbers",
+                "Component Form",
+                "Factorisation"
             ]
         },
         {
@@ -3369,7 +3370,7 @@
             "calculator": "assumed",
             "tags": [
                 "Vectors",
-                "Spheres"
+                "3D Vectors"
             ]
         },
         {
@@ -3381,7 +3382,8 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Polar Form"
+                "Polar Form",
+                "The Complex Plane"
             ]
         },
         {
@@ -3393,9 +3395,7 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Slope Field",
-                "Differentiation",
-                "Integration"
+                "Slope Field"
             ]
         },
         {
@@ -3407,8 +3407,7 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Polar Form",
-                "Identities",
+                "The Complex Plane",
                 "Graphing"
             ]
         },
@@ -3420,9 +3419,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Statistical Inference",
                 "Sample Means",
-                "Confidence Intervals",
-                "Probability"
+                "Confidence Intervals"
             ]
         },
         {
@@ -3434,6 +3433,7 @@
             "calculator": "assumed",
             "tags": [
                 "Vectors",
+                "3D Vectors",
                 "Planes"
             ]
         },
@@ -3445,9 +3445,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Statistical Inference",
                 "Sample Means",
-                "Confidence Intervals",
-                "Probability"
+                "Confidence Intervals"
             ]
         },
         {
@@ -3458,10 +3458,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus",
-                "Differentiation",
-                "Integration",
-                "Vectors"
+                "Vectors",
+                "Vector Calculus",
+                "Calculus"
             ]
         },
         {
@@ -3473,9 +3472,8 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Integration",
-                "Volume of Revolution",
-                "Increments Formula"
+                "Area Under a Curve",
+                "Volume of Revolution"
             ]
         },
         {
@@ -3487,9 +3485,8 @@
             "calculator": "assumed",
             "tags": [
                 "Functions",
-                "Polynomials",
-                "Area",
-                "Intersection"
+                "Reciprocal Functions",
+                "Area Under a Curve"
             ]
         },
         {
@@ -3501,9 +3498,9 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Differentiation",
-                "Integration",
-                "Related Rates"
+                "Implicit Differentiation",
+                "Related Rates",
+                "Differential Equation"
             ]
         },
         {
