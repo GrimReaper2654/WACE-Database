@@ -99,19 +99,21 @@
         "Graphing": []
     },
     "phys": {
+        "Short Response": [],
+        "Problem Solving": [],
+        "Comprehension": [],
+        "Gravity and Motion": []
         "Circular Motion": [
             "Banked Track",
             "Orbits"
         ],
-        "Special Relativity": [
-            "Time Dilation",
-            "Length Contraction"
-        ],
-        "Standard Model": [
-            "Big Bang Theory"
+        "Equilibrium of Forces": [
+            "Torque",
+            "Equilibrium"
         ],
         "Electromagnetism": [
-            "Electromagnetism",
+            "Electric Fields",
+            "Magnetic Fields",
             "Induction",
             "Motors",
             "Generators",
@@ -127,17 +129,20 @@
             "Wave Particle Duality",
             "Light",
             "Polarisation",
-            "Photoelectric Effect"
+            "Blackbody Radiation",
+            "Photoelectric Effect",
+            "Emission / Absorption Spectrum"
         ],
-        "Forces": [
-            "Torque",
-            "Equilibrium"
+        "Special Relativity": [
+            "Time Dilation",
+            "Length Contraction",
+            "Relative Velocities"
         ],
-        "Emission / Absorption Spectrum": [],
-        "Blackbody Radiation": [],
-        "Short Response": [],
-        "Problem Solving": [],
-        "Comprehension": [],
+        "Standard Model": [
+            "Subatomic Particles",
+            "Particle Accelerators",
+            "Big Bang Theory"
+        ],
         "Theory": [],
         "Calculation": [],
         "Graphing": [],
