@@ -1579,7 +1579,7 @@
             "tags": [
                 "Short Response",
                 "Calculation",
-                "Forces"
+                "Equilibrium of Forces"
             ]
         },
         {
@@ -1772,7 +1772,7 @@
                 "Problem Solving",
                 "Calculation",
                 "Torque",
-                "Forces"
+                "Equilibrium of Forces"
             ]
         },
         {
@@ -1980,7 +1980,7 @@
             "tags": [
                 "Problem Solving",
                 "Calculation",
-                "Forces"
+                "Equilibrium of Forces"
             ]
         },
         {
@@ -2166,7 +2166,7 @@
                 "Short Response",
                 "Calculation",
                 "Torque",
-                "Forces"
+                "Equilibrium of Forces"
             ]
         },
         {
@@ -2179,8 +2179,8 @@
             "tags": [
                 "Short Response",
                 "Theory",
-                "Equilibrium",
-                "Forces"
+                "Static Equilibrium",
+                "Equilibrium of Forces"
             ]
         },
         {
@@ -2205,7 +2205,7 @@
             "calculator": "assumed",
             "tags": [
                 "Short Response",
-                "Forces",
+                "Equilibrium of Forces",
                 "Circular Motion"
             ]
         },
