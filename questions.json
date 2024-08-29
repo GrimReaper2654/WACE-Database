@@ -1192,11 +1192,14 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Trigonometric",
                 "Calculus",
                 "Differentiation",
-                "Integration",
-                "Trigonometry",
-                "Area"
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Optimisation"
             ]
         },
         {
@@ -1209,10 +1212,10 @@
             "tags": [
                 "Probability",
                 "Discrete Random Variables",
-                "Binomial",
+                "Binomial Distribution",
                 "Normal Distribution",
                 "Interval Proportions",
-                "Sampling"
+                "Random Sampling"
             ]
         },
         {
@@ -1223,9 +1226,10 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Antidifferentiation",
+                "Area Under a Curve",
                 "Probability",
-                "Integration",
-                "Differentiation"
+                "Continous Random Variables"
             ]
         },
         {
@@ -1236,8 +1240,12 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Probability",
+                "Binomial Distribution",
+                "Normal Distribution",
                 "Interval Proportions",
-                "Sampling",
+                "Random Sampling",
+                "Sample Proportions",
                 "Confidence Intervals"
             ]
         },
@@ -1249,9 +1257,10 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Trigonometry",
                 "Probability",
-                "Binomial",
+                "Binomial Distribution",
+                "Interval Proportions",
+                "Sample Proportions",
                 "Confidence Intervals"
             ]
         },
@@ -1263,9 +1272,11 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus",
-                "Integration",
+                "Calculus",                
                 "Differentiation",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Applications of Differentiation",
                 "Increments Formula",
                 "Probability",
                 "Normal Distribution"
