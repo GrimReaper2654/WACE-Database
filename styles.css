@@ -241,8 +241,16 @@ header {
     min-height: 50px;
 }
 
-
 .horizontalSpacer {
     display: inline-block;
     min-width: 50px;
+}
+
+h4 {
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    padding-inline-start: 20px;
 }
