@@ -6,8 +6,8 @@
         "Redox": [
             "Galvanic Cells",
             "Corrosion",
-            "Electrolytic Cells",
-            "Fuel Cells"
+            "Fuel Cells",
+            "Electrolysis"            
         ],
         "Equilibrium": [
             "Le Chatelier's Principle",
@@ -179,7 +179,6 @@
             "Partial Fractions",
             "Area Under a Curve",
             "Volume of Revolution",
-            "Differential Equations",
             "Logistic Model",
             "Slope Field"
         ],
