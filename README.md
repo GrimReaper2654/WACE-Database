@@ -5,7 +5,7 @@ Also MacELine™ is not a real company. <br>
 We have a discord now: https://discord.gg/ydSxYFNv
 
 **Site can be accessed from:**<br>
-https://wacedatabase.pages.dev/ (most up to date)
+https://wacedatabase.pages.dev/ (most up to date)<br>
 https://grimreaper2654.github.io/WACE-Database/  (updates slower) <br><br>
 A localhost of a clone of the repo would work as well and can function without internet. 
 
