@@ -7,8 +7,8 @@ import json
 # most other issues in question data can be fixed with built in find and replace
 # added function to replace .PNG with .png
 
-extension = 'pdf'
-find = '2018'
+extension = 'webp'
+find = '2020'
 replace = '2021'
 
 def fix_filenames():
