@@ -70,5 +70,5 @@ def rename_images(directory, template):
 
 # Example usage
 directory = os.path.dirname(os.path.abspath(__file__))
-template = 'WACE2023'
+template = 'WACE2020'
 rename_images(directory, template)
