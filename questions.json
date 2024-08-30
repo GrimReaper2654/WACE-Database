@@ -3524,6 +3524,7 @@
             "tags": [
                 "Functions",
                 "Absolute Value",
+                "Reciprocal Functions",
                 "Graphing"
             ]
         },
@@ -3536,9 +3537,7 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Integration",
-                "Trigonometry",
-                "Identities"
+                "Trigonometric Integration"
             ]
         },
         {
@@ -3549,8 +3548,8 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Integration",
-                "Calculus"
+                "Calculus",
+                "Partial Fractions"
             ]
         },
         {
@@ -3562,6 +3561,7 @@
             "calculator": "free",
             "tags": [
                 "Vectors",
+                "3D Vectors",
                 "Planes"
             ]
         },
@@ -3573,9 +3573,10 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
+                "Complex Numbers",
                 "Polar Form",
-                "De Moivre's Theorem",
-                "Complex Numbers"
+                "The Complex Plane",
+                "Roots of Complex Numbers"
             ]
         },
         {
@@ -3586,10 +3587,10 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Area",
-                "Differentiation",
                 "Calculus",
-                "Integration"
+                "Implicit Differentiation",
+                "Trigonometric Integration",
+                "Area Under a Curve"
             ]
         },
         {
@@ -3601,7 +3602,6 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Differentiation",
                 "Related Rates"
             ]
         },
@@ -3614,7 +3614,7 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Component Form"
+                "The Complex Plane"
             ]
         },
         {
@@ -3626,6 +3626,7 @@
             "calculator": "assumed",
             "tags": [
                 "Vectors",
+                "Vector Calculus",
                 "Calculus",
                 "Integration",
                 "Identities",
