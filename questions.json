@@ -662,7 +662,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": []
-        },
+        }, 
         {
             "id": "WACE2020Q1",
             "name": "WACE 2020 Question 1",
