@@ -77,7 +77,7 @@ header {
 
 .search {
     max-width: 1200px;
-    width: 75%;
+    width: 80%;
     min-width: 600px;
     font-size: x-large;
     margin: auto;
@@ -105,7 +105,7 @@ header {
     border-color: #404040;
     border-radius: 15px;
     border-width: 2px;
-    width: 100%;
+    width: calc(100% - 25px);
     padding: 10px;
     margin-top: 5px;
     grid-template-columns: auto auto;
@@ -215,6 +215,10 @@ header {
     display: none;
 }
 
+.isActive {
+    display: block;
+}
+
 .toggleButton.active
 .arrow {
     transform: rotate(180deg);
@@ -254,3 +258,85 @@ ul {
     margin-top: 0;
     padding-inline-start: 20px;
 }
+
+.invisible {
+    color: rgba(0, 0, 0, 0) !important;
+}
+
+.footer {
+    background-color: #303030;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - 100px);
+    left: 50px;
+}
+
+.left-content {
+    flex-grow: 1;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#githubToken {
+    padding: 5px;
+    width: 300px;
+}
+
+.commit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.commit-button:hover {
+    background-color: #45a049;
+}
+
+.compactTagsContainer {
+    width: 90%; 
+    border-color: #aaaaaa;
+    zoom: 0.75;
+}
+
+.compactTag {
+    border-color: #aaaaaa;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.compactCheckbox {
+    display: none;
+}
+
+.compactLabel {
+    margin-left: 0;
+    color: #aaaaaa;
+}
+
+.tag:has(.compactCheckbox:checked) {
+    background-color: #aaaaaa;
+}
+
+.compactCheckbox:checked + .tagLabel {
+    color: #303030;
+}
+

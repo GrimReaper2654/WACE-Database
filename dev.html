@@ -54,7 +54,6 @@
                     <li><a href="https://github.com/the-tOOMwn" target="_blank">The Toomwn</a></li>
                 </ul>
             </li>
-            <li><a href="dev.html" class="invisible">Super Secret Dev Tools</a></li> <!-- WOW! much hidden -->
         </ul>
     </nav>
     <div class="search">
@@ -131,6 +130,18 @@
             <h3>Press 'Search' to get started.</h3>
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="left-content">
+                <h4>Modify tags for selected question.</h4>
+                <div id="modifyTags" class="tagsContainer compactTagsContainer"></div>
+            </div>
+            <div class="right-content">
+                <input type="text" id="githubToken" placeholder="Enter your GitHub token" />
+                <button class="commit-button" onclick="createPullRequest()">Submit Pull Request</button>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
