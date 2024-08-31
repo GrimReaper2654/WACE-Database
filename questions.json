@@ -4392,7 +4392,7 @@
             "tags": [
                 "Complex Numbers",
                 "Polar Form",
-                "Component Form"
+                "The Complex Plane"
             ]
         },
         {
@@ -4403,7 +4403,9 @@
             "calculator": "free",
             "tags": [
                 "Functions",
-                "Inverse Functions"
+                "Composite Functions",
+                "Inverse Functions",
+                "Graphing"
             ]
         },
         {
@@ -4414,8 +4416,7 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Integration",
-                "U Substitution"
+                "Integration By Substitution"
             ]
         },
         {
@@ -4425,6 +4426,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
+                "Functions",
+                "Reciprocal Functions",
                 "Graphing"
             ]
         },
@@ -4436,7 +4439,7 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Integration"
+                "Partial Fractions"
             ]
         },
         {
@@ -4446,9 +4449,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Functions",
-                "Polynomials",
-                "Complex Numbers"
+                "Complex Numbers",
+                "Factorisation"
             ]
         },
         {
@@ -4459,7 +4461,8 @@
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
-                "De Moivre's Theorem"
+                "Polar Form",
+                "Roots of Complex Numbers"
             ]
         },
         {
@@ -4471,9 +4474,9 @@
             "tags": [
                 "Functions",
                 "Calculus",
-                "Integration",
-                "Area",
-                "U Substitution"
+                "Area Under a Curve",
+                "Integration By Substitution",
+                "Trigonometric Integration"
             ]
         },
         {
