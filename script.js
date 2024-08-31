@@ -116,6 +116,12 @@ function updateTags(id, state) {
     } else {
         remove(tagsList, tagId);
     }
+    let target = document.querySelector(`#result${data.activeQuestion} .smallTagsContainer`);
+    let tagsHtml = ``;
+    for (let tag of tagsList) {
+        tagsHtml += `<label class="tag"><span class="tagLabel">${tag}</span></label>`;
+    }
+    target.innerHTML = tagsHtml;
     data.unsavedChanges = true;
 }
 
@@ -335,7 +341,7 @@ async function createPullRequest() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                title: 'Update JSON file',
+                title: 'Tagged Questions from Site',
                 head: branchName,
                 base: 'main',
                 body: 'This pull request adds more tags to questions or fixes existing tags. This message is automatically generated.'
