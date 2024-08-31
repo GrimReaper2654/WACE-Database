@@ -4487,7 +4487,7 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Trigonometry",
+                "Trigonometric Integration",
                 "Related Rates"
             ]
         },
@@ -4498,10 +4498,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Slope Field",
-                "Functions",
-                "Implicit",
-                "Graphing"
+                "Separation of Variables",
+                "Slope Field"
             ]
         },
         {
@@ -4513,8 +4511,7 @@
             "tags": [
                 "Complex Numbers",
                 "Polar Form",
-                "Component Form",
-                "Locus"
+                "The Complex Plane"
             ]
         },
         {
@@ -4524,10 +4521,7 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus",
-                "Simple Harmonic Motion",
-                "Trigonometry",
-                "Differentiation"
+                "Simple Harmonic Motion"
             ]
         },
         {
@@ -4538,8 +4532,8 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Volume of Revolution",
-                "Integration"
+                "Area Under a Curve",
+                "Volume of Revolution"
             ]
         },
         {
@@ -4549,8 +4543,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "System of Equations",
-                "Planes"
+                "Planes",
+                "System of Linear Equations"
             ]
         },
         {
@@ -4560,10 +4554,10 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Probability",
+                "Statistical Inference",
                 "Sample Means",
-                "Graphing",
-                "Theory"
+                "Confidence Intervals",
+                "Graphing"
             ]
         },
         {
@@ -4574,10 +4568,8 @@
             "calculator": "assumed",
             "tags": [
                 "Vectors",
-                "Spheres",
-                "Lines",
-                "Proofs",
-                "Geometry"
+                "3D Vectors",
+                "Proofs"
             ]
         },
         {
@@ -4587,10 +4579,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Probability",
+                "Statistical Inference",
                 "Sample Means",
-                "Confidence Intervals",
-                "Theory"
+                "Confidence Intervals"
             ]
         },
         {
@@ -4601,9 +4592,7 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Implicit",
-                "Differentiation",
-                "Proofs"
+                "Implicit Differentiation"
             ]
         },
         {
@@ -4614,9 +4603,8 @@
             "calculator": "assumed",
             "tags": [
                 "Vectors",
-                "Calculus",
-                "Functions",
-                "Integration"
+                "Vector Calculus",
+                "Calculus"
             ]
         },
         {
