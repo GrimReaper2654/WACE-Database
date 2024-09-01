@@ -10,10 +10,12 @@
             "Half Equations"         
         ],
         "Equilibrium": [
+            "Equilibrium Constant",
             "Le Chatelier's Principle",
             "Collision Theory"            
         ],
         "Acids and Bases": [
+            "Conjugate Acids and Bases",
             "Buffers",
             "Titration",
             "pH"
@@ -37,9 +39,11 @@
         ],
         "Industrial Chemistry": [],
         "Science Inquiry Skills": [],
+        "Graphing": [
+            "Energy Profile Diagram"
+        ],
         "Theory": [],
-        "Calculation": [],
-        "Graphing": []
+        "Calculation": []
     },
     "econs": {
         "Multiple-choice": [],
