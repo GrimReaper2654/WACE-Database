@@ -101,14 +101,20 @@ header {
 }
 
 .tagsContainer {
+    position: relative;
     border-style: solid;
     border-color: #404040;
     border-radius: 15px;
     border-width: 2px;
-    width: calc(100% - 25px);
+    width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    top: 10px;
     grid-template-columns: auto auto;
+}
+
+.centred {
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .tag {
@@ -238,6 +244,11 @@ header {
     margin: 10px;
     margin-top: 0;
     zoom: 75%;
+}
+
+.verticalSpacerSmall {
+    display: block;
+    min-height: 10px;
 }
 
 .verticalSpacer {

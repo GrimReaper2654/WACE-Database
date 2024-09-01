@@ -24,6 +24,7 @@ const data = {
 let savedSettings = localStorage.getItem('WaceDatabaseSearchSettings');
 if (savedSettings) data.filters = JSON.parse(savedSettings);
 
+window.addEventListener('resize', packTags);
 window.addEventListener('beforeunload', function (event) {
     if (data.unsavedChanges) {
         event.preventDefault();
@@ -89,6 +90,9 @@ function toggleContent(id, isQuestion=false) {
         }
         extraContent.classList.remove("isActive");
         button.classList.remove("active");
+    }
+    if (!isQuestion) {
+        packTags();
     }
 }
 
@@ -185,6 +189,106 @@ function setModifyTags() {
     });
 }
 
+function packTags() {
+    const container = document.getElementById('tagsContainer');
+    const elements = Array.from(container.children);
+
+    // Sort elements by height in descending order
+    elements.sort((a, b) => b.offsetHeight - a.offsetHeight);
+
+    const margin = 10; // 10px margin around each element
+    let x = 0;
+    let y = 0;
+    let rowHeight = 0;
+    let idealContainerWidth = window.innerWidth * 0.8;
+
+    // Set the container position to relative
+    container.style.position = 'relative';
+
+    // Position the elements
+    while (elements.length > 0) { // per row
+        let tallestElement = elements.shift(); // Get the tallest element
+        console.log(tallestElement);
+
+        tallestElement.style.position = 'absolute';
+        tallestElement.style.left = `${x + margin}px`;
+        tallestElement.style.top = `${y + margin}px`;
+        console.log(`tallest at ${x + margin}, ${y + margin}`);
+
+        rowHeight = tallestElement.offsetHeight + margin;
+        x += tallestElement.offsetWidth + margin;
+
+        let l = 0;
+        while (elements.length > 0) {
+            let columnHeight = 0;
+            let columnWidth = -1;
+            let maxWidth = -1;
+            let canCreateColumn = true;
+
+            for (let i = 0; i < elements.length; i++) {
+                let nextElement = elements[i];
+
+                if (x + nextElement.offsetWidth * 2 + margin > window.innerWidth * 0.95) { // This does not actually work, just is pretty close
+                    canCreateColumn = false;
+                    console.log('cant create column');
+                    continue;
+                }
+
+                if (columnHeight + nextElement.offsetHeight <= rowHeight + 20 && (columnWidth == -1 || nextElement.offsetWidth + margin < columnWidth + 20)) {
+                    console.log('yes');
+                    console.log(nextElement);
+                    canCreateColumn = true;
+
+                    nextElement.style.position = 'absolute';
+                    nextElement.style.left = `${x + margin}px`;
+                    nextElement.style.top = `${y + columnHeight + margin}px`;
+    
+                    columnHeight += nextElement.offsetHeight + margin;
+                    if (columnWidth == -1) columnWidth = nextElement.offsetWidth;
+                    maxWidth = Math.max(nextElement.offsetWidth + margin, maxWidth);
+    
+                    elements.splice(i, 1);
+                    i--; 
+                }
+            }
+    
+            x += maxWidth;
+            rowHeight = Math.max(rowHeight, columnHeight);
+    
+            if (x > document.getElementById('search').offsetWidth || !canCreateColumn) {
+                x = 0;
+                y += rowHeight;
+                rowHeight = 0;
+                break;
+            }
+
+            l++;
+            if (l >= 50) {
+                console.log('fail'); 
+                return;
+            }
+        }
+    }
+
+    const tags = Array.from(container.children);
+    
+    let minX = Infinity, minY = Infinity;
+    let maxX = -Infinity, maxY = -Infinity;
+    
+    tags.forEach(child => {
+        const rect = child.getBoundingClientRect();
+        minX = Math.min(minX, rect.left);
+        minY = Math.min(minY, rect.top);
+        maxX = Math.max(maxX, rect.right);
+        maxY = Math.max(maxY, rect.bottom);
+    });
+
+    container.style.width = `${(maxX - minX + 10)}px`;
+    container.style.height = `${(maxY - minY + 10)}px`;
+    if (container.style.width > document.getElementById('search').offsetWidth) container.classList.add('centred');
+    else container.classList.remove('centred');
+}
+
 async function setTags() {
     const tagsList = data.tagsV2[data.filters.subject];
     let tagsHtml = ``;
@@ -200,6 +304,7 @@ async function setTags() {
         tagsHtml += `</label>`;
     }
     document.getElementById('tagsContainer').innerHTML = tagsHtml;
+    packTags();
 
     if (document.getElementById('modifyTags')) {
         setModifyTags();
