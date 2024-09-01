@@ -2292,6 +2292,342 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": []
+        },
+        {
+            "id": "WACE2016Q1",
+            "name": "WACE 2016 Question 1",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q2",
+            "name": "WACE 2016 Question 2",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q3",
+            "name": "WACE 2016 Question 3",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q4",
+            "name": "WACE 2016 Question 4",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q5",
+            "name": "WACE 2016 Question 5",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q6",
+            "name": "WACE 2016 Question 6",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q7",
+            "name": "WACE 2016 Question 7",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q8",
+            "name": "WACE 2016 Question 8",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q9",
+            "name": "WACE 2016 Question 9",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q10",
+            "name": "WACE 2016 Question 10",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q11",
+            "name": "WACE 2016 Question 11",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q12",
+            "name": "WACE 2016 Question 12",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q13",
+            "name": "WACE 2016 Question 13",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q14",
+            "name": "WACE 2016 Question 14",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q15",
+            "name": "WACE 2016 Question 15",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q16",
+            "name": "WACE 2016 Question 16",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q17",
+            "name": "WACE 2016 Question 17",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q18",
+            "name": "WACE 2016 Question 18",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q19",
+            "name": "WACE 2016 Question 19",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q20",
+            "name": "WACE 2016 Question 20",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q21",
+            "name": "WACE 2016 Question 21",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q22",
+            "name": "WACE 2016 Question 22",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q23",
+            "name": "WACE 2016 Question 23",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q24",
+            "name": "WACE 2016 Question 24",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q25",
+            "name": "WACE 2016 Question 25",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q26",
+            "name": "WACE 2016 Question 26",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q27",
+            "name": "WACE 2016 Question 27",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q28",
+            "name": "WACE 2016 Question 28",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q29",
+            "name": "WACE 2016 Question 29",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q30",
+            "name": "WACE 2016 Question 30",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q31",
+            "name": "WACE 2016 Question 31",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q32",
+            "name": "WACE 2016 Question 32",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q33",
+            "name": "WACE 2016 Question 33",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q34",
+            "name": "WACE 2016 Question 34",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q35",
+            "name": "WACE 2016 Question 35",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q36",
+            "name": "WACE 2016 Question 36",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q37",
+            "name": "WACE 2016 Question 37",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q38",
+            "name": "WACE 2016 Question 38",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q39",
+            "name": "WACE 2016 Question 39",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q40",
+            "name": "WACE 2016 Question 40",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q41",
+            "name": "WACE 2016 Question 41",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2016Q42",
+            "name": "WACE 2016 Question 42",
+            "year": 2016,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
         }
     ],
     "econs": [
