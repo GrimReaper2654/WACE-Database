@@ -5466,7 +5466,6 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Probability",
                 "Statistical Inference",
                 "Sample Means",
                 "Graphing"
