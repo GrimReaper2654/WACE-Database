@@ -329,14 +329,99 @@ ul {
 
 .compactLabel {
     margin-left: 0;
-    color: #aaaaaa;
+    /*color: #aaaaaa;*/
 }
 
 .tag:has(.compactCheckbox:checked) {
-    background-color: #aaaaaa;
+    background-color: currentColor;
 }
 
 .compactCheckbox:checked + .tagLabel {
     color: #303030;
 }
 
+/* Color Overrides */
+.colour0 {
+    border-color: #FFB74D; /* Soft Orange */
+    color: #FFB74D;
+}
+
+.colour1 {
+    border-color: #FF6F61; /* Coral */
+    color: #FF6F61;
+}
+
+.colour2 {
+    border-color: #90A4AE; /* Blue Gray */
+    color: #90A4AE;
+}
+
+.colour3 {
+    border-color: #4DB6AC; /* Teal */
+    color: #4DB6AC;
+}
+
+.colour4 {
+    border-color: #9575CD; /* Lavender */
+    color: #9575CD;
+}
+
+.colour5 {
+    border-color: #F06292; /* Pink */
+    color: #F06292;
+}
+
+.colour6 {
+    border-color: #81C784; /* Soft Green */
+    color: #81C784;
+}
+
+.colour7 {
+    border-color: #7986CB; /* Slate Blue */
+    color: #7986CB;
+}
+
+.colour8 {
+    border-color: #E57373; /* Rose Red */
+    color: #E57373;
+}
+
+.colour9 {
+    border-color: #BA68C8; /* Soft Purple */
+    color: #BA68C8;
+}
+
+.colour10 {
+    border-color: #7CB342; /* Apple Green */
+    color: #7CB342;
+}
+
+.colour11 {
+    border-color: #64B5F6; /* Sky Blue */
+    color: #64B5F6;
+}
+
+.colour12 {
+    border-color: #A1887F; /* Warm Taupe */
+    color: #A1887F;
+}
+
+.colour13 {
+    border-color: #FF8A65; /* Soft Orange */
+    color: #FF8A65;
+}
+
+.colour14 {
+    border-color: #C2185B; /* Cranberry */
+    color: #C2185B;
+}
+
+.colour15 {
+    border-color: #0097A7; /* Peacock Blue */
+    color: #0097A7;
+}
+
+.colour16 {
+    border-color: #FF7043; /* Burnt Orange */
+    color: #FF7043;
+}

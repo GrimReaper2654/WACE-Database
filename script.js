@@ -145,17 +145,25 @@ function updateTags(id, state) {
 function setModifyTags() {
     const tagsList = data.tagsV2[data.filters.subject];
     const tags = [];
+    const colours = [];
 
-    for (const [tagGroup, subTag] of Object.entries(tagsList)) {
+    let i = 0;
+    for (const [tagGroup, subTags] of Object.entries(tagsList)) {
         tags.push(tagGroup);
-        tags.push(...subTag);
+        colours.push(i);
+        for (const tag of subTags) {
+            tags.push(tag);
+            colours.push(i);
+        }
+        i++;
     }
 
     data.allTags = tags;
 
     let modifyTagsHtml = ``;
-    for (let tag of tags) {
-        modifyTagsHtml += `<label class="tag compactTag"><input type="checkbox" id="${tag}Modify" class="compactCheckbox"><span class="tagLabel compactLabel">${tag}</span></label>`;
+
+    for (let i in tags) {
+        modifyTagsHtml += `<label class="tag compactTag colour${colours[i]}"><input type="checkbox" id="${tags[i]}Modify" class="compactCheckbox"><span class="tagLabel compactLabel">${tags[i]}</span></label>`;
     }
     document.getElementById('modifyTags').innerHTML = modifyTagsHtml;
 
@@ -241,7 +249,7 @@ async function search() {
     if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Select question to modify tags.`;
     data.activeQuestion = null;
     data.activeQuestionNum = null;
-    setTags();
+    setModifyTags();
 }
 
 async function toggleKey(id) {
