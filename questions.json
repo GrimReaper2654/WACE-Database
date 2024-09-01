@@ -7,7 +7,11 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Equilibrium",
+                "Acids and Bases",
+                "pH",
+                "Science Inquiry Skills"
             ]
         },
         {
@@ -17,7 +21,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Organic Chemistry",
+                "Homologous Series"
             ]
         },
         {
@@ -37,7 +43,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Redox"
             ]
         },
         {
@@ -47,7 +54,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Redox"
             ]
         },
         {
@@ -57,7 +65,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Science Inquiry Skills",
+                "Acids and Bases"
             ]
         },
         {
@@ -67,7 +77,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Science Inquiry Skills",
+                "Acids and Bases"
             ]
         },
         {
@@ -77,7 +89,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Acids and Bases",
+                "Science Inquiry Skills"
             ]
         },
         {
@@ -87,7 +101,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Acids and Bases",
+                "Science Inquiry Skills"
             ]
         },
         {
@@ -97,7 +113,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Science Inquiry Skills",
+                "Acids and Bases"
             ]
         },
         {
@@ -107,7 +125,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Science Inquiry Skills",
+                "Acids and Bases"
             ]
         },
         {
@@ -117,7 +137,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Science Inquiry Skills",
+                "Acids and Bases"
             ]
         },
         {
@@ -127,7 +149,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Science Inquiry Skills",
+                "Acids and Bases"
             ]
         },
         {
@@ -137,7 +161,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Organic Chemistry",
+                "Homologous Series"
             ]
         },
         {
@@ -147,7 +173,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Redox"
             ]
         },
         {
@@ -156,7 +183,11 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Organic Chemistry",
+                "Polymers",
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2023Q17",
@@ -164,7 +195,11 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium",
+                "Le Chatelier's Principle"
+            ]
         },
         {
             "id": "WACE2023Q18",
@@ -172,7 +207,10 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2023Q19",
@@ -180,7 +218,11 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Equilibrium",
+                "Multiple-choice",
+                "pH"
+            ]
         },
         {
             "id": "WACE2023Q20",
@@ -188,7 +230,12 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox",
+                "Cells",
+                "Half Equations"
+            ]
         },
         {
             "id": "WACE2023Q21",
@@ -196,7 +243,9 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2023Q22",
