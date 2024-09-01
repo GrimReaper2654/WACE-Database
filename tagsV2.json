@@ -6,8 +6,8 @@
         "Redox": [
             "Galvanic Cells",
             "Corrosion",
-            "Fuel Cells",
-            "Electrolysis"            
+            "Electrolytic Cells",
+            "Fuel Cells"         
         ],
         "Equilibrium": [
             "Le Chatelier's Principle",
@@ -30,6 +30,7 @@
             "Biodiesel",
             "Soaps and Detergents"                        
         ],
+        "Industrial Chemistry": [],
         "Theory": [],
         "Calculation": [],
         "Graphing": []
