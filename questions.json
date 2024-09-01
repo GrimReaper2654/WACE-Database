@@ -4643,7 +4643,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Trigonometric Integration"
+            ]
         },
         {
             "id": "WACE2020Q2",
