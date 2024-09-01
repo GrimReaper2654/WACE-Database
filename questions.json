@@ -209,8 +209,7 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Acids and Bases",
-                "Conjugate Acids and Bases"
+                "Acids and Bases"
             ]
         },
         {
@@ -222,8 +221,7 @@
             "tags": [
                 "Equilibrium",
                 "Multiple-choice",
-                "pH",
-                "Equilibrium Constant"
+                "pH"
             ]
         },
         {
@@ -246,8 +244,7 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice",
-                "Energy Profile Diagram"
+                "Multiple-choice"
             ]
         },
         {
