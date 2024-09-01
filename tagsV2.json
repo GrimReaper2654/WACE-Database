@@ -4,10 +4,10 @@
         "Short Answer": [],
         "Extended Response": [],
         "Redox": [
+            "Half-equations",
             "Cells",
             "Corrosion",
-            "Electrolysis",
-            "Half Equations"         
+            "Electrolysis"   
         ],
         "Equilibrium": [
             "Equilibrium Constant",
@@ -16,9 +16,9 @@
         ],
         "Acids and Bases": [
             "Conjugate Acids and Bases",
+            "pH",
             "Buffers",
-            "Titration",
-            "pH"
+            "Titration"
         ],
         "Organic Chemistry": [
             "Hydrocarbons",
@@ -28,10 +28,11 @@
         ],
         "Synthesis": [
             "Green Chemistry",
-            "Soaps and Detergents",
-            "Fats and Oils",
             "Enzymes",
-            "Biodisel"
+            "Fats and Oils",
+            "Biodisel",
+            "Soaps and Detergents"
+
         ],
         "Stoichiometry": [
             "Combustion Analysis",
