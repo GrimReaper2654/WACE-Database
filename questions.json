@@ -5387,7 +5387,9 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Calculus"
+                "Calculus",
+                "Integration By Substitution",
+                "Trigonometric Integration"
             ]
         },
         {
@@ -5399,6 +5401,7 @@
             "calculator": "free",
             "tags": [
                 "Functions",
+                "Composite Functions",
                 "Inverse Functions",
                 "Graphing"
             ]
@@ -5412,6 +5415,7 @@
             "calculator": "free",
             "tags": [
                 "Functions",
+                "Reciprocal Functions",
                 "Graphing"
             ]
         },
@@ -5424,7 +5428,8 @@
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
-                "Polar Form"
+                "Polar Form",
+                "The Complex Plane"
             ]
         },
         {
@@ -5436,6 +5441,7 @@
             "calculator": "free",
             "tags": [
                 "Vectors",
+                "3D Vectors",
                 "Planes"
             ]
         },
@@ -5448,6 +5454,7 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
+                "Area Under a Curve",
                 "Volume of Revolution"
             ]
         },
@@ -5459,7 +5466,10 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Sample Means"
+                "Probability",
+                "Statistical Inference",
+                "Sample Means",
+                "Graphing"
             ]
         },
         {
