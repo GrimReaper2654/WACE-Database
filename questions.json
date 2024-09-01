@@ -4654,7 +4654,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "3D Vectors",
+                "Planes"
+            ]
         },
         {
             "id": "WACE2020Q3",
@@ -4662,7 +4666,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Reciprocal Functions"
+            ]
         },
         {
             "id": "WACE2020Q4",
@@ -4670,7 +4677,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Planes",
+                "Systems of Linear Equations"
+            ]
         },
         {
             "id": "WACE2020Q5",
@@ -4678,7 +4688,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Absolute Value",
+                "Reciprocal Functions"
+            ]
         },
         {
             "id": "WACE2020Q6",
@@ -4686,7 +4700,13 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Inverse Functions",
+                "Calculus",
+                "Implicit Differentiation",
+                "Partial Fractions"
+            ]
         },
         {
             "id": "WACE2020Q7",
@@ -4694,7 +4714,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration By Substitution"
+            ]
         },
         {
             "id": "WACE2020Q8",
@@ -4702,7 +4725,9 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers"
+            ]
         },
         {
             "id": "WACE2020Q9",
@@ -4710,7 +4735,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Area Under a Curve",
+                "Volume of Revolution"
+            ]
         },
         {
             "id": "WACE2020Q10",
@@ -4718,7 +4747,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "The Complex Plane",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q11",
@@ -4726,7 +4759,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Component Form"
+            ]
         },
         {
             "id": "WACE2020Q12",
@@ -4734,7 +4770,12 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "3D Vectors",
+                "Vector Calculus",
+                "Calculus"
+            ]
         },
         {
             "id": "WACE2020Q13",
@@ -4742,7 +4783,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Polar Form",
+                "Roots of Complex Numbers"
+            ]
         },
         {
             "id": "WACE2020Q14",
@@ -4750,7 +4795,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Separation of Variables",
+                "Simple Harmonic Motion"
+            ]
         },
         {
             "id": "WACE2020Q15",
@@ -4758,7 +4807,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Polar Form",
+                "2D Vectors"
+            ]
         },
         {
             "id": "WACE2020Q16",
@@ -4766,7 +4819,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2020Q17",
@@ -4774,7 +4830,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Statistical Inference",
+                "Sample Means",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2020Q18",
@@ -4782,7 +4842,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Statistical Inference",
+                "Sample Means",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2020Q19",
@@ -4790,7 +4854,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Logistic Model",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q20",
@@ -4798,7 +4866,12 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "2D Vectors",
+                "Calculus",
+                "Related Rates"
+            ]
         },
         {
             "id": "WACE2020Q21",
@@ -4806,7 +4879,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Absolute Value",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q1",
