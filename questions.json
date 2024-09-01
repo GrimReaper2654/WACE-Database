@@ -5387,11 +5387,7 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Calculus",
-                "Integration",
-                "U Substitution",
-                "Trigonometry",
-                "Identities"
+                "Calculus"
             ]
         },
         {
@@ -5404,8 +5400,7 @@
             "tags": [
                 "Functions",
                 "Inverse Functions",
-                "Graphing",
-                "Intersection"
+                "Graphing"
             ]
         },
         {
@@ -5417,7 +5412,6 @@
             "calculator": "free",
             "tags": [
                 "Functions",
-                "Polynomials",
                 "Graphing"
             ]
         },
@@ -5454,8 +5448,7 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Volume of Revolution",
-                "Integration"
+                "Volume of Revolution"
             ]
         },
         {
@@ -5479,8 +5472,7 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Polar Form",
-                "De Moivre's Theorem"
+                "Polar Form"
             ]
         },
         {
@@ -5492,8 +5484,7 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Slope Field",
-                "Integration"
+                "Slope Field"
             ]
         },
         {
@@ -5504,10 +5495,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus",
-                "Area",
-                "Differentiation",
-                "Integration"
+                "Calculus"
             ]
         },
         {
@@ -5518,7 +5506,6 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Probability",
                 "Sample Means",
                 "Confidence Intervals"
             ]
@@ -5531,8 +5518,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Vectors",
-                "Distance Between Objects"
+                "Vectors"
             ]
         },
         {
@@ -5543,10 +5529,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Vectors",
-                "Trigonometry",
-                "Calculus",
-                "Integration"
+                "Vectors"
             ]
         },
         {
@@ -5557,11 +5540,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Functions",
-                "Absolute Value",
-                "U Substitution",
-                "Calculus",
-                "Integration"
+                "Functions"
             ]
         },
         {
@@ -5572,9 +5551,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus",
-                "Trigonometry",
-                "Integration"
+                "Calculus"
             ]
         },
         {
@@ -5585,9 +5562,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Related Rates",
-                "Calculus",
-                "Differentiation"
+                "Calculus"
             ]
         },
         {
@@ -5599,7 +5574,6 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "De Moivre's Theorem",
                 "Component Form"
             ]
         },
