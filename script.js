@@ -39,6 +39,7 @@ if (document.getElementById('subjectSelect')) {
 }
 
 function removeAllEventListeners() {
+    console.log('listeners cleared');
     data.listeners.forEach((handler, checkbox) => {
         checkbox.removeEventListener('change', handler);
     });
@@ -62,6 +63,7 @@ function toggleContent(id, isQuestion=false) {
             });
             data.activeQuestion = data.questions[id].id;
             data.activeQuestionNum = id;
+            if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Modify tags for: ${data.filters.subject} ${data.questions[id].id}`;
             if (document.getElementById('modifyTags')) {
                 data.resetting = true;
                 for (let tag of data.allTags) {
@@ -76,7 +78,15 @@ function toggleContent(id, isQuestion=false) {
         extraContent.classList.add("isActive");
         button.classList.add("active");
     } else {
-        if (isQuestion) data.activeQuestion = -1;
+        if (isQuestion) {
+            if (document.getElementById('activeQuestion')) {
+                document.getElementById('activeQuestion').innerHTML = `Select question to modify tags.`;
+                setModifyTags();
+            }
+            data.activeQuestion = null;
+            data.activeQuestionNum = null;
+            
+        }
         extraContent.classList.remove("isActive");
         button.classList.remove("active");
     }
@@ -121,8 +131,8 @@ function updateTags(id, state) {
     } else {
         remove(tagsList, tagId);
     }
+    console.log(`editing: ${data.activeQuestion}`);
     console.log(tagsList);
-    console.log(data.questionsRaw[data.filters.subject]);
     let target = document.querySelector(`#result${data.activeQuestionNum} .smallTagsContainer`);
     let tagsHtml = ``;
     for (let tag of tagsList) {
@@ -130,6 +140,41 @@ function updateTags(id, state) {
     }
     target.innerHTML = tagsHtml;
     data.unsavedChanges = true;
+}
+
+function setModifyTags() {
+    const tagsList = data.tagsV2[data.filters.subject];
+    const tags = [];
+
+    for (const [tagGroup, subTag] of Object.entries(tagsList)) {
+        tags.push(tagGroup);
+        tags.push(...subTag);
+    }
+
+    data.allTags = tags;
+
+    let modifyTagsHtml = ``;
+    for (let tag of tags) {
+        modifyTagsHtml += `<label class="tag compactTag"><input type="checkbox" id="${tag}Modify" class="compactCheckbox"><span class="tagLabel compactLabel">${tag}</span></label>`;
+    }
+    document.getElementById('modifyTags').innerHTML = modifyTagsHtml;
+
+    removeAllEventListeners();
+    document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+        if (checkbox.id.endsWith('Modify')) {
+            const handler = function() {
+                if (!data.resetting) {
+                    if (!data.activeQuestion) {
+                        this.checked = false;
+                        return;
+                    }
+                    updateTags(this.id, this.checked);
+                }
+            };
+            checkbox.addEventListener('change', handler);
+            data.listeners.set(checkbox, handler);
+        }
+    });
 }
 
 async function setTags() {
@@ -149,33 +194,7 @@ async function setTags() {
     document.getElementById('tagsContainer').innerHTML = tagsHtml;
 
     if (document.getElementById('modifyTags')) {
-        const tags = [];
-
-        for (const [tagGroup, subTag] of Object.entries(tagsList)) {
-            tags.push(tagGroup);
-            tags.push(...subTag);
-        }
-
-        data.allTags = tags;
-
-        let modifyTagsHtml = ``;
-        for (let tag of tags) {
-            modifyTagsHtml += `<label class="tag compactTag"><input type="checkbox" id="${tag}Modify" class="compactCheckbox"><span class="tagLabel compactLabel">${tag}</span></label>`;
-        }
-        document.getElementById('modifyTags').innerHTML = modifyTagsHtml;
-
-        removeAllEventListeners();
-        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
-            if (checkbox.id.endsWith('Modify')) {
-                const handler = function() {
-                    if (!data.resetting) {
-                        updateTags(this.id, this.checked);
-                    }
-                };
-                checkbox.addEventListener('change', handler);
-                data.listeners.set(checkbox, handler);
-            }
-        });
+        setModifyTags();
     }
 }
 
@@ -214,10 +233,15 @@ async function search() {
         questionTags += `</div>`;
         questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i}, true)"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="arrow alignRight">▼</span></button></div><div class="extraContent" id="extraContent${i}">${questionTags}<div id="question${i}" class="questionArea"><img src="questionBank/${data.filters.subject}/${data.questions[i].id}.webp" class="questionImage"></div><div class="verticalSpacer"></div><button class="standardButton" onclick="toggleKey(${i})">Toggle Marking Key</button><div class="horizontalSpacer"></div><a href="pdfDownloads/${data.filters.subject}/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
     }
-    console.log(questionsHtml);
+    //console.log(questionsHtml);
     if (questionsHtml == ``) questionsHtml = `<h3>No Results Found</h3>`;
-    console.log(questionsHtml);
+    //console.log(questionsHtml);
     document.getElementById('searchResults').innerHTML = questionsHtml;
+
+    if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Select question to modify tags.`;
+    data.activeQuestion = null;
+    data.activeQuestionNum = null;
+    setTags();
 }
 
 async function toggleKey(id) {
