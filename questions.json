@@ -4434,6 +4434,31 @@
             ]
         },
         {
+            "id": "WACE2021Q1",
+            "name": "WACE 2021 Calculator Free Question 1",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": [
+                "Complex Numbers",
+                "Polar Form",
+                "The Complex Plane"
+            ]
+        },
+        {
+            "id": "WACE2021Q2",
+            "name": "WACE 2021 Calculator Free Question 2",
+            "year": 2021,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": [
+                "Functions",
+                "Composite Functions",
+                "Inverse Functions",
+                "Graphing"
+            ]
+        },
+        {
             "id": "WACE2021Q3",
             "name": "WACE 2021 Calculator Free Question 3",
             "year": 2021,
@@ -4441,8 +4466,7 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Integration",
-                "U Substitution"
+                "Integration By Substitution"
             ]
         },
         {
@@ -4452,6 +4476,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
+                "Functions",
+                "Reciprocal Functions",
                 "Graphing"
             ]
         },
@@ -4463,7 +4489,7 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Integration"
+                "Partial Fractions"
             ]
         },
         {
@@ -4473,9 +4499,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Functions",
-                "Polynomials",
-                "Complex Numbers"
+                "Complex Numbers",
+                "Factorisation"
             ]
         },
         {
@@ -4486,7 +4511,8 @@
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
-                "De Moivre's Theorem"
+                "Polar Form",
+                "Roots of Complex Numbers"
             ]
         },
         {
@@ -4498,9 +4524,9 @@
             "tags": [
                 "Functions",
                 "Calculus",
-                "Integration",
-                "Area",
-                "U Substitution"
+                "Area Under a Curve",
+                "Integration By Substitution",
+                "Trigonometric Integration"
             ]
         },
         {
@@ -4511,7 +4537,7 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Trigonometry",
+                "Trigonometric Integration",
                 "Related Rates"
             ]
         },
@@ -4522,10 +4548,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Slope Field",
-                "Functions",
-                "Implicit",
-                "Graphing"
+                "Separation of Variables",
+                "Slope Field"
             ]
         },
         {
@@ -4537,8 +4561,7 @@
             "tags": [
                 "Complex Numbers",
                 "Polar Form",
-                "Component Form",
-                "Locus"
+                "The Complex Plane"
             ]
         },
         {
@@ -4548,10 +4571,7 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus",
-                "Simple Harmonic Motion",
-                "Trigonometry",
-                "Differentiation"
+                "Simple Harmonic Motion"
             ]
         },
         {
@@ -4562,8 +4582,8 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Volume of Revolution",
-                "Integration"
+                "Area Under a Curve",
+                "Volume of Revolution"
             ]
         },
         {
@@ -4573,8 +4593,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "System of Equations",
-                "Planes"
+                "Planes",
+                "System of Linear Equations"
             ]
         },
         {
@@ -4584,10 +4604,10 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Probability",
+                "Statistical Inference",
                 "Sample Means",
-                "Graphing",
-                "Theory"
+                "Confidence Intervals",
+                "Graphing"
             ]
         },
         {
@@ -4598,10 +4618,8 @@
             "calculator": "assumed",
             "tags": [
                 "Vectors",
-                "Spheres",
-                "Lines",
-                "Proofs",
-                "Geometry"
+                "3D Vectors",
+                "Proofs"
             ]
         },
         {
@@ -4611,10 +4629,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Probability",
+                "Statistical Inference",
                 "Sample Means",
-                "Confidence Intervals",
-                "Theory"
+                "Confidence Intervals"
             ]
         },
         {
@@ -4625,9 +4642,7 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Implicit",
-                "Differentiation",
-                "Proofs"
+                "Implicit Differentiation"
             ]
         },
         {
@@ -4638,9 +4653,8 @@
             "calculator": "assumed",
             "tags": [
                 "Vectors",
-                "Calculus",
-                "Functions",
-                "Integration"
+                "Vector Calculus",
+                "Calculus"
             ]
         },
         {
