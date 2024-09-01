@@ -4419,29 +4419,6 @@
             "tags": [
                 "Complex Numbers",
                 "Polar Form",
-                "Component Form"
-            ]
-        },
-        {
-            "id": "WACE2021Q2",
-            "name": "WACE 2021 Calculator Free Question 2",
-            "year": 2021,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": [
-                "Functions",
-                "Inverse Functions"
-            ]
-        },
-        {
-            "id": "WACE2021Q1",
-            "name": "WACE 2021 Calculator Free Question 1",
-            "year": 2021,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": [
-                "Complex Numbers",
-                "Polar Form",
                 "The Complex Plane"
             ]
         },
