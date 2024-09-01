@@ -4173,7 +4173,8 @@
             "type": "WACE",
             "calculator": "free",
             "tags": [
-                "Functions"
+                "Functions",
+                "Composite Functions"
             ]
         },
         {
@@ -4290,9 +4291,7 @@
                 "Vectors",
                 "Vector Calculus",
                 "Calculus",
-                "Integration",
-                "Identities",
-                "Trigonometry"
+                "Trigonometric Integration"
             ]
         },
         {
@@ -4303,9 +4302,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Differentiation",
-                "Integration",
-                "Calculus"
+                "Calculus",
+                "Separation of Variables"
             ]
         },
         {
@@ -4316,7 +4314,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Probability",
+                "Statistical Inference",
                 "Sample Means",
                 "Confidence Intervals"
             ]
@@ -4329,10 +4327,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus",
-                "Area",
-                "Integration",
-                "Complex Numbers"
+                "Complex Numbers",
+                "Factorisation",
+                "Area Under a Curve"
             ]
         },
         {
@@ -4343,7 +4340,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Probability",
+                "Statistical Inference",
                 "Sample Means",
                 "Confidence Intervals"
             ]
@@ -4357,7 +4354,7 @@
             "calculator": "assumed",
             "tags": [
                 "Functions",
-                "Polynomials"
+                "Reciprocal Functions"
             ]
         },
         {
@@ -4368,7 +4365,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus"
+                "Calculus",
+                "Logistic Model",
+                "Graphing"
             ]
         },
         {
@@ -4380,10 +4379,9 @@
             "calculator": "assumed",
             "tags": [
                 "Calculus",
-                "Integration",
+                "Area Under a Curve",
                 "Volume of Revolution",
-                "Increments Formula",
-                "Differentiation"
+                "Separation of Variables"
             ]
         },
         {
@@ -4395,7 +4393,9 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Polar Form"
+                "Factorisation",
+                "Polar Form",
+                "Roots of Complex Numbers"
             ]
         },
         {
@@ -4407,6 +4407,9 @@
             "calculator": "assumed",
             "tags": [
                 "Vectors",
+                "3D Vectors",
+                "Closest Approach",
+                "Cross Product",
                 "Planes"
             ]
         },
