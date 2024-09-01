@@ -5480,7 +5480,9 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Polar Form"
+                "Polar Form",
+                "The Complex Plane",
+                "Roots of Complex Numbers"
             ]
         },
         {
@@ -5503,7 +5505,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus"
+                "Calculus",
+                "Implicit Differentiation",
+                "Area Under a Curve"
             ]
         },
         {
@@ -5514,6 +5518,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Statistical Inference",
                 "Sample Means",
                 "Confidence Intervals"
             ]
@@ -5526,7 +5531,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Vectors"
+                "Vectors",
+                "3D Vectors",
+                "Closest Approach"
             ]
         },
         {
@@ -5537,7 +5544,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Vectors"
+                "Vectors",
+                "2D Vectors",
+                "Vector Calculus"
             ]
         },
         {
@@ -5548,7 +5557,10 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Functions"
+                "Functions",
+                "Absolute Value",
+                "Calculus",
+                "Integration By Substitution"
             ]
         },
         {
@@ -5559,7 +5571,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus"
+                "Calculus",
+                "Simple Harmonic Motion"
             ]
         },
         {
@@ -5570,7 +5583,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus"
+                "Calculus",
+                "Implicit Differentiation"
             ]
         },
         {
@@ -5582,7 +5596,8 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Component Form"
+                "Component Form",
+                "Roots of Complex Numbers"
             ]
         },
         {
