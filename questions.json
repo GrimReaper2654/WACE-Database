@@ -355,7 +355,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Short Answer"
+                "Short Answer",
+                "Observations"
             ]
         },
         {
@@ -364,7 +365,12 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2023Q32",
@@ -372,7 +378,11 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2023Q33",
@@ -380,7 +390,12 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Titration",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2023Q34",
@@ -388,7 +403,14 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Equilibrium",
+                "Calculation",
+                "Theory",
+                "Acids and Bases",
+                "pH"
+            ]
         },
         {
             "id": "WACE2023Q35",
@@ -396,7 +418,14 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Industrial Chemistry",
+                "Collision Theory",
+                "Synthesis",
+                "Calculation",
+                "Theory",
+                "Extended Response"
+            ]
         },
         {
             "id": "WACE2023Q36",
@@ -404,7 +433,16 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Acids and Bases",
+                "Titration",
+                "Polymers",
+                "Theory",
+                "Calculation",
+                "Extended Response"
+            ]
         },
         {
             "id": "WACE2023Q37",
@@ -412,7 +450,18 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Combustion Analysis",
+                "Empirical Formula",
+                "Calculation",
+                "Organic Chemistry",
+                "Redox",
+                "Half-equations",
+                "Homologous Series",
+                "Observations"
+            ]
         },
         {
             "id": "WACE2023Q38",
@@ -420,7 +469,11 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Calculation",
+                "Stoichiometry"
+            ]
         },
         {
             "id": "WACE2023Q39",
@@ -428,7 +481,15 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Synthesis",
+                "Industrial Chemistry",
+                "Theory",
+                "Green Chemistry",
+                "Enzymes"
+            ]
         },
         {
             "id": "WACE2022Q1",
