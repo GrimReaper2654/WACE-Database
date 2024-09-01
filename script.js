@@ -200,7 +200,6 @@ function packTags() {
     let x = 0;
     let y = 0;
     let rowHeight = 0;
-    let idealContainerWidth = window.innerWidth * 0.8;
 
     // Set the container position to relative
     container.style.position = 'relative';
@@ -208,17 +207,14 @@ function packTags() {
     // Position the elements
     while (elements.length > 0) { // per row
         let tallestElement = elements.shift(); // Get the tallest element
-        console.log(tallestElement);
 
         tallestElement.style.position = 'absolute';
         tallestElement.style.left = `${x + margin}px`;
         tallestElement.style.top = `${y + margin}px`;
-        console.log(`tallest at ${x + margin}, ${y + margin}`);
 
         rowHeight = tallestElement.offsetHeight + margin;
         x += tallestElement.offsetWidth + margin;
 
-        let l = 0;
         while (elements.length > 0) {
             let columnHeight = 0;
             let columnWidth = -1;
@@ -230,13 +226,10 @@ function packTags() {
 
                 if (x + nextElement.offsetWidth * 2 + margin > window.innerWidth * 0.95) { // This does not actually work, just is pretty close
                     canCreateColumn = false;
-                    console.log('cant create column');
                     continue;
                 }
 
                 if (columnHeight + nextElement.offsetHeight <= rowHeight + 20 && (columnWidth == -1 || nextElement.offsetWidth + margin < columnWidth + 20)) {
-                    console.log('yes');
-                    console.log(nextElement);
                     canCreateColumn = true;
 
                     nextElement.style.position = 'absolute';
@@ -260,12 +253,6 @@ function packTags() {
                 y += rowHeight;
                 rowHeight = 0;
                 break;
-            }
-
-            l++;
-            if (l >= 50) {
-                console.log('fail'); 
-                return;
             }
         }
     }
@@ -336,7 +323,6 @@ async function search() {
         }
     });
     
-    console.log(data.questions);
     let questionsHtml = ``;
     for (let i in data.questions) {
         let questionTags = `<div class="smallTagsContainer">`;
@@ -346,9 +332,7 @@ async function search() {
         questionTags += `</div>`;
         questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i}, true)"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="arrow alignRight">▼</span></button></div><div class="extraContent" id="extraContent${i}">${questionTags}<div id="question${i}" class="questionArea"><img src="questionBank/${data.filters.subject}/${data.questions[i].id}.webp" class="questionImage"></div><div class="verticalSpacer"></div><button class="standardButton" onclick="toggleKey(${i})">Toggle Marking Key</button><div class="horizontalSpacer"></div><a href="pdfDownloads/${data.filters.subject}/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
     }
-    //console.log(questionsHtml);
     if (questionsHtml == ``) questionsHtml = `<h3>No Results Found</h3>`;
-    //console.log(questionsHtml);
     document.getElementById('searchResults').innerHTML = questionsHtml;
 
     if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Select question to modify tags.`;
