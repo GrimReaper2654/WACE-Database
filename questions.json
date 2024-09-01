@@ -4891,7 +4891,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Trigonometric Integration"
+            ]
         },
         {
             "id": "WACE2019Q2",
@@ -4899,7 +4902,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Factorisation"
+            ]
         },
         {
             "id": "WACE2019Q3",
@@ -4907,7 +4913,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Partial Fractions"
+            ]
         },
         {
             "id": "WACE2019Q4",
@@ -4915,7 +4924,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Composite Functions",
+                "Reciprocal Functions"
+            ]
         },
         {
             "id": "WACE2019Q5",
@@ -4923,7 +4936,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Inverse Functions",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q6",
@@ -4931,7 +4948,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration By Substitution",
+                "Trigonometric Integration"
+            ]
         },
         {
             "id": "WACE2019Q7",
@@ -4939,7 +4960,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Inverse Functions",
+                "Absolute Value",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q8",
@@ -4947,7 +4973,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration By Substitution",
+                "Area Under a Curve",
+                "Volume of Revolution"
+            ]
         },
         {
             "id": "WACE2019Q9",
@@ -4955,7 +4986,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Polar Form",
+                "Roots of Complex Numbers"
+            ]
         },
         {
             "id": "WACE2019Q10",
@@ -4963,7 +4998,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "The Complex Plane"
+            ]
         },
         {
             "id": "WACE2019Q11",
@@ -4971,7 +5009,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Slope Field"
+            ]
         },
         {
             "id": "WACE2019Q12",
@@ -4979,7 +5020,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Component Form",
+                "Polar Form",
+                "The Complex Plane"
+            ]
         },
         {
             "id": "WACE2019Q13",
@@ -4987,7 +5033,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "Vector Calculus",
+                "Calculus"
+            ]
         },
         {
             "id": "WACE2019Q14",
@@ -4995,7 +5045,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Statistical Inference",
+                "Sample Means",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2019Q15",
@@ -5003,7 +5057,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Statistical Inference",
+                "Sample Means",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2019Q16",
@@ -5011,7 +5069,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "3D Vectors",
+                "Closest Approach",
+                "Cross Product",
+                "Planes"
+            ]
         },
         {
             "id": "WACE2019Q17",
@@ -5019,7 +5083,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Logistic Model"
+            ]
         },
         {
             "id": "WACE2019Q18",
@@ -5027,7 +5094,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "Vector Calculus",
+                "Calculus",
+                "Related Rates",
+                "Simple Harmonic Motion"
+            ]
         },
         {
             "id": "WACE2019Q19",
@@ -5035,7 +5108,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "3D Vectors",
+                "Planes"
+            ]
         },
         {
             "id": "WACE2018Q1",
