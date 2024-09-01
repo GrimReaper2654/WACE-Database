@@ -300,7 +300,11 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2023Q27",
@@ -308,7 +312,13 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Corrosion",
+                "Acids and Bases",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2023Q28",
@@ -316,7 +326,14 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Buffers",
+                "Equilibrium",
+                "Le Chatelier's Principle",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2023Q29",
@@ -324,7 +341,12 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Cells",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2023Q30",
@@ -332,7 +354,9 @@
             "year": 2023,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer"
+            ]
         },
         {
             "id": "WACE2023Q31",
