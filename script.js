@@ -272,7 +272,7 @@ function packTags() {
 
     container.style.width = `${(maxX - minX + 10)}px`;
     container.style.height = `${(maxY - minY + 10)}px`;
-    if (container.style.width > document.getElementById('search').offsetWidth) container.classList.add('centred');
+    if ((maxX - minX + 10) > document.getElementById('search').offsetWidth) container.classList.add('centred');
     else container.classList.remove('centred');
 }
 
