@@ -15,6 +15,7 @@ const data = {
     tagsRaw: null,
     tagsV2: null,
     activeQuestion: null,
+    activeQuestionNum: null,
     resetting: false,
     listeners: new Map(),
     unsavedChanges: false,
@@ -59,7 +60,8 @@ function toggleContent(id, isQuestion=false) {
                     el.classList.remove('active');
                 }
             });
-            data.activeQuestion = id;
+            data.activeQuestion = data.questions[id].id;
+            data.activeQuestionNum = id;
             if (document.getElementById('modifyTags')) {
                 data.resetting = true;
                 for (let tag of data.allTags) {
@@ -110,13 +112,18 @@ function remove(array, string) {
 
 function updateTags(id, state) {
     const tagId = id.replace('Modify', '');
-    let tagsList = data.questionsRaw[data.filters.subject][data.activeQuestion].tags;
+    let tagsList = null;
+    for (let question of data.questionsRaw[data.filters.subject]) {
+        if (question.id == data.activeQuestion) tagsList = question.tags;
+    }
     if (state) {
         add(tagsList, tagId);
     } else {
         remove(tagsList, tagId);
     }
-    let target = document.querySelector(`#result${data.activeQuestion} .smallTagsContainer`);
+    console.log(tagsList);
+    console.log(data.questionsRaw[data.filters.subject]);
+    let target = document.querySelector(`#result${data.activeQuestionNum} .smallTagsContainer`);
     let tagsHtml = ``;
     for (let tag of tagsList) {
         tagsHtml += `<label class="tag"><span class="tagLabel">${tag}</span></label>`;
