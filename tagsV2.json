@@ -4,10 +4,10 @@
         "Short Answer": [],
         "Extended Response": [],
         "Redox": [
-            "Galvanic Cells",
+            "Cells",
             "Corrosion",
-            "Electrolytic Cells",
-            "Fuel Cells"         
+            "Electrolysis",
+            "Half Equations"         
         ],
         "Equilibrium": [
             "Le Chatelier's Principle",
@@ -15,22 +15,28 @@
         ],
         "Acids and Bases": [
             "Buffers",
-            "Titration"
+            "Titration",
+            "pH"
         ],
         "Organic Chemistry": [
+            "Hydrocarbons",
             "Homologous Series",
             "Polymers",
             "Proteins and Amino Acids"
         ],
         "Synthesis": [
             "Green Chemistry",
-            "Yield and Atom Economy",
-            "Enzymes",
+            "Soaps and Detergents",
             "Fats and Oils",
-            "Biodiesel",
-            "Soaps and Detergents"                        
+            "Enzymes",
+            "Biodisel"
+        ],
+        "Stoichiometry": [
+            "Combustion Analysis",
+            "Empirical Formula"
         ],
         "Industrial Chemistry": [],
+        "Science Inquiry Skills": [],
         "Theory": [],
         "Calculation": [],
         "Graphing": []
