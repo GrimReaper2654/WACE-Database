@@ -5808,7 +5808,9 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Polar Form"
+                "Polar Form",
+                "The Complex Plane",
+                "Roots of Complex Numbers"
             ]
         },
         {
@@ -5831,7 +5833,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus"
+                "Calculus",
+                "Implicit Differentiation",
+                "Area Under a Curve"
             ]
         },
         {
@@ -5842,6 +5846,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Statistical Inference",
                 "Sample Means",
                 "Confidence Intervals"
             ]
@@ -5854,7 +5859,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Vectors"
+                "Vectors",
+                "3D Vectors",
+                "Closest Approach"
             ]
         },
         {
@@ -5865,7 +5872,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Vectors"
+                "Vectors",
+                "2D Vectors",
+                "Vector Calculus"
             ]
         },
         {
@@ -5876,7 +5885,10 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Functions"
+                "Functions",
+                "Absolute Value",
+                "Calculus",
+                "Integration By Substitution"
             ]
         },
         {
@@ -5887,7 +5899,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus"
+                "Calculus",
+                "Simple Harmonic Motion"
             ]
         },
         {
@@ -5898,7 +5911,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Calculus"
+                "Calculus",
+                "Implicit Differentiation"
             ]
         },
         {
@@ -5910,7 +5924,8 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Component Form"
+                "Component Form",
+                "Roots of Complex Numbers"
             ]
         },
         {
@@ -5919,7 +5934,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Composite Functions"
+            ]
         },
         {
             "id": "WACE2016Q2",
@@ -5927,7 +5945,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Component Form"
+            ]
         },
         {
             "id": "WACE2016Q3",
@@ -5935,7 +5956,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Factorisation"
+            ]
         },
         {
             "id": "WACE2016Q4",
@@ -5943,7 +5967,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Partial Fractions"
+            ]
         },
         {
             "id": "WACE2016Q5",
@@ -5951,7 +5978,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration By Substitution",
+                "Trigonometric Integration"
+            ]
         },
         {
             "id": "WACE2016Q6",
@@ -5959,7 +5990,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Systems of Linear Equations"
+            ]
         },
         {
             "id": "WACE2016Q7",
@@ -5967,7 +6000,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "3D Vectors",
+                "Planes"
+            ]
         },
         {
             "id": "WACE2016Q8",
@@ -5975,7 +6012,13 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Inverse Functions",
+                "Absolute Value",
+                "Reciprocal Functions",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2016Q9",
@@ -5983,7 +6026,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration By Substitution"
+            ]
         },
         {
             "id": "WACE2016Q10",
@@ -5991,7 +6037,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "The Complex Plane"
+            ]
         },
         {
             "id": "WACE2016Q11",
@@ -5999,7 +6048,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2016Q12",
@@ -6007,7 +6059,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Absolute Value"
+            ]
         },
         {
             "id": "WACE2016Q13",
@@ -6015,7 +6070,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Implicit Differentiation"
+            ]
         },
         {
             "id": "WACE2016Q14",
@@ -6023,7 +6081,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Polar Form",
+                "Roots of Complex Numbers"
+            ]
         },
         {
             "id": "WACE2016Q15",
@@ -6031,7 +6093,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Related Rates",
+                "Separation of Variables"
+            ]
         },
         {
             "id": "WACE2016Q16",
@@ -6039,7 +6105,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "Vector Calculus",
+                "Calculus"
+            ]
         },
         {
             "id": "WACE2016Q17",
@@ -6047,7 +6117,12 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Implicit Differentiation",
+                "Area Under a Curve",
+                "Volume of Revolution"
+            ]
         },
         {
             "id": "WACE2016Q18",
@@ -6055,7 +6130,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Slope Field"
+            ]
         },
         {
             "id": "WACE2016Q19",
@@ -6063,7 +6141,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Statistical Inference",
+                "Sample Means",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2016Q20",
@@ -6071,7 +6153,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "3D Vectors",
+                "Planes"
+            ]
         }
     ]
 }
