@@ -5120,7 +5120,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Composite Functions",
+                "Inverse Functions"
+            ]
         },
         {
             "id": "WACE2018Q2",
@@ -5128,7 +5132,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Planes",
+                "Systems of Linear Equations"
+            ]
         },
         {
             "id": "WACE2018Q3",
@@ -5136,7 +5143,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Component Form",
+                "Polar Form",
+                "2D Vectors"
+            ]
         },
         {
             "id": "WACE2018Q4",
@@ -5144,7 +5156,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Inverse Functions",
+                "Reciprocal Functions"
+            ]
         },
         {
             "id": "WACE2018Q5",
@@ -5152,7 +5168,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration By Substitution",
+                "Trigonometric Integration"
+            ]
         },
         {
             "id": "WACE2018Q6",
@@ -5160,7 +5180,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Partial Fractions"
+            ]
         },
         {
             "id": "WACE2018Q7",
@@ -5168,7 +5191,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Factorisation",
+                "Roots of Complex Numbers"
+            ]
         },
         {
             "id": "WACE2018Q8",
@@ -5176,7 +5203,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "2D Vectors",
+                "3D Vectors",
+                "Cross Product"
+            ]
         },
         {
             "id": "WACE2018Q9",
@@ -5184,7 +5216,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Integration By Substitution",
+                "Trigonometric Integration"
+            ]
         },
         {
             "id": "WACE2018Q10",
@@ -5192,7 +5228,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "Component Form",
+                "Polar Form",
+                "Roots of Complex Numbers"
+            ]
         },
         {
             "id": "WACE2018Q11",
@@ -5200,7 +5241,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Complex Numbers",
+                "The Complex Plane",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2018Q12",
@@ -5208,7 +5253,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Statistical Inference",
+                "Sample Means"
+            ]
         },
         {
             "id": "WACE2018Q13",
@@ -5216,7 +5264,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Separation of Variables"
+            ]
         },
         {
             "id": "WACE2018Q14",
@@ -5224,7 +5275,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Absolute Value",
+                "Reciprocal Functions",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2018Q15",
@@ -5232,7 +5288,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Implicit Differentiation",
+                "Area Under a Curve",
+                "Volume of Revolution"
+            ]
         },
         {
             "id": "WACE2018Q16",
@@ -5240,7 +5301,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Statistical Inference",
+                "Sample Means",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2018Q17",
@@ -5248,7 +5313,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "3D Vectors",
+                "Cross Product"
+            ]
         },
         {
             "id": "WACE2018Q18",
@@ -5256,7 +5325,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Separation of Variables",
+                "Logistic Model",
+                "Proofs"
+            ]
         },
         {
             "id": "WACE2018Q19",
@@ -5264,7 +5338,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Vectors",
+                "Vector Calculus",
+                "Calculus"
+            ]
         },
         {
             "id": "WACE2018Q20",
@@ -5272,7 +5350,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Implicit Differentiation"
+            ]
         },
         {
             "id": "WACE2017Q1",
