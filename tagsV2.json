@@ -93,7 +93,6 @@
         ],
         "Probability": [
             "Discrete Random Variables",
-            "Bernoulli Distribution",
             "Binomial Distribution",
             "Continuous Random Variables",
             "Normal Distribution"            
