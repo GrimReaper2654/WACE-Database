@@ -3706,7 +3706,15 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Product Rule",
+                "Quotient Rule",
+                "Chain Rule",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2021Q2",
@@ -3714,7 +3722,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2021Q3",
@@ -3722,7 +3733,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Increments Formula",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2021Q4",
@@ -3730,7 +3747,14 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Chain Rule",
+                "Logarithmic",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2021Q5",
@@ -3738,7 +3762,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2021Q6",
@@ -3746,7 +3773,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2021Q7",
@@ -3754,7 +3785,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2021Q8",
