@@ -258,7 +258,7 @@ header {
 
 .horizontalSpacer {
     display: inline-block;
-    min-width: 50px;
+    min-width: 10px;
 }
 
 h4 {
