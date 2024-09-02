@@ -96,9 +96,10 @@
             "Normal Distribution"            
         ],
         "Interval Proportions": [
-            "Random Sampling",
             "Sample Proportions",
-            "Confidence Intervals"
+            "Confidence Intervals",
+            "Random Sampling",
+            "Z Scores"
         ],
         "Graphing": []
     },
