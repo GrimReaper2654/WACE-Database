@@ -3419,7 +3419,7 @@
                 "Binomial Distribution",
                 "Normal Distribution",
                 "Interval Proportions",
-                "Random Sampling"
+                "Sample Proportions"
             ]
         },
         {
@@ -3448,7 +3448,6 @@
                 "Binomial Distribution",
                 "Normal Distribution",
                 "Interval Proportions",
-                "Random Sampling",
                 "Sample Proportions",
                 "Confidence Intervals"
             ]
