@@ -8,8 +8,8 @@ import json
 # added function to replace .PNG with .png
 
 extension = 'webp'
-find = '2017'
-replace = '2018'
+find = '2020'
+replace = '2019'
 
 def fix_filenames():
     directory = os.path.dirname(os.path.abspath(__file__))
