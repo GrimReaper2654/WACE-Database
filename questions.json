@@ -4351,6 +4351,166 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": []
+        },
+        {
+            "id": "WACE2017Q1",
+            "name": "WACE 2017 Question 1",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q2",
+            "name": "WACE 2017 Question 2",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q3",
+            "name": "WACE 2017 Question 3",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q4",
+            "name": "WACE 2017 Question 4",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q5",
+            "name": "WACE 2017 Question 5",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q6",
+            "name": "WACE 2017 Question 6",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q7",
+            "name": "WACE 2017 Question 7",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q8",
+            "name": "WACE 2017 Question 8",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q9",
+            "name": "WACE 2017 Question 9",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q10",
+            "name": "WACE 2017 Question 10",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q11",
+            "name": "WACE 2017 Question 11",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q12",
+            "name": "WACE 2017 Question 12",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q13",
+            "name": "WACE 2017 Question 13",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q14",
+            "name": "WACE 2017 Question 14",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q15",
+            "name": "WACE 2017 Question 15",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q16",
+            "name": "WACE 2017 Question 16",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q17",
+            "name": "WACE 2017 Question 17",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q18",
+            "name": "WACE 2017 Question 18",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q19",
+            "name": "WACE 2017 Question 19",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2017Q20",
+            "name": "WACE 2017 Question 20",
+            "year": 2017,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
         }
     ],
     "phys": [
