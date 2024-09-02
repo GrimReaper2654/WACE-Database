@@ -3492,7 +3492,15 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Chain Rule"
+            ]
         },
         {
             "id": "WACE2022Q2",
@@ -3500,7 +3508,12 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Fundamental Theorem"
+            ]
         },
         {
             "id": "WACE2022Q3",
@@ -3508,7 +3521,11 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2022Q4",
@@ -3516,7 +3533,11 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2022Q5",
@@ -3524,7 +3545,11 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2022Q6",
@@ -3532,7 +3557,17 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Product Rule",
+                "Chain Rule",
+                "Probability",
+                "Continuous Random Variables",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2022Q7",
@@ -3540,7 +3575,14 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Applications of Differentiation",
+                "Optimisation",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2022Q8",
@@ -3548,7 +3590,14 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables",
+                "Calculus",
+                "Antidifferentiation",
+                "Chain Rule",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2022Q9",
@@ -3556,7 +3605,11 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2022Q10",
@@ -3564,7 +3617,15 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Product Rule",
+                "Applications of Differentiation",
+                "Rectilinear Motion",
+                "Exponential",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2022Q11",
@@ -3572,7 +3633,15 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Chain Rule",
+                "Applications of Differentiation",
+                "Optimisation",
+                "Exponential"
+            ]
         },
         {
             "id": "WACE2022Q12",
@@ -3580,7 +3649,13 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution",
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2022Q13",
@@ -3588,7 +3663,12 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Random Sampling",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2022Q14",
@@ -3596,7 +3676,12 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Logarithmic",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2022Q15",
@@ -3604,7 +3689,16 @@
             "year": 2022,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Chain Rule",
+                "Applications of Differentiation",
+                "Increments Formula",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2021Q1",
@@ -3612,7 +3706,15 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Product Rule",
+                "Quotient Rule",
+                "Chain Rule",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2021Q2",
@@ -3620,7 +3722,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2021Q3",
@@ -3628,7 +3733,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Increments Formula",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2021Q4",
@@ -3636,7 +3747,14 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Chain Rule",
+                "Logarithmic",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2021Q5",
@@ -3644,7 +3762,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2021Q6",
@@ -3652,7 +3773,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2021Q7",
@@ -3660,7 +3785,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2021Q8",
@@ -3668,7 +3799,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2021Q9",
@@ -3676,7 +3810,14 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Optimisation",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2021Q10",
@@ -3684,7 +3825,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Interval Proportions",
+                "Sample Proportions"
+            ]
         },
         {
             "id": "WACE2021Q11",
@@ -3692,7 +3837,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2021Q12",
@@ -3700,7 +3850,16 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Product Rule",
+                "Applications of Differentiation",
+                "Concavity",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2021Q13",
@@ -3708,7 +3867,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Binomial Distribution",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2021Q14",
@@ -3716,7 +3879,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Applications of Differentiation",
+                "Rectilinear Motion"
+            ]
         },
         {
             "id": "WACE2021Q15",
@@ -3724,7 +3893,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2021Q16",
@@ -3732,7 +3904,16 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Quotient Rule",
+                "Applications of Differentiation",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2021Q17",
@@ -3740,143 +3921,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q1",
-            "name": "WACE 2020 Question 1",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q2",
-            "name": "WACE 2020 Question 2",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q3",
-            "name": "WACE 2020 Question 3",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q4",
-            "name": "WACE 2020 Question 4",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q5",
-            "name": "WACE 2020 Question 5",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q6",
-            "name": "WACE 2020 Question 6",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q7",
-            "name": "WACE 2020 Question 7",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "free",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q8",
-            "name": "WACE 2020 Question 8",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q9",
-            "name": "WACE 2020 Question 9",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q10",
-            "name": "WACE 2020 Question 10",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q11",
-            "name": "WACE 2020 Question 11",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q12",
-            "name": "WACE 2020 Question 12",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q13",
-            "name": "WACE 2020 Question 13",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q14",
-            "name": "WACE 2020 Question 14",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q15",
-            "name": "WACE 2020 Question 15",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q16",
-            "name": "WACE 2020 Question 16",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q17",
-            "name": "WACE 2020 Question 17",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Antidifferentiation",
+                "Applications of Differentiation",
+                "Rectilinear Motion"
+            ]
         }
     ],
     "phys": [
