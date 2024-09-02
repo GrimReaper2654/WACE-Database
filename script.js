@@ -52,15 +52,12 @@ function toggleContent(id, isQuestion=false) {
     const button = document.getElementById(`button${id}`);
     if (!extraContent.classList.contains('isActive')) {
         if (isQuestion) {
-            document.querySelectorAll('[id^="extraContent"]').forEach(el => {
-                if (el.classList.contains('isActive')) {
-                    el.classList.remove('isActive');
-                }
-            });
-            document.querySelectorAll('[id^="button"]').forEach(el => {
-                if (el.classList.contains('active')) {
-                    el.classList.remove('active');
-                }
+            ['extraContent', 'button'].forEach(prefix => { 
+                document.querySelectorAll(`[id^="${prefix}"]`).forEach(el => {
+                    if (/^\d+$/.test(el.id.slice(prefix.length))) {
+                        el.classList.remove(prefix === 'extraContent' ? 'isActive' : 'active');
+                    }
+                });
             });
             data.activeQuestion = data.questions[id].id;
             data.activeQuestionNum = id;
@@ -485,6 +482,8 @@ async function createPullRequest() {
         console.error('Error:', error);
         alert('Error processing the request: ' + error.message);
     }
+
+    data.unsavedChanges = false;
 }
 
 load();
