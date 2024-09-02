@@ -7,9 +7,9 @@ template = '''{
     "tags": []
 },'''
 
-year = 2016
-cf = 0
-ca = 42
+year = 2020
+cf = 7
+ca = 10
 
 calc = 'Free'
 for i in range(cf):
