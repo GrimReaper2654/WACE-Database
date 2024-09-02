@@ -349,6 +349,15 @@ async function toggleKey(id) {
 async function load() {
     data.questionsRaw = await loadJson('questions');
     data.tagsV2 = await loadJson('tagsV2');
+    
+    data.filters.subject = document.getElementById('subjectSelect').value;
+    data.filters.year = document.getElementById('yearSelect').value;
+    data.filters.calculator = document.getElementById('calculatorSelect').value;
+    data.filters.source = document.getElementById('sourceSelect').value;
+    data.filters.type = document.getElementById('typeSelect').value;
+    data.filters.mode = document.getElementById('tagsSelect').value;
+    data.filters.tags = Array.from(document.querySelectorAll('.tagSelect:checked')).map(checkbox => checkbox.id);
+
     setTags();
 }
 
@@ -486,4 +495,7 @@ async function createPullRequest() {
     data.unsavedChanges = false;
 }
 
-load();
+window.addEventListener("load", function() {
+    console.log('loading...');
+    load();
+});
