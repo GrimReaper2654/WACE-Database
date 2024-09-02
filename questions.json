@@ -4207,6 +4207,150 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": []
+        },
+        {
+            "id": "WACE2018Q1",
+            "name": "WACE 2018 Question 1",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q2",
+            "name": "WACE 2018 Question 2",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q3",
+            "name": "WACE 2018 Question 3",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q4",
+            "name": "WACE 2018 Question 4",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q5",
+            "name": "WACE 2018 Question 5",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q6",
+            "name": "WACE 2018 Question 6",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q7",
+            "name": "WACE 2018 Question 7",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q8",
+            "name": "WACE 2018 Question 8",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q9",
+            "name": "WACE 2018 Question 9",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q10",
+            "name": "WACE 2018 Question 10",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q11",
+            "name": "WACE 2018 Question 11",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q12",
+            "name": "WACE 2018 Question 12",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q13",
+            "name": "WACE 2018 Question 13",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q14",
+            "name": "WACE 2018 Question 14",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q15",
+            "name": "WACE 2018 Question 15",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q16",
+            "name": "WACE 2018 Question 16",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q17",
+            "name": "WACE 2018 Question 17",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2018Q18",
+            "name": "WACE 2018 Question 18",
+            "year": 2018,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
         }
     ],
     "phys": [
