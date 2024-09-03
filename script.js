@@ -45,6 +45,7 @@ function clearFilters() {
         type: 'all',
         mode: 'or',
         tags: [],
+        nTags: [],
     }
 
     localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
@@ -55,8 +56,10 @@ function clearFilters() {
     document.getElementById('typeSelect').value = data.filters.type;
     document.getElementById('tagsSelect').value = data.filters.mode;
 
-    document.querySelectorAll('.tagSelect').forEach(checkbox => {
-        checkbox.checked = data.filters.tags.includes(checkbox.id);
+    document.querySelectorAll('.checkbox').forEach(checkbox => {
+        checkbox.classList.remove('positive');
+        checkbox.classList.remove('negative');
+        checkbox.innerHTML = '';
     });
 
 }
