@@ -6832,7 +6832,8 @@
             "tags": [
                 "Vectors",
                 "Vector Calculus",
-                "Calculus"
+                "Calculus",
+                "3D Vectors"
             ]
         },
         {
@@ -7001,7 +7002,8 @@
                 "Vectors",
                 "Vector Calculus",
                 "Calculus",
-                "Trigonometric Integration"
+                "Trigonometric Integration",
+                "2D Vectors"
             ]
         },
         {
@@ -7344,7 +7346,8 @@
             "tags": [
                 "Vectors",
                 "Vector Calculus",
-                "Calculus"
+                "Calculus",
+                "2D Vectors"
             ]
         },
         {
@@ -7519,8 +7522,7 @@
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
-                "Polar Form",
-                "2D Vectors"
+                "Polar Form"
             ]
         },
         {
@@ -7746,7 +7748,8 @@
             "tags": [
                 "Vectors",
                 "Vector Calculus",
-                "Calculus"
+                "Calculus",
+                "2D Vectors"
             ]
         },
         {
@@ -7809,7 +7812,8 @@
                 "Vector Calculus",
                 "Calculus",
                 "Related Rates",
-                "Simple Harmonic Motion"
+                "Simple Harmonic Motion",
+                "2D Vectors"
             ]
         },
         {
@@ -7856,8 +7860,7 @@
             "tags": [
                 "Complex Numbers",
                 "Component Form",
-                "Polar Form",
-                "2D Vectors"
+                "Polar Form"
             ]
         },
         {
@@ -8051,7 +8054,8 @@
             "tags": [
                 "Vectors",
                 "Vector Calculus",
-                "Calculus"
+                "Calculus",
+                "2D Vectors"
             ]
         },
         {
@@ -8490,7 +8494,8 @@
             "tags": [
                 "Vectors",
                 "Vector Calculus",
-                "Calculus"
+                "Calculus",
+                "2D Vectors"
             ]
         },
         {
