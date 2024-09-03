@@ -1,11 +1,3 @@
-// Formula Sheet Links to Put into HTML (change here and it will update all pages)
-const formulaSheets = `
-<li><a href="https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0011/1086698/2024-CHE-Data-Book.PDF" target="_blank">Chemistry</a></li>
-<li><a href="https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/1086701/2024-MAM-Formula-Sheet.PDF" target="_blank">Math Methods</a></li>
-<li><a href="https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1086702/2024-MAS-Formula-Sheet.PDF" target="_blank">Math Specialist</a></li>
-<li><a href="https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1086703/2024-PHY-Formulae-and-Data-Booklet.PDF" target="_blank">Physics</a></li>
-`;
-
 const data = {
     filters: {
         subject: 'spec',
@@ -376,10 +368,6 @@ async function toggleKey(id) {
 }
 
 async function load() {
-    // Put formula sheet links into navbar
-    document.getElementById('formulaSheets').innerHTML = formulaSheets;
-
-    // no need to do anything else if the page is not the database
     let path = window.location.pathname;
     path = path.replace(/\/+$/, '');
     if (!(path.endsWith("dev") || path.endsWith("index") || path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
