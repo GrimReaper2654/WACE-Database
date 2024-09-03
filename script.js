@@ -407,6 +407,7 @@ async function load() {
     let savedSettings = localStorage.getItem('WACEDB_FILTERS');
     if (savedSettings) {
         data.filters = JSON.parse(savedSettings);
+        document.getElementById('subjectSelect').value = data.filters.subject;
         document.getElementById('yearSelect').value = data.filters.year;
         document.getElementById('calculatorSelect').value = data.filters.calculator;
         document.getElementById('sourceSelect').value = data.filters.source;
