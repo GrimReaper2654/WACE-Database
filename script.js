@@ -7,6 +7,7 @@ const data = {
         type: 'all',
         mode: 'or',
         tags: [],
+        nTags: [],
     },
     questions: [],
     allTags: [],
@@ -319,6 +320,7 @@ async function search() {
     data.filters.type = document.getElementById('typeSelect').value;
     data.filters.mode = document.getElementById('tagsSelect').value;
     data.filters.tags = Array.from(document.querySelectorAll('.positive')).map(checkbox => checkbox.id);
+    data.filters.nTags = Array.from(document.querySelectorAll('.negative')).map(checkbox => checkbox.id);
 
     localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
 
@@ -387,7 +389,8 @@ async function load() {
         data.filters.source = document.getElementById('sourceSelect').value;
         data.filters.type = document.getElementById('typeSelect').value;
         data.filters.mode = document.getElementById('tagsSelect').value;
-        data.filters.tags = Array.from(document.querySelectorAll('.tagSelect:checked')).map(checkbox => checkbox.id);
+        data.filters.tags = Array.from(document.querySelectorAll('positive')).map(checkbox => checkbox.id);
+        data.filters.nTags = Array.from(document.querySelectorAll('negative')).map(checkbox => checkbox.id);
     } else {
         // load settings from localhost
         let savedSettings = localStorage.getItem('WACEDB_FILTERS');
@@ -404,12 +407,18 @@ async function load() {
         document.getElementById('isDuplicated').value = 'yes';
     }
 
-    document.querySelectorAll('.tagSelect').forEach(checkbox => {
-        checkbox.checked = data.filters.tags.includes(checkbox.id);
-    });
-
     // create the tags for the search
     setTags();
+    document.querySelectorAll('.checkbox').forEach(checkbox => {
+        if (data.filters.tags.includes(checkbox.id)) {
+            checkbox.classList.add('positive');
+            checkbox.innerHTML = '<svg id="i-checkmark" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%"><path d="M2 20 L12 28 30 4" /></svg>';
+        }
+        if (data.filters.nTags.includes(checkbox.id)) {
+            checkbox.classList.add('negative');
+            checkbox.innerHTML = '<svg id="i-close" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%"><path d="M2 30 L30 2 M30 30 L2 2" /></svg>';
+        }
+    });
     document.addEventListener('click', function(event) {
         if (event.target.classList.contains('checkbox')) {
             if (event.target.classList.contains('positive')) {
