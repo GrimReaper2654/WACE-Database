@@ -3930,143 +3930,244 @@
         },
         {
             "id": "WACE2020Q1",
-            "name": "WACE 2020 Question 1",
+            "name": "WACE 2020 Calc Free Question 1",
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2020Q2",
-            "name": "WACE 2020 Question 2",
+            "name": "WACE 2020 Calc Free Question 2",
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Quotient Rule",
+                "Exponential",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2020Q3",
-            "name": "WACE 2020 Question 3",
+            "name": "WACE 2020 Calc Free Question 3",
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Concavity"
+            ]
         },
         {
             "id": "WACE2020Q4",
-            "name": "WACE 2020 Question 4",
+            "name": "WACE 2020 Calc Free Question 4",
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables",
+                "Continuous Random Variables",
+                "Calculus",
+                "Antidifferentiation"
+            ]
         },
         {
             "id": "WACE2020Q5",
-            "name": "WACE 2020 Question 5",
+            "name": "WACE 2020 Calc Free Question 5",
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Calculus",
+                "Differentiation",
+                "Product Rule",
+                "Chain Rule"
+            ]
         },
         {
             "id": "WACE2020Q6",
-            "name": "WACE 2020 Question 6",
+            "name": "WACE 2020 Calc Free Question 6",
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2020Q7",
-            "name": "WACE 2020 Question 7",
+            "name": "WACE 2020 Calc Free Question 7",
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Concavity",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q8",
-            "name": "WACE 2020 Question 8",
+            "name": "WACE 2020 Calc Assumed Question 8",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2020Q9",
-            "name": "WACE 2020 Question 9",
+            "name": "WACE 2020 Calc Assumed Question 9",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2020Q10",
-            "name": "WACE 2020 Question 10",
+            "name": "WACE 2020 Calc Assumed Question 10",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Antidifferentiation"
+            ]
         },
         {
             "id": "WACE2020Q11",
-            "name": "WACE 2020 Question 11",
+            "name": "WACE 2020 Calc Assumed Question 11",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Logarithmic",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q12",
-            "name": "WACE 2020 Question 12",
+            "name": "WACE 2020 Calc Assumed Question 12",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Binomial Distribution",
+                "Normal Distribution",
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2020Q13",
-            "name": "WACE 2020 Question 13",
+            "name": "WACE 2020 Calc Assumed Question 13",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Applications of Differentiation",
+                "Optimisation",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q14",
-            "name": "WACE 2020 Question 14",
+            "name": "WACE 2020 Calc Assumed Question 14",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2020Q15",
-            "name": "WACE 2020 Question 15",
+            "name": "WACE 2020 Calc Assumed Question 15",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Chain Rule",
+                "Applications of Differentiation",
+                "Second Derivative"
+            ]
         },
         {
             "id": "WACE2020Q16",
-            "name": "WACE 2020 Question 16",
+            "name": "WACE 2020 Calc Assumed Question 16",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2020Q17",
-            "name": "WACE 2020 Question 17",
+            "name": "WACE 2020 Calc Assumed Question 17",
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Chain Rule",
+                "Applications of Differentiation",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2019Q1",
-            "name": "WACE 2019 Question 1",
+            "name": "WACE 2019 Calc Free Question 1",
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
@@ -4074,7 +4175,7 @@
         },
         {
             "id": "WACE2019Q2",
-            "name": "WACE 2019 Question 2",
+            "name": "WACE 2019 Calc Free Question 2",
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
@@ -4082,7 +4183,7 @@
         },
         {
             "id": "WACE2019Q3",
-            "name": "WACE 2019 Question 3",
+            "name": "WACE 2019 Calc Free Question 3",
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
@@ -4090,7 +4191,7 @@
         },
         {
             "id": "WACE2019Q4",
-            "name": "WACE 2019 Question 4",
+            "name": "WACE 2019 Calc Free Question 4",
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
@@ -4098,7 +4199,7 @@
         },
         {
             "id": "WACE2019Q5",
-            "name": "WACE 2019 Question 5",
+            "name": "WACE 2019 Calc Free Question 5",
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
@@ -4106,7 +4207,7 @@
         },
         {
             "id": "WACE2019Q6",
-            "name": "WACE 2019 Question 6",
+            "name": "WACE 2019 Calc Free Question 6",
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
@@ -4114,7 +4215,7 @@
         },
         {
             "id": "WACE2019Q7",
-            "name": "WACE 2019 Question 7",
+            "name": "WACE 2019 Calc Free Question 7",
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
@@ -4122,7 +4223,7 @@
         },
         {
             "id": "WACE2019Q8",
-            "name": "WACE 2019 Question 8",
+            "name": "WACE 2019 Calc Assumed Question 8",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4130,7 +4231,7 @@
         },
         {
             "id": "WACE2019Q9",
-            "name": "WACE 2019 Question 9",
+            "name": "WACE 2019 Calc Assumed Question 9",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4138,7 +4239,7 @@
         },
         {
             "id": "WACE2019Q10",
-            "name": "WACE 2019 Question 10",
+            "name": "WACE 2019 Calc Assumed Question 10",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4146,7 +4247,7 @@
         },
         {
             "id": "WACE2019Q11",
-            "name": "WACE 2019 Question 11",
+            "name": "WACE 2019 Calc Assumed Question 11",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4154,7 +4255,7 @@
         },
         {
             "id": "WACE2019Q12",
-            "name": "WACE 2019 Question 12",
+            "name": "WACE 2019 Calc Assumed Question 12",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4162,7 +4263,7 @@
         },
         {
             "id": "WACE2019Q13",
-            "name": "WACE 2019 Question 13",
+            "name": "WACE 2019 Calc Assumed Question 13",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4170,7 +4271,7 @@
         },
         {
             "id": "WACE2019Q14",
-            "name": "WACE 2019 Question 14",
+            "name": "WACE 2019 Calc Assumed Question 14",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4178,7 +4279,7 @@
         },
         {
             "id": "WACE2019Q15",
-            "name": "WACE 2019 Question 15",
+            "name": "WACE 2019 Calc Assumed Question 15",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4186,7 +4287,7 @@
         },
         {
             "id": "WACE2019Q16",
-            "name": "WACE 2019 Question 16",
+            "name": "WACE 2019 Calc Assumed Question 16",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4194,7 +4295,7 @@
         },
         {
             "id": "WACE2019Q17",
-            "name": "WACE 2019 Question 17",
+            "name": "WACE 2019 Calc Assumed Question 17",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4202,7 +4303,7 @@
         },
         {
             "id": "WACE2019Q18",
-            "name": "WACE 2019 Question 18",
+            "name": "WACE 2019 Calc Assumed Question 18",
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
@@ -4210,7 +4311,7 @@
         },
         {
             "id": "WACE2018Q1",
-            "name": "WACE 2018 Question 1",
+            "name": "WACE 2018 Calc Free Question 1",
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
@@ -4218,7 +4319,7 @@
         },
         {
             "id": "WACE2018Q2",
-            "name": "WACE 2018 Question 2",
+            "name": "WACE 2018 Calc Free Question 2",
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
@@ -4226,7 +4327,7 @@
         },
         {
             "id": "WACE2018Q3",
-            "name": "WACE 2018 Question 3",
+            "name": "WACE 2018 Calc Free Question 3",
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
@@ -4234,7 +4335,7 @@
         },
         {
             "id": "WACE2018Q4",
-            "name": "WACE 2018 Question 4",
+            "name": "WACE 2018 Calc Free Question 4",
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
@@ -4242,7 +4343,7 @@
         },
         {
             "id": "WACE2018Q5",
-            "name": "WACE 2018 Question 5",
+            "name": "WACE 2018 Calc Free Question 5",
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
@@ -4250,7 +4351,7 @@
         },
         {
             "id": "WACE2018Q6",
-            "name": "WACE 2018 Question 6",
+            "name": "WACE 2018 Calc Free Question 6",
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
@@ -4258,7 +4359,7 @@
         },
         {
             "id": "WACE2018Q7",
-            "name": "WACE 2018 Question 7",
+            "name": "WACE 2018 Calc Free Question 7",
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
@@ -4266,7 +4367,7 @@
         },
         {
             "id": "WACE2018Q8",
-            "name": "WACE 2018 Question 8",
+            "name": "WACE 2018 Calc Assumed Question 8",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4274,7 +4375,7 @@
         },
         {
             "id": "WACE2018Q9",
-            "name": "WACE 2018 Question 9",
+            "name": "WACE 2018 Calc Assumed Question 9",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4282,7 +4383,7 @@
         },
         {
             "id": "WACE2018Q10",
-            "name": "WACE 2018 Question 10",
+            "name": "WACE 2018 Calc Assumed Question 10",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4290,7 +4391,7 @@
         },
         {
             "id": "WACE2018Q11",
-            "name": "WACE 2018 Question 11",
+            "name": "WACE 2018 Calc Assumed Question 11",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4298,7 +4399,7 @@
         },
         {
             "id": "WACE2018Q12",
-            "name": "WACE 2018 Question 12",
+            "name": "WACE 2018 Calc Assumed Question 12",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4306,7 +4407,7 @@
         },
         {
             "id": "WACE2018Q13",
-            "name": "WACE 2018 Question 13",
+            "name": "WACE 2018 Calc Assumed Question 13",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4314,7 +4415,7 @@
         },
         {
             "id": "WACE2018Q14",
-            "name": "WACE 2018 Question 14",
+            "name": "WACE 2018 Calc Assumed Question 14",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4322,7 +4423,7 @@
         },
         {
             "id": "WACE2018Q15",
-            "name": "WACE 2018 Question 15",
+            "name": "WACE 2018 Calc Assumed Question 15",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4330,7 +4431,7 @@
         },
         {
             "id": "WACE2018Q16",
-            "name": "WACE 2018 Question 16",
+            "name": "WACE 2018 Calc Assumed Question 16",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4338,7 +4439,7 @@
         },
         {
             "id": "WACE2018Q17",
-            "name": "WACE 2018 Question 17",
+            "name": "WACE 2018 Calc Assumed Question 17",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4346,7 +4447,7 @@
         },
         {
             "id": "WACE2018Q18",
-            "name": "WACE 2018 Question 18",
+            "name": "WACE 2018 Calc Assumed Question 18",
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
@@ -4354,7 +4455,7 @@
         },
         {
             "id": "WACE2017Q1",
-            "name": "WACE 2017 Question 1",
+            "name": "WACE 2017 Calc Free Question 1",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4362,7 +4463,7 @@
         },
         {
             "id": "WACE2017Q2",
-            "name": "WACE 2017 Question 2",
+            "name": "WACE 2017 Calc Free Question 2",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4370,7 +4471,7 @@
         },
         {
             "id": "WACE2017Q3",
-            "name": "WACE 2017 Question 3",
+            "name": "WACE 2017 Calc Free Question 3",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4378,7 +4479,7 @@
         },
         {
             "id": "WACE2017Q4",
-            "name": "WACE 2017 Question 4",
+            "name": "WACE 2017 Calc Free Question 4",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4386,7 +4487,7 @@
         },
         {
             "id": "WACE2017Q5",
-            "name": "WACE 2017 Question 5",
+            "name": "WACE 2017 Calc Free Question 5",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4394,7 +4495,7 @@
         },
         {
             "id": "WACE2017Q6",
-            "name": "WACE 2017 Question 6",
+            "name": "WACE 2017 Calc Free Question 6",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4402,7 +4503,7 @@
         },
         {
             "id": "WACE2017Q7",
-            "name": "WACE 2017 Question 7",
+            "name": "WACE 2017 Calc Free Question 7",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4410,7 +4511,7 @@
         },
         {
             "id": "WACE2017Q8",
-            "name": "WACE 2017 Question 8",
+            "name": "WACE 2017 Calc Free Question 8",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4418,7 +4519,7 @@
         },
         {
             "id": "WACE2017Q9",
-            "name": "WACE 2017 Question 9",
+            "name": "WACE 2017 Calc Free Question 9",
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
@@ -4426,7 +4527,7 @@
         },
         {
             "id": "WACE2017Q10",
-            "name": "WACE 2017 Question 10",
+            "name": "WACE 2017 Calc Assumed Question 10",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4434,7 +4535,7 @@
         },
         {
             "id": "WACE2017Q11",
-            "name": "WACE 2017 Question 11",
+            "name": "WACE 2017 Calc Assumed Question 11",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4442,7 +4543,7 @@
         },
         {
             "id": "WACE2017Q12",
-            "name": "WACE 2017 Question 12",
+            "name": "WACE 2017 Calc Assumed Question 12",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4450,7 +4551,7 @@
         },
         {
             "id": "WACE2017Q13",
-            "name": "WACE 2017 Question 13",
+            "name": "WACE 2017 Calc Assumed Question 13",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4458,7 +4559,7 @@
         },
         {
             "id": "WACE2017Q14",
-            "name": "WACE 2017 Question 14",
+            "name": "WACE 2017 Calc Assumed Question 14",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4466,7 +4567,7 @@
         },
         {
             "id": "WACE2017Q15",
-            "name": "WACE 2017 Question 15",
+            "name": "WACE 2017 Calc Assumed Question 15",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4474,7 +4575,7 @@
         },
         {
             "id": "WACE2017Q16",
-            "name": "WACE 2017 Question 16",
+            "name": "WACE 2017 Calc Assumed Question 16",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4482,7 +4583,7 @@
         },
         {
             "id": "WACE2017Q17",
-            "name": "WACE 2017 Question 17",
+            "name": "WACE 2017 Calc Assumed Question 17",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4490,7 +4591,7 @@
         },
         {
             "id": "WACE2017Q18",
-            "name": "WACE 2017 Question 18",
+            "name": "WACE 2017 Calc Assumed Question 18",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4498,7 +4599,7 @@
         },
         {
             "id": "WACE2017Q19",
-            "name": "WACE 2017 Question 19",
+            "name": "WACE 2017 Calc Assumed Question 19",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4506,7 +4607,7 @@
         },
         {
             "id": "WACE2017Q20",
-            "name": "WACE 2017 Question 20",
+            "name": "WACE 2017 Calc Assumed Question 20",
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
@@ -4514,7 +4615,7 @@
         },
         {
             "id": "WACE2016Q1",
-            "name": "WACE 2016 Question 1",
+            "name": "WACE 2016 Calc Free Question 1",
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
@@ -4522,7 +4623,7 @@
         },
         {
             "id": "WACE2016Q2",
-            "name": "WACE 2016 Question 2",
+            "name": "WACE 2016 Calc Free Question 2",
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
@@ -4530,7 +4631,7 @@
         },
         {
             "id": "WACE2016Q3",
-            "name": "WACE 2016 Question 3",
+            "name": "WACE 2016 Calc Free Question 3",
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
@@ -4538,7 +4639,7 @@
         },
         {
             "id": "WACE2016Q4",
-            "name": "WACE 2016 Question 4",
+            "name": "WACE 2016 Calc Free Question 4",
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
@@ -4546,7 +4647,7 @@
         },
         {
             "id": "WACE2016Q5",
-            "name": "WACE 2016 Question 5",
+            "name": "WACE 2016 Calc Free Question 5",
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
@@ -4554,7 +4655,7 @@
         },
         {
             "id": "WACE2016Q6",
-            "name": "WACE 2016 Question 6",
+            "name": "WACE 2016 Calc Free Question 6",
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
@@ -4562,7 +4663,7 @@
         },
         {
             "id": "WACE2016Q7",
-            "name": "WACE 2016 Question 7",
+            "name": "WACE 2016 Calc Free Question 7",
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
@@ -4570,7 +4671,7 @@
         },
         {
             "id": "WACE2016Q8",
-            "name": "WACE 2016 Question 8",
+            "name": "WACE 2016 Calc Free Question 8",
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
@@ -4578,7 +4679,7 @@
         },
         {
             "id": "WACE2016Q9",
-            "name": "WACE 2016 Question 9",
+            "name": "WACE 2016 Calc Assumed Question 9",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4586,7 +4687,7 @@
         },
         {
             "id": "WACE2016Q10",
-            "name": "WACE 2016 Question 10",
+            "name": "WACE 2016 Calc Assumed Question 10",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4594,7 +4695,7 @@
         },
         {
             "id": "WACE2016Q11",
-            "name": "WACE 2016 Question 11",
+            "name": "WACE 2016 Calc Assumed Question 11",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4602,7 +4703,7 @@
         },
         {
             "id": "WACE2016Q12",
-            "name": "WACE 2016 Question 12",
+            "name": "WACE 2016 Calc Assumed Question 12",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4610,7 +4711,7 @@
         },
         {
             "id": "WACE2016Q13",
-            "name": "WACE 2016 Question 13",
+            "name": "WACE 2016 Calc Assumed Question 13",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4618,7 +4719,7 @@
         },
         {
             "id": "WACE2016Q14",
-            "name": "WACE 2016 Question 14",
+            "name": "WACE 2016 Calc Assumed Question 14",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4626,7 +4727,7 @@
         },
         {
             "id": "WACE2016Q15",
-            "name": "WACE 2016 Question 15",
+            "name": "WACE 2016 Calc Assumed Question 15",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4634,7 +4735,7 @@
         },
         {
             "id": "WACE2016Q16",
-            "name": "WACE 2016 Question 16",
+            "name": "WACE 2016 Calc Assumed Question 16",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4642,7 +4743,7 @@
         },
         {
             "id": "WACE2016Q17",
-            "name": "WACE 2016 Question 17",
+            "name": "WACE 2016 Calc Assumed Question 17",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4650,7 +4751,7 @@
         },
         {
             "id": "WACE2016Q18",
-            "name": "WACE 2016 Question 18",
+            "name": "WACE 2016 Calc Assumed Question 18",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4658,7 +4759,7 @@
         },
         {
             "id": "WACE2016Q19",
-            "name": "WACE 2016 Question 19",
+            "name": "WACE 2016 Calc Assumed Question 19",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4666,7 +4767,7 @@
         },
         {
             "id": "WACE2016Q20",
-            "name": "WACE 2016 Question 20",
+            "name": "WACE 2016 Calc Assumed Question 20",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
@@ -4674,7 +4775,7 @@
         },
         {
             "id": "WACE2016Q21",
-            "name": "WACE 2016 Question 21",
+            "name": "WACE 2016 Calc Assumed Question 21",
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
