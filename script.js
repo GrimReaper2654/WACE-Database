@@ -382,9 +382,10 @@ async function load() {
     // no need to do anything else if the page is not the database
     let path = window.location.pathname;
     path = path.replace(/\/+$/, '');
-    if (!(path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
+    if (!(path.endsWith("dev") || path.endsWith("index") || path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
         return;
     } 
+    console.info('Loading Search...');
 
     // load json data
     data.questionsRaw = await loadJson('questions');
