@@ -3934,7 +3934,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2020Q2",
@@ -3942,7 +3945,13 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Quotient Rule",
+                "Exponential",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2020Q3",
@@ -3950,7 +3959,17 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Concavity"
+            ]
         },
         {
             "id": "WACE2020Q4",
@@ -3958,7 +3977,13 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables",
+                "Continuous Random Variables",
+                "Calculus",
+                "Antidifferentiation"
+            ]
         },
         {
             "id": "WACE2020Q5",
@@ -3966,7 +3991,13 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Calculus",
+                "Differentiation",
+                "Product Rule",
+                "Chain Rule"
+            ]
         },
         {
             "id": "WACE2020Q6",
@@ -3974,7 +4005,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2020Q7",
@@ -3982,7 +4016,16 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Concavity",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q8",
@@ -3990,7 +4033,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2020Q9",
@@ -3998,7 +4044,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2020Q10",
@@ -4006,7 +4055,12 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Antidifferentiation"
+            ]
         },
         {
             "id": "WACE2020Q11",
@@ -4014,7 +4068,15 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Logarithmic",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q12",
@@ -4022,7 +4084,14 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Binomial Distribution",
+                "Normal Distribution",
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2020Q13",
@@ -4030,7 +4099,13 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Applications of Differentiation",
+                "Optimisation",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q14",
@@ -4038,7 +4113,12 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2020Q15",
@@ -4046,7 +4126,15 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Chain Rule",
+                "Applications of Differentiation",
+                "Second Derivative"
+            ]
         },
         {
             "id": "WACE2020Q16",
@@ -4054,7 +4142,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2020Q17",
@@ -4062,7 +4154,16 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Chain Rule",
+                "Applications of Differentiation",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2019Q1",
