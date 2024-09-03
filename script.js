@@ -45,7 +45,7 @@ if (document.getElementById('subjectSelect')) {
 
 function clearFilters() {
     data.filters = {
-        subject: 'spec',
+        subject: data.filters.subject,
         year: -1,
         calculator: 'all',
         source: 'all',
