@@ -39,7 +39,7 @@ if (document.getElementById('subjectSelect')) {
 function clearFilters() {
     data.filters = {
         subject: data.filters.subject,
-        year: -1,
+        year: 'all',
         calculator: 'all',
         source: 'all',
         type: 'all',
@@ -331,7 +331,7 @@ async function search() {
     
     data.questions = [];
     allQuestions.forEach(function(question, index) {
-        if ((data.filters.year == "all" || JSON.stringify(question.year) == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type || question.soruce == data.filters.type) && (data.filters.calculator == 'all' || (question.calculator == data.filters.calculator))) {
+        if ((data.filters.year == "all" || JSON.stringify(question.year) == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type || question.soruce == data.filters.type) && (data.filters.calculator == 'all' || (question.calculator == data.filters.calculator)) && !data.filters.nTags.some(tag => question.tags.includes(tag))) {
             if (data.filters.mode == 'and') {
                 if (data.filters.tags.every(tag => question.tags.includes(tag))) {
                     data.questions.push(allQuestions[index]);
