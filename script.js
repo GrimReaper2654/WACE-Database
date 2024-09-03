@@ -296,6 +296,7 @@ function packTags() {
 
 async function setTags() {
     const tagsList = data.tagsV2[data.filters.subject];
+    console.log(data.filters.subject);
     let tagsHtml = ``;
     for (const [tagGroup, subTags] of Object.entries(tagsList)) {
         tagsHtml += `<label class="tag"><input type="checkbox" id="${tagGroup}" class="tagSelect"><span class="tagLabel">${tagGroup}</span>`;
@@ -368,6 +369,7 @@ async function toggleKey(id) {
 }
 
 async function load() {
+    // check if the page should have a search function
     let path = window.location.pathname;
     path = path.replace(/\/+$/, '');
     if (!(path.endsWith("dev") || path.endsWith("index") || path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
@@ -379,33 +381,38 @@ async function load() {
     data.questionsRaw = await loadJson('questions');
     data.tagsV2 = await loadJson('tagsV2');
 
-    // set filters if the page was duplicated
-    data.filters.subject = document.getElementById('subjectSelect').value;
-    data.filters.year = document.getElementById('yearSelect').value;
-    data.filters.calculator = document.getElementById('calculatorSelect').value;
-    data.filters.source = document.getElementById('sourceSelect').value;
-    data.filters.type = document.getElementById('typeSelect').value;
-    data.filters.mode = document.getElementById('tagsSelect').value;
-    data.filters.tags = Array.from(document.querySelectorAll('.tagSelect:checked')).map(checkbox => checkbox.id);
+    console.log(document.getElementById('isDuplicated').value);
+    if (document.getElementById('isDuplicated').value == 'yes') {
+        // set filters if the page was duplicated
+        data.filters.subject = document.getElementById('subjectSelect').value;
+        data.filters.year = document.getElementById('yearSelect').value;
+        data.filters.calculator = document.getElementById('calculatorSelect').value;
+        data.filters.source = document.getElementById('sourceSelect').value;
+        data.filters.type = document.getElementById('typeSelect').value;
+        data.filters.mode = document.getElementById('tagsSelect').value;
+        data.filters.tags = Array.from(document.querySelectorAll('.tagSelect:checked')).map(checkbox => checkbox.id);
+    } else {
+        // load settings from localhost
+        let savedSettings = localStorage.getItem('WACEDB_FILTERS');
+        if (savedSettings) {
+            data.filters = JSON.parse(savedSettings);
+            document.getElementById('subjectSelect').value = data.filters.subject;
+            document.getElementById('yearSelect').value = data.filters.year;
+            document.getElementById('calculatorSelect').value = data.filters.calculator;
+            document.getElementById('sourceSelect').value = data.filters.source;
+            document.getElementById('typeSelect').value = data.filters.type;
+            document.getElementById('tagsSelect').value = data.filters.mode;
+        }
 
+        document.getElementById('isDuplicated').value = 'yes';
+    }
+
+    document.querySelectorAll('.tagSelect').forEach(checkbox => {
+        checkbox.checked = data.filters.tags.includes(checkbox.id);
+    });
+    
     // create the tags for the search
     setTags();
-
-    // load settings from localhost
-    let savedSettings = localStorage.getItem('WACEDB_FILTERS');
-    if (savedSettings) {
-        data.filters = JSON.parse(savedSettings);
-        document.getElementById('subjectSelect').value = data.filters.subject;
-        document.getElementById('yearSelect').value = data.filters.year;
-        document.getElementById('calculatorSelect').value = data.filters.calculator;
-        document.getElementById('sourceSelect').value = data.filters.source;
-        document.getElementById('typeSelect').value = data.filters.type;
-        document.getElementById('tagsSelect').value = data.filters.mode;
-
-        document.querySelectorAll('.tagSelect').forEach(checkbox => {
-            checkbox.checked = data.filters.tags.includes(checkbox.id);
-        });
-    }
 }
 
 async function createPullRequest() {
