@@ -127,8 +127,8 @@ header {
     margin: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 0;
+    padding-bottom: 3px;
     width: min-content;
 }
 
@@ -137,8 +137,42 @@ header {
 }
 
 .tagLabel {
+    display: inline-block;
     font-size: smaller;
     margin-left: 5px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.checkbox {
+    background-color: #fff;
+    border: solid 1px #d7d7d7;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    vertical-align: middle;
+    padding: 0;
+
+    svg {
+        position: relative;
+        top: -1.5px;
+        stroke: #fff;
+        pointer-events: none;
+        transform: scale(0.75, 0.75);
+    }
+  }
+  
+.positive {
+    background-color: #4aca65;
+    border-color: #43b45b;
+}
+
+.negative {
+    background-color: #dc4e4e;
+    border-color: #c74545;
 }
 
 .standardButton {
@@ -208,6 +242,7 @@ header {
 
 .tag
 .toggleButton {
+    display: inline-block;
     width: auto;
 }
 

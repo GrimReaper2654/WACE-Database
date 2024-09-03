@@ -188,7 +188,6 @@ function setModifyTags() {
         modifyTagsHtml += `<label class="tag compactTag colour${colours[i]}"><input type="checkbox" id="${tags[i]}Modify" class="compactCheckbox"><span class="tagLabel compactLabel">${tags[i]}</span></label>`;
     }
     document.getElementById('modifyTags').innerHTML = modifyTagsHtml;
-
     removeAllEventListeners();
     document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
         if (checkbox.id.endsWith('Modify')) {
@@ -296,23 +295,21 @@ function packTags() {
 
 async function setTags() {
     const tagsList = data.tagsV2[data.filters.subject];
-    console.log(data.filters.subject);
     let tagsHtml = ``;
     for (const [tagGroup, subTags] of Object.entries(tagsList)) {
-        tagsHtml += `<label class="tag"><input type="checkbox" id="${tagGroup}" class="tagSelect"><span class="tagLabel">${tagGroup}</span>`;
+        tagsHtml += `<span class="tag"><span type="checkbox" id="${tagGroup}" class="checkbox"></span><span class="tagLabel noClick">${tagGroup}</span>`;
         if (subTags.length > 0) {
             tagsHtml += `<button id="button${tagGroup}" class="toggleButton" onclick="toggleContent('${tagGroup}')"><span class="arrow">▼</span></button><div class="extraContent" id="extraContent${tagGroup}">`;
             for (let subTag of subTags) {
-                tagsHtml += `<label class="tag"><input type="checkbox" id="${subTag}" class="tagSelect"><span class="tagLabel">${subTag}</span></label><br>`;
+                tagsHtml += `<span class="tag"><span type="checkbox" id="${subTag}" class="checkbox"></span><span class="tagLabel">${subTag}</span></span><br>`;
             }
             tagsHtml += `</div>`;
         }
-        tagsHtml += `</label>`;
+        tagsHtml += `</span>`;
     }
     document.getElementById('tagsContainer').innerHTML = tagsHtml;
-    packTags();
-
     if (document.getElementById('modifyTags')) setModifyTags();
+    packTags();
 }
 
 async function search() {
@@ -321,7 +318,7 @@ async function search() {
     data.filters.source = document.getElementById('sourceSelect').value;
     data.filters.type = document.getElementById('typeSelect').value;
     data.filters.mode = document.getElementById('tagsSelect').value;
-    data.filters.tags = Array.from(document.querySelectorAll('.tagSelect:checked')).map(checkbox => checkbox.id);
+    data.filters.tags = Array.from(document.querySelectorAll('.positive')).map(checkbox => checkbox.id);
 
     localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
 
@@ -413,6 +410,21 @@ async function load() {
 
     // create the tags for the search
     setTags();
+    document.addEventListener('click', function(event) {
+        if (event.target.classList.contains('checkbox')) {
+            if (event.target.classList.contains('positive')) {
+                event.target.classList.remove('positive');
+                event.target.classList.add('negative');
+                event.target.innerHTML = '<svg id="i-close" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%"><path d="M2 30 L30 2 M30 30 L2 2" /></svg>';
+            } else if (event.target.classList.contains('negative')) {
+                event.target.classList.remove('negative');
+                event.target.innerHTML = '';
+            } else {
+                event.target.classList.add('positive');
+                event.target.innerHTML = '<svg id="i-checkmark" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%"><path d="M2 20 L12 28 30 4" /></svg>';
+            }
+        }
+    });
 }
 
 async function createPullRequest() {
