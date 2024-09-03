@@ -6675,7 +6675,7 @@
             "tags": [
                 "Functions",
                 "Inverse Functions",
-                "Absolute Value",
+                "Absolute Value Functions",
                 "Graphing"
             ]
         },
@@ -6896,7 +6896,7 @@
             "calculator": "free",
             "tags": [
                 "Functions",
-                "Absolute Value",
+                "Absolute Value Functions",
                 "Reciprocal Functions",
                 "Graphing"
             ]
@@ -7400,7 +7400,7 @@
             "calculator": "free",
             "tags": [
                 "Functions",
-                "Absolute Value",
+                "Absolute Value Functions",
                 "Reciprocal Functions"
             ]
         },
@@ -7591,7 +7591,7 @@
             "calculator": "assumed",
             "tags": [
                 "Functions",
-                "Absolute Value",
+                "Absolute Value Functions",
                 "Graphing"
             ]
         },
@@ -7673,7 +7673,7 @@
             "tags": [
                 "Functions",
                 "Inverse Functions",
-                "Absolute Value",
+                "Absolute Value Functions",
                 "Graphing"
             ]
         },
@@ -7987,7 +7987,7 @@
             "calculator": "assumed",
             "tags": [
                 "Functions",
-                "Absolute Value",
+                "Absolute Value Functions",
                 "Reciprocal Functions",
                 "Graphing"
             ]
@@ -8268,7 +8268,7 @@
             "calculator": "assumed",
             "tags": [
                 "Functions",
-                "Absolute Value",
+                "Absolute Value Functions",
                 "Calculus",
                 "Integration By Substitution"
             ]
@@ -8397,7 +8397,7 @@
             "tags": [
                 "Functions",
                 "Inverse Functions",
-                "Absolute Value",
+                "Absolute Value Functions",
                 "Reciprocal Functions",
                 "Graphing"
             ]
@@ -8443,7 +8443,7 @@
             "calculator": "assumed",
             "tags": [
                 "Functions",
-                "Absolute Value"
+                "Absolute Value Functions"
             ]
         },
         {

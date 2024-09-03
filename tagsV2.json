@@ -141,7 +141,9 @@
         "Special Relativity": [
             "Time Dilation",
             "Length Contraction",
-            "Relative Velocities"
+            "Relative Velocities",
+            "Relativistic Momentum",
+            "Relativistic Energy"
         ],
         "Standard Model": [
             "Subatomic Particles",
@@ -164,7 +166,7 @@
         "Functions": [
             "Composite Functions",
             "Inverse Functions",
-            "Absolute Value",
+            "Absolute Value Functions",
             "Reciprocal Functions"
         ],
         "Vectors": [
@@ -174,7 +176,9 @@
             "Cross Product",
             "Planes",
             "Systems of Linear Equations",
-            "Vector Calculus"
+            "Vector Calculus",
+            "Component Form",
+            "Polar Form"
         ],
         "Calculus": [
             "Implicit Differentiation",
