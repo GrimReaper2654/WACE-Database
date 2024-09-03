@@ -812,7 +812,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Equilibrium",
+                "Observations",
+                "Le Chatelier's Principle"
+            ]
         },
         {
             "id": "WACE2022Q27",
@@ -821,7 +826,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Homologous Series",
+                "Science Inquiry Skills",
+                "Graphing",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2022Q28",
@@ -830,7 +842,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2022Q29",
@@ -839,7 +855,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2022Q30",
@@ -848,7 +869,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2022Q31",
@@ -857,7 +882,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Polymers",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2022Q32",
@@ -866,7 +897,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Homologous Series",
+                "Observations"
+            ]
         },
         {
             "id": "WACE2022Q33",
@@ -875,7 +911,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Homologous Series",
+                "Industrial Chemistry",
+                "Synthesis"
+            ]
         },
         {
             "id": "WACE2022Q34",
@@ -884,7 +926,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Combustion Analysis",
+                "Empirical Formula",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2022Q35",
@@ -893,7 +941,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Graphing",
+                "Collision Theory",
+                "Calculation",
+                "Redox",
+                "Electrolysis",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2022Q36",
@@ -902,7 +958,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Soaps and Detergents",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2022Q37",
@@ -911,7 +971,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Redox",
+                "Half-equations",
+                "Observations",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2022Q38",
@@ -920,7 +986,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Acids and Bases",
+                "pH",
+                "Titration",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2022Q39",
@@ -929,7 +1002,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Science Inquiry Skills",
+                "Redox",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2021Q1",
