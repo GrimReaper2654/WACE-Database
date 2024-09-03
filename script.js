@@ -1,7 +1,7 @@
 const data = {
     filters: {
         subject: 'spec',
-        year: -1,
+        year: 'all',
         calculator: 'all',
         source: 'all',
         type: 'all',
@@ -329,7 +329,7 @@ async function search() {
     
     data.questions = [];
     allQuestions.forEach(function(question, index) {
-        if ((data.filters.year == -1 || question.year == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type) && (data.filters.calculator == 'all' || (question.calculator == data.filters.calculator))) {
+        if ((data.filters.year == "all" || JSON.stringify(question.year) == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type || question.soruce == data.filters.type) && (data.filters.calculator == 'all' || (question.calculator == data.filters.calculator))) {
             if (data.filters.mode == 'and') {
                 if (data.filters.tags.every(tag => question.tags.includes(tag))) {
                     data.questions.push(allQuestions[index]);
@@ -410,7 +410,7 @@ async function load() {
     document.querySelectorAll('.tagSelect').forEach(checkbox => {
         checkbox.checked = data.filters.tags.includes(checkbox.id);
     });
-    
+
     // create the tags for the search
     setTags();
 }
