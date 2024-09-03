@@ -4697,7 +4697,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2016Q2",
@@ -4705,7 +4707,15 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Exponential",
+                "Differentiation",
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Chain Rule",
+                "Product Rule"
+            ]
         },
         {
             "id": "WACE2016Q3",
@@ -4713,7 +4723,15 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Quotient Rule",
+                "Chain Rule",
+                "Second Derivative"
+            ]
         },
         {
             "id": "WACE2016Q4",
@@ -4721,7 +4739,15 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Chain Rule",
+                "Trignometric",
+                "Rectilinear Motion"
+            ]
         },
         {
             "id": "WACE2016Q5",
@@ -4729,7 +4755,15 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Fundamental Theorem",
+                "Graphing",
+                "Second Derivative"
+            ]
         },
         {
             "id": "WACE2016Q6",
@@ -4737,7 +4771,13 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2016Q7",
@@ -4745,7 +4785,13 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Fundamental Theorem"
+            ]
         },
         {
             "id": "WACE2016Q8",
@@ -4753,7 +4799,12 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2016Q9",
