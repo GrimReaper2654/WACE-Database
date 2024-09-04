@@ -94,9 +94,8 @@ def automate_question_database():
         time.sleep(1)
 
         # Move all generated .webp images to the questionBank folder in the root directory
-        os.makedirs(os.path.join(cwd, "../questionBank"), exist_ok=True)
-        for webp_file in glob.glob("*.webp"):
-            shutil.move(webp_file, os.path.join(cwd, "../questionBank"))
+        for webp_file in glob.glob(os.path.join(cwd, "*.webp")):
+            shutil.move(webp_file, os.path.join(root, "questionBank"))
 
         print('WACE DB PROCESSOR: Moved questions to question bank')
 
@@ -108,9 +107,8 @@ def automate_question_database():
         time.sleep(1)
         
         # Move all generated .pdf files to the pdfDownloads folder in the root directory
-        os.makedirs(os.path.join(cwd, "../pdfDownloads"), exist_ok=True)
-        for pdf_file in glob.glob("*.pdf"):
-            shutil.move(pdf_file, os.path.join(cwd, "../pdfDownloads"))
+        for pdf_file in glob.glob(os.path.join(cwd, "*.pdf")):
+            shutil.move(pdf_file, os.path.join(root, "pdfDownloads"))
         
         print('WACE DB PROCESSOR: Moved PDFs to PDF downloads')
 
@@ -129,9 +127,8 @@ def automate_question_database():
         time.sleep(1)
 
         # Move all generated .webp images to the markingKeys folder in the root directory
-        os.makedirs(os.path.join(cwd, "../markingKeys"), exist_ok=True)
-        for webp_file in glob.glob("*.webp"):
-            shutil.move(webp_file, os.path.join(cwd, "../markingKeys"))
+        for webp_file in glob.glob(os.path.join(cwd, "*.webp")):
+            shutil.move(webp_file, os.path.join(root, "markingKeys"))
         
         print('WACE DB PROCESSOR: Moved marking keys to marking keys folder')
         
