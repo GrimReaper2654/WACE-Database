@@ -40,6 +40,7 @@ def automate_question_database():
 
     # Process each zip file individually
     for zip_file in zip_files:
+        print(f'WACE DB PROCESSOR: Processing zip file {zip_file.split('/')[-1].split('.')[0]}')
         # Split the zip file name into subject and template
         subject, info = zip_file.split(' ', 1)
         subject = subject.split('/')[-1]
@@ -95,7 +96,7 @@ def automate_question_database():
 
         # Move all generated .webp images to the questionBank folder in the root directory
         for webp_file in glob.glob(os.path.join(cwd, "*.webp")):
-            shutil.move(webp_file, os.path.join(root, "questionBank"))
+            shutil.move(webp_file, os.path.join(root, f"questionBank/{subject}"))
 
         print('WACE DB PROCESSOR: Moved questions to question bank')
 
@@ -108,7 +109,7 @@ def automate_question_database():
         
         # Move all generated .pdf files to the pdfDownloads folder in the root directory
         for pdf_file in glob.glob(os.path.join(cwd, "*.pdf")):
-            shutil.move(pdf_file, os.path.join(root, "pdfDownloads"))
+            shutil.move(pdf_file, os.path.join(root, f"pdfDownloads/{subject}"))
         
         print('WACE DB PROCESSOR: Moved PDFs to PDF downloads')
 
@@ -128,7 +129,7 @@ def automate_question_database():
 
         # Move all generated .webp images to the markingKeys folder in the root directory
         for webp_file in glob.glob(os.path.join(cwd, "*.webp")):
-            shutil.move(webp_file, os.path.join(root, "markingKeys"))
+            shutil.move(webp_file, os.path.join(root, f"markingKeys/{subject}"))
         
         print('WACE DB PROCESSOR: Moved marking keys to marking keys folder')
         
@@ -145,7 +146,7 @@ def automate_question_database():
             os.remove(calculator_path)
         
         print('WACE DB PROCESSOR: Deleted unnecessary files')
-
+        print(f'WACE DB PROCESSOR: Finished processing zip file')
         # wait for a bit
         time.sleep(1)
 

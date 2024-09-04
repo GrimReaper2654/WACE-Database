@@ -42,6 +42,6 @@ for filename in os.listdir(folder_path):
 
         # Delete the original image
         os.remove(input_image_path)
-        print(f"IMAGE PROCESSOR: Cleaned and cropped {filename} --> {filename.split('.')[0]}.webp")
+        print(f"IMAGE PROCESSOR: Cleaned and cropped {filename} --> {filename.rsplit('.', 1)[0]}.webp")
 
 print("IMAGE PROCESSOR: All images processed and replaced")
