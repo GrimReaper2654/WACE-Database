@@ -25,6 +25,7 @@ templateMath = '''{
 def generate_json_for_questions():
     # Get the current working directory
     directory = os.path.dirname(os.path.abspath(__file__))
+    root = os.getcwd()
 
     # Read organisation and year from info.txt
     with open(os.path.join(directory, "info.txt"), "r") as file:
@@ -55,7 +56,7 @@ def generate_json_for_questions():
             highest_question = max(highest_question, max_question_in_pdf)
 
     # Load existing JSON data from questions.json
-    json_file_path = os.path.join(directory, "questions.json")
+    json_file_path = os.path.join(root, "questions.json")
     if os.path.exists(json_file_path):
         with open(json_file_path, "r") as json_file:
             questions_data = json.load(json_file)
