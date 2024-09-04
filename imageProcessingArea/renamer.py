@@ -1,6 +1,5 @@
 import os
 import shutil
-from datetime import datetime
 from PIL import Image
 import pytesseract
 import re
@@ -68,7 +67,12 @@ def rename_images(directory, template):
             shutil.move(old_image_path, new_image_path)
             print(f"Renamed {old_image_path.rsplit('/', 1)[-1]} to {new_image_path.rsplit('/', 1)[-1]}")
 
-# Example usage
+# Read the contents of info.txt to get the template
 directory = os.path.dirname(os.path.abspath(__file__))
-template = 'WACE2016'
+with open(os.path.join(directory, "info.txt"), "r") as file:
+    template = file.read().strip()
+    if template == '':
+        raise FileNotFoundError
+
+# Proceed with renaming the images using the template
 rename_images(directory, template)
