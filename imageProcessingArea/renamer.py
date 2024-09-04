@@ -33,7 +33,7 @@ def extract_datetime_from_filename(filename):
     date_part = filename.replace('Screenshot ', '').replace('.png', '').replace(' at ', ' ')
     
     # Convert to a datetime object
-    return datetime.strptime(date_part, "%Y-%m-%\d %H.%M.%S")
+    return datetime.strptime(date_part, "%Y-%m-%d %H.%M.%S")
 
 def rename_images(directory, template):
     # Get a list of all .png files in the directory sorted by creation time (oldest first)
