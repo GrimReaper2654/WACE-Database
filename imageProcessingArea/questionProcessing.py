@@ -6,18 +6,18 @@ import os
 python_cmd = sys.executable
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-print("Running Renamer")
+print("QUESTION PROCESSING: Running image renamer")
 subprocess.run([python_cmd, os.path.join(script_dir, 'renamer.py')], check=True)
-print("Finished running Renamer")
+print("QUESTION PROCESSING: Finished running image renamer")
 
-print("Running Processor")
+print("QUESTION PROCESSING: Running image processor")
 subprocess.run([python_cmd, os.path.join(script_dir, 'processor.py')], check=True)
-print("Finished running Processor")
+print("QUESTION PROCESSING: Finished running image processor")
 
-print("Running PDF maker")
+print("QUESTION PROCESSING: Running PDF maker")
 subprocess.run([python_cmd, os.path.join(script_dir, 'pdfMaker.py')], check=True)
-print("Finished running PDF maker")
+print("QUESTION PROCESSING: Finished running PDF maker")
 
-print("Running Stacker")
+print("QUESTION PROCESSING: Running image stacker")
 subprocess.run([python_cmd, os.path.join(script_dir, 'stacker.py')], check=True)
-print("Finished running Stacker")
+print("QUESTION PROCESSING: Finished running image stacker")

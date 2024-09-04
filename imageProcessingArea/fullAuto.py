@@ -36,6 +36,7 @@ def automate_question_database():
     # Find all zip files in the current directory
     zip_files = glob.glob(os.path.join(cwd, "*.zip"))
     print(zip_files)
+    print('WACE DB PROCESSOR: Located zip files')
 
     # Process each zip file individually
     for zip_file in zip_files:
@@ -52,8 +53,10 @@ def automate_question_database():
         with open(os.path.join(cwd, 'info.txt'), "w") as info_file:
             info_file.write(info)
 
+        print('WACE DB PROCESSOR: Retrieved question metadata')
+
         # Unzip the file
-        print('Unzipping Folder')
+        print('WACE DB PROCESSOR: Unzipping files')
         with zipfile.ZipFile(zip_file, 'r') as zip_ref:
             # Properly extract the folder name from the zip file
             unzipped_folder = os.path.splitext(zip_file)[0]
@@ -81,11 +84,13 @@ def automate_question_database():
         for png_file in glob.glob(os.path.join(unzipped_folder, "*.png")): 
             shutil.move(png_file, cwd)
         
+        print('WACE DB PROCESSOR: Upacked questions')
+
         # Run the questionProcessing.py program
         time.sleep(1)
-        print('Processing Questions')
+        print('WACE DB PROCESSOR: Processing questions')
         subprocess.run([python_cmd, os.path.join(cwd, 'questionProcessing.py')], check=True)
-        print('Finished Processing Questions')
+        print('WACE DB PROCESSOR: Finished processing questions')
         time.sleep(1)
 
         # Move all generated .webp images to the questionBank folder in the root directory
@@ -93,11 +98,13 @@ def automate_question_database():
         for webp_file in glob.glob("*.webp"):
             shutil.move(webp_file, os.path.join(cwd, "../questionBank"))
 
+        print('WACE DB PROCESSOR: Moved questions to question bank')
+
         # Run the advDataSynthesiser.py program
         time.sleep(1)
-        print('Making Question Data')
+        print('WACE DB PROCESSOR: Making question json data')
         subprocess.run([python_cmd, os.path.join(cwd, 'advDataSynthesiser.py')], check=True)
-        print('Finished Making Question Data')
+        print('WACE DB PROCESSOR: Finished making question json data')
         time.sleep(1)
         
         # Move all generated .pdf files to the pdfDownloads folder in the root directory
@@ -105,16 +112,20 @@ def automate_question_database():
         for pdf_file in glob.glob("*.pdf"):
             shutil.move(pdf_file, os.path.join(cwd, "../pdfDownloads"))
         
+        print('WACE DB PROCESSOR: Moved PDFs to PDF downloads')
+
         # Move all .png images from the 'key' folder to the current directory
         key_folder = os.path.join(unzipped_folder, "key")
         for png_file in glob.glob(f"{key_folder}/*.png"):
             shutil.move(png_file, cwd)
+
+        print('WACE DB PROCESSOR: Unpacked marking keys')
      
         # Run the keyProcessing.py program
         time.sleep(1)
-        print('Processing Keys')
+        print('WACE DB PROCESSOR: Processing marking keys')
         subprocess.run([python_cmd, os.path.join(cwd, 'keyProcessing.py')], check=True)
-        print('Finished Processing Keys')
+        print('WACE DB PROCESSOR: Finished processing marking keys')
         time.sleep(1)
 
         # Move all generated .webp images to the markingKeys folder in the root directory
@@ -122,23 +133,27 @@ def automate_question_database():
         for webp_file in glob.glob("*.webp"):
             shutil.move(webp_file, os.path.join(cwd, "../markingKeys"))
         
+        print('WACE DB PROCESSOR: Moved marking keys to marking keys folder')
+        
         # Delete the unzipped folder and the zip file
-        #shutil.rmtree(unzipped_folder)
-        #os.remove(zip_file)
+        shutil.rmtree(unzipped_folder)
+        os.remove(zip_file)
 
         # Define the path to calculator.txt in the current working directory
         calculator_path = os.path.join(cwd, "calculator.txt")
 
         # Check if calculator.txt exists in the current working directory
-        #if os.path.exists(calculator_path):
+        if os.path.exists(calculator_path):
             # Delete the file
-            #os.remove(calculator_path)
+            os.remove(calculator_path)
+        
+        print('WACE DB PROCESSOR: Deleted unnecessary files')
 
         # wait for a bit
         time.sleep(1)
 
     # remind the user processing has finished
-    print('Processing Complete')
+    print('WACE DB PROCESSOR: Processing complete')
     wave_obj = sa.WaveObject.from_wave_file(os.path.join(cwd, 'audio.wav'))
     play_obj = wave_obj.play()
     play_obj.wait_done()

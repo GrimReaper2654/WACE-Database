@@ -44,8 +44,6 @@ def rename_images(directory, template):
     question_parts = {}  # To track the number of parts for each question
     prev_question_number = 0
 
-    print(images)
-
     for image in images:
         if (not 'Screenshot' in image): # remove this if your input images do not contain 'screenshot'. This is here so already remaned questions are not renamed again.
             continue
@@ -66,7 +64,7 @@ def rename_images(directory, template):
         new_filename = f'{template}{image_id}.png'
         new_image_path = os.path.join(directory, new_filename)
         shutil.move(image_path, new_image_path)
-        print(f"Renamed {image_path.rsplit('/', 1)[-1]} to {new_image_path.rsplit('/', 1)[-1]}")
+        print(f"IMAGE RENAMER: Renamed {image_path.rsplit('/', 1)[-1]} --> {new_image_path.rsplit('/', 1)[-1]}")
     
     for question_number in question_parts:
         if question_parts[question_number] > 1:
@@ -75,7 +73,9 @@ def rename_images(directory, template):
             old_image_path = os.path.join(directory, old_filename)
             new_image_path = os.path.join(directory, new_filename)
             shutil.move(old_image_path, new_image_path)
-            print(f"Renamed {old_image_path.rsplit('/', 1)[-1]} to {new_image_path.rsplit('/', 1)[-1]}")
+            print(f"IMAGE RENAMER: Renamed {old_image_path.rsplit('/', 1)[-1]} --> {new_image_path.rsplit('/', 1)[-1]}")
+    
+    print(f"IMAGE RENAMER: All images renamed")
 
 # Read the contents of info.txt to get the template
 directory = os.path.dirname(os.path.abspath(__file__))

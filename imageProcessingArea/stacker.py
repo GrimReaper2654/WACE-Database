@@ -1,5 +1,5 @@
 #
-# For combining allthe part questions into a full image
+# For combining all the part questions into a full image
 #  
 #
 #
@@ -59,6 +59,6 @@ for base_id, files in image_groups.items():
         for image_file, _ in files:
             os.remove(os.path.join(folder_path, image_file))
 
-        print(f"Combined and saved: {combined_image_path}")
+        print(f"IMAGE STACKER: Combined and saved {combined_image_path.split('/')[-1].split('.')[0]}")
 
-print("All image sequences processed.")
+print("IMAGE STACKER: All question images stacked")

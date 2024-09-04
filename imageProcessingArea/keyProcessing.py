@@ -6,14 +6,14 @@ import os
 python_cmd = sys.executable
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-print("Running Renamer")
+print("MARKING KEY PROCESSING: Running image renamer")
 subprocess.run([python_cmd, os.path.join(script_dir, 'renamer.py')], check=True)
-print("Finished running Renamer")
+print("MARKING KEY PROCESSING: Finished running image renamer")
 
-print("Running Processor")
+print("MARKING KEY PROCESSING: Running image processor")
 subprocess.run([python_cmd, os.path.join(script_dir, 'processor.py')], check=True)
-print("Finished running Processor")
+print("MARKING KEY PROCESSING: Finished running image processor")
 
-print("Running Stacker")
+print("MARKING KEY PROCESSING: Running image stacker")
 subprocess.run([python_cmd, os.path.join(script_dir, 'stacker.py')], check=True)
-print("Finished running Stacker")
+print("MARKING KEY PROCESSING: Finished running image stacker")

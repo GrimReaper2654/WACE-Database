@@ -78,6 +78,6 @@ for base_id, files in image_groups.items():
     pdf_output_path = os.path.join(folder_path, base_id + ".pdf")
     pdf.output(pdf_output_path)
 
-    print(f"PDF created: {pdf_output_path}")
+    print(f"PDF MAKER: Created pdf download for question {pdf_output_path.split('/')[-1].split('.')[0]}")
 
-print("All PDFs created.")
+print("PDF MAKER: All PDFs created")
