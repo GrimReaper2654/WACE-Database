@@ -15,7 +15,7 @@ template = '''{
 
 templateMath = '''{
     "id": "[organisation][year]Q[i]",
-    "name": "[organisation] [year] Calculator [calc] Question [i]",
+    "name": "[organisation] [year] Calculator [Calc] Question [i]",
     "year": [year],
     "source": "[organisation]",
     "calculator": "[calc]",
@@ -38,7 +38,7 @@ def generate_json_for_questions():
         subject = subject_file.read().strip()
 
     # Determine the template to use based on calculator.txt
-    calc_questions = 0
+    calc_questions = -1
     calc_exists = os.path.exists(os.path.join(directory, "calculator.txt"))
     if calc_exists:
         with open(os.path.join(directory, "calculator.txt"), "r") as calc_file:
@@ -69,10 +69,13 @@ def generate_json_for_questions():
 
     # Generate the JSON for each question
     for i in range(1, highest_question + 1):
-        if i <= calc_questions:
-            json_data = templateMath.replace("[organisation]", organisation).replace("[year]", year).replace("[i]", str(i)).replace("[calc]", "free")
-        else:
+        if calc_questions == -1: # Not Math
             json_data = template.replace("[organisation]", organisation).replace("[year]", year).replace("[i]", str(i))
+        else: # Is Math
+            if i <= calc_questions:
+                json_data = templateMath.replace("[organisation]", organisation).replace("[year]", year).replace("[i]", str(i)).replace("[calc]", "free").replace("[Calc]", "Free")
+            else:
+                json_data = templateMath.replace("[organisation]", organisation).replace("[year]", year).replace("[i]", str(i)).replace("[calc]", "assumed").replace("[Calc]", "Assumed")
 
         # Convert the JSON string to a dictionary and add it to the subject list
         questions_data[subject].append(json.loads(json_data))

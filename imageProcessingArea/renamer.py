@@ -1,8 +1,9 @@
 import os
 import shutil
-from PIL import Image
 import pytesseract
 import re
+from PIL import Image
+from datetime import datetime
 
 # Set the path to the Tesseract executable (update this according to your installation)
 pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
@@ -26,10 +27,19 @@ def extract_question_number(text):
         return int(match.group(1))
     return None
 
+def extract_datetime_from_filename(filename):
+    # Example filename format: 'Screenshot 2024-09-01 at 18.57.16.png'
+    # Split to get the datetime part: '2024-09-01 at 18.57.16'
+    date_part = filename.replace('Screenshot ', '').replace('.png', '').replace(' at ', ' ')
+    
+    # Convert to a datetime object
+    return datetime.strptime(date_part, "%Y-%m-%\d %H.%M.%S")
+
 def rename_images(directory, template):
     # Get a list of all .png files in the directory sorted by creation time (oldest first)
     images = [f for f in os.listdir(directory) if f.endswith('.png')]
-    images.sort(key=lambda x: os.path.getctime(os.path.join(directory, x)))
+    #images.sort(key=lambda x: os.path.getctime(os.path.join(directory, x)))
+    images = sorted(images, key=extract_datetime_from_filename)
 
     question_parts = {}  # To track the number of parts for each question
     prev_question_number = 0
