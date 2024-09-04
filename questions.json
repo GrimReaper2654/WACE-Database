@@ -4813,7 +4813,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Exponential"
+            ]
         },
         {
             "id": "WACE2016Q10",
@@ -4821,7 +4825,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2016Q11",
@@ -4829,7 +4837,12 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Increments Formula"
+            ]
         },
         {
             "id": "WACE2016Q12",
@@ -4837,7 +4850,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2016Q13",
@@ -4845,7 +4861,15 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Logarithmic",
+                "Area Under a Curve",
+                "Product Rule",
+                "Chain Rule",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2016Q14",
@@ -4853,7 +4877,14 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Probability",
+                "Binomial Distribution",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2016Q15",
@@ -4861,7 +4892,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2016Q16",
@@ -4869,7 +4903,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Binomial Distribution",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2016Q17",
@@ -4877,7 +4915,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability"
+            ]
         },
         {
             "id": "WACE2016Q18",
@@ -4885,7 +4925,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution",
+                "Z Scores"
+            ]
         },
         {
             "id": "WACE2016Q19",
@@ -4893,7 +4937,13 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Applications of Differentiation",
+                "Rectilinear Motion"
+            ]
         },
         {
             "id": "WACE2016Q20",
@@ -4901,7 +4951,13 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Binomial Distribution",
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2016Q21",
@@ -4909,7 +4965,13 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Trignometric",
+                "Chain Rule",
+                "Applications of Differentiation"
+            ]
         }
     ],
     "phys": [
