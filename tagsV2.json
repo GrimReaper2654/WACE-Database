@@ -93,13 +93,13 @@
             "Discrete Random Variables",
             "Binomial Distribution",
             "Continuous Random Variables",
-            "Normal Distribution"            
+            "Normal Distribution",
+            "Z Scores"
         ],
         "Interval Proportions": [
             "Sample Proportions",
             "Confidence Intervals",
-            "Random Sampling",
-            "Z Scores"
+            "Random Sampling"            
         ],
         "Graphing": []
     },
