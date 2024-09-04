@@ -140,7 +140,7 @@ header {
     display: inline-block;
     font-size: smaller;
     margin-left: 5px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     vertical-align: middle;
 }
 
