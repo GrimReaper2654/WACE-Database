@@ -4709,12 +4709,12 @@
             "calculator": "free",
             "tags": [
                 "Calculus",
-                "Exponential",
                 "Differentiation",
                 "Antidifferentiation",
                 "Fundamental Theorem",
                 "Chain Rule",
-                "Product Rule"
+                "Product Rule",
+                "Exponential"
             ]
         },
         {
@@ -4730,6 +4730,7 @@
                 "Differentiation",
                 "Quotient Rule",
                 "Chain Rule",
+                "Applications of Differentiation",
                 "Second Derivative"
             ]
         },
@@ -4745,8 +4746,9 @@
                 "Antidifferentiation",
                 "Fundamental Theorem",
                 "Chain Rule",
-                "Trignometric",
-                "Rectilinear Motion"
+                "Applications of Differentiation",
+                "Rectilinear Motion",
+                "Trignometric"
             ]
         },
         {
@@ -4756,13 +4758,12 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
+                "Functions",
+                "Polynomial",
                 "Calculus",
-                "Differentiation",
                 "Antidifferentiation",
                 "Area Under a Curve",
-                "Fundamental Theorem",
-                "Graphing",
-                "Second Derivative"
+                "Graphing"
             ]
         },
         {
@@ -4786,11 +4787,9 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Functions",
                 "Calculus",
                 "Antidifferentiation",
-                "Area Under a Curve",
-                "Fundamental Theorem"
+                "Area Under a Curve"
             ]
         },
         {
@@ -4800,10 +4799,12 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Trignometric",
                 "Calculus",
                 "Differentiation",
-                "Area Under a Curve"
+                "Area Under a Curve",
+                "Applications of Differentiation",
+                "Optimisation",
+                "Trignometric"
             ]
         },
         {
