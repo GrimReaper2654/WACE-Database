@@ -1018,7 +1018,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox"
+            ]
         },
         {
             "id": "WACE2021Q2",
@@ -1026,7 +1029,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry",
+                "Homologous Series",
+                "Observations"
+            ]
         },
         {
             "id": "WACE2021Q3",
@@ -1034,7 +1042,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2021Q4",
@@ -1042,7 +1054,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry",
+                "Polymers"
+            ]
         },
         {
             "id": "WACE2021Q5",
@@ -1050,7 +1066,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry",
+                "Polymers"
+            ]
         },
         {
             "id": "WACE2021Q6",
@@ -1058,7 +1078,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Green Chemistry"
+            ]
         },
         {
             "id": "WACE2021Q7",
@@ -1066,7 +1089,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Proteins and Amino Acids"
+            ]
         },
         {
             "id": "WACE2021Q8",
@@ -1074,7 +1100,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q9",
@@ -1082,7 +1112,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2021Q10",
@@ -1090,7 +1124,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Cells"
+            ]
         },
         {
             "id": "WACE2021Q11",
@@ -1098,7 +1135,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Proteins and Amino Acids"
+            ]
         },
         {
             "id": "WACE2021Q12",
@@ -1106,7 +1146,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox",
+                "Cells"
+            ]
         },
         {
             "id": "WACE2021Q13",
@@ -1114,7 +1158,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Cells"
+            ]
         },
         {
             "id": "WACE2021Q14",
@@ -1122,7 +1169,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases",
+                "pH"
+            ]
         },
         {
             "id": "WACE2021Q15",
@@ -1130,7 +1181,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2021Q16",
@@ -1138,7 +1193,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry",
+                "Homologous Series"
+            ]
         },
         {
             "id": "WACE2021Q17",
@@ -1146,7 +1205,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2021Q18",
@@ -1154,7 +1216,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Science Inquiry Skills",
+                "Titration"
+            ]
         },
         {
             "id": "WACE2021Q19",
@@ -1162,7 +1228,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Observations"
+            ]
         },
         {
             "id": "WACE2021Q20",
@@ -1170,7 +1239,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2021Q21",
@@ -1178,7 +1250,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2021Q22",
@@ -1186,7 +1261,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox",
+                "Cells"
+            ]
         },
         {
             "id": "WACE2021Q23",
@@ -1194,7 +1273,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2021Q24",
@@ -1202,7 +1284,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Observations",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2021Q25",
@@ -1210,7 +1296,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium",
+                "Observations"
+            ]
         },
         {
             "id": "WACE2021Q26",
