@@ -40,7 +40,7 @@ def automate_question_database():
 
     # Process each zip file individually
     for zip_file in zip_files:
-        print(f'WACE DB PROCESSOR: Processing zip file {zip_file.split('/')[-1].split('.')[0]}')
+        print(f'WACE DB PROCESSOR: Processing zip file {zip_file.split("/")[-1].split(".")[0]}')
         # Split the zip file name into subject and template
         subject, info = zip_file.split(' ', 1)
         subject = subject.split('/')[-1]
@@ -146,7 +146,7 @@ def automate_question_database():
             os.remove(calculator_path)
         
         print('WACE DB PROCESSOR: Deleted unnecessary files')
-        print(f'WACE DB PROCESSOR: Finished processing zip file')
+        print('WACE DB PROCESSOR: Finished processing zip file')
         # wait for a bit
         time.sleep(1)
 
