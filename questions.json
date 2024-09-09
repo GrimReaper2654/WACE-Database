@@ -1683,7 +1683,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q27",
@@ -1691,7 +1695,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Redox",
+                "Half-equations"
+            ]
         },
         {
             "id": "WACE2021Q28",
@@ -1699,7 +1708,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Titration",
+                "Theory",
+                "Buffers"
+            ]
         },
         {
             "id": "WACE2021Q29",
@@ -1707,7 +1722,14 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Equilibrium",
+                "Le Chatelier's Principle",
+                "Theory",
+                "Calculation",
+                "pH"
+            ]
         },
         {
             "id": "WACE2021Q30",
@@ -1715,7 +1737,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Cells",
+                "Half-equations"
+            ]
         },
         {
             "id": "WACE2021Q31",
@@ -1723,7 +1750,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Corrosion",
+                "Half-equations"
+            ]
         },
         {
             "id": "WACE2021Q32",
@@ -1731,7 +1763,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Industrial Chemistry",
+                "Equilibrium",
+                "Graphing",
+                "Collision Theory"
+            ]
         },
         {
             "id": "WACE2021Q33",
@@ -1739,7 +1777,12 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Homologous Series",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q34",
@@ -1747,7 +1790,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Polymers",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q35",
@@ -1755,7 +1804,14 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Acids and Bases",
+                "Titration",
+                "Science Inquiry Skills",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q36",
@@ -1763,7 +1819,14 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Combustion Analysis",
+                "Empirical Formula",
+                "Calculation",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2021Q37",
@@ -1771,7 +1834,15 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Redox",
+                "Cells",
+                "Collision Theory",
+                "Calculation",
+                "Theory",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2021Q38",
@@ -1779,7 +1850,14 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Synthesis",
+                "Industrial Chemistry",
+                "Equilibrium",
+                "Collision Theory",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q39",
@@ -1787,7 +1865,14 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Synthesis",
+                "Biodisel",
+                "Science Inquiry Skills",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q1",
