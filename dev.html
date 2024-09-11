@@ -93,10 +93,27 @@
         <button class="standardButton" onclick="clearFilters()">Clear Filters</button>
     </div>
     <div class="content">
-        <h2>Search Results</h2>
+        <h2 class="compact">Search Results</h2>
+        <div id="pageControlsTop" class="pageControls">
+            <button disabled id="prevPageButtonTop" class="pageButton" onclick="prevPage()">◄</button>
+            <div class="horizontalSpacerSmall"></div>
+            <input id="pageInputTop" type="number" value="0" class="pageInput" onchange="goToPage(parseInt(this.value)-1)"/>
+            <span>/ </span>
+            <span id="totalPagesTop">0</span>
+            <div class="horizontalSpacerSmall"></div>
+            <button disabled id="nextPageButtonTop" class="pageButton" onclick="nextPage()">►</button>
+        </div>
         <div id="searchResults" class="searchResults">
             <h3>Press 'Search' to get started.</h3>
-            <p>Click on the tags in the footer to assign them to questions. Click again to remove them.</p>
+        </div>
+        <div id="pageControlsBottom" class="pageControls">
+            <button disabled id="prevPageButtonBottom" class="pageButton" onclick="prevPage()">◄</button>
+            <div class="horizontalSpacerSmall"></div>
+            <input id="pageInputBottom" type="number" value="0" class="pageInput" onchange="goToPage(parseInt(this.value)-1)"/>
+            <span>/ </span>
+            <span id="totalPagesBottom">0</span>
+            <div class="horizontalSpacerSmall"></div>
+            <button disabled id="nextPageButtonBottom" class="pageButton" onclick="nextPage()">►</button>
         </div>
     </div>
     <footer class="footer">

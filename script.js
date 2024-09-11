@@ -8,6 +8,7 @@ const data = {
         mode: 'or',
         tags: [],
         nTags: [],
+        resultsPerPage: 10
     },
     questions: [],
     allTags: [],
@@ -19,6 +20,7 @@ const data = {
     resetting: false,
     listeners: new Map(),
     unsavedChanges: false,
+    currentPage: 0,
 };
 
 window.addEventListener('resize', packTags);
@@ -46,6 +48,7 @@ function clearFilters() {
         mode: 'or',
         tags: [],
         nTags: [],
+        resultsPerPage: 10
     }
 
     localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
@@ -343,9 +346,21 @@ async function search() {
             }
         }
     });
-    
+
+    data.currentPage = 0;
+    document.getElementById('totalPagesTop').innerHTML = Math.ceil(data.questions.length / data.filters.resultsPerPage);
+    document.getElementById('totalPagesBottom').innerHTML = Math.ceil(data.questions.length / data.filters.resultsPerPage);
+    renderPageResults();
+}
+
+function renderPageResults() {
+    const start = data.currentPage * data.filters.resultsPerPage;
+    const end = Math.min(start + data.filters.resultsPerPage, data.questions.length);
+
+    console.log(start, end);
+
     let questionsHtml = ``;
-    for (let i in data.questions) {
+    for (let i = start; i < end; i++) {
         let questionTags = `<div class="smallTagsContainer">`;
         for (let j of data.questions[i].tags) {
             questionTags += `<label class="tag"><span class="tagLabel">${j}</span></label>`;
@@ -353,13 +368,38 @@ async function search() {
         questionTags += `</div>`;
         questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i}, true)"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="arrow alignRight">▼</span></button></div><div class="extraContent" id="extraContent${i}">${questionTags}<div id="question${i}" class="questionArea"><img src="questionBank/${data.filters.subject}/${data.questions[i].id}.webp" class="questionImage"></div><div class="verticalSpacer"></div><button class="standardButton" onclick="toggleKey(${i})">Toggle Marking Key</button><div class="horizontalSpacer"></div><a href="pdfDownloads/${data.filters.subject}/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
     }
-    if (questionsHtml == ``) questionsHtml = `<h3>No Results Found</h3>`;
+    if (questionsHtml == ``) {
+        questionsHtml = `<h3>No Results Found</h3>`;
+    }
     document.getElementById('searchResults').innerHTML = questionsHtml;
 
     if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Select question to modify tags.`;
     data.activeQuestion = null;
     data.activeQuestionNum = null;
-    if (document.getElementById('modifyTags')) setModifyTags();;
+    if (document.getElementById('modifyTags')) setModifyTags();
+
+    document.getElementById('pageInputTop').value = Math.min(data.currentPage+1, Math.ceil(data.questions.length / data.filters.resultsPerPage)); // if no results, don't say page 1
+    document.getElementById('pageInputBottom').value = Math.min(data.currentPage+1, Math.ceil(data.questions.length / data.filters.resultsPerPage));
+
+    document.getElementById('prevPageButtonTop').disabled = data.currentPage <= 0;
+    document.getElementById('nextPageButtonTop').disabled = data.currentPage+1 >= Math.ceil(data.questions.length / data.filters.resultsPerPage);
+    document.getElementById('prevPageButtonBottom').disabled = data.currentPage <= 0;
+    document.getElementById('nextPageButtonBottom').disabled = data.currentPage+1 >= Math.ceil(data.questions.length / data.filters.resultsPerPage);
+}
+
+function nextPage() {
+    data.currentPage++;
+    renderPageResults();
+}
+
+function prevPage() {
+    data.currentPage--;
+    renderPageResults();
+}
+
+function goToPage(n) {
+    data.currentPage = n;
+    renderPageResults();
 }
 
 async function toggleKey(id) {
@@ -383,7 +423,7 @@ async function load() {
     data.questionsRaw = await loadJson('questions');
     data.tagsV2 = await loadJson('tagsV2');
 
-    console.log(document.getElementById('isDuplicated').value);
+    console.log('tab duplicated?', document.getElementById('isDuplicated').value);
     if (document.getElementById('isDuplicated').value == 'yes') {
         // set filters if the page was duplicated
         data.filters.subject = document.getElementById('subjectSelect').value;

@@ -188,7 +188,7 @@ header {
 }
 
 .content {
-    min-height: 100vh;
+    min-height: 50vh;
     margin: auto;
     margin-top: 0;
     margin-bottom: 0;
@@ -197,6 +197,8 @@ header {
     min-width: 600px;
     padding: 20px;
     background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
 }
 
 .box {
@@ -296,6 +298,11 @@ header {
     min-width: 10px;
 }
 
+.horizontalSpacerSmall {
+    display: inline-block;
+    min-width: 5px;
+}
+
 h4 {
     margin: 0;
 }
@@ -303,6 +310,11 @@ h4 {
 ul {
     margin-top: 0;
     padding-inline-start: 20px;
+}
+
+.compact {
+    padding: 0;
+    margin: 0;
 }
 
 .invisible {
@@ -470,4 +482,35 @@ ul {
 .colour16 {
     border-color: #FF7043; /* Burnt Orange */
     color: #FF7043;
+}
+
+.pageControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageInput {
+    width: 30px;
+    text-align: center;
+    margin: 0;
+    margin-right: 3px;
+}
+
+.pageButton {
+    background-color: transparent; 
+    border: none; 
+    color: #000;
+    font-size: 20px; 
+    cursor: pointer; 
+    padding: 0; 
+}
+
+.pageButton:disabled {
+    color: rgba(0, 0, 0, 0.5);  
+    cursor: not-allowed;
+}
+
+#pageControlsBottom {
+    margin-top: auto;
 }
