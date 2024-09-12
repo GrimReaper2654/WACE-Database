@@ -433,6 +433,7 @@ async function load() {
         data.filters.source = document.getElementById('sourceSelect').value;
         data.filters.type = document.getElementById('typeSelect').value;
         data.filters.mode = document.getElementById('tagsSelect').value;
+        data.filters.resultsPerPage = document.getElementById('lengthSelect').value;
         data.filters.tags = Array.from(document.querySelectorAll('positive')).map(checkbox => checkbox.id);
         data.filters.nTags = Array.from(document.querySelectorAll('negative')).map(checkbox => checkbox.id);
     } else {
@@ -446,6 +447,7 @@ async function load() {
             document.getElementById('sourceSelect').value = data.filters.source;
             document.getElementById('typeSelect').value = data.filters.type;
             document.getElementById('tagsSelect').value = data.filters.mode;
+            document.getElementById('lengthSelect').value = data.filters.resultsPerPage;
         }
 
         document.getElementById('isDuplicated').value = 'yes';
