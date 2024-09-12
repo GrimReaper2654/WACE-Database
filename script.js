@@ -354,6 +354,7 @@ async function search() {
 }
 
 function renderPageResults() {
+    data.filters.resultsPerPage = parseInt(document.getElementById('lengthSelect').value);
     const start = data.currentPage * data.filters.resultsPerPage;
     const end = Math.min(start + data.filters.resultsPerPage, data.questions.length);
 

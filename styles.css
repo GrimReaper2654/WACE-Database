@@ -199,6 +199,7 @@ header {
     background-color: #eeeeee;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .box {
@@ -513,4 +514,9 @@ ul {
 
 #pageControlsBottom {
     margin-top: auto;
+}
+
+#pageLengthSelect {
+    position: absolute;
+    right: 20px;
 }
