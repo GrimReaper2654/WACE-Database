@@ -8,7 +8,8 @@ const data = {
         mode: 'or',
         tags: [],
         nTags: [],
-        resultsPerPage: 10
+        resultsPerPage: 10,
+        currentPage: 0,
     },
     questions: [],
     allTags: [],
@@ -20,7 +21,6 @@ const data = {
     resetting: false,
     listeners: new Map(),
     unsavedChanges: false,
-    currentPage: 0,
 };
 
 window.addEventListener('resize', packTags);
@@ -48,16 +48,18 @@ function clearFilters() {
         mode: 'or',
         tags: [],
         nTags: [],
-        resultsPerPage: 10
+        resultsPerPage: 10,
+        currentPage: 0,
     }
-
-    localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
 
     document.getElementById('yearSelect').value = data.filters.year;
     document.getElementById('calculatorSelect').value = data.filters.calculator;
     document.getElementById('sourceSelect').value = data.filters.source;
     document.getElementById('typeSelect').value = data.filters.type;
     document.getElementById('tagsSelect').value = data.filters.mode;
+    document.getElementById('lengthSelect').value = 10;
+    document.getElementById('pageInputTop').value = 0;
+    document.getElementById('pageInputBottom').value = 0;
 
     document.querySelectorAll('.checkbox').forEach(checkbox => {
         checkbox.classList.remove('positive');
@@ -65,6 +67,9 @@ function clearFilters() {
         checkbox.innerHTML = '';
     });
 
+    localStorage.removeItem('WACEDB_FILTERS');
+
+    document.getElementById('searchResults').innerHTML = `<h3>Press 'Search' to get started.</h3>`;
 }
 
 function removeAllEventListeners() {
@@ -347,18 +352,18 @@ async function search() {
         }
     });
 
-    data.currentPage = 0;
-    document.getElementById('totalPagesTop').innerHTML = Math.ceil(data.questions.length / data.filters.resultsPerPage);
-    document.getElementById('totalPagesBottom').innerHTML = Math.ceil(data.questions.length / data.filters.resultsPerPage);
+    data.filters.currentPage = 0;
     renderPageResults();
 }
 
 function renderPageResults() {
     data.filters.resultsPerPage = parseInt(document.getElementById('lengthSelect').value);
-    const start = data.currentPage * data.filters.resultsPerPage;
+    const start = data.filters.currentPage * data.filters.resultsPerPage;
     const end = Math.min(start + data.filters.resultsPerPage, data.questions.length);
 
     console.log(start, end);
+
+    localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
 
     let questionsHtml = ``;
     for (let i = start; i < end; i++) {
@@ -379,27 +384,31 @@ function renderPageResults() {
     data.activeQuestionNum = null;
     if (document.getElementById('modifyTags')) setModifyTags();
 
-    document.getElementById('pageInputTop').value = Math.min(data.currentPage+1, Math.ceil(data.questions.length / data.filters.resultsPerPage)); // if no results, don't say page 1
-    document.getElementById('pageInputBottom').value = Math.min(data.currentPage+1, Math.ceil(data.questions.length / data.filters.resultsPerPage));
+    document.getElementById('totalPagesTop').innerHTML = Math.ceil(data.questions.length / data.filters.resultsPerPage);
+    document.getElementById('totalPagesBottom').innerHTML = Math.ceil(data.questions.length / data.filters.resultsPerPage);
 
-    document.getElementById('prevPageButtonTop').disabled = data.currentPage <= 0;
-    document.getElementById('nextPageButtonTop').disabled = data.currentPage+1 >= Math.ceil(data.questions.length / data.filters.resultsPerPage);
-    document.getElementById('prevPageButtonBottom').disabled = data.currentPage <= 0;
-    document.getElementById('nextPageButtonBottom').disabled = data.currentPage+1 >= Math.ceil(data.questions.length / data.filters.resultsPerPage);
+    document.getElementById('pageInputTop').value = Math.min(data.filters.currentPage+1, Math.ceil(data.questions.length / data.filters.resultsPerPage)); // if no results, don't say page 1
+    document.getElementById('pageInputBottom').value = Math.min(data.filters.currentPage+1, Math.ceil(data.questions.length / data.filters.resultsPerPage));
+
+    document.getElementById('prevPageButtonTop').disabled = data.filters.currentPage <= 0;
+    document.getElementById('nextPageButtonTop').disabled = data.filters.currentPage+1 >= Math.ceil(data.questions.length / data.filters.resultsPerPage);
+    document.getElementById('prevPageButtonBottom').disabled = data.filters.currentPage <= 0;
+    document.getElementById('nextPageButtonBottom').disabled = data.filters.currentPage+1 >= Math.ceil(data.questions.length / data.filters.resultsPerPage);
 }
 
 function nextPage() {
-    data.currentPage++;
+    data.filters.currentPage++;
     renderPageResults();
 }
 
 function prevPage() {
-    data.currentPage--;
+    data.filters.currentPage--;
     renderPageResults();
 }
 
 function goToPage(n) {
-    data.currentPage = n;
+    n = Math.min(Math.max(0, n), Math.ceil(data.questions.length / data.filters.resultsPerPage)-1);
+    data.filters.currentPage = n;
     renderPageResults();
 }
 
@@ -425,6 +434,7 @@ async function load() {
     data.tagsV2 = await loadJson('tagsV2');
 
     console.log('tab duplicated?', document.getElementById('isDuplicated').value);
+    let shouldSearch = false;
     if (document.getElementById('isDuplicated').value == 'yes') {
         // set filters if the page was duplicated
         data.filters.subject = document.getElementById('subjectSelect').value;
@@ -434,8 +444,10 @@ async function load() {
         data.filters.type = document.getElementById('typeSelect').value;
         data.filters.mode = document.getElementById('tagsSelect').value;
         data.filters.resultsPerPage = document.getElementById('lengthSelect').value;
+        data.filters.currentPage = document.getElementById('pageInputTop').value;
         data.filters.tags = Array.from(document.querySelectorAll('positive')).map(checkbox => checkbox.id);
         data.filters.nTags = Array.from(document.querySelectorAll('negative')).map(checkbox => checkbox.id);
+        shouldSearch = true;
     } else {
         // load settings from localhost
         let savedSettings = localStorage.getItem('WACEDB_FILTERS');
@@ -448,8 +460,10 @@ async function load() {
             document.getElementById('typeSelect').value = data.filters.type;
             document.getElementById('tagsSelect').value = data.filters.mode;
             document.getElementById('lengthSelect').value = data.filters.resultsPerPage;
+            document.getElementById('pageInputTop').value = data.filters.currentPage;
+            document.getElementById('pageInputBottom').value = data.filters.currentPage;
+            shouldSearch = true;
         }
-
         document.getElementById('isDuplicated').value = 'yes';
     }
 
@@ -480,6 +494,12 @@ async function load() {
             }
         }
     });
+    
+    if (shouldSearch) {
+        let page = data.filters.currentPage;
+        search();
+        goToPage(page);
+    }
 }
 
 async function createPullRequest() {
