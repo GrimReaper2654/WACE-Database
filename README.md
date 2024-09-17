@@ -2,7 +2,7 @@
 We plan on hosting a large collection of resources for the WACE exam. We have a database of tagged and filterable practice questions for a variety of ATAR subjects from past WACE exams as well as some simple study tools, some of which we created and can not be found anywhere else. If you are a year 11 / 12 student preparing for ATAR, this respostory could help you out, whether you are revising for smaller tests or exams. We could also use your help if you are intrested in expanding this project or wish to help out fellow students through the most challenging years of high school. <br>
 Feel free to email me if you are interested in joining, alternatively create a pull request with things you want to add. <br><br>
 Also MacELine™ is not a real company. <br>
-We have a discord now: https://discord.gg/ydSxYFNv
+We have a discord now: https://discord.gg/rT69J9Kx
 
 **Site can be accessed from:**<br>
 https://wacedatabase.pages.dev/  (most up to date)<br>
