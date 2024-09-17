@@ -3,85 +3,8 @@
 ## How to Set Tags
 
 ### Setting Tags
-For those of you who want to set tags for questions, open `questions.json` and find a question that does not have tags, or you think has insufficient tags.<br>
-It will look something like this:
-```
-{
-    "id": "WACE2023Q1",
-    "name": "WACE 2023 Calc Free Question 1",
-    "year": 2023,
-    "source": "WACE",
-    "calculator": "free",
-    "tags": []
-},
-```
-This is the first question of the WACE 2023 Calculator Free exam.<br>
-Open the exam or marking key and see what topics the question assesses and determine what tags should be added.<br>
-A list of tags can be found in `tagsV2.json` and if the subject is not there, try looking in `tags.json`. Both the tag group names and subtags can be used as tags.<br>
-Add the tags to the tags array as strings, capitals do matter.<br>
-Just do what you think is correct, and don't be afraid to create new tags if necessary.<br>
-
-If I want to add the tag 'Tag1' for example, the question would look something like this:
-```
-{
-    "id": "WACE2023Q1",
-    "name": "WACE 2023 Calc Free Question 1",
-    "year": 2023,
-    "source": "WACE",
-    "calculator": "free",
-    "tags": ["Tag1"]
-}
-```
-and if I add the tags 'Tag2' and 'Tag3' as well,
-```
-{
-    "id": "WACE2023Q1",
-    "name": "WACE 2023 Calc Free Question 1",
-    "year": 2023,
-    "source": "WACE",
-    "calculator": "free",
-    "tags": ["Tag1", "Tag2", "Tag3"]
-}
-```
-
-### Creating Tags
-In order to create tags, first open `tagsV2.json`. Go to the corresponding subject and add the tag to the correct category or create a new category. <br>
-For example, I want to add the tag 'Tag1' under the functions tag group and I want to create a tag group called 'Tag2' with 'Tag3' and 'Tag4' under it. The new spec tags woudl look like this:
-```
-"spec": {
-    "Calculus": [
-        "Integration", 
-    ],
-    "Functions": [
-        "Polynomials",
-        "Inverse Functions",
-        "Tag1"
-    ],
-    "Tag2": [
-        "Tag3",
-        "Tag4"
-    ]
-}
-```
-In order to create a tag that is not in a group, create an empty tag group. In this example, 'Tag5' is an empty tag group that would appear as a tag that is not grouped.
-```
-"spec": {
-    "Calculus": [
-        "Integration", 
-    ],
-    "Functions": [
-        "Polynomials",
-        "Inverse Functions",
-        "Tag1"
-    ],
-    "Tag2": [
-        "Tag3",
-        "Tag4"
-    ],
-    "Tag5": []
-}
-```
-Note: The names of tag groups are also tags themselves. So in the previous example, 'Calculus', 'Functions', 'Tag2' and 'Tag5' are all tags that can be selected and searched for.
+Go to https://wacedatabase.pages.dev/dev <br>
+Everything needed for setting tags is there. You will need a github account in order to create a token with full repo access, which you can then input into the site. Then select a question using the search function, filtering by year is usually good as it separates the questions into more managable chunks. The footer will show the possible tags of the question, which you can click to add and remove. Your changes will be saved until you leave the page. After making all your changes, the site will automatically create a pull request when you press the `Submit Pull Request` button. Then, wait for the site to update (check the repo or the discord server) and reload to see your changes. Alternatively, you can modify `questions.json` and create a pull request manually if you don't want to use the built in tagging system.
 
 ## A Guide to Processing Questions
 
@@ -92,42 +15,21 @@ For those who don't want to use python, just manually do what is described in th
 
 ### Step 2: Get Questions
 Open the past paper pdf that you found online and screenshot the individual questions. <br>
-This process is currently not automated due to a variety of factors but we are working on a solution. <br>
-Each question image should not have any borders so the resizing program does not break. Also crop out any headders and footers, like the page number. Keep the number of marks as that is rather important.<br>
+Each question image should not have any borders so the resizing program does not break (background should be fully white). Also crop out any headders and footers, like the page number. Keep the question number and number of marks as that is rather important.<br>
 Multiple question parts can be put in the same image, this is fine. Only use multiple images if the questions spans several pages.<br>
 If a question requires multiple images as it spans muliple pages, crop out any repeated question numbers like 'Question 1 (continued)'.<br>
-Make sure to save all the images with the same name as the question id so 2023 WACE question 1 would be named WACE2023Q1.png<br>
-Questions that require multiple images are handled differently. The images would be named WACE2023Q1.1.png, WACE2023Q1.2.png, WACE2023Q1.3.png and so on.<br>
-Make sure to only get the questions and NOT the marking keys as well. All images should be .png<br>
+If the first (or only) image in the question does not have a question number in the form of `Question n` you will need to manually rename it.<br>
+The images would be named WACE2023Q1.1.png, WACE2023Q1.2.png, WACE2023Q1.3.png and so on for a multi part question or simply WACE2023Q1 for a single part question.<br>
+If the image contains the question number, there is no need to rename the question. Just make sure you screenshot the parts in order.<br>
+Make sure to put the questions in a folder named the organisation followed by the year, a space and a shortened version of the subject so `WACE2023 spec` or `WACE2019 econs` for example. <br>
+Put the marking keys in a folder named `key` inside the questions folder. The same requirements for questions apply for the marking keys as well. All images should be .png and the images to be automatically renamed should contain 'screenshot' in their name (can be changed in the python program)<br>
 <br>
-If you don't want to manually name the questions, just make sure you screenshot the parts of each question in order (part 1 before part 2 and so on). Then run `renamer.py` and it will automatically name the questions correctly. You will have to adjust the template to make sure the info is correct, but thats just changing the year and maybe source so its pretty simple.<br>
-<br>
-`screenshotter.py` is avalaible to make screenshotting easier by simplifying the keybind. Just input the keybind for screenshotting and run the program (maybe with sudo if it needs perms). Its a minor time save, but stops your hand from getting as tired so it is quite useful. THis program is not necessary though so don't worry if you can't get it working.
+`screenshotter.py` is avalaible to make screenshotting easier by simplifying the keybind. Just input the keybind for screenshotting and run the program (maybe with sudo if it needs perms). Its a minor time save, but stops your hand from getting as tired so it is quite useful. This program is not necessary though so don't worry if you can't get it working.
 
-### Step 3: Process Images
-Once you have all the questions in the image processing folder, run `processor.py`. This will automatically crop all the images, as long as the background is completely white and turn the images into .webp format.<br>
-If you are uncretain of how well you cropped the images, you cn check the outputed images for any problems.<br>
-Note that this step will delete the .png images inputed.
+### Step 3: Process Questions
+If the subject is a math subject and has calc assumed and calc free sections (specialist, methods, applications, etc), put a txt file into the folder with the questions containing the number of calc free questions as an integer. Name this file `calculator.txt`. The script will read this and add calculator free or calculator assumed to the question name. If the file is not present, the program will assume all questions are calculator assumed. <br>
+Run `fullAuto.py` and it will handle everything. If you have done the previous step correctly, the program will process and move all the questions and marking keys into the right places as well as add the questions to the database. The questions will not be automatically tagged as that requires people to do it.<br>
+If there are any problems, you can manually fix them. There are many python programs lying around in the image processing area that might be useful.
 
-### Step 4: Make PDFs
-Run `pdfMaker.py` and it will create the PDF dowloads for all the questions. For questions with multiple images, each image is on a separate page to leave sufficient room for working out.<br>
-This will create PDFs without altering the source .webp images
-
-### Step 5: Make Questions
-Run `stacker.py` to turn the questions with multiple images into a single image. This process will automatically rename the question to the correct format (as long as the input format is correct) and will also delete the input images. This step will not affect the images that don't need to be stacked.
-
-### Step 6: Handle Outputs
-Move the PDFs to the pdfDownloads folder and put them in the correct subject folder. Images go into the questionBank folder under the correct subject folder. 
-
-### Step 7: Make Marking Keys
-Repeat step 2 but for the marking keys. Use the same naming format. Each marking key and question should have the same name but are in different folders so they do not conflict.
-
-### Step 8: Process Marking Keys
-Only need to run `processor.py` and `stacker.py` on the marking keys. THe output images can then be moved to the markingKeys folder under the correct subject folder. 
-
-### Step 9: Add Question Data
-Open `dataSynthesiser.py` and edit the template variable until the question data is correct. Then set start question and end question and run the program. The question data will be outputed to the terminal and can be copy pasted into `questions.json`. <br>
-If you want to set tags, add the tags to the tags array for each question. Its fine if you don't want to do tags, somebody else will have to do them.
-
-### Step 10: Upload
+### Step 4: Upload
 If you are a contributor, just commit changes and push to main. Otherwise, create a pull request and wait for a contributor to accept.
