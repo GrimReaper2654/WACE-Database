@@ -6682,7 +6682,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Standard Model",
+                "Subatomic Particles",
+                "Particle Accelerators",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q21",
@@ -6691,7 +6697,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Electricity",
+                "AC Current",
+                "Power Transmission",
+                "Theory",
+                "Calculation",
+                "Equilibrium of Forces"
+            ]
         },
         {
             "id": "WACE2019Q1",
