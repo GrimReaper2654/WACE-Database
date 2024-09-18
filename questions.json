@@ -6403,7 +6403,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q2",
@@ -6412,7 +6416,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Wave Particle Duality",
+                "Waves",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q3",
@@ -6421,7 +6430,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Light",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q4",
@@ -6430,7 +6444,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q5",
@@ -6439,7 +6458,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q6",
@@ -6448,7 +6473,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Electric Fields",
+                "Electricity",
+                "Charged Particles",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q7",
@@ -6457,7 +6489,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Theory",
+                "Electromagnetism",
+                "Induction"
+            ]
         },
         {
             "id": "WACE2020Q8",
@@ -6466,7 +6503,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Wave Particle Duality",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q9",
@@ -6475,7 +6517,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q10",
@@ -6484,7 +6530,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q11",
@@ -6493,7 +6543,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q12",
@@ -6502,7 +6556,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Theory",
+                "Standard Model",
+                "Subatomic Particles"
+            ]
         },
         {
             "id": "WACE2020Q13",
