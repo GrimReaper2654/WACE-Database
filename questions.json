@@ -6546,7 +6546,8 @@
             "tags": [
                 "Short Response",
                 "Gravity and Motion",
-                "Calculation"
+                "Calculation",
+                "Equilibrium of Forces"
             ]
         },
         {
@@ -6570,7 +6571,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Electromagnetism",
+                "Electric Fields",
+                "Electricity",
+                "Charged Particles",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q14",
@@ -6579,7 +6588,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Subatomic Particles",
+                "Special Relativity",
+                "Time Dilation",
+                "Length Contraction",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q15",
@@ -6588,7 +6606,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Special Relativity",
+                "Relative Velocities",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q16",
@@ -6597,7 +6620,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Electromagnetism",
+                "Generators",
+                "Magnetic Fields",
+                "Electricity",
+                "AC Current",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q17",
@@ -6606,7 +6638,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Orbits",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q18",
@@ -6615,7 +6653,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Torque",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q19",
@@ -6624,7 +6667,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Graphing",
+                "Estimation",
+                "Theory",
+                "Big Bang Theory"
+            ]
         },
         {
             "id": "WACE2020Q20",
