@@ -6403,7 +6403,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2020Q2",
@@ -6412,7 +6416,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Wave Particle Duality",
+                "Waves",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q3",
@@ -6421,7 +6430,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Light",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q4",
@@ -6430,7 +6444,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q5",
@@ -6439,7 +6458,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q6",
@@ -6448,7 +6473,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Electric Fields",
+                "Electricity",
+                "Charged Particles",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q7",
@@ -6457,7 +6489,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Theory",
+                "Electromagnetism",
+                "Induction"
+            ]
         },
         {
             "id": "WACE2020Q8",
@@ -6466,7 +6503,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Wave Particle Duality",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q9",
@@ -6475,7 +6517,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q10",
@@ -6484,7 +6530,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q11",
@@ -6493,7 +6543,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Calculation",
+                "Equilibrium of Forces"
+            ]
         },
         {
             "id": "WACE2020Q12",
@@ -6502,7 +6557,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Theory",
+                "Standard Model",
+                "Subatomic Particles"
+            ]
         },
         {
             "id": "WACE2020Q13",
@@ -6511,7 +6571,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Electromagnetism",
+                "Electric Fields",
+                "Electricity",
+                "Charged Particles",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q14",
@@ -6520,7 +6588,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Subatomic Particles",
+                "Special Relativity",
+                "Time Dilation",
+                "Length Contraction",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q15",
@@ -6529,7 +6606,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Special Relativity",
+                "Relative Velocities",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q16",
@@ -6538,7 +6620,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Electromagnetism",
+                "Generators",
+                "Magnetic Fields",
+                "Electricity",
+                "AC Current",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q17",
@@ -6547,7 +6638,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Orbits",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q18",
@@ -6556,7 +6653,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Torque",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q19",
@@ -6565,7 +6667,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Graphing",
+                "Estimation",
+                "Theory",
+                "Big Bang Theory"
+            ]
         },
         {
             "id": "WACE2020Q20",
@@ -6574,7 +6682,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Standard Model",
+                "Subatomic Particles",
+                "Particle Accelerators",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q21",
@@ -6583,7 +6697,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Electricity",
+                "AC Current",
+                "Power Transmission",
+                "Theory",
+                "Calculation",
+                "Equilibrium of Forces"
+            ]
         },
         {
             "id": "WACE2019Q1",
