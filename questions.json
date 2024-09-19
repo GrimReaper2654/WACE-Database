@@ -4893,7 +4893,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Second Derivative"
+            ]
         },
         {
             "id": "WACE2019Q2",
@@ -4901,7 +4907,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Calculus"
+            ]
         },
         {
             "id": "WACE2019Q3",
@@ -4909,7 +4918,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2019Q4",
@@ -4917,7 +4929,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q5",
@@ -4925,7 +4941,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Area Under a Curve",
+                "Antidifferentiation"
+            ]
         },
         {
             "id": "WACE2019Q6",
@@ -4933,7 +4955,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Graphing",
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2019Q7",
@@ -4941,7 +4967,14 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Increments Formula"
+            ]
         },
         {
             "id": "WACE2019Q8",
