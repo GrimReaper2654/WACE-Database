@@ -2291,7 +2291,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases",
+                "pH",
+                "Titration"
+            ]
         },
         {
             "id": "WACE2019Q2",
@@ -2299,7 +2304,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2019Q3",
@@ -2307,7 +2315,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2019Q4",
@@ -2315,7 +2326,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2019Q5",
@@ -2323,7 +2337,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox",
+                "Corrosion"
+            ]
         },
         {
             "id": "WACE2019Q6",
@@ -2331,7 +2349,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox",
+                "Corrosion"
+            ]
         },
         {
             "id": "WACE2019Q7",
@@ -2339,7 +2361,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox",
+                "Corrosion"
+            ]
         },
         {
             "id": "WACE2019Q8",
@@ -2347,7 +2373,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2019Q9",
@@ -2355,7 +2384,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Proteins and Amino Acids"
+            ]
         },
         {
             "id": "WACE2019Q10",
@@ -2363,7 +2395,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox"
+            ]
         },
         {
             "id": "WACE2019Q11",
@@ -2371,7 +2406,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Synthesis",
+                "Biodisel",
+                "Industrial Chemistry"
+            ]
         },
         {
             "id": "WACE2019Q12",
@@ -2379,7 +2419,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2019Q13",
@@ -2387,7 +2430,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Synthesis",
+                "Biodisel",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2019Q14",
@@ -2395,7 +2443,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry",
+                "Homologous Series"
+            ]
         },
         {
             "id": "WACE2019Q15",
@@ -2403,7 +2455,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2019Q16",
@@ -2411,7 +2466,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases",
+                "pH"
+            ]
         },
         {
             "id": "WACE2019Q17",
@@ -2419,7 +2478,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox"
+            ]
         },
         {
             "id": "WACE2019Q18",
@@ -2427,7 +2489,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry",
+                "Redox"
+            ]
         },
         {
             "id": "WACE2019Q19",
@@ -2435,7 +2501,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Science Inquiry Skills",
+                "Acids and Bases",
+                "pH"
+            ]
         },
         {
             "id": "WACE2019Q20",
@@ -2443,7 +2514,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2019Q21",
@@ -2451,7 +2525,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Equilibrium",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2019Q22",
@@ -2459,7 +2537,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2019Q23",
@@ -2467,7 +2548,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2019Q24",
@@ -2475,7 +2559,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2019Q25",
@@ -2483,7 +2570,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2019Q26",
