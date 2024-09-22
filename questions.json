@@ -2581,7 +2581,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Observations"
+            ]
         },
         {
             "id": "WACE2019Q27",
@@ -2589,7 +2592,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "pH",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q28",
@@ -2597,7 +2605,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Half-equations"
+            ]
         },
         {
             "id": "WACE2019Q29",
@@ -2605,7 +2617,12 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Industrial Chemistry",
+                "Synthesis",
+                "Equilibrium"
+            ]
         },
         {
             "id": "WACE2019Q30",
@@ -2613,7 +2630,14 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Empirical Formula",
+                "Calculation",
+                "Theory",
+                "Stoichiometry"
+            ]
         },
         {
             "id": "WACE2019Q31",
