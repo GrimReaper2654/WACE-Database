@@ -2645,7 +2645,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Cells",
+                "Theory",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2019Q32",
@@ -2653,7 +2659,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "pH",
+                "Calculation",
+                "Stoichiometry"
+            ]
         },
         {
             "id": "WACE2019Q33",
@@ -2661,7 +2673,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2019Q34",
@@ -2669,7 +2684,16 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Titration",
+                "Graphing",
+                "Theory",
+                "Equilibrium",
+                "Collision Theory",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2019Q35",
@@ -2677,7 +2701,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Titration",
+                "Theory",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2019Q36",
