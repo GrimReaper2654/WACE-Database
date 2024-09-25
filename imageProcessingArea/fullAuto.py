@@ -64,7 +64,7 @@ def automate_question_database():
             
             # Extract all contents into the unzipped folder
             zip_ref.extractall(cwd)
-        time.sleep(1)
+        time.sleep(2)
 
         # Path to the __MACOSX folder
         macosx_folder = os.path.join(unzipped_folder, "__MACOSX")
@@ -158,4 +158,3 @@ def automate_question_database():
 
 # Run the automation function
 automate_question_database()
-
