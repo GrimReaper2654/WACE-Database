@@ -7547,7 +7547,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q2",
@@ -7556,7 +7561,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Photoelectric Effect",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q3",
@@ -7565,7 +7575,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Induction",
+                "Magnetic Fields",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q4",
@@ -7574,7 +7590,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Circular Motion",
+                "Orbits",
+                "Gravity and Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q5",
@@ -7583,7 +7605,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Standard Model",
+                "Subatomic Particles",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q6",
@@ -7592,7 +7619,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q7",
@@ -7601,7 +7633,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Electricity",
+                "Charged Particles",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q8",
@@ -7610,7 +7648,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Circular Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q9",
@@ -7619,7 +7661,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Time Dilation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q10",
@@ -7628,7 +7675,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Wave Particle Duality",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q11",
