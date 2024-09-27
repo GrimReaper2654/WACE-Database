@@ -445,8 +445,6 @@ async function load() {
         data.filters.mode = document.getElementById('tagsSelect').value;
         data.filters.resultsPerPage = document.getElementById('lengthSelect').value;
         data.filters.currentPage = document.getElementById('pageInputTop').value;
-        data.filters.tags = Array.from(document.querySelectorAll('positive')).map(checkbox => checkbox.id);
-        data.filters.nTags = Array.from(document.querySelectorAll('negative')).map(checkbox => checkbox.id);
         shouldSearch = true;
     } else {
         // load settings from localhost
@@ -495,6 +493,21 @@ async function load() {
         }
     });
     
+    for (let tag of data.filters.tags) {
+        console.log(tag);
+        if (document.getElementById(tag)) {
+            document.getElementById(tag).classList.add('.positive');
+            document.getElementById(tag).innerHTML = '<svg id="i-checkmark" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%"><path d="M2 20 L12 28 30 4" /></svg>';
+        }
+    }
+    for (let tag of data.filters.nTags) {
+        console.log(tag);
+        if (document.getElementById(tag)) {
+            document.getElementById(tag).classList.add('.negative');
+            document.getElementById(tag).innerHTML = '<svg id="i-close" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.9375%"><path d="M2 30 L30 2 M30 30 L2 2" /></svg>';
+        }
+    }
+
     if (shouldSearch) {
         let page = data.filters.currentPage;
         search();
