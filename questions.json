@@ -8131,7 +8131,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Light",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q2",
@@ -8140,7 +8145,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Time Dilation"
+            ]
         },
         {
             "id": "WACE2017Q3",
@@ -8149,7 +8158,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Diagrams",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q4",
@@ -8158,7 +8173,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Diagrams",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q5",
@@ -8167,7 +8187,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Blackbody Radiation",
+                "Photoelectric Effect",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q6",
@@ -8176,7 +8201,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Static Equilibrium",
+                "Torque",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q7",
@@ -8185,7 +8216,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q8",
@@ -8194,7 +8229,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Induction",
+                "Theory",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2017Q9",
@@ -8203,7 +8244,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q10",
@@ -8212,7 +8259,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Charged Particles",
+                "Waves",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q11",
@@ -8221,7 +8274,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q12",
@@ -8230,7 +8289,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Blackbody Radiation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q13",
@@ -8239,7 +8302,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Graphing",
+                "Calculation",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2017Q14",
@@ -8248,7 +8316,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Projectile Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q15",
@@ -8257,7 +8329,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q16",
@@ -8266,7 +8343,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q17",
@@ -8275,7 +8356,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Orbits",
+                "Special Relativity",
+                "Time Dilation",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q18",
@@ -8284,7 +8373,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Problem Solving",
+                "Photoelectric Effect",
+                "Theory",
+                "Graphing",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q19",
@@ -8293,7 +8389,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Orbits",
+                "Calculation",
+                "Graphing",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2017Q20",
@@ -8302,7 +8405,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Equilibrium of Forces",
+                "Electric Fields",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q21",
@@ -8311,7 +8421,19 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Special Relativity",
+                "Relative Velocities",
+                "Waves",
+                "Emission / Absorption Spectrum",
+                "Conservation of Energy",
+                "Magnetic Fields",
+                "Circular Motion",
+                "Calculation",
+                "Theory",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2017Q22",
@@ -8320,7 +8442,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Magnetic Fields",
+                "Induction",
+                "Theory",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2016Q1",
