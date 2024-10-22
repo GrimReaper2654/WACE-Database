@@ -8457,7 +8457,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electric Fields",
+                "Magnetic Fields",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q2",
@@ -8466,7 +8471,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Conservation of Energy",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q3",
@@ -8475,7 +8484,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Projectile Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q4",
@@ -8484,7 +8498,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Time Dilation",
+                "Big Bang Theory",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q5",
@@ -8493,7 +8513,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q6",
@@ -8502,7 +8526,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Emission / Absorption Spectrum",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q7",
@@ -8511,7 +8540,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Relative Velocities",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q8",
@@ -8520,7 +8554,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Generators",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q9",
@@ -8529,7 +8567,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electric Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q10",
@@ -8538,7 +8580,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Equilibrium of Forces",
+                "Torque",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q11",
@@ -8547,7 +8595,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Wave Particle Duality",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q12",
@@ -8556,7 +8610,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Time Dilation",
+                "Length Contraction",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q13",
@@ -8565,7 +8626,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Circular Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q14",
@@ -8574,7 +8639,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Wave Particle Duality",
+                "De Broglie Wavelength",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q15",
@@ -8583,7 +8654,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Projectile Motion",
+                "Circular Motion",
+                "Orbits",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q16",
@@ -8592,7 +8670,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Magnetic Fields",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q17",
@@ -8601,7 +8685,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Subatomic Particles",
+                "Particle Accelerators",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Theory",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2016Q18",
@@ -8610,7 +8703,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q19",
@@ -8619,7 +8719,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q20",
@@ -8628,7 +8732,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Waves",
+                "Photoelectric Effect",
+                "Calculation",
+                "Graphing",
+                "Theory",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2016Q21",
@@ -8637,7 +8749,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Circular Motion",
+                "Orbits",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Calculation",
+                "Theory",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2016Q22",
@@ -8646,7 +8767,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Emission / Absorption Spectrum",
+                "Theory"
+            ]
         }
     ],
     "spec": [
