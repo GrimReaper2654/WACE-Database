@@ -6,6 +6,11 @@
         "Multiple-choice": [],
         "Short Answer": [],
         "Extended Response": [],
+        "Chemical Reactions": [
+            "Observations",
+            "Reaction Rates",
+            "Balancing Equations"
+        ],
         "Redox": [
             "Half-equations",
             "Cells",
@@ -41,7 +46,6 @@
         ],
         "Industrial Chemistry": [],
         "Science Inquiry Skills": [],
-        "Observations": [],
         "Graphing": [],
         "Diagrams": [],
         "Theory": [],
@@ -144,7 +148,8 @@
             "Polarisation",
             "Blackbody Radiation",
             "Photoelectric Effect",
-            "Emission / Absorption Spectrum"
+            "Emission / Absorption Spectrum",
+            "De Broglie Wavelength"
         ],
         "Special Relativity": [
             "Time Dilation",
