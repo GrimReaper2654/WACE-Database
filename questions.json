@@ -2827,10 +2827,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Organic Chemistry"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q27",
@@ -2838,12 +2835,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Observations",
-                "Redox",
-                "Acids and Bases"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q28",
@@ -2851,12 +2843,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Organic Chemistry",
-                "Polymers",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q29",
@@ -2864,13 +2851,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Equilibrium",
-                "Collision Theory",
-                "Le Chatelier's Principle",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q30",
@@ -2878,15 +2859,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Redox",
-                "Cells",
-                "Acids and Bases",
-                "pH",
-                "Buffers",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q31",
@@ -2894,13 +2867,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Equilibrium",
-                "Acids and Bases",
-                "pH",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q32",
@@ -2908,13 +2875,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Science Inquiry Skills",
-                "Organic Chemistry",
-                "Homologous Series",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q33",
@@ -2922,11 +2883,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Synthesis",
-                "Organic Chemistry"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q34",
@@ -2934,13 +2891,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Equilibrium",
-                "Le Chatelier's Principle",
-                "Collision Theory",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q35",
@@ -2948,12 +2899,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Organic Chemistry",
-                "Proteins and Amino Acids",
-                "pH"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q36",
@@ -2961,13 +2907,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Redox",
-                "Cells",
-                "Half-equations",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q37",
@@ -2975,13 +2915,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Acids and Bases",
-                "Titration",
-                "Theory",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q38",
@@ -2989,13 +2923,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Stoichiometry",
-                "Combustion Analysis",
-                "Empirical Formula",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q39",
@@ -3003,12 +2931,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Calculation",
-                "Stoichiometry",
-                "Synthesis"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q40",
@@ -3016,17 +2939,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Synthesis",
-                "Fats and Oils",
-                "Biodisel",
-                "Equilibrium",
-                "Industrial Chemistry",
-                "Enzymes",
-                "Green Chemistry",
-                "Organic Chemistry"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2019Q1",
@@ -7916,7 +7829,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Big Bang Theory",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Emission / Absorption Spectrum",
+                "Estimation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q1",
@@ -7925,7 +7847,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electricity",
+                "AC Current",
+                "Power Transmission",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q2",
@@ -7934,7 +7862,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Motors",
+                "Electricity",
+                "DC Current",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q3",
@@ -7943,7 +7878,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Photoelectric Effect",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q4",
@@ -7952,7 +7892,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q5",
@@ -7961,7 +7907,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electric Fields",
+                "Charged Particles",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q6",
@@ -7970,7 +7921,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Wave Particle Duality",
+                "Light"
+            ]
         },
         {
             "id": "WACE2018Q7",
@@ -7979,7 +7935,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Generators",
+                "AC Current",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q8",
@@ -7988,7 +7950,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Blackbody Radiation",
+                "Emission / Absorption Spectrum",
+                "Theory",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2018Q9",
@@ -7997,7 +7965,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Circular Motion",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q10",
@@ -8006,7 +7979,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "DC Current",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q11",
