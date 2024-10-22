@@ -19,12 +19,14 @@
         "Acids and Bases": [
             "pH",
             "Buffers",
-            "Titration"
+            "Titration",
+            "Ocean Acidification"
         ],
         "Organic Chemistry": [
             "Homologous Series",
             "Polymers",
-            "Proteins and Amino Acids"
+            "Proteins and Amino Acids",
+            "Naming"
         ],
         "Synthesis": [
             "Green Chemistry",
@@ -41,6 +43,7 @@
         "Science Inquiry Skills": [],
         "Observations": [],
         "Graphing": [],
+        "Diagrams": [],
         "Theory": [],
         "Calculation": []
     },
@@ -109,7 +112,10 @@
         "Short Response": [],
         "Problem Solving": [],
         "Comprehension": [],
-        "Gravity and Motion": [],
+        "Gravity and Motion": [
+            "Projectile Motion",
+            "Conservation of Energy"
+        ],
         "Circular Motion": [
             "Banked Track",
             "Orbits"
@@ -143,7 +149,8 @@
         "Special Relativity": [
             "Time Dilation",
             "Length Contraction",
-            "Relative Velocities"
+            "Relative Velocities",
+            "Relativistic Energy"
         ],
         "Standard Model": [
             "Subatomic Particles",
