@@ -7833,7 +7833,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Waves",
+                "Light",
+                "Graphing",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q18",
