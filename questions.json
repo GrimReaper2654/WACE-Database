@@ -7819,7 +7819,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q17",
