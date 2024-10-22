@@ -2948,7 +2948,12 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "pH"
+            ]
         },
         {
             "id": "WACE2020Q36",
@@ -2956,7 +2961,13 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Redox",
+                "Cells",
+                "Half-equations",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q37",
@@ -2964,7 +2975,13 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Acids and Bases",
+                "Titration",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q38",
@@ -2972,7 +2989,13 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Combustion Analysis",
+                "Empirical Formula",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q39",
@@ -2980,7 +3003,12 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Calculation",
+                "Stoichiometry",
+                "Synthesis"
+            ]
         },
         {
             "id": "WACE2020Q40",
@@ -2988,7 +3016,17 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Synthesis",
+                "Fats and Oils",
+                "Biodisel",
+                "Equilibrium",
+                "Industrial Chemistry",
+                "Enzymes",
+                "Green Chemistry",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2019Q1",
