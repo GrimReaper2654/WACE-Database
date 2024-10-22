@@ -7680,7 +7680,8 @@
                 "Waves",
                 "Wave Particle Duality",
                 "Theory",
-                "Calculation"
+                "Calculation",
+                "Graphing"
             ]
         },
         {
@@ -7690,7 +7691,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Time Dilation",
+                "Length Contraction",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q12",
@@ -7699,7 +7707,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Gravity and Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q13",
@@ -7708,7 +7720,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q14",
@@ -7717,7 +7735,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Emission / Absorption Spectrum",
+                "Photoelectric Effect",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q15",
@@ -7726,7 +7750,18 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Subatomic Particles",
+                "Special Relativity",
+                "Time Dilation",
+                "Particle Accelerators",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q16",
@@ -7735,7 +7770,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q17",
@@ -7744,7 +7784,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Waves",
+                "Light",
+                "Graphing",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q18",
@@ -7753,7 +7799,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Induction"
+            ]
         },
         {
             "id": "WACE2019Q19",
@@ -7762,7 +7813,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q20",
