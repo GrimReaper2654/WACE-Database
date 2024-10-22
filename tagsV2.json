@@ -47,7 +47,10 @@
         "Industrial Chemistry": [],
         "Science Inquiry Skills": [],
         "Graphing": [],
-        "Diagrams": [],
+        "Diagrams": [
+            "Cells",
+            "Energy Profile Diagrams"
+        ],
         "Theory": [],
         "Calculation": []
     },
