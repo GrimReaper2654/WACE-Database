@@ -7848,7 +7848,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Induction"
+            ]
         },
         {
             "id": "WACE2019Q19",
