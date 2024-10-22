@@ -7756,7 +7756,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Gravity and Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q13",
