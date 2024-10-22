@@ -4115,7 +4115,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Energy Profile Diagrams"
+            ]
         },
         {
             "id": "WACE2016Q9",
@@ -4123,7 +4126,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2016Q10",
@@ -4131,7 +4137,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2016Q11",
@@ -4139,7 +4148,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Acids and Bases"
+            ]
         },
         {
             "id": "WACE2016Q12",
@@ -4147,7 +4159,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Titration"
+            ]
         },
         {
             "id": "WACE2016Q13",
@@ -4155,7 +4170,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox"
+            ]
         },
         {
             "id": "WACE2016Q14",
@@ -4163,7 +4181,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox"
+            ]
         },
         {
             "id": "WACE2016Q15",
@@ -4171,7 +4192,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox"
+            ]
         },
         {
             "id": "WACE2016Q16",
@@ -4179,7 +4203,11 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox",
+                "Cells"
+            ]
         },
         {
             "id": "WACE2016Q17",
@@ -4187,7 +4215,10 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Redox"
+            ]
         },
         {
             "id": "WACE2016Q18",
