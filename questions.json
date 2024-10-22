@@ -5782,7 +5782,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2019Q9",
@@ -5790,7 +5794,15 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Applications of Differentiation",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q10",
@@ -5798,7 +5810,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2019Q11",
@@ -5806,7 +5821,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Normal Distribution",
+                "Z Scores"
+            ]
         },
         {
             "id": "WACE2019Q12",
@@ -5814,7 +5832,14 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q13",
@@ -5822,7 +5847,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Sample Proportions",
+                "Probability",
+                "Normal Distribution",
+                "Z Scores",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2019Q14",
@@ -5830,7 +5861,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2019Q15",
@@ -5838,7 +5872,18 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Concavity"
+            ]
         },
         {
             "id": "WACE2019Q16",
@@ -5846,7 +5891,14 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2019Q17",
@@ -5854,7 +5906,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2019Q18",
@@ -5862,7 +5917,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2018Q1",
@@ -5870,7 +5929,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2018Q2",
@@ -5878,7 +5941,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Z Scores",
+                "Interval Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2018Q3",
@@ -5886,7 +5953,17 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Exponential",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Product Rule",
+                "Chain Rule"
+            ]
         },
         {
             "id": "WACE2018Q4",
@@ -5894,7 +5971,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2018Q5",
@@ -5902,7 +5982,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2018Q6",
@@ -5910,7 +5994,14 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2018Q7",
@@ -5918,7 +6009,16 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Product Rule",
+                "Fundamental Theorem",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2018Q8",
@@ -5926,7 +6026,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2018Q9",
@@ -5934,7 +6038,13 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation"
+            ]
         },
         {
             "id": "WACE2018Q10",
@@ -5942,7 +6052,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2018Q11",
@@ -5950,7 +6063,14 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Applications of Differentiation"
+            ]
         },
         {
             "id": "WACE2018Q12",
@@ -5958,7 +6078,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2018Q13",
@@ -5966,7 +6089,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2018Q14",
@@ -5974,7 +6101,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation"
+            ]
         },
         {
             "id": "WACE2018Q15",
@@ -5982,7 +6114,14 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Second Derivative"
+            ]
         },
         {
             "id": "WACE2018Q16",
@@ -5990,7 +6129,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2018Q17",
@@ -5998,7 +6141,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2018Q18",
@@ -6006,7 +6154,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2017Q1",
@@ -6014,7 +6165,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2017Q2",
@@ -6022,7 +6176,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2017Q3",
@@ -6030,7 +6187,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential"
+            ]
         },
         {
             "id": "WACE2017Q4",
@@ -6038,7 +6198,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2017Q5",
@@ -6046,7 +6209,13 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2017Q6",
@@ -6054,7 +6223,15 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Logarithmic",
+                "Calculus",
+                "Antidifferentiation",
+                "Differentiation",
+                "Chain Rule"
+            ]
         },
         {
             "id": "WACE2017Q7",
@@ -6062,7 +6239,15 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Fundamental Theorem",
+                "Antidifferentiation"
+            ]
         },
         {
             "id": "WACE2017Q8",
@@ -6078,7 +6263,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2017Q10",
@@ -6086,7 +6274,11 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Quotient Rule"
+            ]
         },
         {
             "id": "WACE2017Q11",
@@ -6094,7 +6286,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2017Q12",
