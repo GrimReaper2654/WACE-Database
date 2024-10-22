@@ -7784,7 +7784,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Emission / Absorption Spectrum",
+                "Photoelectric Effect",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q15",
