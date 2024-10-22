@@ -7769,7 +7769,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q14",
