@@ -7799,7 +7799,18 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Subatomic Particles",
+                "Special Relativity",
+                "Time Dilation",
+                "Particle Accelerators",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q16",
