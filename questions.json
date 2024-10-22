@@ -2827,10 +2827,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Organic Chemistry"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q27",
@@ -2838,12 +2835,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Observations",
-                "Redox",
-                "Acids and Bases"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q28",
@@ -2851,12 +2843,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Organic Chemistry",
-                "Polymers",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q29",
@@ -2864,13 +2851,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Equilibrium",
-                "Collision Theory",
-                "Le Chatelier's Principle",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q30",
@@ -2878,15 +2859,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Redox",
-                "Cells",
-                "Acids and Bases",
-                "pH",
-                "Buffers",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q31",
@@ -2894,13 +2867,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Equilibrium",
-                "Acids and Bases",
-                "pH",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q32",
@@ -2908,13 +2875,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Science Inquiry Skills",
-                "Organic Chemistry",
-                "Homologous Series",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q33",
@@ -2922,11 +2883,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Synthesis",
-                "Organic Chemistry"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q34",
@@ -2934,13 +2891,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Answer",
-                "Equilibrium",
-                "Le Chatelier's Principle",
-                "Collision Theory",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q35",
@@ -2948,12 +2899,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Organic Chemistry",
-                "Proteins and Amino Acids",
-                "pH"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q36",
@@ -2961,13 +2907,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Redox",
-                "Cells",
-                "Half-equations",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q37",
@@ -2975,13 +2915,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Acids and Bases",
-                "Titration",
-                "Theory",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q38",
@@ -2989,13 +2923,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Stoichiometry",
-                "Combustion Analysis",
-                "Empirical Formula",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q39",
@@ -3003,12 +2931,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Calculation",
-                "Stoichiometry",
-                "Synthesis"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q40",
@@ -3016,17 +2939,7 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Extended Response",
-                "Synthesis",
-                "Fats and Oils",
-                "Biodisel",
-                "Equilibrium",
-                "Industrial Chemistry",
-                "Enzymes",
-                "Green Chemistry",
-                "Organic Chemistry"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2019Q1",
@@ -4146,11 +4059,7 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Multiple-choice",
-                "Equilibrium",
-                "Chemical Reactions"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2016Q2",
@@ -4158,10 +4067,7 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Multiple-choice",
-                "Reaction Rates"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2016Q3",
@@ -4169,10 +4075,7 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Multiple-choice",
-                "Equilibrium"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2016Q4",
@@ -4180,10 +4083,7 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Multiple-choice",
-                "Equilibrium"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2016Q5",
@@ -4191,11 +4091,7 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Multiple-choice",
-                "Synthesis",
-                "Biodisel"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2016Q6",
@@ -4203,10 +4099,7 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Multiple-choice",
-                "Science Inquiry Skills"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2016Q7",
@@ -4214,11 +4107,7 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Multiple-choice",
-                "Titration",
-                "Science Inquiry Skills"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2016Q8",
@@ -5924,7 +5813,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2019Q9",
@@ -5932,7 +5825,15 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Applications of Differentiation",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q10",
@@ -5940,7 +5841,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2019Q11",
@@ -5948,7 +5852,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Normal Distribution",
+                "Z Scores"
+            ]
         },
         {
             "id": "WACE2019Q12",
@@ -5956,7 +5863,14 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2019Q13",
@@ -5964,7 +5878,13 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Sample Proportions",
+                "Probability",
+                "Normal Distribution",
+                "Z Scores",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2019Q14",
@@ -5972,7 +5892,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2019Q15",
@@ -5980,7 +5903,18 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Concavity"
+            ]
         },
         {
             "id": "WACE2019Q16",
@@ -5988,7 +5922,14 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2019Q17",
@@ -5996,7 +5937,10 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2019Q18",
@@ -6004,7 +5948,11 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2018Q1",
@@ -6012,7 +5960,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2018Q2",
@@ -6020,7 +5972,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Z Scores",
+                "Interval Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2018Q3",
@@ -6028,7 +5984,17 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Exponential",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Product Rule",
+                "Chain Rule"
+            ]
         },
         {
             "id": "WACE2018Q4",
@@ -6036,7 +6002,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2018Q5",
@@ -6044,7 +6013,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2018Q6",
@@ -6052,7 +6025,14 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2018Q7",
@@ -6060,7 +6040,16 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Product Rule",
+                "Fundamental Theorem",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2018Q8",
@@ -6068,7 +6057,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2018Q9",
@@ -6076,7 +6069,13 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation"
+            ]
         },
         {
             "id": "WACE2018Q10",
@@ -6084,7 +6083,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2018Q11",
@@ -6092,7 +6094,14 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Applications of Differentiation"
+            ]
         },
         {
             "id": "WACE2018Q12",
@@ -6100,7 +6109,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2018Q13",
@@ -6108,7 +6120,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2018Q14",
@@ -6116,7 +6132,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation"
+            ]
         },
         {
             "id": "WACE2018Q15",
@@ -6124,7 +6145,14 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Second Derivative"
+            ]
         },
         {
             "id": "WACE2018Q16",
@@ -6132,7 +6160,11 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2018Q17",
@@ -6140,7 +6172,12 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2018Q18",
@@ -6148,7 +6185,10 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2017Q1",
@@ -6156,7 +6196,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2017Q2",
@@ -6164,7 +6207,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2017Q3",
@@ -6172,7 +6218,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential"
+            ]
         },
         {
             "id": "WACE2017Q4",
@@ -6180,7 +6229,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Interval Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2017Q5",
@@ -6188,7 +6240,13 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2017Q6",
@@ -6196,7 +6254,15 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Logarithmic",
+                "Calculus",
+                "Antidifferentiation",
+                "Differentiation",
+                "Chain Rule"
+            ]
         },
         {
             "id": "WACE2017Q7",
@@ -6204,7 +6270,15 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Logarithmic",
+                "Trignometric",
+                "Calculus",
+                "Differentiation",
+                "Fundamental Theorem",
+                "Antidifferentiation"
+            ]
         },
         {
             "id": "WACE2017Q8",
@@ -6220,7 +6294,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2017Q10",
@@ -6228,7 +6305,11 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Quotient Rule"
+            ]
         },
         {
             "id": "WACE2017Q11",
@@ -6236,7 +6317,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Continuous Random Variables"
+            ]
         },
         {
             "id": "WACE2017Q12",
@@ -7851,7 +7935,9 @@
             "calculator": "assumed",
             "tags": [
                 "Problem Solving",
+                "Conservation of Energy",
                 "Gravity and Motion",
+                "Projectile Motion",
                 "Calculation"
             ]
         },
@@ -7971,7 +8057,17 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Big Bang Theory",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Emission / Absorption Spectrum",
+                "Estimation",
+                "Theory",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2018Q1",
@@ -7980,7 +8076,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electricity",
+                "AC Current",
+                "Power Transmission",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q2",
@@ -7989,7 +8091,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Motors",
+                "Electricity",
+                "DC Current",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q3",
@@ -7998,7 +8107,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Photoelectric Effect",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q4",
@@ -8007,7 +8121,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q5",
@@ -8016,7 +8136,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electric Fields",
+                "Charged Particles",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q6",
@@ -8025,7 +8150,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Wave Particle Duality",
+                "Light"
+            ]
         },
         {
             "id": "WACE2018Q7",
@@ -8034,7 +8164,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Generators",
+                "AC Current",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q8",
@@ -8043,7 +8179,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Blackbody Radiation",
+                "Emission / Absorption Spectrum",
+                "Theory",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2018Q9",
@@ -8052,7 +8194,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Circular Motion",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q10",
@@ -8061,7 +8208,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "DC Current",
+                "Calculation",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2018Q11",
@@ -8070,7 +8223,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Projectile Motion",
+                "Calculation",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2018Q12",
@@ -8079,7 +8237,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Wave Particle Duality",
+                "Light",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q13",
@@ -8088,7 +8252,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Orbits",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q14",
@@ -8097,7 +8266,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Emission / Absorption Spectrum",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q15",
@@ -8106,7 +8280,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Photoelectric Effect",
+                "Calculation",
+                "Graphing",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q16",
@@ -8115,7 +8295,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Special Relativity",
+                "Relative Velocities",
+                "Time Dilation",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q17",
@@ -8124,7 +8310,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Subatomic Particles",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q18",
@@ -8133,7 +8324,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Big Bang Theory",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q19",
@@ -8142,7 +8338,17 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Particle Accelerators",
+                "Electric Fields",
+                "Charged Particles",
+                "Special Relativity",
+                "Relative Velocities",
+                "Calculation",
+                "Diagrams",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q1",
@@ -8151,7 +8357,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Light",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q2",
@@ -8160,7 +8371,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Time Dilation"
+            ]
         },
         {
             "id": "WACE2017Q3",
@@ -8169,7 +8384,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Diagrams",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q4",
@@ -8178,7 +8399,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Diagrams",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q5",
@@ -8187,7 +8413,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Blackbody Radiation",
+                "Photoelectric Effect",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q6",
@@ -8196,7 +8427,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Static Equilibrium",
+                "Torque",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q7",
@@ -8205,7 +8442,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q8",
@@ -8214,7 +8455,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Induction",
+                "Theory",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2017Q9",
@@ -8223,7 +8470,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q10",
@@ -8232,7 +8485,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Charged Particles",
+                "Waves",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q11",
@@ -8241,7 +8500,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q12",
@@ -8250,7 +8515,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Blackbody Radiation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q13",
@@ -8259,7 +8528,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Graphing",
+                "Calculation",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2017Q14",
@@ -8268,7 +8542,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Projectile Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q15",
@@ -8277,7 +8555,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q16",
@@ -8286,7 +8569,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q17",
@@ -8295,7 +8582,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Orbits",
+                "Special Relativity",
+                "Time Dilation",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q18",
@@ -8304,7 +8599,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Problem Solving",
+                "Photoelectric Effect",
+                "Theory",
+                "Graphing",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q19",
@@ -8313,7 +8615,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Orbits",
+                "Calculation",
+                "Graphing",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2017Q20",
@@ -8322,7 +8631,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Equilibrium of Forces",
+                "Electric Fields",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q21",
@@ -8331,7 +8647,19 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Special Relativity",
+                "Relative Velocities",
+                "Waves",
+                "Emission / Absorption Spectrum",
+                "Conservation of Energy",
+                "Magnetic Fields",
+                "Circular Motion",
+                "Calculation",
+                "Theory",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2017Q22",
@@ -8340,7 +8668,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Magnetic Fields",
+                "Induction",
+                "Theory",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2016Q1",
@@ -8349,7 +8683,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electric Fields",
+                "Magnetic Fields",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q2",
@@ -8358,7 +8697,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Conservation of Energy",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q3",
@@ -8367,7 +8710,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Projectile Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q4",
@@ -8376,7 +8724,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Time Dilation",
+                "Big Bang Theory",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q5",
@@ -8385,7 +8739,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q6",
@@ -8394,7 +8752,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Emission / Absorption Spectrum",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q7",
@@ -8403,7 +8766,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Relative Velocities",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q8",
@@ -8412,7 +8780,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Generators",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q9",
@@ -8421,7 +8793,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electric Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q10",
@@ -8430,7 +8806,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Magnetic Fields",
+                "Equilibrium of Forces",
+                "Torque",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q11",
@@ -8439,7 +8821,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Wave Particle Duality",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q12",
@@ -8448,7 +8836,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Special Relativity",
+                "Time Dilation",
+                "Length Contraction",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q13",
@@ -8457,7 +8852,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Circular Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q14",
@@ -8466,7 +8865,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Wave Particle Duality",
+                "De Broglie Wavelength",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q15",
@@ -8475,7 +8880,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Projectile Motion",
+                "Circular Motion",
+                "Orbits",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q16",
@@ -8484,7 +8896,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Magnetic Fields",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q17",
@@ -8493,7 +8911,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Subatomic Particles",
+                "Particle Accelerators",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Theory",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2016Q18",
@@ -8502,7 +8929,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q19",
@@ -8511,7 +8945,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q20",
@@ -8520,7 +8958,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Waves",
+                "Photoelectric Effect",
+                "Calculation",
+                "Graphing",
+                "Theory",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2016Q21",
@@ -8529,7 +8975,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Circular Motion",
+                "Orbits",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Calculation",
+                "Theory",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2016Q22",
@@ -8538,7 +8993,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Emission / Absorption Spectrum",
+                "Theory"
+            ]
         }
     ],
     "spec": [
