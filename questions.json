@@ -7862,7 +7862,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Charged Particles",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q20",
