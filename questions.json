@@ -5193,7 +5193,8 @@
                 "Chain Rule",
                 "Applications of Differentiation",
                 "Optimisation",
-                "Exponential"
+                "Exponential",
+                "Rectilinear Motion"
             ]
         },
         {
@@ -5250,7 +5251,8 @@
                 "Chain Rule",
                 "Applications of Differentiation",
                 "Increments Formula",
-                "Trignometric"
+                "Trignometric",
+                "Rectilinear Motion"
             ]
         },
         {
@@ -5610,6 +5612,7 @@
             "calculator": "assumed",
             "tags": [
                 "Functions",
+                "Polynomial",
                 "Logarithmic",
                 "Calculus",
                 "Antidifferentiation"
@@ -5832,7 +5835,8 @@
                 "Differentiation",
                 "Antidifferentiation",
                 "Applications of Differentiation",
-                "Graphing"
+                "Graphing",
+                "Rectilinear Motion"
             ]
         },
         {
@@ -5869,7 +5873,8 @@
                 "Calculus",
                 "Differentiation",
                 "Applications of Differentiation",
-                "Graphing"
+                "Graphing",
+                "Rectilinear Motion"
             ]
         },
         {
@@ -6209,7 +6214,8 @@
             "calculator": "free",
             "tags": [
                 "Probability",
-                "Continuous Random Variables"
+                "Continuous Random Variables",
+                "Graphing"
             ]
         },
         {
@@ -6328,7 +6334,13 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Normal Distribution",
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Random Sampling"
+            ]
         },
         {
             "id": "WACE2017Q13",
@@ -6336,7 +6348,10 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2017Q14",
@@ -6344,7 +6359,17 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Logarithmic",
+                "Calculus",
+                "Differentiation",
+                "Product Rule",
+                "Second Derivative",
+                "Concavity",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2017Q15",
@@ -6352,7 +6377,16 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Fundamental Theorem",
+                "Applications of Differentiation",
+                "Increments Formula"
+            ]
         },
         {
             "id": "WACE2017Q16",
@@ -6360,7 +6394,13 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation"
+            ]
         },
         {
             "id": "WACE2017Q17",
@@ -6368,7 +6408,16 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Calculus",
+                "Differentiation",
+                "Applications of Differentiation",
+                "Second Derivative",
+                "Concavity",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2017Q18",
@@ -6376,7 +6425,13 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution",
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2017Q19",
@@ -6384,7 +6439,11 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Probability",
+                "Normal Distribution",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2017Q20",
@@ -6392,7 +6451,15 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Functions",
+                "Polynomial",
+                "Rectilinear Motion",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve",
+                "Applications of Differentiation"
+            ]
         },
         {
             "id": "WACE2016Q1",
