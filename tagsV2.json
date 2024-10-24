@@ -29,26 +29,37 @@
         ],
         "Organic Chemistry": [
             "Homologous Series",
+            "Naming",
+            "Functional Groups",
             "Polymers",
             "Proteins and Amino Acids",
-            "Naming"
+            "Organic Reactions",
+            "Soaps and Detergents"
+        ],
+        "Physical Properties": [
+            "Melting/Boiling Point",
+            "Solubility"
         ],
         "Synthesis": [
-            "Green Chemistry",
             "Enzymes",
+            "Esters",
             "Fats and Oils",
-            "Biodisel",
-            "Soaps and Detergents"
+            "Biofuels"
         ],
         "Stoichiometry": [
             "Combustion Analysis",
-            "Empirical Formula"
+            "Empirical Formula",
+            "Yield Calculations"
         ],
-        "Industrial Chemistry": [],
+        "Industrial Chemistry": [
+            "Optimal Conditions",
+            "Green Chemistry"
+        ],
         "Science Inquiry Skills": [],
         "Graphing": [],
         "Diagrams": [
             "Cells",
+            "Structural Formula",
             "Energy Profile Diagrams"
         ],
         "Theory": [],
@@ -94,7 +105,7 @@
             "Quotient Rule",
             "Chain Rule"
         ],
-        "Applications of Differentiation": [
+        "Applications of Calculus": [
             "Increments Formula",
             "Second Derivative",
             "Concavity",
@@ -107,6 +118,11 @@
             "Continuous Random Variables",
             "Normal Distribution",
             "Z Scores"
+        ],
+        "Logarithms": [
+            "Logarithm Laws",
+            "Base Change",
+            "Solving"
         ],
         "Interval Proportions": [
             "Sample Proportions",
