@@ -3469,7 +3469,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q2",
@@ -3477,7 +3479,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q3",
@@ -3485,7 +3489,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q4",
@@ -3493,7 +3499,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q5",
@@ -3501,7 +3509,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q6",
@@ -3509,7 +3519,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q7",
@@ -3517,7 +3529,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q8",
@@ -3525,7 +3539,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q9",
@@ -3533,7 +3549,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q10",
@@ -3541,7 +3559,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q11",
@@ -3549,7 +3569,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q12",
@@ -3557,7 +3579,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q13",
@@ -3565,7 +3589,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q14",
@@ -3573,7 +3599,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q15",
@@ -3581,7 +3609,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q16",
@@ -3589,7 +3619,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q17",
@@ -3597,7 +3629,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q18",
@@ -3605,7 +3639,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q19",
@@ -3613,7 +3649,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q20",
@@ -3621,7 +3659,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q21",
@@ -3629,7 +3669,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q22",
@@ -3637,7 +3679,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q23",
@@ -3645,7 +3689,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q24",
@@ -3653,7 +3699,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q25",
@@ -3661,7 +3709,9 @@
             "year": 2018,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2018Q26",
@@ -3789,7 +3839,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q2",
@@ -3797,7 +3849,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q3",
@@ -3805,7 +3859,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q4",
@@ -3813,7 +3869,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q5",
@@ -3821,7 +3879,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q6",
@@ -3829,7 +3889,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q7",
@@ -3837,7 +3899,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q8",
@@ -3845,7 +3909,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q9",
@@ -3853,7 +3919,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q10",
@@ -3861,7 +3929,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q11",
@@ -3869,7 +3939,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q12",
@@ -3877,7 +3949,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q13",
@@ -3885,7 +3959,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q14",
@@ -3893,7 +3969,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q15",
@@ -3901,7 +3979,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q16",
@@ -3909,7 +3989,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q17",
@@ -3917,7 +3999,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q18",
@@ -3925,7 +4009,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q19",
@@ -3933,7 +4019,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q20",
@@ -3941,7 +4029,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q21",
@@ -3949,7 +4039,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q22",
@@ -3957,7 +4049,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q23",
@@ -3965,7 +4059,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q24",
@@ -3973,7 +4069,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q25",
@@ -3981,7 +4079,9 @@
             "year": 2017,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2017Q26",
@@ -4109,7 +4209,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q2",
@@ -4117,7 +4219,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q3",
@@ -4125,7 +4229,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q4",
@@ -4133,7 +4239,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q5",
@@ -4141,7 +4249,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q6",
@@ -4149,7 +4259,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q7",
@@ -4157,7 +4269,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q8",
@@ -4276,7 +4390,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q19",
@@ -4284,7 +4400,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q20",
@@ -4292,7 +4410,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q21",
@@ -4300,7 +4420,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q22",
@@ -4308,7 +4430,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q23",
@@ -4316,7 +4440,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q24",
@@ -4324,7 +4450,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q25",
@@ -4332,7 +4460,9 @@
             "year": 2016,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2016Q26",
