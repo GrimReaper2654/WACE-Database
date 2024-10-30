@@ -3381,7 +3381,13 @@
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
-                "Organic Chemistry"
+                "Organic Chemistry",
+                "Naming",
+                "Functional Groups",
+                "Organic Reactions",
+                "Diagrams",
+                "Structural Formula",
+                "Theory"
             ]
         },
         {
@@ -3421,7 +3427,21 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Chemical Reactions",
+                "Balancing Equations",
+                "Equilibrium",
+                "Acids and Bases",
+                "pH",
+                "Buffers",
+                "Le Chatelier's Principle",
+                "Organic Chemistry",
+                "Functional Groups",
+                "Diagrams",
+                "Structural Formula",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q37",
@@ -3429,7 +3449,21 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Soaps and Detergents",
+                "Physical Properties",
+                "Solubility",
+                "Chemical Reactions",
+                "Diagrams",
+                "Structural Formula",
+                "Organic Reactions",
+                "Balancing Equations",
+                "Equilibrium",
+                "Le Chatelier's Principle",
+                "Collision Theory"
+            ]
         },
         {
             "id": "WACE2019Q38",
@@ -3437,7 +3471,22 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Polymers",
+                "Functional Groups",
+                "Physical Properties",
+                "Melting/Boiling Point",
+                "Organic Reactions",
+                "Diagrams",
+                "Structural Formula",
+                "Synthesis",
+                "Esters",
+                "Stoichiometry",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q39",
@@ -3445,7 +3494,15 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Acids and Bases",
+                "Titration",
+                "Science Inquiry Skills",
+                "Stoichiometry",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q40",
@@ -3453,7 +3510,16 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Yield Calculations",
+                "Chemical Reactions",
+                "Balancing Equations",
+                "Redox",
+                "Half-equations",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2019Q41",
@@ -3461,7 +3527,16 @@
             "year": 2019,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Physical Properties",
+                "Solubility",
+                "Diagrams",
+                "Functional Groups",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q1",
@@ -3470,7 +3545,10 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Acids and Bases",
+                "Observations",
+                "Theory"
             ]
         },
         {
@@ -3480,7 +3558,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Equilibrium",
+                "Theory"
             ]
         },
         {
