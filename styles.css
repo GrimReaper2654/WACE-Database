@@ -25,13 +25,14 @@ header {
     padding: 5px;
     font-size: 0.75rem;
     background-color: #303030;
+    color: #cccccc;
 }
 
 #searchContainer button {
     padding: 5px 10px;
     font-size: 0.75rem;
     background-color: #404040;
-    color: #909090;
+    color: #cccccc;
     cursor: pointer;
 }
 

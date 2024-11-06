@@ -515,8 +515,10 @@ async function load() {
         console.log(subject, year, questionNum);
         data.filters.subject = subject;
         if (year) data.filters.year = year;
+        else data.filters.year = 'all';
         document.getElementById('subjectSelect').value = subject;
         if (year) document.getElementById('yearSelect').value = year;
+        else document.getElementById('yearSelect').value = 'all';
 
         const allQuestions = data.questionsRaw[subject];
         data.questions = [];
@@ -690,12 +692,12 @@ function textSearch() {
     };
 
     const subjects = {
-        "meth": ["methods", "meth", "mam"],
-        "spec": ["specialist", "spec", "mas"],
-        "apps": ["applications", "apps", 'aps'],
-        "phys": ["physics", "phys", 'phy'],
-        "chem": ["chemistry", "chem", 'chm'],
-        "econs": ["economics", "econs", 'eco']
+        "meth": ["methods", "meth"],
+        "spec": ["specialist", "spec"],
+        "apps": ["applications", "apps"],
+        "phys": ["physics", "phys"],
+        "chem": ["chemistry", "chem"],
+        "econs": ["economics", "econs"]
     };
 
     const maxDistance = 2; 
@@ -730,7 +732,8 @@ function textSearch() {
     }
 
     // Normalize input and split into words
-    const words = search.toLowerCase().split(/\s+/);
+    const normalizedSearch = search.replace(/([a-zA-Z])(?=\d)|(\d)(?=[a-zA-Z])/g, "$1 $2");
+    const words = normalizedSearch.toLowerCase().split(/\s+/);
 
     words.forEach(word => {
         // Check for year
@@ -751,15 +754,20 @@ function textSearch() {
     });
 
     if (result.subject) {
-        const newUrl = `${window.location.origin}?subject=${encodeURIComponent(result.subject)}&year=${encodeURIComponent(result.year)}&question=${encodeURIComponent(result.questionNum)}`;
+        const newUrl = `${window.location.origin}?subject=${encodeURIComponent(result.subject)}${result.year? `&year=${encodeURIComponent(result.year)}` : ``}${result.questionNum? `&question=${encodeURIComponent(result.questionNum)}`: ``}`;
         window.location.href = newUrl;
     } else {
         alert("No results found");
     }
 }
 
-window.addEventListener("load", function() {
+window.addEventListener("load", async function() {
     console.log('loading...');
-    load()
-
+    await load();
+    document.getElementById('textSearchBox').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            textSearch();
+        }
+    });
 });
+
