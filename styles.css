@@ -5,10 +5,34 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #404040;
     color: white;
-    padding: 0.05px 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-right: 20px;
     text-align: center;
+}
+
+#searchContainer {
+    display: flex;
+    gap: 0px;
+}
+
+#searchContainer input {
+    padding: 5px;
+    font-size: 0.75rem;
+    background-color: #303030;
+}
+
+#searchContainer button {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    background-color: #404040;
+    color: #909090;
+    cursor: pointer;
 }
 
 .navBar {

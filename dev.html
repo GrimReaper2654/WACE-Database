@@ -8,9 +8,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-    <header>
-        <a href="https://github.com/GrimReaper2654/WACE-Database" style="color: #ffffff; text-decoration: none;"><h1>WACE Database</h1></a>
-    </header>
+    <header></header>
     <nav id="nav" class="navBar">
     </nav>
     <div id="search" class="search">
@@ -84,6 +82,7 @@
             <select id="tagsSelect" class="filterSelect">
                 <option value="or">OR</option>
                 <option value="and">AND</option>
+                <option value="untagged">Untagged Only</option>
             </select>
             <div id="tagsContainer" class="tagsContainer"></div>
         </div>
@@ -143,6 +142,9 @@
         fetch('navbar.html')
           .then(response => response.text())
           .then(data => document.getElementById('nav').innerHTML = data);
+        fetch('header.html')
+          .then(response => response.text())
+          .then(data => document.querySelector('header').innerHTML = data);
     </script>
     <script src="script.js"></script>
 </body>

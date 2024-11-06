@@ -339,7 +339,9 @@ async function search() {
     
     data.questions = [];
     allQuestions.forEach(function(question, index) {
-        if ((data.filters.year == "all" || JSON.stringify(question.year) == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type || question.soruce == data.filters.type) && (data.filters.calculator == 'all' || (question.calculator == data.filters.calculator)) && !data.filters.nTags.some(tag => question.tags.includes(tag))) {
+        if (data.filters.mode == 'untagged') {
+            if (question.tags.length == 0) data.questions.push(allQuestions[index]);
+        } else if ((data.filters.year == "all" || JSON.stringify(question.year) == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type || question.soruce == data.filters.type) && (data.filters.calculator == 'all' || (question.calculator == data.filters.calculator)) && !data.filters.nTags.some(tag => question.tags.includes(tag))) {
             if (data.filters.mode == 'and') {
                 if (data.filters.tags.every(tag => question.tags.includes(tag))) {
                     data.questions.push(allQuestions[index]);
@@ -425,7 +427,7 @@ async function load() {
     let path = window.location.pathname;
     path = path.replace(/\/+$/, '');
     if (!(path.endsWith("dev") || path.endsWith("index") || path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
-        return;
+        return false;
     } 
     console.info('Loading Search...');
 
@@ -508,11 +510,30 @@ async function load() {
         }
     }
 
-    if (shouldSearch) {
+    const { subject, year, questionNum } = getSearchParameters();
+    if (subject) {
+        console.log(subject, year, questionNum);
+        data.filters.subject = subject;
+        if (year) data.filters.year = year;
+        document.getElementById('subjectSelect').value = subject;
+        if (year) document.getElementById('yearSelect').value = year;
+
+        const allQuestions = data.questionsRaw[subject];
+        data.questions = [];
+        allQuestions.forEach(function(question, index) {
+            if ((!year || question.year == year) && (!questionNum || parseInt((question.id.match(/\d+$/) || [null])[0], 10) == questionNum)) data.questions.push(allQuestions[index]);
+        });
+
+        data.filters.currentPage = 0;
+        renderPageResults();
+        toggleContent(0, true);
+    } else if (shouldSearch) {
         let page = data.filters.currentPage;
         search();
         goToPage(page);
-    }
+        return false;
+    } else return true;
+    
 }
 
 async function createPullRequest() {
@@ -649,7 +670,96 @@ async function createPullRequest() {
     data.unsavedChanges = false;
 }
 
+function getSearchParameters() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return {
+        subject: urlParams.get('subject'),
+        year: urlParams.get('year'),
+        questionNum: urlParams.get('question')
+    };
+}
+
+function textSearch() {
+    let search = document.getElementById('textSearchBox').value;
+    console.log(search);
+
+    const result = {
+        subject: null,
+        year: null,
+        questionNum: null
+    };
+
+    const subjects = {
+        "meth": ["methods", "meth", "mam"],
+        "spec": ["specialist", "spec", "mas"],
+        "apps": ["applications", "apps", 'aps'],
+        "phys": ["physics", "phys", 'phy'],
+        "chem": ["chemistry", "chem", 'chm'],
+        "econs": ["economics", "econs", 'eco']
+    };
+
+    const maxDistance = 2; 
+
+    function levenshteinDistance(a, b) {
+        const matrix = Array.from({ length: a.length + 1 }, () => Array(b.length + 1).fill(0));
+
+        for (let i = 0; i <= a.length; i++) matrix[i][0] = i;
+        for (let j = 0; j <= b.length; j++) matrix[0][j] = j;
+
+        for (let i = 1; i <= a.length; i++) {
+            for (let j = 1; j <= b.length; j++) {
+                matrix[i][j] = Math.min(
+                    matrix[i - 1][j] + 1,
+                    matrix[i][j - 1] + 1,
+                    matrix[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)
+                );
+            }
+        }
+        return matrix[a.length][b.length];
+    }
+
+    function findClosestSubject(word) {
+        for (const [subject, variations] of Object.entries(subjects)) {
+            for (const variation of variations) {
+                if (levenshteinDistance(word, variation) <= maxDistance) {
+                    return subject;
+                }
+            }
+        }
+        return null;
+    }
+
+    // Normalize input and split into words
+    const words = search.toLowerCase().split(/\s+/);
+
+    words.forEach(word => {
+        // Check for year
+        if (/^\d{4}$/.test(word)) {
+            result.year = parseInt(word);
+        }
+        // Check for question number
+        else if (/^\d+$/.test(word) && parseInt(word) < 100) {
+            result.questionNum = parseInt(word);
+        }
+        // Attempt to match subject with fuzzy matching
+        else if (!result.subject) {
+            const closestSubject = findClosestSubject(word);
+            if (closestSubject) {
+                result.subject = closestSubject;
+            }
+        }
+    });
+
+    if (result.subject) {
+        const newUrl = `${window.location.origin}?subject=${encodeURIComponent(result.subject)}&year=${encodeURIComponent(result.year)}&question=${encodeURIComponent(result.questionNum)}`;
+        window.location.href = newUrl;
+    } else {
+        alert("No results found");
+    }
+}
+
 window.addEventListener("load", function() {
     console.log('loading...');
-    load();
+    load()
+
 });
