@@ -36,7 +36,7 @@ def extract_datetime_from_filename(filename):
 
 def rename_images(directory, template):
     # Get a list of all .png files in the directory sorted by creation time (oldest first)
-    images = [f for f in os.listdir(directory) if f.endswith('.png')]
+    images = [f for f in os.listdir(directory) if f.endswith('.png') and 'Screenshot' in f]
     #images.sort(key=lambda x: os.path.getctime(os.path.join(directory, x)))
     images = sorted(images, key=extract_datetime_from_filename)
 
