@@ -5,6 +5,7 @@
             "name": "WACE 2023 Calculator Free Question 1",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -13,6 +14,7 @@
             "name": "WACE 2023 Calculator Free Question 2",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -21,6 +23,7 @@
             "name": "WACE 2023 Calculator Free Question 3",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -29,6 +32,7 @@
             "name": "WACE 2023 Calculator Free Question 4",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -37,6 +41,7 @@
             "name": "WACE 2023 Calculator Free Question 5",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -45,6 +50,7 @@
             "name": "WACE 2023 Calculator Free Question 6",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -53,6 +59,7 @@
             "name": "WACE 2023 Calculator Assumed Question 7",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -61,6 +68,7 @@
             "name": "WACE 2023 Calculator Assumed Question 8",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -69,6 +77,7 @@
             "name": "WACE 2023 Calculator Assumed Question 9",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -77,6 +86,7 @@
             "name": "WACE 2023 Calculator Assumed Question 10",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -85,6 +95,7 @@
             "name": "WACE 2023 Calculator Assumed Question 11",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -93,6 +104,7 @@
             "name": "WACE 2023 Calculator Assumed Question 12",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -101,6 +113,7 @@
             "name": "WACE 2023 Calculator Assumed Question 13",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -109,6 +122,7 @@
             "name": "WACE 2023 Calculator Assumed Question 14",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -117,6 +131,7 @@
             "name": "WACE 2022 Calculator Free Question 1",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -125,6 +140,7 @@
             "name": "WACE 2022 Calculator Free Question 2",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -133,6 +149,7 @@
             "name": "WACE 2022 Calculator Free Question 3",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -141,6 +158,7 @@
             "name": "WACE 2022 Calculator Free Question 4",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -149,6 +167,7 @@
             "name": "WACE 2022 Calculator Free Question 5",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -157,6 +176,7 @@
             "name": "WACE 2022 Calculator Free Question 6",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -165,6 +185,7 @@
             "name": "WACE 2022 Calculator Free Question 7",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -173,6 +194,7 @@
             "name": "WACE 2022 Calculator Assumed Question 8",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -181,6 +203,7 @@
             "name": "WACE 2022 Calculator Assumed Question 9",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -189,6 +212,7 @@
             "name": "WACE 2022 Calculator Assumed Question 10",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -197,6 +221,7 @@
             "name": "WACE 2022 Calculator Assumed Question 11",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -205,6 +230,7 @@
             "name": "WACE 2022 Calculator Assumed Question 12",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -213,6 +239,7 @@
             "name": "WACE 2022 Calculator Assumed Question 13",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -221,6 +248,7 @@
             "name": "WACE 2022 Calculator Assumed Question 14",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -229,6 +257,7 @@
             "name": "WACE 2022 Calculator Assumed Question 15",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -237,6 +266,7 @@
             "name": "WACE 2022 Calculator Assumed Question 16",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -245,6 +275,7 @@
             "name": "WACE 2022 Calculator Assumed Question 17",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -253,6 +284,7 @@
             "name": "WACE 2021 Calculator Free Question 1",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -261,6 +293,7 @@
             "name": "WACE 2021 Calculator Free Question 2",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -269,6 +302,7 @@
             "name": "WACE 2021 Calculator Free Question 3",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -277,6 +311,7 @@
             "name": "WACE 2021 Calculator Free Question 4",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -285,6 +320,7 @@
             "name": "WACE 2021 Calculator Free Question 5",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -293,6 +329,7 @@
             "name": "WACE 2021 Calculator Free Question 6",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -301,6 +338,7 @@
             "name": "WACE 2021 Calculator Free Question 7",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -309,6 +347,7 @@
             "name": "WACE 2021 Calculator Assumed Question 8",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -317,6 +356,7 @@
             "name": "WACE 2021 Calculator Assumed Question 9",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -325,6 +365,7 @@
             "name": "WACE 2021 Calculator Assumed Question 10",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -333,6 +374,7 @@
             "name": "WACE 2021 Calculator Assumed Question 11",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -341,6 +383,7 @@
             "name": "WACE 2021 Calculator Assumed Question 12",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -349,6 +392,7 @@
             "name": "WACE 2021 Calculator Assumed Question 13",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -357,6 +401,7 @@
             "name": "WACE 2021 Calculator Assumed Question 14",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -365,6 +410,7 @@
             "name": "WACE 2021 Calculator Assumed Question 15",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -373,6 +419,7 @@
             "name": "WACE 2021 Calculator Assumed Question 16",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -381,6 +428,7 @@
             "name": "WACE 2017 Calculator Free Question 1",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -389,6 +437,7 @@
             "name": "WACE 2017 Calculator Free Question 2",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -397,6 +446,7 @@
             "name": "WACE 2017 Calculator Free Question 3",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -405,6 +455,7 @@
             "name": "WACE 2017 Calculator Free Question 4",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -413,6 +464,7 @@
             "name": "WACE 2017 Calculator Free Question 5",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -421,6 +473,7 @@
             "name": "WACE 2017 Calculator Free Question 6",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -429,6 +482,7 @@
             "name": "WACE 2017 Calculator Free Question 7",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -437,6 +491,7 @@
             "name": "WACE 2017 Calculator Assumed Question 8",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -445,6 +500,7 @@
             "name": "WACE 2017 Calculator Assumed Question 9",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -453,6 +509,7 @@
             "name": "WACE 2017 Calculator Assumed Question 10",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -461,6 +518,7 @@
             "name": "WACE 2017 Calculator Assumed Question 11",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -469,6 +527,7 @@
             "name": "WACE 2017 Calculator Assumed Question 12",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -477,6 +536,7 @@
             "name": "WACE 2017 Calculator Assumed Question 13",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -485,6 +545,7 @@
             "name": "WACE 2017 Calculator Assumed Question 14",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -493,6 +554,7 @@
             "name": "WACE 2017 Calculator Assumed Question 15",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -501,6 +563,7 @@
             "name": "WACE 2017 Calculator Assumed Question 16",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -509,6 +572,7 @@
             "name": "WACE 2016 Calculator Free Question 1",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -517,6 +581,7 @@
             "name": "WACE 2016 Calculator Free Question 2",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -525,6 +590,7 @@
             "name": "WACE 2016 Calculator Free Question 3",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -533,6 +599,7 @@
             "name": "WACE 2016 Calculator Free Question 4",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -541,6 +608,7 @@
             "name": "WACE 2016 Calculator Free Question 5",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -549,6 +617,7 @@
             "name": "WACE 2016 Calculator Free Question 6",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -557,6 +626,7 @@
             "name": "WACE 2016 Calculator Assumed Question 7",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -565,6 +635,7 @@
             "name": "WACE 2016 Calculator Assumed Question 8",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -573,6 +644,7 @@
             "name": "WACE 2016 Calculator Assumed Question 9",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -581,6 +653,7 @@
             "name": "WACE 2016 Calculator Assumed Question 10",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -589,6 +662,7 @@
             "name": "WACE 2016 Calculator Assumed Question 11",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -597,6 +671,7 @@
             "name": "WACE 2016 Calculator Assumed Question 12",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -605,6 +680,7 @@
             "name": "WACE 2016 Calculator Assumed Question 13",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -613,6 +689,7 @@
             "name": "WACE 2016 Calculator Assumed Question 14",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -621,6 +698,7 @@
             "name": "WACE 2016 Calculator Assumed Question 15",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -629,6 +707,7 @@
             "name": "WACE 2016 Calculator Assumed Question 16",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -637,6 +716,7 @@
             "name": "WACE 2020 Calculator Free Question 1",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -645,6 +725,7 @@
             "name": "WACE 2020 Calculator Free Question 2",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -653,6 +734,7 @@
             "name": "WACE 2020 Calculator Free Question 3",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -661,6 +743,7 @@
             "name": "WACE 2020 Calculator Free Question 4",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -669,6 +752,7 @@
             "name": "WACE 2020 Calculator Free Question 5",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -677,6 +761,7 @@
             "name": "WACE 2020 Calculator Free Question 6",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -685,6 +770,7 @@
             "name": "WACE 2020 Calculator Assumed Question 7",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -693,6 +779,7 @@
             "name": "WACE 2020 Calculator Assumed Question 8",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -701,6 +788,7 @@
             "name": "WACE 2020 Calculator Assumed Question 9",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -709,6 +797,7 @@
             "name": "WACE 2020 Calculator Assumed Question 10",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -717,6 +806,7 @@
             "name": "WACE 2020 Calculator Assumed Question 11",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -725,6 +815,7 @@
             "name": "WACE 2020 Calculator Assumed Question 12",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -733,6 +824,7 @@
             "name": "WACE 2020 Calculator Assumed Question 13",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -741,6 +833,7 @@
             "name": "WACE 2020 Calculator Assumed Question 14",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -749,6 +842,7 @@
             "name": "WACE 2020 Calculator Assumed Question 15",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -757,6 +851,7 @@
             "name": "WACE 2020 Calculator Assumed Question 16",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -765,6 +860,7 @@
             "name": "WACE 2018 Calculator Free Question 1",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -773,6 +869,7 @@
             "name": "WACE 2018 Calculator Free Question 2",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -781,6 +878,7 @@
             "name": "WACE 2018 Calculator Free Question 3",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -789,6 +887,7 @@
             "name": "WACE 2018 Calculator Free Question 4",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -797,6 +896,7 @@
             "name": "WACE 2018 Calculator Free Question 5",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -805,6 +905,7 @@
             "name": "WACE 2018 Calculator Free Question 6",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -813,6 +914,7 @@
             "name": "WACE 2018 Calculator Free Question 7",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -821,6 +923,7 @@
             "name": "WACE 2018 Calculator Assumed Question 8",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -829,6 +932,7 @@
             "name": "WACE 2018 Calculator Assumed Question 9",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -837,6 +941,7 @@
             "name": "WACE 2018 Calculator Assumed Question 10",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -845,6 +950,7 @@
             "name": "WACE 2018 Calculator Assumed Question 11",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -853,6 +959,7 @@
             "name": "WACE 2018 Calculator Assumed Question 12",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -861,6 +968,7 @@
             "name": "WACE 2018 Calculator Assumed Question 13",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -869,6 +977,7 @@
             "name": "WACE 2018 Calculator Assumed Question 14",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -877,6 +986,7 @@
             "name": "WACE 2018 Calculator Assumed Question 15",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -885,6 +995,7 @@
             "name": "WACE 2018 Calculator Assumed Question 16",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -893,6 +1004,7 @@
             "name": "WACE 2018 Calculator Assumed Question 17",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -901,6 +1013,7 @@
             "name": "WACE 2019 Calculator Free Question 1",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -909,6 +1022,7 @@
             "name": "WACE 2019 Calculator Free Question 2",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -917,6 +1031,7 @@
             "name": "WACE 2019 Calculator Free Question 3",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -925,6 +1040,7 @@
             "name": "WACE 2019 Calculator Free Question 4",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -933,6 +1049,7 @@
             "name": "WACE 2019 Calculator Free Question 5",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -941,6 +1058,7 @@
             "name": "WACE 2019 Calculator Free Question 6",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -949,6 +1067,7 @@
             "name": "WACE 2019 Calculator Assumed Question 7",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -957,6 +1076,7 @@
             "name": "WACE 2019 Calculator Assumed Question 8",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -965,6 +1085,7 @@
             "name": "WACE 2019 Calculator Assumed Question 9",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -973,6 +1094,7 @@
             "name": "WACE 2019 Calculator Assumed Question 10",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -981,6 +1103,7 @@
             "name": "WACE 2019 Calculator Assumed Question 11",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -989,6 +1112,7 @@
             "name": "WACE 2019 Calculator Assumed Question 12",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -997,6 +1121,7 @@
             "name": "WACE 2019 Calculator Assumed Question 13",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -1005,6 +1130,7 @@
             "name": "WACE 2019 Calculator Assumed Question 14",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -1013,6 +1139,7 @@
             "name": "WACE 2019 Calculator Assumed Question 15",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -1021,6 +1148,7 @@
             "name": "WACE 2019 Calculator Assumed Question 16",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -1029,6 +1157,7 @@
             "name": "WACE 2019 Calculator Assumed Question 17",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         }
@@ -1039,6 +1168,7 @@
             "name": "WACE 2023 Question 1",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1053,6 +1183,7 @@
             "name": "WACE 2023 Question 2",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1065,6 +1196,7 @@
             "name": "WACE 2023 Question 3",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -1075,6 +1207,7 @@
             "name": "WACE 2023 Question 4",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1086,6 +1219,7 @@
             "name": "WACE 2023 Question 5",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1097,6 +1231,7 @@
             "name": "WACE 2023 Question 6",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1109,6 +1244,7 @@
             "name": "WACE 2023 Question 7",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1121,6 +1257,7 @@
             "name": "WACE 2023 Question 8",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1133,6 +1270,7 @@
             "name": "WACE 2023 Question 9",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1145,6 +1283,7 @@
             "name": "WACE 2023 Question 10",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1157,6 +1296,7 @@
             "name": "WACE 2023 Question 11",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1169,6 +1309,7 @@
             "name": "WACE 2023 Question 12",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1181,6 +1322,7 @@
             "name": "WACE 2023 Question 13",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1193,6 +1335,7 @@
             "name": "WACE 2023 Question 14",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1205,6 +1348,7 @@
             "name": "WACE 2023 Question 15",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1216,6 +1360,7 @@
             "name": "WACE 2023 Question 16",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Organic Chemistry",
@@ -1228,6 +1373,7 @@
             "name": "WACE 2023 Question 17",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1240,6 +1386,7 @@
             "name": "WACE 2023 Question 18",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1251,6 +1398,7 @@
             "name": "WACE 2023 Question 19",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Equilibrium",
@@ -1263,6 +1411,7 @@
             "name": "WACE 2023 Question 20",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1276,6 +1425,7 @@
             "name": "WACE 2023 Question 21",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -1286,6 +1436,7 @@
             "name": "WACE 2023 Question 22",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1298,6 +1449,7 @@
             "name": "WACE 2023 Question 23",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1310,6 +1462,7 @@
             "name": "WACE 2023 Question 24",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1322,6 +1475,7 @@
             "name": "WACE 2023 Question 25",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -1333,6 +1487,7 @@
             "name": "WACE 2023 Question 26",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1345,6 +1500,7 @@
             "name": "WACE 2023 Question 27",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1359,6 +1515,7 @@
             "name": "WACE 2023 Question 28",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1374,6 +1531,7 @@
             "name": "WACE 2023 Question 29",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1387,6 +1545,7 @@
             "name": "WACE 2023 Question 30",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1398,6 +1557,7 @@
             "name": "WACE 2023 Question 31",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1411,6 +1571,7 @@
             "name": "WACE 2023 Question 32",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1423,6 +1584,7 @@
             "name": "WACE 2023 Question 33",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1436,6 +1598,7 @@
             "name": "WACE 2023 Question 34",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -1451,6 +1614,7 @@
             "name": "WACE 2023 Question 35",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Industrial Chemistry",
@@ -1466,6 +1630,7 @@
             "name": "WACE 2023 Question 36",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Organic Chemistry",
@@ -1483,6 +1648,7 @@
             "name": "WACE 2023 Question 37",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -1502,6 +1668,7 @@
             "name": "WACE 2023 Question 38",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -1514,6 +1681,7 @@
             "name": "WACE 2023 Question 39",
             "year": 2023,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -2048,6 +2216,7 @@
             "name": "WACE 2021 Question 1",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2059,6 +2228,7 @@
             "name": "WACE 2021 Question 2",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2072,6 +2242,7 @@
             "name": "WACE 2021 Question 3",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2084,6 +2255,7 @@
             "name": "WACE 2021 Question 4",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2096,6 +2268,7 @@
             "name": "WACE 2021 Question 5",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2108,6 +2281,7 @@
             "name": "WACE 2021 Question 6",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2119,6 +2293,7 @@
             "name": "WACE 2021 Question 7",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2130,6 +2305,7 @@
             "name": "WACE 2021 Question 8",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2142,6 +2318,7 @@
             "name": "WACE 2021 Question 9",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2154,6 +2331,7 @@
             "name": "WACE 2021 Question 10",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2165,6 +2343,7 @@
             "name": "WACE 2021 Question 11",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2176,6 +2355,7 @@
             "name": "WACE 2021 Question 12",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2188,6 +2368,7 @@
             "name": "WACE 2021 Question 13",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2199,6 +2380,7 @@
             "name": "WACE 2021 Question 14",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2211,6 +2393,7 @@
             "name": "WACE 2021 Question 15",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2223,6 +2406,7 @@
             "name": "WACE 2021 Question 16",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2235,6 +2419,7 @@
             "name": "WACE 2021 Question 17",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2246,6 +2431,7 @@
             "name": "WACE 2021 Question 18",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2258,6 +2444,7 @@
             "name": "WACE 2021 Question 19",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2269,6 +2456,7 @@
             "name": "WACE 2021 Question 20",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2280,6 +2468,7 @@
             "name": "WACE 2021 Question 21",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2291,6 +2480,7 @@
             "name": "WACE 2021 Question 22",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2303,6 +2493,7 @@
             "name": "WACE 2021 Question 23",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2314,6 +2505,7 @@
             "name": "WACE 2021 Question 24",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2326,6 +2518,7 @@
             "name": "WACE 2021 Question 25",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2338,6 +2531,7 @@
             "name": "WACE 2021 Question 26",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2350,6 +2544,7 @@
             "name": "WACE 2021 Question 27",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2363,6 +2558,7 @@
             "name": "WACE 2021 Question 28",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2377,6 +2573,7 @@
             "name": "WACE 2021 Question 29",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2392,6 +2589,7 @@
             "name": "WACE 2021 Question 30",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2405,6 +2603,7 @@
             "name": "WACE 2021 Question 31",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2418,6 +2617,7 @@
             "name": "WACE 2021 Question 32",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2432,6 +2632,7 @@
             "name": "WACE 2021 Question 33",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2445,6 +2646,7 @@
             "name": "WACE 2021 Question 34",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -2459,6 +2661,7 @@
             "name": "WACE 2021 Question 35",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -2474,6 +2677,7 @@
             "name": "WACE 2021 Question 36",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -2489,6 +2693,7 @@
             "name": "WACE 2021 Question 37",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -2505,6 +2710,7 @@
             "name": "WACE 2021 Question 38",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -2520,6 +2726,7 @@
             "name": "WACE 2021 Question 39",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -2535,6 +2742,7 @@
             "name": "WACE 2020 Question 1",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2546,6 +2754,7 @@
             "name": "WACE 2020 Question 2",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2557,6 +2766,7 @@
             "name": "WACE 2020 Question 3",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2568,6 +2778,7 @@
             "name": "WACE 2020 Question 4",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2579,6 +2790,7 @@
             "name": "WACE 2020 Question 5",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2590,6 +2802,7 @@
             "name": "WACE 2020 Question 6",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2601,6 +2814,7 @@
             "name": "WACE 2020 Question 7",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2615,6 +2829,7 @@
             "name": "WACE 2020 Question 8",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -2625,6 +2840,7 @@
             "name": "WACE 2020 Question 9",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2637,6 +2853,7 @@
             "name": "WACE 2020 Question 10",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2649,6 +2866,7 @@
             "name": "WACE 2020 Question 11",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2661,6 +2879,7 @@
             "name": "WACE 2020 Question 12",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2672,6 +2891,7 @@
             "name": "WACE 2020 Question 13",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2684,6 +2904,7 @@
             "name": "WACE 2020 Question 14",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2696,6 +2917,7 @@
             "name": "WACE 2020 Question 15",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2709,6 +2931,7 @@
             "name": "WACE 2020 Question 16",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2720,6 +2943,7 @@
             "name": "WACE 2020 Question 17",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2731,6 +2955,7 @@
             "name": "WACE 2020 Question 18",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2744,6 +2969,7 @@
             "name": "WACE 2020 Question 19",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2756,6 +2982,7 @@
             "name": "WACE 2020 Question 20",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2769,6 +2996,7 @@
             "name": "WACE 2020 Question 21",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2781,6 +3009,7 @@
             "name": "WACE 2020 Question 22",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2792,6 +3021,7 @@
             "name": "WACE 2020 Question 23",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2803,6 +3033,7 @@
             "name": "WACE 2020 Question 24",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2814,6 +3045,7 @@
             "name": "WACE 2020 Question 25",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -2826,6 +3058,7 @@
             "name": "WACE 2020 Question 26",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2839,6 +3072,7 @@
             "name": "WACE 2020 Question 27",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2854,6 +3088,7 @@
             "name": "WACE 2020 Question 28",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2868,6 +3103,7 @@
             "name": "WACE 2020 Question 29",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2882,6 +3118,7 @@
             "name": "WACE 2020 Question 30",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2899,6 +3136,7 @@
             "name": "WACE 2020 Question 31",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2914,6 +3152,7 @@
             "name": "WACE 2020 Question 32",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2926,6 +3165,7 @@
             "name": "WACE 2020 Question 33",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -2940,6 +3180,7 @@
             "name": "WACE 2020 Question 34",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -2948,6 +3189,7 @@
             "name": "WACE 2020 Question 35",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -2956,6 +3198,7 @@
             "name": "WACE 2020 Question 36",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -2964,6 +3207,7 @@
             "name": "WACE 2020 Question 37",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -2972,6 +3216,7 @@
             "name": "WACE 2020 Question 38",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -2980,6 +3225,7 @@
             "name": "WACE 2020 Question 39",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -2988,6 +3234,7 @@
             "name": "WACE 2020 Question 40",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -2996,6 +3243,7 @@
             "name": "WACE 2019 Question 1",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3009,6 +3257,7 @@
             "name": "WACE 2019 Question 2",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3020,6 +3269,7 @@
             "name": "WACE 2019 Question 3",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3031,6 +3281,7 @@
             "name": "WACE 2019 Question 4",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3042,6 +3293,7 @@
             "name": "WACE 2019 Question 5",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3054,6 +3306,7 @@
             "name": "WACE 2019 Question 6",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3066,6 +3319,7 @@
             "name": "WACE 2019 Question 7",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3078,6 +3332,7 @@
             "name": "WACE 2019 Question 8",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3089,6 +3344,7 @@
             "name": "WACE 2019 Question 9",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3100,6 +3356,7 @@
             "name": "WACE 2019 Question 10",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3111,6 +3368,7 @@
             "name": "WACE 2019 Question 11",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3124,6 +3382,7 @@
             "name": "WACE 2019 Question 12",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3135,6 +3394,7 @@
             "name": "WACE 2019 Question 13",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3148,6 +3408,7 @@
             "name": "WACE 2019 Question 14",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3160,6 +3421,7 @@
             "name": "WACE 2019 Question 15",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3171,6 +3433,7 @@
             "name": "WACE 2019 Question 16",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3183,6 +3446,7 @@
             "name": "WACE 2019 Question 17",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3194,6 +3458,7 @@
             "name": "WACE 2019 Question 18",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3206,6 +3471,7 @@
             "name": "WACE 2019 Question 19",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3219,6 +3485,7 @@
             "name": "WACE 2019 Question 20",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3230,6 +3497,7 @@
             "name": "WACE 2019 Question 21",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3242,6 +3510,7 @@
             "name": "WACE 2019 Question 22",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3253,6 +3522,7 @@
             "name": "WACE 2019 Question 23",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3264,6 +3534,7 @@
             "name": "WACE 2019 Question 24",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3275,6 +3546,7 @@
             "name": "WACE 2019 Question 25",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3286,6 +3558,7 @@
             "name": "WACE 2019 Question 26",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3297,6 +3570,7 @@
             "name": "WACE 2019 Question 27",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3310,6 +3584,7 @@
             "name": "WACE 2019 Question 28",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3322,6 +3597,7 @@
             "name": "WACE 2019 Question 29",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3335,6 +3611,7 @@
             "name": "WACE 2019 Question 30",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3350,6 +3627,7 @@
             "name": "WACE 2019 Question 31",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3364,6 +3642,7 @@
             "name": "WACE 2019 Question 32",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3378,6 +3657,7 @@
             "name": "WACE 2019 Question 33",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3395,6 +3675,7 @@
             "name": "WACE 2019 Question 34",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3412,6 +3693,7 @@
             "name": "WACE 2019 Question 35",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
@@ -3426,6 +3708,7 @@
             "name": "WACE 2019 Question 36",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -3448,6 +3731,7 @@
             "name": "WACE 2019 Question 37",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -3470,6 +3754,7 @@
             "name": "WACE 2019 Question 38",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -3493,6 +3778,7 @@
             "name": "WACE 2019 Question 39",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -3509,6 +3795,7 @@
             "name": "WACE 2019 Question 40",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -3526,6 +3813,7 @@
             "name": "WACE 2019 Question 41",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Extended Response",
@@ -3543,6 +3831,7 @@
             "name": "WACE 2018 Question 1",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3556,6 +3845,7 @@
             "name": "WACE 2018 Question 2",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -3568,6 +3858,7 @@
             "name": "WACE 2018 Question 3",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3578,6 +3869,7 @@
             "name": "WACE 2018 Question 4",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3588,6 +3880,7 @@
             "name": "WACE 2018 Question 5",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3598,6 +3891,7 @@
             "name": "WACE 2018 Question 6",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3608,6 +3902,7 @@
             "name": "WACE 2018 Question 7",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3618,6 +3913,7 @@
             "name": "WACE 2018 Question 8",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3628,6 +3924,7 @@
             "name": "WACE 2018 Question 9",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3638,6 +3935,7 @@
             "name": "WACE 2018 Question 10",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3648,6 +3946,7 @@
             "name": "WACE 2018 Question 11",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3658,6 +3957,7 @@
             "name": "WACE 2018 Question 12",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3668,6 +3968,7 @@
             "name": "WACE 2018 Question 13",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3678,6 +3979,7 @@
             "name": "WACE 2018 Question 14",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3688,6 +3990,7 @@
             "name": "WACE 2018 Question 15",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3698,6 +4001,7 @@
             "name": "WACE 2018 Question 16",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3708,6 +4012,7 @@
             "name": "WACE 2018 Question 17",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3718,6 +4023,7 @@
             "name": "WACE 2018 Question 18",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3728,6 +4034,7 @@
             "name": "WACE 2018 Question 19",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3738,6 +4045,7 @@
             "name": "WACE 2018 Question 20",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3748,6 +4056,7 @@
             "name": "WACE 2018 Question 21",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3758,6 +4067,7 @@
             "name": "WACE 2018 Question 22",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3768,6 +4078,7 @@
             "name": "WACE 2018 Question 23",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3778,6 +4089,7 @@
             "name": "WACE 2018 Question 24",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3788,6 +4100,7 @@
             "name": "WACE 2018 Question 25",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3798,6 +4111,7 @@
             "name": "WACE 2018 Question 26",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3806,6 +4120,7 @@
             "name": "WACE 2018 Question 27",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3814,6 +4129,7 @@
             "name": "WACE 2018 Question 28",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3822,6 +4138,7 @@
             "name": "WACE 2018 Question 29",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3830,6 +4147,7 @@
             "name": "WACE 2018 Question 30",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3838,6 +4156,7 @@
             "name": "WACE 2018 Question 31",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3846,6 +4165,7 @@
             "name": "WACE 2018 Question 32",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3854,6 +4174,7 @@
             "name": "WACE 2018 Question 33",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3862,6 +4183,7 @@
             "name": "WACE 2018 Question 34",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3870,6 +4192,7 @@
             "name": "WACE 2018 Question 35",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3878,6 +4201,7 @@
             "name": "WACE 2018 Question 36",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3886,6 +4210,7 @@
             "name": "WACE 2018 Question 37",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3894,6 +4219,7 @@
             "name": "WACE 2018 Question 38",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3902,6 +4228,7 @@
             "name": "WACE 2018 Question 39",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3910,6 +4237,7 @@
             "name": "WACE 2018 Question 40",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -3918,6 +4246,7 @@
             "name": "WACE 2017 Question 1",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3928,6 +4257,7 @@
             "name": "WACE 2017 Question 2",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3938,6 +4268,7 @@
             "name": "WACE 2017 Question 3",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3948,6 +4279,7 @@
             "name": "WACE 2017 Question 4",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3958,6 +4290,7 @@
             "name": "WACE 2017 Question 5",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3968,6 +4301,7 @@
             "name": "WACE 2017 Question 6",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3978,6 +4312,7 @@
             "name": "WACE 2017 Question 7",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3988,6 +4323,7 @@
             "name": "WACE 2017 Question 8",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -3998,6 +4334,7 @@
             "name": "WACE 2017 Question 9",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4008,6 +4345,7 @@
             "name": "WACE 2017 Question 10",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4018,6 +4356,7 @@
             "name": "WACE 2017 Question 11",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4028,6 +4367,7 @@
             "name": "WACE 2017 Question 12",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4038,6 +4378,7 @@
             "name": "WACE 2017 Question 13",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4048,6 +4389,7 @@
             "name": "WACE 2017 Question 14",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4058,6 +4400,7 @@
             "name": "WACE 2017 Question 15",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4068,6 +4411,7 @@
             "name": "WACE 2017 Question 16",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4078,6 +4422,7 @@
             "name": "WACE 2017 Question 17",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4088,6 +4433,7 @@
             "name": "WACE 2017 Question 18",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4098,6 +4444,7 @@
             "name": "WACE 2017 Question 19",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4108,6 +4455,7 @@
             "name": "WACE 2017 Question 20",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4118,6 +4466,7 @@
             "name": "WACE 2017 Question 21",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4128,6 +4477,7 @@
             "name": "WACE 2017 Question 22",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4138,6 +4488,7 @@
             "name": "WACE 2017 Question 23",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4148,6 +4499,7 @@
             "name": "WACE 2017 Question 24",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4158,6 +4510,7 @@
             "name": "WACE 2017 Question 25",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4168,6 +4521,7 @@
             "name": "WACE 2017 Question 26",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4176,6 +4530,7 @@
             "name": "WACE 2017 Question 27",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4184,6 +4539,7 @@
             "name": "WACE 2017 Question 28",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4192,6 +4548,7 @@
             "name": "WACE 2017 Question 29",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4200,6 +4557,7 @@
             "name": "WACE 2017 Question 30",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4208,6 +4566,7 @@
             "name": "WACE 2017 Question 31",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4216,6 +4575,7 @@
             "name": "WACE 2017 Question 32",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4224,6 +4584,7 @@
             "name": "WACE 2017 Question 33",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4232,6 +4593,7 @@
             "name": "WACE 2017 Question 34",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4240,6 +4602,7 @@
             "name": "WACE 2017 Question 35",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4248,6 +4611,7 @@
             "name": "WACE 2017 Question 36",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4256,6 +4620,7 @@
             "name": "WACE 2017 Question 37",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4264,6 +4629,7 @@
             "name": "WACE 2017 Question 38",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4272,6 +4638,7 @@
             "name": "WACE 2017 Question 39",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4280,6 +4647,7 @@
             "name": "WACE 2017 Question 40",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4288,6 +4656,7 @@
             "name": "WACE 2016 Question 1",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4298,6 +4667,7 @@
             "name": "WACE 2016 Question 2",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4308,6 +4678,7 @@
             "name": "WACE 2016 Question 3",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4318,6 +4689,7 @@
             "name": "WACE 2016 Question 4",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4328,6 +4700,7 @@
             "name": "WACE 2016 Question 5",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4338,6 +4711,7 @@
             "name": "WACE 2016 Question 6",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4348,6 +4722,7 @@
             "name": "WACE 2016 Question 7",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4358,6 +4733,7 @@
             "name": "WACE 2016 Question 8",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4369,6 +4745,7 @@
             "name": "WACE 2016 Question 9",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4380,6 +4757,7 @@
             "name": "WACE 2016 Question 10",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4391,6 +4769,7 @@
             "name": "WACE 2016 Question 11",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4402,6 +4781,7 @@
             "name": "WACE 2016 Question 12",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4413,6 +4793,7 @@
             "name": "WACE 2016 Question 13",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4424,6 +4805,7 @@
             "name": "WACE 2016 Question 14",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4435,6 +4817,7 @@
             "name": "WACE 2016 Question 15",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4446,6 +4829,7 @@
             "name": "WACE 2016 Question 16",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4458,6 +4842,7 @@
             "name": "WACE 2016 Question 17",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
@@ -4469,6 +4854,7 @@
             "name": "WACE 2016 Question 18",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4479,6 +4865,7 @@
             "name": "WACE 2016 Question 19",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4489,6 +4876,7 @@
             "name": "WACE 2016 Question 20",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4499,6 +4887,7 @@
             "name": "WACE 2016 Question 21",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4509,6 +4898,7 @@
             "name": "WACE 2016 Question 22",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4519,6 +4909,7 @@
             "name": "WACE 2016 Question 23",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4529,6 +4920,7 @@
             "name": "WACE 2016 Question 24",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4539,6 +4931,7 @@
             "name": "WACE 2016 Question 25",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice"
@@ -4549,6 +4942,7 @@
             "name": "WACE 2016 Question 26",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4557,6 +4951,7 @@
             "name": "WACE 2016 Question 27",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4565,6 +4960,7 @@
             "name": "WACE 2016 Question 28",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4573,6 +4969,7 @@
             "name": "WACE 2016 Question 29",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4581,6 +4978,7 @@
             "name": "WACE 2016 Question 30",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4589,6 +4987,7 @@
             "name": "WACE 2016 Question 31",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4597,6 +4996,7 @@
             "name": "WACE 2016 Question 32",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4605,6 +5005,7 @@
             "name": "WACE 2016 Question 33",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4613,6 +5014,7 @@
             "name": "WACE 2016 Question 34",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4621,6 +5023,7 @@
             "name": "WACE 2016 Question 35",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4629,6 +5032,7 @@
             "name": "WACE 2016 Question 36",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4637,6 +5041,7 @@
             "name": "WACE 2016 Question 37",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4645,6 +5050,7 @@
             "name": "WACE 2016 Question 38",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4653,6 +5059,7 @@
             "name": "WACE 2016 Question 39",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4661,6 +5068,7 @@
             "name": "WACE 2016 Question 40",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4669,6 +5077,7 @@
             "name": "WACE 2016 Question 41",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         },
@@ -4677,6 +5086,7 @@
             "name": "WACE 2016 Question 42",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": []
         }
@@ -5304,6 +5714,7 @@
             "name": "WACE 2022 Calc Free Question 1",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -5320,6 +5731,7 @@
             "name": "WACE 2022 Calc Free Question 2",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -5333,6 +5745,7 @@
             "name": "WACE 2022 Calc Free Question 3",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -5345,6 +5758,7 @@
             "name": "WACE 2022 Calc Free Question 4",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -5357,6 +5771,7 @@
             "name": "WACE 2022 Calc Free Question 5",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -5369,6 +5784,7 @@
             "name": "WACE 2022 Calc Free Question 6",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -5387,6 +5803,7 @@
             "name": "WACE 2022 Calc Assumed Question 7",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -5402,6 +5819,7 @@
             "name": "WACE 2022 Calc Assumed Question 8",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5417,6 +5835,7 @@
             "name": "WACE 2022 Calc Assumed Question 9",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5429,6 +5848,7 @@
             "name": "WACE 2022 Calc Assumed Question 10",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -5445,6 +5865,7 @@
             "name": "WACE 2022 Calc Assumed Question 11",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -5462,6 +5883,7 @@
             "name": "WACE 2022 Calc Assumed Question 12",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5476,6 +5898,7 @@
             "name": "WACE 2022 Calc Assumed Question 13",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Interval Proportions",
@@ -5489,6 +5912,7 @@
             "name": "WACE 2022 Calc Assumed Question 14",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5502,6 +5926,7 @@
             "name": "WACE 2022 Calc Assumed Question 15",
             "year": 2022,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -5520,6 +5945,7 @@
             "name": "WACE 2021 Calc Free Question 1",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -5536,6 +5962,7 @@
             "name": "WACE 2021 Calc Free Question 2",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -5547,6 +5974,7 @@
             "name": "WACE 2021 Calc Free Question 3",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -5561,6 +5989,7 @@
             "name": "WACE 2021 Calc Free Question 4",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -5576,6 +6005,7 @@
             "name": "WACE 2021 Calc Free Question 5",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -5587,6 +6017,7 @@
             "name": "WACE 2021 Calc Free Question 6",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -5599,6 +6030,7 @@
             "name": "WACE 2021 Calc Free Question 7",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -5613,6 +6045,7 @@
             "name": "WACE 2021 Calc Assumed Question 8",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5624,6 +6057,7 @@
             "name": "WACE 2021 Calc Assumed Question 9",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -5639,6 +6073,7 @@
             "name": "WACE 2021 Calc Assumed Question 10",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5651,6 +6086,7 @@
             "name": "WACE 2021 Calc Assumed Question 11",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Interval Proportions",
@@ -5664,6 +6100,7 @@
             "name": "WACE 2021 Calc Assumed Question 12",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5681,6 +6118,7 @@
             "name": "WACE 2021 Calc Assumed Question 13",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5693,6 +6131,7 @@
             "name": "WACE 2021 Calc Assumed Question 14",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -5707,6 +6146,7 @@
             "name": "WACE 2021 Calc Assumed Question 15",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5718,6 +6158,7 @@
             "name": "WACE 2021 Calc Assumed Question 16",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5735,6 +6176,7 @@
             "name": "WACE 2021 Calc Assumed Question 17",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -5748,6 +6190,7 @@
             "name": "WACE 2020 Calc Free Question 1",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -5759,6 +6202,7 @@
             "name": "WACE 2020 Calc Free Question 2",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -5773,6 +6217,7 @@
             "name": "WACE 2020 Calc Free Question 3",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -5791,6 +6236,7 @@
             "name": "WACE 2020 Calc Free Question 4",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -5805,6 +6251,7 @@
             "name": "WACE 2020 Calc Free Question 5",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -5819,6 +6266,7 @@
             "name": "WACE 2020 Calc Free Question 6",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -5830,6 +6278,7 @@
             "name": "WACE 2020 Calc Free Question 7",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -5847,6 +6296,7 @@
             "name": "WACE 2020 Calc Assumed Question 8",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5858,6 +6308,7 @@
             "name": "WACE 2020 Calc Assumed Question 9",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5869,6 +6320,7 @@
             "name": "WACE 2020 Calc Assumed Question 10",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5883,6 +6335,7 @@
             "name": "WACE 2020 Calc Assumed Question 11",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5899,6 +6352,7 @@
             "name": "WACE 2020 Calc Assumed Question 12",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5914,6 +6368,7 @@
             "name": "WACE 2020 Calc Assumed Question 13",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5928,6 +6383,7 @@
             "name": "WACE 2020 Calc Assumed Question 14",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Interval Proportions",
@@ -5941,6 +6397,7 @@
             "name": "WACE 2020 Calc Assumed Question 15",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5957,6 +6414,7 @@
             "name": "WACE 2020 Calc Assumed Question 16",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -5969,6 +6427,7 @@
             "name": "WACE 2020 Calc Assumed Question 17",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -5986,6 +6445,7 @@
             "name": "WACE 2019 Calc Free Question 1",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6000,6 +6460,7 @@
             "name": "WACE 2019 Calc Free Question 2",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6011,6 +6472,7 @@
             "name": "WACE 2019 Calc Free Question 3",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -6022,6 +6484,7 @@
             "name": "WACE 2019 Calc Free Question 4",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6034,6 +6497,7 @@
             "name": "WACE 2019 Calc Free Question 5",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6048,6 +6512,7 @@
             "name": "WACE 2019 Calc Free Question 6",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Graphing",
@@ -6060,6 +6525,7 @@
             "name": "WACE 2019 Calc Free Question 7",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6075,6 +6541,7 @@
             "name": "WACE 2019 Calc Assumed Question 8",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Sample Proportions",
@@ -6087,6 +6554,7 @@
             "name": "WACE 2019 Calc Assumed Question 9",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6104,6 +6572,7 @@
             "name": "WACE 2019 Calc Assumed Question 10",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6115,6 +6584,7 @@
             "name": "WACE 2019 Calc Assumed Question 11",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Normal Distribution",
@@ -6126,6 +6596,7 @@
             "name": "WACE 2019 Calc Assumed Question 12",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6142,6 +6613,7 @@
             "name": "WACE 2019 Calc Assumed Question 13",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Sample Proportions",
@@ -6156,6 +6628,7 @@
             "name": "WACE 2019 Calc Assumed Question 14",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Sample Proportions",
@@ -6167,6 +6640,7 @@
             "name": "WACE 2019 Calc Assumed Question 15",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6186,6 +6660,7 @@
             "name": "WACE 2019 Calc Assumed Question 16",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6201,6 +6676,7 @@
             "name": "WACE 2019 Calc Assumed Question 17",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6212,6 +6688,7 @@
             "name": "WACE 2019 Calc Assumed Question 18",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6224,6 +6701,7 @@
             "name": "WACE 2018 Calc Free Question 1",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -6236,6 +6714,7 @@
             "name": "WACE 2018 Calc Free Question 2",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Z Scores",
@@ -6248,6 +6727,7 @@
             "name": "WACE 2018 Calc Free Question 3",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6266,6 +6746,7 @@
             "name": "WACE 2018 Calc Free Question 4",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -6277,6 +6758,7 @@
             "name": "WACE 2018 Calc Free Question 5",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Interval Proportions",
@@ -6289,6 +6771,7 @@
             "name": "WACE 2018 Calc Free Question 6",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6304,6 +6787,7 @@
             "name": "WACE 2018 Calc Free Question 7",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6321,6 +6805,7 @@
             "name": "WACE 2018 Calc Assumed Question 8",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6333,6 +6818,7 @@
             "name": "WACE 2018 Calc Assumed Question 9",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6347,6 +6833,7 @@
             "name": "WACE 2018 Calc Assumed Question 10",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6358,6 +6845,7 @@
             "name": "WACE 2018 Calc Assumed Question 11",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6373,6 +6861,7 @@
             "name": "WACE 2018 Calc Assumed Question 12",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6384,6 +6873,7 @@
             "name": "WACE 2018 Calc Assumed Question 13",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Interval Proportions",
@@ -6396,6 +6886,7 @@
             "name": "WACE 2018 Calc Assumed Question 14",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6409,6 +6900,7 @@
             "name": "WACE 2018 Calc Assumed Question 15",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6424,6 +6916,7 @@
             "name": "WACE 2018 Calc Assumed Question 16",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -6436,6 +6929,7 @@
             "name": "WACE 2018 Calc Assumed Question 17",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6449,6 +6943,7 @@
             "name": "WACE 2018 Calc Assumed Question 18",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6460,6 +6955,7 @@
             "name": "WACE 2017 Calc Free Question 1",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -6471,6 +6967,7 @@
             "name": "WACE 2017 Calc Free Question 2",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Probability",
@@ -6483,6 +6980,7 @@
             "name": "WACE 2017 Calc Free Question 3",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6494,6 +6992,7 @@
             "name": "WACE 2017 Calc Free Question 4",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Interval Proportions",
@@ -6505,6 +7004,7 @@
             "name": "WACE 2017 Calc Free Question 5",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6519,6 +7019,7 @@
             "name": "WACE 2017 Calc Free Question 6",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6535,6 +7036,7 @@
             "name": "WACE 2017 Calc Free Question 7",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6551,6 +7053,7 @@
             "name": "WACE 2017 Calc Free Question 8",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": []
         },
@@ -6559,6 +7062,7 @@
             "name": "WACE 2017 Calc Free Question 9",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -6570,6 +7074,7 @@
             "name": "WACE 2017 Calc Assumed Question 10",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -6582,6 +7087,7 @@
             "name": "WACE 2017 Calc Assumed Question 11",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6593,6 +7099,7 @@
             "name": "WACE 2017 Calc Assumed Question 12",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Normal Distribution",
@@ -6607,6 +7114,7 @@
             "name": "WACE 2017 Calc Assumed Question 13",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6618,6 +7126,7 @@
             "name": "WACE 2017 Calc Assumed Question 14",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6636,6 +7145,7 @@
             "name": "WACE 2017 Calc Assumed Question 15",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6653,6 +7163,7 @@
             "name": "WACE 2017 Calc Assumed Question 16",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6667,6 +7178,7 @@
             "name": "WACE 2017 Calc Assumed Question 17",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6684,6 +7196,7 @@
             "name": "WACE 2017 Calc Assumed Question 18",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6698,6 +7211,7 @@
             "name": "WACE 2017 Calc Assumed Question 19",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6710,6 +7224,7 @@
             "name": "WACE 2017 Calc Assumed Question 20",
             "year": 2017,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6726,6 +7241,7 @@
             "name": "WACE 2016 Calc Free Question 1",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Logarithmic"
@@ -6736,6 +7252,7 @@
             "name": "WACE 2016 Calc Free Question 2",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -6752,6 +7269,7 @@
             "name": "WACE 2016 Calc Free Question 3",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6769,6 +7287,7 @@
             "name": "WACE 2016 Calc Free Question 4",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -6786,6 +7305,7 @@
             "name": "WACE 2016 Calc Free Question 5",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6801,6 +7321,7 @@
             "name": "WACE 2016 Calc Free Question 6",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -6815,6 +7336,7 @@
             "name": "WACE 2016 Calc Free Question 7",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -6827,6 +7349,7 @@
             "name": "WACE 2016 Calc Free Question 8",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -6842,6 +7365,7 @@
             "name": "WACE 2016 Calc Assumed Question 9",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -6854,6 +7378,7 @@
             "name": "WACE 2016 Calc Assumed Question 10",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Interval Proportions",
@@ -6866,6 +7391,7 @@
             "name": "WACE 2016 Calc Assumed Question 11",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -6879,6 +7405,7 @@
             "name": "WACE 2016 Calc Assumed Question 12",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -6890,6 +7417,7 @@
             "name": "WACE 2016 Calc Assumed Question 13",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -6906,6 +7434,7 @@
             "name": "WACE 2016 Calc Assumed Question 14",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Interval Proportions",
@@ -6921,6 +7450,7 @@
             "name": "WACE 2016 Calc Assumed Question 15",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6932,6 +7462,7 @@
             "name": "WACE 2016 Calc Assumed Question 16",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6944,6 +7475,7 @@
             "name": "WACE 2016 Calc Assumed Question 17",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability"
@@ -6954,6 +7486,7 @@
             "name": "WACE 2016 Calc Assumed Question 18",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6966,6 +7499,7 @@
             "name": "WACE 2016 Calc Assumed Question 19",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -6980,6 +7514,7 @@
             "name": "WACE 2016 Calc Assumed Question 20",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Probability",
@@ -6994,6 +7529,7 @@
             "name": "WACE 2016 Calc Assumed Question 21",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -9831,6 +10367,7 @@
             "name": "WACE 2021 Calculator Free Question 1",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -9843,6 +10380,7 @@
             "name": "WACE 2021 Calculator Free Question 2",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -9856,6 +10394,7 @@
             "name": "WACE 2021 Calculator Free Question 3",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -9867,6 +10406,7 @@
             "name": "WACE 2021 Calculator Free Question 4",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -9879,6 +10419,7 @@
             "name": "WACE 2021 Calculator Free Question 5",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -9890,6 +10431,7 @@
             "name": "WACE 2021 Calculator Free Question 6",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -9901,6 +10443,7 @@
             "name": "WACE 2021 Calculator Free Question 7",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -9913,6 +10456,7 @@
             "name": "WACE 2021 Calculator Free Question 8",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -9927,6 +10471,7 @@
             "name": "WACE 2021 Calculator Assumed Question 9",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -9939,6 +10484,7 @@
             "name": "WACE 2021 Calculator Assumed Question 10",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Separation of Variables",
@@ -9950,6 +10496,7 @@
             "name": "WACE 2021 Calculator Assumed Question 11",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -9962,6 +10509,7 @@
             "name": "WACE 2021 Calculator Assumed Question 12",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Simple Harmonic Motion"
@@ -9972,6 +10520,7 @@
             "name": "WACE 2021 Calculator Assumed Question 13",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -9984,6 +10533,7 @@
             "name": "WACE 2021 Calculator Assumed Question 14",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Planes",
@@ -9995,6 +10545,7 @@
             "name": "WACE 2021 Calculator Assumed Question 15",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -10008,6 +10559,7 @@
             "name": "WACE 2021 Calculator Assumed Question 16",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10020,6 +10572,7 @@
             "name": "WACE 2021 Calculator Assumed Question 17",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -10032,6 +10585,7 @@
             "name": "WACE 2021 Calculator Assumed Question 18",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10043,6 +10597,7 @@
             "name": "WACE 2021 Calculator Assumed Question 19",
             "year": 2021,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10056,6 +10611,7 @@
             "name": "WACE 2020 Calculator Free Question 1",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10067,6 +10623,7 @@
             "name": "WACE 2020 Calculator Free Question 2",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Vectors",
@@ -10079,6 +10636,7 @@
             "name": "WACE 2020 Calculator Free Question 3",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -10090,6 +10648,7 @@
             "name": "WACE 2020 Calculator Free Question 4",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Planes",
@@ -10101,6 +10660,7 @@
             "name": "WACE 2020 Calculator Free Question 5",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -10114,6 +10674,7 @@
             "name": "WACE 2020 Calculator Free Question 6",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -10128,6 +10689,7 @@
             "name": "WACE 2020 Calculator Free Question 7",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10139,6 +10701,7 @@
             "name": "WACE 2020 Calculator Free Question 8",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers"
@@ -10149,6 +10712,7 @@
             "name": "WACE 2020 Calculator Assumed Question 9",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10161,6 +10725,7 @@
             "name": "WACE 2020 Calculator Assumed Question 10",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -10173,6 +10738,7 @@
             "name": "WACE 2020 Calculator Assumed Question 11",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -10184,6 +10750,7 @@
             "name": "WACE 2020 Calculator Assumed Question 12",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10197,6 +10764,7 @@
             "name": "WACE 2020 Calculator Assumed Question 13",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -10209,6 +10777,7 @@
             "name": "WACE 2020 Calculator Assumed Question 14",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10221,6 +10790,7 @@
             "name": "WACE 2020 Calculator Assumed Question 15",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -10232,6 +10802,7 @@
             "name": "WACE 2020 Calculator Assumed Question 16",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10243,6 +10814,7 @@
             "name": "WACE 2020 Calculator Assumed Question 17",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -10255,6 +10827,7 @@
             "name": "WACE 2020 Calculator Assumed Question 18",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -10267,6 +10840,7 @@
             "name": "WACE 2020 Calculator Assumed Question 19",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10279,6 +10853,7 @@
             "name": "WACE 2020 Calculator Assumed Question 20",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10292,6 +10867,7 @@
             "name": "WACE 2020 Calculator Assumed Question 21",
             "year": 2020,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -10304,6 +10880,7 @@
             "name": "WACE 2019 Calculator Free Question 1",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10315,6 +10892,7 @@
             "name": "WACE 2019 Calculator Free Question 2",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -10326,6 +10904,7 @@
             "name": "WACE 2019 Calculator Free Question 3",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10337,6 +10916,7 @@
             "name": "WACE 2019 Calculator Free Question 4",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -10349,6 +10929,7 @@
             "name": "WACE 2019 Calculator Free Question 5",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -10361,6 +10942,7 @@
             "name": "WACE 2019 Calculator Free Question 6",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10373,6 +10955,7 @@
             "name": "WACE 2019 Calculator Free Question 7",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -10386,6 +10969,7 @@
             "name": "WACE 2019 Calculator Free Question 8",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10399,6 +10983,7 @@
             "name": "WACE 2019 Calculator Free Question 9",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -10411,6 +10996,7 @@
             "name": "WACE 2019 Calculator Assumed Question 10",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -10422,6 +11008,7 @@
             "name": "WACE 2019 Calculator Assumed Question 11",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10433,6 +11020,7 @@
             "name": "WACE 2019 Calculator Assumed Question 12",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -10446,6 +11034,7 @@
             "name": "WACE 2019 Calculator Assumed Question 13",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10459,6 +11048,7 @@
             "name": "WACE 2019 Calculator Assumed Question 14",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -10471,6 +11061,7 @@
             "name": "WACE 2019 Calculator Assumed Question 15",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -10483,6 +11074,7 @@
             "name": "WACE 2019 Calculator Assumed Question 16",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10497,6 +11089,7 @@
             "name": "WACE 2019 Calculator Assumed Question 17",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10508,6 +11101,7 @@
             "name": "WACE 2019 Calculator Assumed Question 18",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10523,6 +11117,7 @@
             "name": "WACE 2019 Calculator Assumed Question 19",
             "year": 2019,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10535,6 +11130,7 @@
             "name": "WACE 2018 Calculator Free Question 1",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -10547,6 +11143,7 @@
             "name": "WACE 2018 Calculator Free Question 2",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Planes",
@@ -10558,6 +11155,7 @@
             "name": "WACE 2018 Calculator Free Question 3",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -10570,6 +11168,7 @@
             "name": "WACE 2018 Calculator Free Question 4",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -10582,6 +11181,7 @@
             "name": "WACE 2018 Calculator Free Question 5",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10594,6 +11194,7 @@
             "name": "WACE 2018 Calculator Free Question 6",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10605,6 +11206,7 @@
             "name": "WACE 2018 Calculator Free Question 7",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -10617,6 +11219,7 @@
             "name": "WACE 2018 Calculator Free Question 8",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Vectors",
@@ -10630,6 +11233,7 @@
             "name": "WACE 2018 Calculator Free Question 9",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -10642,6 +11246,7 @@
             "name": "WACE 2018 Calculator Assumed Question 10",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -10655,6 +11260,7 @@
             "name": "WACE 2018 Calculator Assumed Question 11",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -10667,6 +11273,7 @@
             "name": "WACE 2018 Calculator Assumed Question 12",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -10678,6 +11285,7 @@
             "name": "WACE 2018 Calculator Assumed Question 13",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10689,6 +11297,7 @@
             "name": "WACE 2018 Calculator Assumed Question 14",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -10702,6 +11311,7 @@
             "name": "WACE 2018 Calculator Assumed Question 15",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10715,6 +11325,7 @@
             "name": "WACE 2018 Calculator Assumed Question 16",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -10727,6 +11338,7 @@
             "name": "WACE 2018 Calculator Assumed Question 17",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10739,6 +11351,7 @@
             "name": "WACE 2018 Calculator Assumed Question 18",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -10752,6 +11365,7 @@
             "name": "WACE 2018 Calculator Assumed Question 19",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -10765,6 +11379,7 @@
             "name": "WACE 2018 Calculator Assumed Question 20",
             "year": 2018,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -11021,6 +11636,7 @@
             "name": "WACE 2016 Calc Free Question 1",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -11032,6 +11648,7 @@
             "name": "WACE 2016 Calc Free Question 2",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -11043,6 +11660,7 @@
             "name": "WACE 2016 Calc Free Question 3",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Complex Numbers",
@@ -11054,6 +11672,7 @@
             "name": "WACE 2016 Calc Free Question 4",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -11065,6 +11684,7 @@
             "name": "WACE 2016 Calc Free Question 5",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Calculus",
@@ -11077,6 +11697,7 @@
             "name": "WACE 2016 Calc Free Question 6",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Systems of Linear Equations"
@@ -11087,6 +11708,7 @@
             "name": "WACE 2016 Calc Free Question 7",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Vectors",
@@ -11099,6 +11721,7 @@
             "name": "WACE 2016 Calc Free Question 8",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "free",
             "tags": [
                 "Functions",
@@ -11113,6 +11736,7 @@
             "name": "WACE 2016 Calc Assumed Question 9",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -11124,6 +11748,7 @@
             "name": "WACE 2016 Calc Assumed Question 10",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -11135,6 +11760,7 @@
             "name": "WACE 2016 Calc Assumed Question 11",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -11146,6 +11772,7 @@
             "name": "WACE 2016 Calc Assumed Question 12",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Functions",
@@ -11157,6 +11784,7 @@
             "name": "WACE 2016 Calc Assumed Question 13",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -11168,6 +11796,7 @@
             "name": "WACE 2016 Calc Assumed Question 14",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Complex Numbers",
@@ -11180,6 +11809,7 @@
             "name": "WACE 2016 Calc Assumed Question 15",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -11192,6 +11822,7 @@
             "name": "WACE 2016 Calc Assumed Question 16",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
@@ -11205,6 +11836,7 @@
             "name": "WACE 2016 Calc Assumed Question 17",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -11218,6 +11850,7 @@
             "name": "WACE 2016 Calc Assumed Question 18",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Calculus",
@@ -11229,6 +11862,7 @@
             "name": "WACE 2016 Calc Assumed Question 19",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Statistical Inference",
@@ -11241,6 +11875,7 @@
             "name": "WACE 2016 Calc Assumed Question 20",
             "year": 2016,
             "source": "WACE",
+            "type": "WACE",
             "calculator": "assumed",
             "tags": [
                 "Vectors",
