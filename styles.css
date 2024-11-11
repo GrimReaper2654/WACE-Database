@@ -545,3 +545,11 @@ ul {
     position: absolute;
     right: 20px;
 }
+
+#dowloadAllButton {
+    width: 200px;
+    position: absolute;
+    zoom: 0.75;
+    top: 10px;
+    right: 10px;
+}

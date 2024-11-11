@@ -91,7 +91,7 @@
         <button class="standardButton" onclick="clearFilters()">Clear Filters</button>
     </div>
     <div class="content">
-        <h2 class="compact">Search Results</h2>
+        <h2 class="compact">Search Results</h2><button id="dowloadAllButton" class="standardButton" onclick="downloadAll()">Download All</button>
         <div id="pageControlsTop" class="pageControls">
             <button disabled id="prevPageButtonTop" class="pageButton" onclick="prevPage()">◄</button>
             <div class="horizontalSpacerSmall"></div>
@@ -134,5 +134,6 @@
           .then(data => document.querySelector('header').innerHTML = data);
     </script>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
 </body>
 </html>

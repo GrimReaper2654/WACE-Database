@@ -761,6 +761,35 @@ function textSearch() {
     }
 }
 
+async function downloadAll() {
+    const mergedPdf = await PDFLib.PDFDocument.create();
+
+    for (const question of data.questions) {
+        const path = `./pdfDownloads/${data.filters.subject}/${question.id}.pdf`;
+
+        const pdfBytes = await fetch(path).then(res => res.arrayBuffer());
+
+        const pdf = await PDFLib.PDFDocument.load(pdfBytes);
+
+        const copiedPages = await mergedPdf.copyPages(pdf, pdf.getPageIndices());
+        copiedPages.forEach(page => mergedPdf.addPage(page));
+    }
+
+    const mergedPdfBytes = await mergedPdf.save();
+
+    const blob = new Blob([mergedPdfBytes], { type: 'application/pdf' });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${data.filters.subject} practice questions - WACE Database.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    URL.revokeObjectURL(url);
+}
+
 window.addEventListener("load", async function() {
     console.log('loading...');
     await load();
