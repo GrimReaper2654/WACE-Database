@@ -16,6 +16,13 @@ header {
     text-align: center;
 }
 
+footer {
+    background-color: #404040;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+}
+
 #searchContainer {
     display: flex;
     gap: 0px;

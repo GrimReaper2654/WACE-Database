@@ -69,7 +69,7 @@
             <div class="filterLabel">Assessment Type: </div>
             <select id="typeSelect" class="filterSelect">
                 <option value="all">All</option>
-                <option value="WACE">WACE Exam (Owned by SCSA)</option>
+                <option value="WACE">WACE Exam (Owned by SCSA*)</option>
                 <option value="-">---- Example Types (no content) ----</option>
                 <option value="Sem1">Sem 1 Exam</option>
                 <option value="Sem2">Sem 2 Exam</option>
@@ -126,6 +126,11 @@
             <button disabled id="nextPageButtonBottom" class="pageButton" onclick="nextPage()">►</button>
         </div>
     </div>
+    <footer>
+        <p class="compact">
+            *DISCLAIMER: All content used under the Assessment Type 'WACE Exam' is owned by the School Curriculum and Standards Authority (SCSA). All content (exam questions made by the Authority) remains unchanged from the original version that can be found in the links referenced to the Authority's website below. Note that the order and arrangement of questions may differ from the original version of the online PDF documents of WACE Exams with accordance to the categorisation process of content based on the tags that can be found above. Questions can be found in the "drop-down boxes" shown above consisting of images of separate parts of the content (based on separation of content as questions) from the original PDF documents of WACE Exams that exist on the Authority's website. WACE Database does not claim ownership of any content under the Assessment Type 'WACE Exam', only the ability to categorise and alter the order of this original content. WACE Database is NOT affiliated with or endorsed by the Authority nor the Western Australian Certificate of Education (WACE) in any form, as well as any processes involved with either of the two, only an existing user of the content from WACE Exams that belong to the Authority. This usage is in lieu with the Terms of Use of the Authority and terms of the Creative Commons Attribution 4.0 International (CC BY) License as content derived from the Australian Curriculum.
+        </p>
+    </footer>
     <script>
         fetch('navbar.html')
           .then(response => response.text())
