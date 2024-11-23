@@ -2734,7 +2734,8 @@
                 "Synthesis",
                 "Biodisel",
                 "Science Inquiry Skills",
-                "Graphing"
+                "Graphing",
+                "Theory"
             ]
         },
         {
@@ -2746,7 +2747,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Redox"
+                "Redox",
+                "Theory"
             ]
         },
         {
@@ -2758,7 +2760,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Acids and Bases"
+                "Acids and Bases",
+                "Theory"
             ]
         },
         {
@@ -2770,7 +2773,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Redox"
+                "Redox",
+                "Theory"
             ]
         },
         {
@@ -2782,7 +2786,9 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Organic Chemistry"
+                "Organic Chemistry",
+                "Naming",
+                "Theory"
             ]
         },
         {
@@ -2794,7 +2800,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Equilibrium"
+                "Equilibrium",
+                "Theory"
             ]
         },
         {
@@ -2806,7 +2813,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Cells"
+                "Cells",
+                "Theory"
             ]
         },
         {
@@ -2821,7 +2829,8 @@
                 "Observations",
                 "Redox",
                 "Acids and Bases",
-                "Collision Theory"
+                "Collision Theory",
+                "Theory"
             ]
         },
         {
@@ -2832,7 +2841,13 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Chemical Reactions",
+                "Reaction Rates",
+                "Diagrams",
+                "Energy Profile Diagrams",
+                "Equilibrium",
+                "Theory"
             ]
         },
         {
@@ -2845,7 +2860,8 @@
             "tags": [
                 "Multiple-choice",
                 "Organic Chemistry",
-                "Soaps and Detergents"
+                "Soaps and Detergents",
+                "Theory"
             ]
         },
         {
@@ -2858,7 +2874,8 @@
             "tags": [
                 "Multiple-choice",
                 "Organic Chemistry",
-                "Homologous Series"
+                "Homologous Series",
+                "Theory"
             ]
         },
         {
@@ -2871,7 +2888,9 @@
             "tags": [
                 "Multiple-choice",
                 "Organic Chemistry",
-                "Proteins and Amino Acids"
+                "Proteins and Amino Acids",
+                "Organic Reactions",
+                "Theory"
             ]
         },
         {
@@ -2883,7 +2902,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Equilibrium"
+                "Equilibrium",
+                "Theory"
             ]
         },
         {
@@ -2896,7 +2916,11 @@
             "tags": [
                 "Multiple-choice",
                 "Organic Chemistry",
-                "Homologous Series"
+                "Homologous Series",
+                "Functional Groups",
+                "Physical Properties",
+                "Melting/Boiling Point",
+                "Theory"
             ]
         },
         {
@@ -2908,8 +2932,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Science Inquiry Skills",
-                "Proteins and Amino Acids"
+                "Proteins and Amino Acids",
+                "Theory"
             ]
         },
         {
@@ -2923,7 +2947,8 @@
                 "Multiple-choice",
                 "Organic Chemistry",
                 "Proteins and Amino Acids",
-                "Acids and Bases"
+                "Acids and Bases",
+                "Theory"
             ]
         },
         {
@@ -2935,7 +2960,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Equilibrium"
+                "Equilibrium",
+                "Theory"
             ]
         },
         {
@@ -2947,7 +2973,9 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Acids and Bases"
+                "Acids and Bases",
+                "pH",
+                "Theory"
             ]
         },
         {
@@ -2961,7 +2989,8 @@
                 "Multiple-choice",
                 "Acids and Bases",
                 "Equilibrium",
-                "pH"
+                "pH",
+                "Theory"
             ]
         },
         {
@@ -2974,7 +3003,8 @@
             "tags": [
                 "Multiple-choice",
                 "Redox",
-                "Half-equations"
+                "Half-equations",
+                "Theory"
             ]
         },
         {
@@ -2988,7 +3018,8 @@
                 "Multiple-choice",
                 "Redox",
                 "Cells",
-                "Electrolysis"
+                "Electrolysis",
+                "Theory"
             ]
         },
         {
@@ -3001,7 +3032,8 @@
             "tags": [
                 "Multiple-choice",
                 "Organic Chemistry",
-                "Polymers"
+                "Polymers",
+                "Theory"
             ]
         },
         {
@@ -3013,7 +3045,9 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Soaps and Detergents"
+                "Organic Chemistry",
+                "Soaps and Detergents",
+                "Theory"
             ]
         },
         {
@@ -3025,7 +3059,12 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Soaps and Detergents"
+                "Organic Chemistry",
+                "Functional Groups",
+                "Soaps and Detergents",
+                "Physical Properties",
+                "Solubility",
+                "Theory"
             ]
         },
         {
@@ -3037,7 +3076,10 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Equilibrium"
+                "Equilibrium",
+                "Le Chatelier's Principle",
+                "Diagrams",
+                "Theory"
             ]
         },
         {
@@ -3050,7 +3092,9 @@
             "tags": [
                 "Multiple-choice",
                 "Acids and Bases",
-                "Titration"
+                "Titration",
+                "Science Inquiry Skills",
+                "Theory"
             ]
         },
         {
@@ -3182,7 +3226,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Equilibrium",
+                "Le Chatelier's Principle",
+                "Collision Theory",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q35",
@@ -3191,7 +3241,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Organic Reactions",
+                "Diagrams",
+                "Structural Formula",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q36",
@@ -3200,7 +3258,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Redox",
+                "Cells",
+                "Half-equations",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q37",
@@ -3209,7 +3273,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Acids and Bases",
+                "Titration",
+                "Stoichiometry",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2020Q38",
@@ -3218,7 +3289,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Combustion Analysis",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q39",
@@ -3227,7 +3303,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Yield Calculations",
+                "Chemical Reactions",
+                "Balancing Equations",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q40",
@@ -3236,7 +3319,24 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Organic Reactions",
+                "Synthesis",
+                "Biofuels",
+                "Fats and Oils",
+                "Chemical Reactions",
+                "Balancing Equations",
+                "Polymers",
+                "Esters",
+                "Equilibrium",
+                "Functional Groups",
+                "Enzymes",
+                "Industrial Chemistry",
+                "Optimal Conditions",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2019Q1",
@@ -3562,7 +3662,10 @@
             "calculator": "assumed",
             "tags": [
                 "Short Answer",
-                "Observations"
+                "Chemical Reactions",
+                "Observations",
+                "Balancing Equations",
+                "Theory"
             ]
         },
         {
