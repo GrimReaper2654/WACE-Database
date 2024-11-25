@@ -3474,7 +3474,8 @@
                 "Multiple-choice",
                 "Synthesis",
                 "Biodisel",
-                "Industrial Chemistry"
+                "Industrial Chemistry",
+                "Theory"
             ]
         },
         {
@@ -4216,7 +4217,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Chemical Reactions",
+                "Balancing Equations",
+                "Observations",
+                "Reaction Rates",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2018Q27",
@@ -4225,7 +4233,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Chemical Reactions",
+                "Balancing Equations",
+                "Acids and Bases",
+                "Titration",
+                "Science Inquiry Skills",
+                "pH",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q28",
@@ -4234,7 +4251,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Half-equations",
+                "Cells",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q29",
@@ -4243,7 +4266,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Buffers",
+                "pH",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q30",
@@ -4252,7 +4281,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Polymers",
+                "Organic Reactions",
+                "Balancing Equations",
+                "Diagrams",
+                "Structural Formula"
+            ]
         },
         {
             "id": "WACE2018Q31",
@@ -4261,7 +4298,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "pH",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q32",
@@ -4270,7 +4312,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Equilibrium",
+                "Ocean Acidification",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q33",
@@ -4279,7 +4326,18 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Functional Groups",
+                "Physical Properties",
+                "Melting/Boiling Point",
+                "Solubility",
+                "Organic Reactions",
+                "Chemical Reactions",
+                "Observations",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q34",
@@ -4288,7 +4346,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Functional Groups",
+                "Organic Reactions",
+                "Diagrams",
+                "Structural Formula"
+            ]
         },
         {
             "id": "WACE2018Q35",
@@ -4297,7 +4362,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Stoichiometry",
+                "Combustion Analysis",
+                "Empirical Formula",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q36",
@@ -4306,7 +4378,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Science Inquiry Skills",
+                "Stoichiometry",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2018Q37",
@@ -4315,7 +4392,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Chemical Reactions",
+                "Reaction Rates",
+                "Graphing",
+                "Science Inquiry Skills",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q38",
@@ -4324,7 +4408,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Equilibrium",
+                "Collision Theory",
+                "Le Chatelier's Principle",
+                "Graphing",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q39",
@@ -4333,7 +4424,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Functional Groups",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2018Q40",
@@ -4342,7 +4439,19 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Stoichiometry",
+                "Yield Calculations",
+                "Organic Reactions",
+                "Balancing Equations",
+                "Acids and Bases",
+                "Titration",
+                "Science Inquiry Skills",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q1",
@@ -4626,7 +4735,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Chemical Reactions",
+                "Observations",
+                "Balancing Equations"
+            ]
         },
         {
             "id": "WACE2017Q27",
@@ -4635,7 +4749,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Half-equations",
+                "Balancing Equations"
+            ]
         },
         {
             "id": "WACE2017Q28",
@@ -4644,7 +4763,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Equilibrium",
+                "Le Chatelier's Principle",
+                "Acids and Bases",
+                "pH",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q29",
@@ -4653,7 +4779,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Stoichiometry",
+                "pH",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q30",
@@ -4662,7 +4794,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Equilibrium",
+                "Collision Theory",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q31",
@@ -4671,7 +4808,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Equilibrium",
+                "Acids and Bases",
+                "pH",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q32",
@@ -4680,7 +4824,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Functional Groups",
+                "Physical Properties",
+                "Solubility",
+                "Homologous Series",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q33",
@@ -4689,7 +4841,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Diagrams",
+                "Energy Profile Diagrams",
+                "Stoichiometry",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q34",
@@ -4698,7 +4856,17 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Cells",
+                "Half-equations",
+                "Chemical Reactions",
+                "Observations",
+                "Science Inquiry Skills",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q35",
@@ -4707,7 +4875,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Functional Groups",
+                "Organic Reactions",
+                "Science Inquiry Skills"
+            ]
         },
         {
             "id": "WACE2017Q36",
@@ -4716,7 +4890,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Yield Calculations",
+                "Organic Chemistry",
+                "Polymers",
+                "Synthesis",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q37",
@@ -4725,7 +4908,19 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Chemical Reactions",
+                "Balancing Equations",
+                "Stoichiometry",
+                "Acids and Bases",
+                "Titration",
+                "pH",
+                "Science Inquiry Skills",
+                "Redox",
+                "Cells",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q38",
@@ -4734,7 +4929,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Stoichiometry",
+                "Combustion Analysis",
+                "Empirical Formula",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2017Q39",
@@ -4743,7 +4945,22 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Soaps and Detergents",
+                "Functional Groups",
+                "Diagrams",
+                "Structural Formula",
+                "Physical Properties",
+                "Solubility",
+                "Organic Reactions",
+                "Fats and Oils",
+                "Acids and Bases",
+                "pH",
+                "Science Inquiry Skills",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2017Q40",
@@ -4752,7 +4969,18 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Polymers",
+                "Physical Properties",
+                "Solubility",
+                "Diagrams",
+                "Structural Formula",
+                "Functional Groups",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q1",
@@ -5047,7 +5275,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Redox",
+                "Cells",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q27",
@@ -5056,7 +5289,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Chemical Reactions",
+                "Observations",
+                "Organic Chemistry",
+                "Organic Reactions"
+            ]
         },
         {
             "id": "WACE2016Q28",
@@ -5065,7 +5304,17 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Functional Groups",
+                "Organic Reactions",
+                "Synthesis",
+                "Enzymes",
+                "Fats and Oils",
+                "Biofuels",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q29",
@@ -5074,7 +5323,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Polymers",
+                "Diagrams",
+                "Structural Formula",
+                "Proteins and Amino Acids",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q30",
@@ -5083,7 +5340,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Organic Reactions",
+                "Synthesis",
+                "Esters",
+                "Chemical Reactions",
+                "Balancing Equations"
+            ]
         },
         {
             "id": "WACE2016Q31",
@@ -5092,7 +5357,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "pH",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q32",
@@ -5101,7 +5371,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Buffers",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q33",
@@ -5110,7 +5385,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Chemical Reactions",
+                "Balancing Equations",
+                "Organic Chemistry"
+            ]
         },
         {
             "id": "WACE2016Q34",
@@ -5119,7 +5400,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Acids and Bases",
+                "Titration",
+                "pH",
+                "Science Inquiry Skills",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q35",
@@ -5128,7 +5416,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Diagrams",
+                "Structural Formula",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q36",
@@ -5137,7 +5431,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Proteins and Amino Acids",
+                "Polymers",
+                "Functional Groups"
+            ]
         },
         {
             "id": "WACE2016Q37",
@@ -5146,7 +5446,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Organic Chemistry",
+                "Functional Groups",
+                "Physical Properties",
+                "Melting/Boiling Point",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q38",
@@ -5155,7 +5462,19 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Organic Chemistry",
+                "Synthesis",
+                "Enzymes",
+                "Diagrams",
+                "Structural Formula",
+                "Stoichiometry",
+                "Combustion Analysis",
+                "Empirical Formula",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2016Q39",
@@ -5164,7 +5483,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Yield Calculations",
+                "Equilibrium",
+                "Collision Theory",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q40",
@@ -5173,7 +5500,14 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Redox",
+                "Half-equations",
+                "Electrolysis",
+                "Cells",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q41",
@@ -5182,7 +5516,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Equilibrium",
+                "Diagrams",
+                "Energy Profile Diagrams",
+                "Graphing",
+                "Science Inquiry Skills",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2016Q42",
@@ -5191,7 +5533,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Stoichiometry",
+                "Acids and Bases",
+                "Titration",
+                "Science Inquiry Skills",
+                "pH",
+                "Calculation",
+                "Theory"
+            ]
         }
     ],
     "econs": [
@@ -7158,11 +7509,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "free",
-            "tags": [
-                "Differentiation",
-                "Antidifferentiation",
-                "Trignometric"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2017Q9",
@@ -8324,13 +8671,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Response",
-                "Electromagnetism",
-                "Induction",
-                "Calculation",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q11",
@@ -8339,11 +8680,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Response",
-                "Calculation",
-                "Charged Particles"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q12",
@@ -8352,11 +8689,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Short Response",
-                "Big Bang Theory",
-                "Theory"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q13",
@@ -8365,15 +8698,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Problem Solving",
-                "Estimation",
-                "Graphing",
-                "Calculation",
-                "Waves",
-                "Light",
-                "Photoelectric Effect"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q14",
@@ -8382,16 +8707,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Problem Solving",
-                "Electromagnetism",
-                "Electric Fields",
-                "Electricity",
-                "Equilibrium of Forces",
-                "Circular Motion",
-                "Calculation",
-                "Diagrams"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q15",
@@ -8400,12 +8716,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Problem Solving",
-                "Gravity and Motion",
-                "Projectile Motion",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q16",
@@ -8414,12 +8725,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Problem Solving",
-                "Light",
-                "Calculation",
-                "Graphing"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q17",
@@ -8428,12 +8734,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Problem Solving",
-                "Circular Motion",
-                "Diagrams",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q18",
@@ -8442,13 +8743,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Problem Solving",
-                "Special Relativity",
-                "Relativistic Energy",
-                "Relative Velocities",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q19",
@@ -8457,12 +8752,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Problem Solving",
-                "Electromagnetism",
-                "Magnetic Fields",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q20",
@@ -8471,15 +8761,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Comprehension",
-                "Theory",
-                "Calculation",
-                "Waves",
-                "Light",
-                "Emission / Absorption Spectrum",
-                "Estimation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2021Q21",
@@ -8488,13 +8770,7 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": [
-                "Comprehension",
-                "Electricity",
-                "Electromagnetism",
-                "Magnetic Fields",
-                "Calculation"
-            ]
+            "tags": []
         },
         {
             "id": "WACE2020Q1",
