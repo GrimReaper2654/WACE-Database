@@ -7158,7 +7158,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Differentiation",
+                "Antidifferentiation",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2017Q9",
