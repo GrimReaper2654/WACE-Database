@@ -8324,7 +8324,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Induction",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q11",
@@ -8333,7 +8339,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Calculation",
+                "Charged Particles"
+            ]
         },
         {
             "id": "WACE2021Q12",
@@ -8342,7 +8352,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Big Bang Theory",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2021Q13",
@@ -8351,7 +8365,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Estimation",
+                "Graphing",
+                "Calculation",
+                "Waves",
+                "Light",
+                "Photoelectric Effect"
+            ]
         },
         {
             "id": "WACE2021Q14",
@@ -8360,7 +8382,16 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Electromagnetism",
+                "Electric Fields",
+                "Electricity",
+                "Equilibrium of Forces",
+                "Circular Motion",
+                "Calculation",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2021Q15",
@@ -8369,7 +8400,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Gravity and Motion",
+                "Projectile Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2021Q16",
@@ -8378,7 +8414,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Light",
+                "Calculation",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2021Q17",
@@ -8387,7 +8428,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Circular Motion",
+                "Diagrams",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2021Q18",
@@ -8396,7 +8442,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Special Relativity",
+                "Relativistic Energy",
+                "Relative Velocities",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2021Q19",
@@ -8405,7 +8457,12 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2021Q20",
@@ -8414,7 +8471,15 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Theory",
+                "Calculation",
+                "Waves",
+                "Light",
+                "Emission / Absorption Spectrum",
+                "Estimation"
+            ]
         },
         {
             "id": "WACE2021Q21",
@@ -8423,7 +8488,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Electricity",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2020Q1",
