@@ -7509,7 +7509,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Calculus",
+                "Differentiation",
+                "Product Rule",
+                "Antidifferentiation",
+                "Fundamental Theorem"
+            ]
         },
         {
             "id": "WACE2017Q9",
