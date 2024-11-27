@@ -1,6 +1,34 @@
 {
     "apps": {
-        "Math Aplications Tags Here": []
+        "Financial": [
+            "Annunity",
+            "Perpentuity",
+            "Future Value"
+        ],
+        "Bivariate Data Analysis": [
+            "Two Way Table",
+            "Scatterplot",
+            "Linear Model",
+            "Association and Causation"
+        ],
+        "Sequences": [
+            "Arithmetic Sequences",
+            "Geometric Sequences",
+            "Recursion",
+            "Growth and Decay"
+        ],
+        "Graphs and Networks": [
+            "Hamiltonian",
+            "Eulerian",
+            "Biparitite",
+            "Steady State",
+            "Minimum Spanning Trees"
+        ],
+        "Critical Path": [],
+        "Time Series": [
+            "Extrapolation & Interpolation",
+            "Cycles, Trends & Outliers"
+        ]
     },
     "chem": {
         "Multiple-choice": [],
