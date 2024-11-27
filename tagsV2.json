@@ -3,13 +3,19 @@
         "Financial": [
             "Annunity",
             "Perpentuity",
-            "Future Value"
+            "Final Balance", 
+            "Principle", 
+            "Interest Rate", 
+            "Repayment / Withdrawals",
+            "Prediction",
+            "Time Taken"
         ],
         "Bivariate Data Analysis": [
             "Two Way Table",
             "Scatterplot",
             "Linear Model",
-            "Association and Causation"
+            "Association and Causation",
+            "Coefficienct of Correlation / Determination"
         ],
         "Sequences": [
             "Arithmetic Sequences",
