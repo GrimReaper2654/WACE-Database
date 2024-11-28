@@ -104,14 +104,11 @@
         "Short Answer": [],
         "Extended Response": [],
         "International Trade": [],
-        "Free Trade and Protection": [
-            "Comparative Advantage"
-        ], 
         "Balance of Payments": [],
         "Terms of Trade": [],
-        "Exchange Rates": [],
+        "Comparative / Absolute Advantage": [],
         "Foreign Investment": [],
-        "Business Trade Cycle": [
+        "Business Cycle": [
             "Economic Indicators"
         ],
         "Aggregate Expenditure": [
@@ -120,7 +117,6 @@
         "Aggregate Demand and Supply": [],
         "Fiscal Policy": [],
         "Monetary Policy": [], 
-        "Labour Productivity": [],
         "Removed from Course": []
     },
     "meth": {
