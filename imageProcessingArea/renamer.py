@@ -30,7 +30,7 @@ def extract_question_number(text):
 def extract_datetime_from_filename(filename):
     # Example filename format: 'Screenshot 2024-09-01 at 18.57.16.png'
     # Split to get the datetime part: '2024-09-01 at 18.57.16'
-    date_part = filename.replace('Screenshot', '').replace('.png', '').replace('am', '').replace('pm', '').replace(' ', '').replace('at', ' ')
+    date_part = filename.replace('Screenshot', '').replace('.png', '').replace('am', '').replace('pm', '').replace(' ', '').replace('\u202f', '').replace('at', ' ')
     # Convert to a datetime object
     return datetime.strptime(date_part, "%Y-%m-%d %H.%M.%S")
 
