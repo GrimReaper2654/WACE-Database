@@ -6328,7 +6328,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Aggregate Expenditure",
+                "Fiscal Policy"
+            ]
         }
     ],
     "meth": [
