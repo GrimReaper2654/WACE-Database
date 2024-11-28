@@ -5555,6 +5555,8 @@
             "calculator": "assumed",
             "tags": [
                 "International Trade",
+                "Free Trade and Protection and Protection",
+                "Exchange Rates",
                 "Multiple-choice"
             ]
         },
@@ -5567,6 +5569,8 @@
             "calculator": "assumed",
             "tags": [
                 "International Trade",
+                "Exchange Rates",
+                "Labour Productivity",
                 "Multiple-choice"
             ]
         },
@@ -5579,7 +5583,9 @@
             "calculator": "assumed",
             "tags": [
                 "Removed from Course",
-                "Business Cycle",
+                "Free Trade and Protection and Protection",
+                "Exchange Rates",
+                "Business Trade Cycle",
                 "Multiple-choice"
             ]
         },
@@ -5592,6 +5598,7 @@
             "calculator": "assumed",
             "tags": [
                 "International Trade",
+                "Free Trade and Protection and Protection",
                 "Foreign Investment",
                 "Multiple-choice"
             ]
@@ -5604,7 +5611,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Comparative / Absolute Advantage",
+                "Free Trade and Protection and Protection",
+                "Comparative Advantage",
                 "Multiple-choice"
             ]
         },
@@ -5616,7 +5624,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Comparative / Absolute Advantage",
+                "Free Trade and Protection",
+                "Comparative Advantage",
                 "Multiple-choice"
             ]
         },
@@ -5628,6 +5637,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Free Trade and Protection",
                 "Multiple-choice"
             ]
         },
@@ -5639,6 +5649,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Free Trade and Protection",
                 "Multiple-choice"
             ]
         },
@@ -5675,6 +5686,7 @@
             "calculator": "assumed",
             "tags": [
                 "Foreign Investment",
+                "Exchange Rates",
                 "Multiple-choice"
             ]
         },
@@ -5698,7 +5710,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Multiple-choice"
             ]
         },
@@ -5710,7 +5722,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Economic Indicators",
                 "Multiple-choice"
             ]
@@ -5735,7 +5747,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Economic Indicators",
                 "Multiple-choice"
             ]
@@ -5787,7 +5799,7 @@
             "calculator": "assumed",
             "tags": [
                 "Fiscal Policy",
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Multiple-choice"
             ]
         },
@@ -5836,6 +5848,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Labour Productivity",
                 "Multiple-choice"
             ]
         },
@@ -5862,6 +5875,7 @@
             "tags": [
                 "International Trade",
                 "Aggregate Demand and Supply",
+                "Labour Productivity",
                 "Short Answer"
             ]
         },
@@ -5887,7 +5901,7 @@
             "calculator": "assumed",
             "tags": [
                 "Free Trade and Protection",
-                "Comparative / Absolute Advantage",
+                "Comparative Advantage",
                 "Extended Response"
             ]
         },
@@ -5901,7 +5915,7 @@
             "tags": [
                 "Balance of Payments",
                 "Exchange Rates",
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Extended Response"
             ]
         },
@@ -5938,7 +5952,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "International Trade",
+                "Comparative / Absolute Advantage"
+            ]
         },
         {
             "id": "WACE2022Q2",
