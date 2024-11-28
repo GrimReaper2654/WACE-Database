@@ -5954,7 +5954,8 @@
             "calculator": "assumed",
             "tags": [
                 "International Trade",
-                "Comparative / Absolute Advantage"
+                "Comparative / Absolute Advantage",
+                "Multiple-choice"
             ]
         },
         {
@@ -5966,7 +5967,8 @@
             "calculator": "assumed",
             "tags": [
                 "Removed from Course",
-                "International Trade"
+                "International Trade",
+                "Multiple-choice"
             ]
         },
         {
@@ -5977,7 +5979,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Comparative / Absolute Advantage"
+                "Comparative / Absolute Advantage",
+                "Multiple-choice"
             ]
         },
         {
@@ -5987,7 +5990,9 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "International Trade"
+            ]
         },
         {
             "id": "WACE2022Q5",
@@ -5996,7 +6001,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Balance of Payments",
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2022Q6",
@@ -6005,7 +6013,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Balance of Payments",
+                "Foreign Investment",
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2022Q7",
@@ -6014,7 +6026,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Removed from Course",
+                "Multiple-choice",
+                "Balance of Payments"
+            ]
         },
         {
             "id": "WACE2022Q8",
@@ -6023,7 +6039,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Balance of Payments",
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2022Q9",
@@ -6032,7 +6051,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "International Trade",
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2022Q10",
