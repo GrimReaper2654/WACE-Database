@@ -5952,7 +5952,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "International Trade",
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2022Q2",
@@ -5961,7 +5964,9 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2022Q3",
