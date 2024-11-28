@@ -6256,7 +6256,9 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer"
+            ]
         },
         {
             "id": "WACE2022Q27",
@@ -6265,7 +6267,9 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer"
+            ]
         },
         {
             "id": "WACE2022Q28",
@@ -6274,7 +6278,9 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response"
+            ]
         },
         {
             "id": "WACE2022Q29",
@@ -6283,7 +6289,9 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response"
+            ]
         },
         {
             "id": "WACE2022Q30",
