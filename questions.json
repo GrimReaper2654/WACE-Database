@@ -5555,6 +5555,8 @@
             "calculator": "assumed",
             "tags": [
                 "International Trade",
+                "Free Trade and Protection and Protection",
+                "Exchange Rates",
                 "Multiple-choice"
             ]
         },
@@ -5567,6 +5569,8 @@
             "calculator": "assumed",
             "tags": [
                 "International Trade",
+                "Exchange Rates",
+                "Labour Productivity",
                 "Multiple-choice"
             ]
         },
@@ -5579,7 +5583,9 @@
             "calculator": "assumed",
             "tags": [
                 "Removed from Course",
-                "Business Cycle",
+                "Free Trade and Protection and Protection",
+                "Exchange Rates",
+                "Business Trade Cycle",
                 "Multiple-choice"
             ]
         },
@@ -5592,6 +5598,7 @@
             "calculator": "assumed",
             "tags": [
                 "International Trade",
+                "Free Trade and Protection and Protection",
                 "Foreign Investment",
                 "Multiple-choice"
             ]
@@ -5604,7 +5611,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Comparative / Absolute Advantage",
+                "Free Trade and Protection and Protection",
+                "Comparative Advantage",
                 "Multiple-choice"
             ]
         },
@@ -5616,7 +5624,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Comparative / Absolute Advantage",
+                "Free Trade and Protection",
+                "Comparative Advantage",
                 "Multiple-choice"
             ]
         },
@@ -5628,6 +5637,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Free Trade and Protection",
                 "Multiple-choice"
             ]
         },
@@ -5639,6 +5649,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Free Trade and Protection",
                 "Multiple-choice"
             ]
         },
@@ -5675,6 +5686,7 @@
             "calculator": "assumed",
             "tags": [
                 "Foreign Investment",
+                "Exchange Rates",
                 "Multiple-choice"
             ]
         },
@@ -5698,7 +5710,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Multiple-choice"
             ]
         },
@@ -5710,7 +5722,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Economic Indicators",
                 "Multiple-choice"
             ]
@@ -5735,7 +5747,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Economic Indicators",
                 "Multiple-choice"
             ]
@@ -5787,7 +5799,7 @@
             "calculator": "assumed",
             "tags": [
                 "Fiscal Policy",
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Multiple-choice"
             ]
         },
@@ -5836,6 +5848,7 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
+                "Labour Productivity",
                 "Multiple-choice"
             ]
         },
@@ -5862,6 +5875,7 @@
             "tags": [
                 "International Trade",
                 "Aggregate Demand and Supply",
+                "Labour Productivity",
                 "Short Answer"
             ]
         },
@@ -5887,7 +5901,7 @@
             "calculator": "assumed",
             "tags": [
                 "Free Trade and Protection",
-                "Comparative / Absolute Advantage",
+                "Comparative Advantage",
                 "Extended Response"
             ]
         },
@@ -5901,7 +5915,7 @@
             "tags": [
                 "Balance of Payments",
                 "Exchange Rates",
-                "Business Cycle",
+                "Business Trade Cycle",
                 "Extended Response"
             ]
         },
@@ -5938,7 +5952,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade"
+            ]
         },
         {
             "id": "WACE2022Q2",
@@ -5947,7 +5964,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2022Q3",
@@ -5956,7 +5977,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Comparative / Absolute Advantage"
+            ]
         },
         {
             "id": "WACE2022Q4",
@@ -5965,7 +5989,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade"
+            ]
         },
         {
             "id": "WACE2022Q5",
@@ -5974,7 +6001,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Balance of Payments"
+            ]
         },
         {
             "id": "WACE2022Q6",
@@ -5983,7 +6013,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Balance of Payments",
+                "Foreign Investment"
+            ]
         },
         {
             "id": "WACE2022Q7",
@@ -5992,7 +6026,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Balance of Payments",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2022Q8",
@@ -6001,7 +6039,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Balance of Payments"
+            ]
         },
         {
             "id": "WACE2022Q9",
@@ -6010,7 +6051,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade"
+            ]
         },
         {
             "id": "WACE2022Q10",
@@ -6019,7 +6063,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Exchange rates"
+            ]
         },
         {
             "id": "WACE2022Q11",
@@ -6028,7 +6075,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Foreign Investment"
+            ]
         },
         {
             "id": "WACE2022Q12",
@@ -6037,7 +6087,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Foreign Investment"
+            ]
         },
         {
             "id": "WACE2022Q13",
@@ -6046,7 +6099,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Business Cycle",
+                "Economic Indicators"
+            ]
         },
         {
             "id": "WACE2022Q14",
@@ -6055,7 +6112,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Business Cycle",
+                "Economic Indicators"
+            ]
         },
         {
             "id": "WACE2022Q15",
@@ -6064,7 +6125,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "The Consumption Function"
+            ]
         },
         {
             "id": "WACE2022Q16",
@@ -6073,7 +6137,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Aggregate Expenditure"
+            ]
         },
         {
             "id": "WACE2022Q17",
@@ -6082,7 +6149,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Aggregate Demand and Supply"
+            ]
         },
         {
             "id": "WACE2022Q18",
@@ -6091,7 +6161,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2022Q19",
@@ -6100,7 +6173,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy",
+                "Monetary Policy"
+            ]
         },
         {
             "id": "WACE2022Q20",
@@ -6109,7 +6186,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Economic Indicators",
+                "Monetary Policy"
+            ]
         },
         {
             "id": "WACE2022Q21",
@@ -6118,7 +6199,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy",
+                "Monetary Policy"
+            ]
         },
         {
             "id": "WACE2022Q22",
@@ -6127,7 +6212,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2022Q23",
@@ -6136,7 +6225,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2022Q24",
@@ -6145,7 +6237,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Labour Productivity",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2022Q25",
@@ -6154,7 +6250,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Free trade and protection",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2022Q26",
@@ -6163,7 +6263,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Exchange rates",
+                "Aggregate Demand and Supply"
+            ]
         },
         {
             "id": "WACE2022Q27",
@@ -6172,7 +6276,13 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Business Cycle",
+                "Economic Indicators",
+                "Aggregate Expenditure",
+                "Monetary Policy"
+            ]
         },
         {
             "id": "WACE2022Q28",
@@ -6181,7 +6291,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Terms of Trade"
+            ]
         },
         {
             "id": "WACE2022Q29",
@@ -6190,7 +6303,10 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Foreign Investment"
+            ]
         },
         {
             "id": "WACE2022Q30",
@@ -6199,7 +6315,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Economic Indicators",
+                "Aggregate Demand and Supply"
+            ]
         },
         {
             "id": "WACE2022Q31",
@@ -6208,7 +6328,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Aggregate Expenditure",
+                "Fiscal Policy"
+            ]
         }
     ],
     "meth": [
