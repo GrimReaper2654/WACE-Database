@@ -6064,7 +6064,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Exchange rates"
             ]
         },
         {
@@ -6100,7 +6101,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Business Cycle"
+                "Business Cycle",
+                "Economic Indicators"
             ]
         },
         {
@@ -6112,7 +6114,8 @@
             "calculator": "assumed",
             "tags": [
                 "Multiple-choice",
-                "Business Cycle"
+                "Business Cycle",
+                "Economic Indicators"
             ]
         },
         {
@@ -6235,7 +6238,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Multiple-choice"
+                "Multiple-choice",
+                "Labour Productivity",
+                "Removed from Course"
             ]
         },
         {
@@ -6246,7 +6251,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Short Answer"
+                "Short Answer",
+                "Free trade and protection",
+                "Removed from Course"
             ]
         },
         {
@@ -6257,7 +6264,9 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Short Answer"
+                "Short Answer",
+                "Exchange rates",
+                "Aggregate Demand and Supply"
             ]
         },
         {
@@ -6268,7 +6277,11 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Short Answer"
+                "Short Answer",
+                "Business Cycle",
+                "Economic Indicators",
+                "Aggregate Expenditure",
+                "Monetary Policy"
             ]
         },
         {
@@ -6279,7 +6292,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Extended Response"
+                "Extended Response",
+                "Terms of Trade"
             ]
         },
         {
@@ -6290,7 +6304,8 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Extended Response"
+                "Extended Response",
+                "Foreign Investment"
             ]
         },
         {
@@ -6300,7 +6315,11 @@
             "source": "WACE",
             "type": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Economic Indicators",
+                "Aggregate Demand and Supply"
+            ]
         },
         {
             "id": "WACE2022Q31",
