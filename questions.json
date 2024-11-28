@@ -6340,7 +6340,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade"
+            ]
         },
         {
             "id": "WACE2021Q2",
@@ -6348,7 +6351,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2021Q3",
@@ -6356,7 +6363,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade"
+            ]
         },
         {
             "id": "WACE2021Q4",
@@ -6364,7 +6374,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade"
+            ]
         },
         {
             "id": "WACE2021Q5",
@@ -6372,7 +6385,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Comparative / Absolute Advantage"
+            ]
         },
         {
             "id": "WACE2021Q6",
@@ -6380,7 +6396,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Free trade and protection"
+            ]
         },
         {
             "id": "WACE2021Q7",
@@ -6388,7 +6407,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Terms of Trade"
+            ]
         },
         {
             "id": "WACE2021Q8",
@@ -6396,7 +6418,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Exchange rates"
+            ]
         },
         {
             "id": "WACE2021Q9",
@@ -6404,7 +6429,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Exchange rates"
+            ]
         },
         {
             "id": "WACE2021Q10",
@@ -6412,7 +6440,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Foreign Investment"
+            ]
         },
         {
             "id": "WACE2021Q11",
@@ -6420,7 +6451,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Foreign Investment"
+            ]
         },
         {
             "id": "WACE2021Q12",
@@ -6428,7 +6462,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Exchange rates"
+            ]
         },
         {
             "id": "WACE2021Q13",
@@ -6436,7 +6473,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "The Consumption Function"
+            ]
         },
         {
             "id": "WACE2021Q14",
@@ -6444,7 +6484,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Aggregate Expenditure"
+            ]
         },
         {
             "id": "WACE2021Q15",
@@ -6452,7 +6495,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Aggregate Demand and Supply"
+            ]
         },
         {
             "id": "WACE2021Q16",
@@ -6460,7 +6506,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Aggregate Demand and Supply"
+            ]
         },
         {
             "id": "WACE2021Q17",
@@ -6468,7 +6517,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy",
+                "Monetary Policy"
+            ]
         },
         {
             "id": "WACE2021Q18",
@@ -6476,7 +6529,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2021Q19",
@@ -6484,7 +6540,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Business Cycle",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2021Q20",
@@ -6492,7 +6552,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2021Q21",
@@ -6500,7 +6563,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2021Q22",
@@ -6508,7 +6574,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Monetary Policy"
+            ]
         },
         {
             "id": "WACE2021Q23",
@@ -6516,7 +6585,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2021Q24",
@@ -6524,7 +6596,9 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2021Q25",
@@ -6532,7 +6606,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Balance of Payments"
+            ]
         },
         {
             "id": "WACE2021Q26",
@@ -6540,7 +6617,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Aggregate Demand and Supply",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2021Q27",
@@ -6548,7 +6629,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "International Trade",
+                "Free trade and protection"
+            ]
         },
         {
             "id": "WACE2021Q28",
@@ -6556,7 +6641,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2021Q29",
@@ -6564,7 +6652,10 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Exchange rates"
+            ]
         },
         {
             "id": "WACE2021Q30",
@@ -6572,7 +6663,13 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Aggregate Demand and Supply",
+                "Fiscal Policy",
+                "Labour Productivity",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2021Q31",
@@ -6580,255 +6677,11 @@
             "year": 2021,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q1",
-            "name": "WACE 2020 Question 1",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q2",
-            "name": "WACE 2020 Question 2",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q3",
-            "name": "WACE 2020 Question 3",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q4",
-            "name": "WACE 2020 Question 4",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q5",
-            "name": "WACE 2020 Question 5",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q6",
-            "name": "WACE 2020 Question 6",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q7",
-            "name": "WACE 2020 Question 7",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q8",
-            "name": "WACE 2020 Question 8",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q9",
-            "name": "WACE 2020 Question 9",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q10",
-            "name": "WACE 2020 Question 10",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q11",
-            "name": "WACE 2020 Question 11",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q12",
-            "name": "WACE 2020 Question 12",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q13",
-            "name": "WACE 2020 Question 13",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q14",
-            "name": "WACE 2020 Question 14",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q15",
-            "name": "WACE 2020 Question 15",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q16",
-            "name": "WACE 2020 Question 16",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q17",
-            "name": "WACE 2020 Question 17",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q18",
-            "name": "WACE 2020 Question 18",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q19",
-            "name": "WACE 2020 Question 19",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q20",
-            "name": "WACE 2020 Question 20",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q21",
-            "name": "WACE 2020 Question 21",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q22",
-            "name": "WACE 2020 Question 22",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q23",
-            "name": "WACE 2020 Question 23",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q24",
-            "name": "WACE 2020 Question 24",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q25",
-            "name": "WACE 2020 Question 25",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q26",
-            "name": "WACE 2020 Question 26",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q27",
-            "name": "WACE 2020 Question 27",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q28",
-            "name": "WACE 2020 Question 28",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q29",
-            "name": "WACE 2020 Question 29",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q30",
-            "name": "WACE 2020 Question 30",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
-        },
-        {
-            "id": "WACE2020Q31",
-            "name": "WACE 2020 Question 31",
-            "year": 2020,
-            "source": "WACE",
-            "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Aggregate Expenditure",
+                "Monetary Policy"
+            ]
         }
     ],
     "meth": [
