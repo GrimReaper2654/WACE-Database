@@ -49,6 +49,8 @@ def rename_images(directory, template):
         image_path = os.path.join(directory, image)
         text = get_text_from_image(image_path)
         question_number = extract_question_number(text)
+        if not question_number:
+            question_number = prev_question_number + 1
 
         if question_number is not None:
             question_parts[question_number] = 1
