@@ -92,31 +92,32 @@ function toggleContent(id, isQuestion=false) {
                     }
                 });
             });
-            data.activeQuestion = data.questions[id].id;
-            data.activeQuestionNum = id;
-            if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Modify tags for: ${data.filters.subject} ${data.questions[id].id}`;
-            if (document.getElementById('modifyTags')) {
-                data.resetting = true;
-                for (let tag of data.allTags) {
-                    if(document.getElementById(`${tag}Modify`)) document.getElementById(`${tag}Modify`).checked = false;
+            if (Number(id) >= 0) {
+                data.activeQuestion = data.questions[id].id;
+                data.activeQuestionNum = id;
+                if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Modify tags for: ${data.filters.subject} ${data.questions[id].id}`;
+                if (document.getElementById('modifyTags')) {
+                    data.resetting = true;
+                    for (let tag of data.allTags) {
+                        if(document.getElementById(`${tag}Modify`)) document.getElementById(`${tag}Modify`).checked = false;
+                    }
+                    for (let tag of data.questions[id].tags) {
+                        if(document.getElementById(`${tag}Modify`)) document.getElementById(`${tag}Modify`).checked = true;
+                    }
+                    data.resetting = false;
                 }
-                for (let tag of data.questions[id].tags) {
-                    if(document.getElementById(`${tag}Modify`)) document.getElementById(`${tag}Modify`).checked = true;
-                }
-                data.resetting = false;
             }
         }
         extraContent.classList.add("isActive");
         button.classList.add("active");
     } else {
-        if (isQuestion) {
+        if (isQuestion && Number(id) >= 0) {
             if (document.getElementById('activeQuestion')) {
                 document.getElementById('activeQuestion').innerHTML = `Select question to modify tags.`;
                 if (document.getElementById('modifyTags')) setModifyTags();
             }
             data.activeQuestion = null;
             data.activeQuestionNum = null;
-            
         }
         extraContent.classList.remove("isActive");
         button.classList.remove("active");
@@ -800,3 +801,72 @@ window.addEventListener("load", async function() {
     });
 });
 
+// Infinite Revision Scripts
+function rand(p) {
+    return Math.random() < p;
+}
+
+function randint(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function randchoice(arr) {
+    const i = Math.floor(Math.random() * arr.length);
+    return arr[i];
+}
+
+async function newQuestion(category) {
+    const question = document.getElementById(`Question${category}`);
+    switch (category) {
+        case "CombustionAnalysis":
+            // formula order CHNOS
+            const chemData = await loadJson('chemistryData');
+            let questionIntro = 'A scientist wishes to determine the emperical and molecular formula of a ';
+            let formula = null;
+            if (rand(0.33)) {
+                formula = randchoice(chemData.homologusSeries);
+                n = randint(2, 8);
+                for (let element in formula) {
+                    formula[element] = eval(formula[element].replace('n', n));
+                }
+                if (formula.O) questionIntro += 'functionalized ';
+                questionIntro += 'hydrocarbon. ';
+            } else {
+                questionIntro += 'organic compound containing ';
+                formula = randchoice(chemData.combustionAnalysisCompounds)
+                Object.keys(formula).forEach(key => {
+                    switch (key) {
+                        case "C":
+                            questionIntro += 'carbon';
+                            break;
+                        case 'H':
+                            questionIntro += 'hydrogen';
+                            break;
+                        case 'N':
+                            questionIntro += 'nitrogen';
+                            break;
+                        case 'O':
+                            questionIntro += 'oxygen';
+                            break;
+                        case 'S':
+                            questionIntro += 'sulfur';
+                            break;
+                        default:
+                            console.warn('Unknown element');
+                    }
+                    questionIntro += ', ';
+                });
+                questionIntro = questionIntro.replace(/(.*), (.*)/, '$1.$2').replace(/(.*),(.*)/, '$1 and$2');
+            }
+            
+            let steps = 1;
+
+            let questionContent = `<p>${questionIntro}</p>`
+
+
+            break;
+        default:
+            console.warn("Not a valid question category!")
+            break;
+    }
+}

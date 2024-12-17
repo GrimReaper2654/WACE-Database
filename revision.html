@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WACE Database – Eternal Grindset</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header></header>
+    <nav id="nav" class="navBar">
+    </nav>
+    <div class="content">
+        <h1>Eternal Grindset:</h1>
+        <p>Project Eternal Grindset aims to provide a literally endless supply of practice questions by generating variations of existing questions. Theoretically, it should be impossible for any human to complete every question or even see a duplicate for a single topic, even if they spent the entire 2 years of ATAR grinding only these questions. For those who have already completed every last past paper in existence, this is the tool for you.</p>
+        <p>Alternatively, since these questions are all rather similar, it could be a fun challenge to wite a program that can consistently solve these. It should be possible.</p>
+        <p>Infinite questions --> "eternal"<br>Constant revision --> "grindset"</p>
+        <div id="resultCombustionAnalysis" class="box whiteBackground">
+            <div class="resultTopRow">
+                <button id="buttonCombustionAnalysis" class="toggleButton" onclick="toggleContent('CombustionAnalysis', true)">
+                    <h3 class="alignLeft">[Chemistry] Combustion Analysis</h3><span class="arrow alignRight">▼</span>
+                </button>
+            </div>
+            <div class="extraContent" id="extraContentCombustionAnalysis">
+                <div id="QuestionCombustionAnalysis">
+                    <p>Click "New Question" to generate a new combustion analysis question.</p>
+                </div>
+                <div class="verticalSpacer"></div>
+                <button class="standardButton" onclick="toggleAns('CombustionAnalysis')">Reveal Answer</button>
+                <div class="horizontalSpacer"></div>
+                <button class="standardButton" onclick="newQuestion('CombustionAnalysis')">New Question</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => document.getElementById('nav').innerHTML = data);
+        fetch('header.html')
+          .then(response => response.text())
+          .then(data => document.querySelector('header').innerHTML = data);
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
