@@ -791,16 +791,6 @@ async function downloadAll() {
     URL.revokeObjectURL(url);
 }
 
-window.addEventListener("load", async function() {
-    console.log('loading...');
-    await load();
-    document.getElementById('textSearchBox').addEventListener('keydown', function(event) {
-        if (event.key === 'Enter') {
-            textSearch();
-        }
-    });
-});
-
 // Infinite Revision Scripts
 function rand(p) {
     return Math.random() < p;
@@ -906,5 +896,55 @@ function toggleAns(category) {
     else ansElement.classList.add('hidden');
 }
 
+function adjustZoomForOverflow() {
+    const body = document.body;
+    const html = document.documentElement;
 
+    // Reset zoom to 100% before any calculation
+    body.style.zoom = 1;
 
+    // Calculate the maximum width of the body and html elements
+    const bodyScrollWidth = body.scrollWidth;
+    const htmlScrollWidth = html.scrollWidth;
+
+    // Get the viewport width
+    const viewportWidth = window.innerWidth;
+
+    // Find the widest dimension
+    const maxWidth = Math.max(bodyScrollWidth, htmlScrollWidth) + 50;
+
+    if (maxWidth > viewportWidth) {
+        // Content is wider than viewport, calculate the zoom level
+        const zoomLevel = viewportWidth / maxWidth;
+        body.style.zoom = zoomLevel;
+    }
+}
+
+window.addEventListener("load", async function() {
+    console.log('loading...');
+    adjustZoomForOverflow();
+    await load();
+    document.getElementById('textSearchBox').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            textSearch();
+        }
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const dropdowns = document.querySelectorAll(".dropdown");
+    console.log('running');
+    console.log(dropdowns);
+    dropdowns.forEach(dropdown => {
+        console.log('dropdown detected');
+        dropdown.addEventListener("mouseenter", function () {
+            console.log("Hover detected on dropdown:", dropdown);
+        });
+
+        dropdown.addEventListener("mouseleave", function () {
+            console.log("Hover ended on dropdown:", dropdown);
+        });
+    });
+});
+
+window.addEventListener("resize", adjustZoomForOverflow);

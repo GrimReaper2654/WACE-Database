@@ -52,7 +52,10 @@ footer {
     align-items: center;
     background-color: #303030;
     padding: 10px 20px;
-    overflow: auto;
+}
+
+.navBar > * {
+    pointer-events: auto; /* Restore mouse events for the child elements */
 }
 
 .navLinks {
@@ -78,18 +81,22 @@ footer {
     color: #ddd;
 }
 
+.dropdown {
+    position: relative; /* Keep this for proper alignment of dropdowns */
+    overflow: visible;
+}
+
 .dropdownContent {
-    display: none;
-    position: absolute;
+    display: none; /* Default hidden */
+    position: absolute; /* Position relative to the parent .dropdown */
+    top: 100%; /* Start immediately below the dropdown button */
+    left: 0; /* Align with the left edge of the dropdown button */
     background-color: #333;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 9999999999999999999999; /* Ensure it appears above other elements */
     min-width: 225px;
-    top: 100%; 
-    left: 0;
-    list-style: none; 
-    padding: 0;
-    margin: 0; 
+    list-style: none;
+    opacity: 0.9;
 }
 
 .dropdownContent li {
