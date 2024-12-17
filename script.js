@@ -817,8 +817,10 @@ function randchoice(arr) {
 
 async function newQuestion(category) {
     const question = document.getElementById(`Question${category}`);
+    let questionContent = ``;
+    let answerContent = ``;
     switch (category) {
-        case "CombustionAnalysis":
+        case "CombustionAnalysis": {
             // formula order CHNOS
             const chemData = await loadJson('chemistryData');
             let questionIntro = 'A scientist wishes to determine the emperical and molecular formula of a ';
@@ -861,12 +863,48 @@ async function newQuestion(category) {
             
             let steps = 1;
 
-            let questionContent = `<p>${questionIntro}</p>`
+            questionContent = `<p>${questionIntro}</p>`;
 
 
             break;
+        }
+        case "CompletingSquare": {
+            let primes = [2, 3, 5, 7, 11, 13];
+            let ans = [randchoice(['-', '']), randint(1, 13), randchoice([0,0,1,1,2,3]), randchoice(primes), randchoice([1,1,1,1,2,3])]; //[1,1,1,1,2,3]
+
+            if (!ans[2]) ans[3] = randint(1, 13);
+            else if (ans[3] > 5) ans[2] = 1; // Don't make numbers too big
+            while (ans[1] == ans[3]) ans[1] = randint(1, 13);
+
+            let displayQuestion = `${ans[4] > 1? ans[4] : ``}<span class="var">x</span><sup>2</sup> + ${ans[2]? (2 * ans[1] * ans[4] * (ans[0]? -1 : 1)) : (2 * ans[1] * ans[4] * (ans[0]? -1 : 1))}<span class="var">x</span> + ${ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2) * ans[4]) : ((ans[1]**2 - ans[3]**2) * ans[4])} = 0`.replace(/\+ -/g, "– ").replace(/-/g, "– ");
+            let displayAns = `${ans[4] > 1? ans[4] : ``}(<span class="var">x</span> ${ans[0] == ''? '+' : '–'} ${ans[2]? `${ans[1]} + ${ans[2] > 1? ans[2] : ``}<span class="sqrt">√</span><span class="root">${ans[3]}</span>` : ans[1] + ans[3]})(<span class="var">x</span> ${ans[0] == ''? '+' : '–'} ${ans[2]? `${ans[1]} – ${ans[2] > 1? ans[2] : ``}<span class="sqrt">√</span><span class="root">${ans[3]}</span>`: ans[1] - ans[3]}) = 0`.replace(/\+ -/g, "– ").replace(/-/g, "– ").replace(/– –/g, "+ ").replace(/  /g, " ");
+            questionContent = `<p>Solve for x: <span class="math">${displayQuestion}</span></p>`;
+            answerContent = `<p><span class="math">`;
+            if (ans[4] > 1) {
+                answerContent += `${ans[4]}(<span class="var">x</span><sup>2</sup> + ${ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))}<span class="var">x</span> + ${ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2)) : ((ans[1]**2 - ans[3]**2))}) = 0<br>`.replace(/\+ -/g, "– ");
+                answerContent += `<span class="var">x</span><sup>2</sup> + ${ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))}<span class="var">x</span> + ${ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2)) : ((ans[1]**2 - ans[3]**2))} = 0<br>`.replace(/\+ -/g, "– ");
+            }
+            answerContent += `(<span class="var">x</span> + ${(ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))) / 2})<sup>2</sup> - ${((ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))) / 2)**2} + ${ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2)) : ((ans[1]**2 - ans[3]**2))} = 0<br>`.replace(/\+ -/g, "– ").replace(/-/g, "– ");
+            answerContent += `(<span class="var">x</span> + ${(ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))) / 2})<sup>2</sup> = ${((ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))) / 2)**2 - (ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2)) : ((ans[1]**2 - ans[3]**2)))}<br>`.replace(/\+ -/g, "– ").replace(/-/g, "– ");
+            answerContent += `<span class="var">x</span> + ${(ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))) / 2} = ± <span class="sqrt">√</span><span class="root">${((ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))) / 2)**2 - (ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2)) : ((ans[1]**2 - ans[3]**2)))}</span><br>`.replace(/\+ -/g, "– ").replace(/-/g, "– ");
+            answerContent += `<span class="var">x</span> = ${ans[0] == ''? `–`: ``} ${ans[1]} ± ${ans[2] > 1? ans[2] : ``}${ans[2]? `<span class="sqrt">√</span><span class="root">` : ``}${ans[3]}${ans[2]? `</span>` : ``}<br>`.replace(/\+ -/g, "– ").replace(/-/g, "– ");
+            answerContent += `${displayAns}</span></p>`;
+            break;
+        }
         default:
             console.warn("Not a valid question category!")
             break;
     }
+    document.getElementById(`answer${category}`).classList.add('hidden');
+    document.getElementById(`question${category}`).innerHTML = questionContent;
+    document.getElementById(`answer${category}`).innerHTML = answerContent;
 }
+
+function toggleAns(category) {
+    let ansElement = document.getElementById(`answer${category}`);
+    if (ansElement.classList.contains('hidden')) ansElement.classList.remove('hidden');
+    else ansElement.classList.add('hidden');
+}
+
+
+

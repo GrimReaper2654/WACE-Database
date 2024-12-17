@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -561,4 +564,25 @@ ul {
     zoom: 0.75;
     top: 10px;
     right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.math {
+    font-family: 'STIX Two Math', serif;
+}
+
+.sqrt {
+    font-family: 'Georgia', serif;
+}
+
+.root {
+    text-decoration: overline;
+}
+
+.var {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
