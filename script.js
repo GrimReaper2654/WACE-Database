@@ -38,6 +38,10 @@ if (document.getElementById('subjectSelect')) {
     });
 }
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function clearFilters() {
     data.filters = {
         subject: data.filters.subject,
@@ -805,6 +809,16 @@ function randchoice(arr) {
     return arr[i];
 }
 
+function hasFactor(a, b) {
+    function gcd(x, y) {
+        while (y !== 0) {
+            [x, y] = [y, x % y];
+        }
+        return x;
+    }
+    return gcd(a, b) > 1;
+}
+
 async function newQuestion(category) {
     const question = document.getElementById(`Question${category}`);
     let questionContent = ``;
@@ -860,7 +874,7 @@ async function newQuestion(category) {
         }
         case "CompletingSquare": {
             let primes = [2, 3, 5, 7, 11, 13];
-            let ans = [randchoice(['-', '']), randint(1, 13), randchoice([0,0,1,1,2,3]), randchoice(primes), randchoice([1,1,1,1,2,3])]; //[1,1,1,1,2,3]
+            let ans = [randchoice(['-', '']), randint(1, 13), randchoice([0,0,1,1,2,3]), randchoice(primes), randchoice([1,1,1,1,2,3])]; 
 
             if (!ans[2]) ans[3] = randint(1, 13);
             else if (ans[3] > 5) ans[2] = 1; // Don't make numbers too big
@@ -879,6 +893,25 @@ async function newQuestion(category) {
             answerContent += `<span class="var">x</span> + ${(ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))) / 2} = ± <span class="sqrt">√</span><span class="root">${((ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))) / 2)**2 - (ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2)) : ((ans[1]**2 - ans[3]**2)))}</span><br>`.replace(/\+ -/g, "– ").replace(/-/g, "– ");
             answerContent += `<span class="var">x</span> = ${ans[0] == ''? `–`: ``} ${ans[1]} ± ${ans[2] > 1? ans[2] : ``}${ans[2]? `<span class="sqrt">√</span><span class="root">` : ``}${ans[3]}${ans[2]? `</span>` : ``}<br>`.replace(/\+ -/g, "– ").replace(/-/g, "– ");
             answerContent += `${displayAns}</span></p>`;
+            break;
+        }
+        case "Factorise": {
+            let ans = [randchoice([1,1,1,2,3,4]), randchoice(['-', '+']), randint(1, 13), randchoice([1,1,1,2,3,4]), randchoice(['-', '+']), randint(1, 13)]; 
+
+            while (ans[2] == ans[5] || hasFactor(ans[0], ans[2]) || hasFactor(ans[3], ans[5])) {
+                ans[2] = randint(1, 13);
+                ans[5] = randint(1, 13);
+            }
+            let displayQuestion = `${ans[0]*ans[3] > 1? ans[0]*ans[3] : ``}<span class="var">x</span><sup>2</sup> + ${ans[0] * ans[5] * (ans[4] == '-'? -1 : 1) + ans[3] * ans[2] * (ans[1] == '-'? -1 : 1)}<span class="var">x</span> + ${ans[5] * ans[2] * (ans[4] == '-'? -1 : 1) * (ans[1] == '-'? -1 : 1)}`.replace(/\+ -/g, "– ");
+            
+            let displayAns = `(${ans[0] > 1? ans[0] : ``}<span class="var">x</span> ${ans[1]} ${ans[2]})(${ans[3] > 1? ans[3] : ``}<span class="var">x</span> ${ans[4]} ${ans[5]})`.replace(/-/g, "– ");
+
+            questionContent = `<p>Factorise: <span class="math">${displayQuestion}</span></p>`;
+            answerContent += `<p><span class="math">${displayAns}</span></p>`;
+            break;
+        }
+        case "SolveCubic": {
+            let ans = [randchoice(['-', '+']), randchoice([1,1,1,2,2,3])]; 
             break;
         }
         default:
@@ -922,6 +955,7 @@ function adjustZoomForOverflow() {
 
 window.addEventListener("load", async function() {
     console.log('loading...');
+    await sleep(500); // can't figure out how to wait for load
     adjustZoomForOverflow();
     await load();
     document.getElementById('textSearchBox').addEventListener('keydown', function(event) {
