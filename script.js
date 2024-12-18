@@ -882,7 +882,7 @@ async function newQuestion(category) {
 
             let displayQuestion = `${ans[4] > 1? ans[4] : ``}<span class="var">x</span><sup>2</sup> + ${ans[2]? (2 * ans[1] * ans[4] * (ans[0]? -1 : 1)) : (2 * ans[1] * ans[4] * (ans[0]? -1 : 1))}<span class="var">x</span> + ${ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2) * ans[4]) : ((ans[1]**2 - ans[3]**2) * ans[4])} = 0`.replace(/\+ -/g, "– ").replace(/-/g, "– ");
             let displayAns = `${ans[4] > 1? ans[4] : ``}(<span class="var">x</span> ${ans[0] == ''? '+' : '–'} ${ans[2]? `${ans[1]} + ${ans[2] > 1? ans[2] : ``}<span class="sqrt">√</span><span class="root">${ans[3]}</span>` : ans[1] + ans[3]})(<span class="var">x</span> ${ans[0] == ''? '+' : '–'} ${ans[2]? `${ans[1]} – ${ans[2] > 1? ans[2] : ``}<span class="sqrt">√</span><span class="root">${ans[3]}</span>`: ans[1] - ans[3]}) = 0`.replace(/\+ -/g, "– ").replace(/-/g, "– ").replace(/– –/g, "+ ").replace(/  /g, " ");
-            questionContent = `<p>Solve for x: <span class="math">${displayQuestion}</span></p>`;
+            questionContent = `<p>Factorise and solve for x: <span class="math">${displayQuestion}</span></p>`;
             answerContent = `<p><span class="math">`;
             if (ans[4] > 1) {
                 answerContent += `${ans[4]}(<span class="var">x</span><sup>2</sup> + ${ans[2]? (2 * ans[1] * (ans[0]? -1 : 1)) : (2 * ans[1] * (ans[0]? -1 : 1))}<span class="var">x</span> + ${ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2)) : ((ans[1]**2 - ans[3]**2))}) = 0<br>`.replace(/\+ -/g, "– ");
@@ -903,7 +903,6 @@ async function newQuestion(category) {
                 ans[5] = randint(1, 13);
             }
             let displayQuestion = `${ans[0]*ans[3] > 1? ans[0]*ans[3] : ``}<span class="var">x</span><sup>2</sup> + ${ans[0] * ans[5] * (ans[4] == '-'? -1 : 1) + ans[3] * ans[2] * (ans[1] == '-'? -1 : 1)}<span class="var">x</span> + ${ans[5] * ans[2] * (ans[4] == '-'? -1 : 1) * (ans[1] == '-'? -1 : 1)}`.replace(/\+ -/g, "– ");
-            
             let displayAns = `(${ans[0] > 1? ans[0] : ``}<span class="var">x</span> ${ans[1]} ${ans[2]})(${ans[3] > 1? ans[3] : ``}<span class="var">x</span> ${ans[4]} ${ans[5]})`.replace(/-/g, "– ");
 
             questionContent = `<p>Factorise: <span class="math">${displayQuestion}</span></p>`;
@@ -911,7 +910,59 @@ async function newQuestion(category) {
             break;
         }
         case "SolveCubic": {
-            let ans = [randchoice(['-', '+']), randchoice([1,1,1,2,2,3])]; 
+            let primes = [2, 3, 5, 7, 11, 13];
+            let firstTerm = [randchoice(['–', '+']), randchoice([1,1,1,2,2,3]), rand(0.5)]; 
+            let ans = firstTerm[2]? [randchoice(['-', '']), randint(1, 13), randchoice([0,0,1,1,2,3]), randchoice(primes), randchoice([1,1,1,1,2,3])] : [randchoice([1,1,1,2,3,4]), randchoice(['-', '+']), randint(1, 13), randchoice([1,1,1,2,3,4]), randchoice(['-', '+']), randint(1, 13)];
+            
+            if (firstTerm[2]) {
+                if (!ans[2]) ans[3] = randint(1, 13);
+                else if (ans[3] > 5) ans[2] = 1; // Don't make numbers too big
+                while (ans[1] == ans[3]) ans[1] = randint(1, 13);
+            } else {
+                while (ans[2] == ans[5] || hasFactor(ans[0], ans[2]) || hasFactor(ans[3], ans[5])) {
+                    ans[2] = randint(1, 13);
+                    ans[5] = randint(1, 13);
+                }
+            }
+
+            // (x + [0])([1]x^2 + [2]x + [3])
+            let intermediates = [
+                (firstTerm[0] == '–'? -1 : 1) * firstTerm[1],
+                firstTerm[2]? ans[4] : ans[0]*ans[3],
+                firstTerm[2]? ans[2]? (2 * ans[1] * ans[4] * (ans[0]? -1 : 1)) : (2 * ans[1] * ans[4] * (ans[0]? -1 : 1)) : ans[0] * ans[5] * (ans[4] == '-'? -1 : 1) + ans[3] * ans[2] * (ans[1] == '-'? -1 : 1),
+                firstTerm[2]? ans[2]? ((ans[1]**2 - ans[3] * ans[2]**2) * ans[4]) : ((ans[1]**2 - ans[3]**2) * ans[4]) : ans[5] * ans[2] * (ans[4] == '-'? -1 : 1) * (ans[1] == '-'? -1 : 1)
+            ];
+
+            // [0]x^3 + [1]x^2 + [2]x + [3]
+            let cubic = [
+                intermediates[1],
+                intermediates[2] + intermediates[0] * intermediates[1],
+                intermediates[3] + intermediates[0] * intermediates[2],
+                intermediates[0] * intermediates[3]
+            ];
+
+            let displayQuestion = `${cubic[0] != 1? cubic[0] : ``}<span class="var">x</span><sup>3</sup>`;
+            if (cubic[1]) displayQuestion += ` + ${cubic[1] != 1? cubic[1] : ``}<span class="var">x</span><sup>2</sup>`;
+            if (cubic[2]) displayQuestion += ` + ${cubic[2] != 1? cubic[2] : ``}<span class="var">x</span>`;
+            if (cubic[3]) displayQuestion += ` + ${cubic[3]}`;
+            displayQuestion = displayQuestion.replace(/\+ -/g, "– ");
+            let displayAns = `${firstTerm[2] && ans[4] > 1? ans[4] : ``}(<span class="var">x</span> ${firstTerm[0]} ${firstTerm[1]})`
+                + (firstTerm[2]? `(<span class="var">x</span> ${ans[0] == ''? '+' : '–'} ${ans[2]? `${ans[1]} + ${ans[2] > 1? ans[2] : ``}<span class="sqrt">√</span><span class="root">${ans[3]}</span>` : ans[1] + ans[3]})(<span class="var">x</span> ${ans[0] == ''? '+' : '–'} ${ans[2]? `${ans[1]} – ${ans[2] > 1? ans[2] : ``}<span class="sqrt">√</span><span class="root">${ans[3]}</span>`: ans[1] - ans[3]})`.replace(/\+ -/g, "– ").replace(/-/g, "– ").replace(/– –/g, "+ ").replace(/  /g, " ")
+                : `(${ans[0] > 1? ans[0] : ``}<span class="var">x</span> ${ans[1]} ${ans[2]})(${ans[3] > 1? ans[3] : ``}<span class="var">x</span> ${ans[4]} ${ans[5]})`.replace(/-/g, "– "));
+
+            questionContent = `<p>Factorise: <span class="math"><span class="var">f</span>(<span class="var">x</span>) = ${displayQuestion}</span></p>`;
+            answerContent = `<p><span class="math">`;
+
+            let guesses = [1, -1, 2, -2, 3, -3];
+            for (let guess of guesses) {
+                answerContent += `<span class="var">f</span>(${guess}) = ${cubic[0] * guess**3 + cubic[1] * guess**2 + cubic[2] * guess + cubic[3]}<br>`.replace('-', '–');
+                if (cubic[0] * guess**3 + cubic[1] * guess**2 + cubic[2] * guess + cubic[3] == 0) {
+                    answerContent += `(<span class="var">x</span> + ${-guess}) is a factor of <span class="var">f</span>(<span class="var">x</span>)<br><br>`.replace('+ -', '– ');
+                    break;
+                }
+            }
+            answerContent += `<span class="var">f</span>(<span class="var">x</span>) = (<span class="var">x</span> + ${intermediates[0]})(${intermediates[1] != 1? intermediates[1] : ``}<span class="var">x</span><sup>2</sup> + ${intermediates[2] != 1? intermediates[2] : ``}<span class="var">x</span> + ${intermediates[3] != 1? intermediates[3] : ``})<br><br>`.replace(/\+ -/g, "– ");
+            answerContent += `<span class="var">f</span>(<span class="var">x</span>) = ${displayAns}</span></p>`;
             break;
         }
         default:
