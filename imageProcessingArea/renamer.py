@@ -22,9 +22,6 @@ def extract_question_number(text):
     match = re.search(r'Question (\d+)', text)
     if match:
         return int(match.group(1))
-    match = re.search(r'^\s*(\d+)\.', text)
-    if match:
-        return int(match.group(1))
     return None
 
 def extract_datetime_from_filename(filename):
@@ -42,6 +39,7 @@ def rename_images(directory, template):
 
     question_parts = {}  # To track the number of parts for each question
     prev_question_number = 0
+    isMCQ = True
 
     for image in images:
         if (not 'Screenshot' in image): # remove this if your input images do not contain 'screenshot'. This is here so already remaned questions are not renamed again.
@@ -49,9 +47,13 @@ def rename_images(directory, template):
         image_path = os.path.join(directory, image)
         text = get_text_from_image(image_path)
         question_number = extract_question_number(text)
-        if not question_number:
-            question_number = prev_question_number + 1
 
+        if question_number is not None:
+            isMCQ = False
+
+        if not question_number and isMCQ:
+            question_number = prev_question_number + 1
+        
         if question_number is not None:
             question_parts[question_number] = 1
             prev_question_number = question_number

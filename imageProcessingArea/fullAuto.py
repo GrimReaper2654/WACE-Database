@@ -65,13 +65,6 @@ def automate_question_database():
             # Extract all contents into the unzipped folder
             zip_ref.extractall(cwd)
         time.sleep(2)
-
-        # Path to the __MACOSX folder
-        macosx_folder = os.path.join(unzipped_folder, "__MACOSX")
-
-        # If the __MACOSX folder exists, delete it
-        if os.path.exists(macosx_folder):
-            shutil.rmtree(macosx_folder)
         
         # Define the path to calculator.txt in the unzipped folder
         calculator_path = os.path.join(unzipped_folder, "calculator.txt")
@@ -145,6 +138,13 @@ def automate_question_database():
             # Delete the file
             os.remove(calculator_path)
         
+        # Path to the __MACOSX folder
+        macosx_folder = os.path.join(unzipped_folder, "__MACOSX")
+
+        # If the __MACOSX folder exists, delete it
+        if os.path.exists(macosx_folder):
+            shutil.rmtree(macosx_folder)
+            
         print('WACE DB PROCESSOR: Deleted unnecessary files')
         print('WACE DB PROCESSOR: Finished processing zip file')
         # wait for a bit
