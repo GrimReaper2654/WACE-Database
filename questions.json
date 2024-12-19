@@ -6680,7 +6680,7 @@
             "tags": [
                 "Extended Response",
                 "Aggregate Expenditure",
-                "Monetary Policy" 
+                "Monetary Policy"
             ]
         },
         {
@@ -6689,7 +6689,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "International Trade"
+            ]
         },
         {
             "id": "WACE2020Q2",
@@ -6697,7 +6700,9 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2020Q3",
@@ -6705,7 +6710,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Comparative / Absolute Advantage"
+            ]
         },
         {
             "id": "WACE2020Q4",
@@ -6713,7 +6721,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Comparative / Absolute Advantage"
+            ]
         },
         {
             "id": "WACE2020Q5",
@@ -6721,7 +6732,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Free trade and protection"
+            ]
         },
         {
             "id": "WACE2020Q6",
@@ -6729,7 +6743,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Free trade and protection"
+            ]
         },
         {
             "id": "WACE2020Q7",
@@ -6737,7 +6754,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Balance of Payments"
+            ]
         },
         {
             "id": "WACE2020Q8",
@@ -6745,7 +6765,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Foreign Investment"
+            ]
         },
         {
             "id": "WACE2020Q9",
@@ -6753,7 +6776,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Terms of Trade"
+            ]
         },
         {
             "id": "WACE2020Q10",
@@ -6761,7 +6787,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Exchange rates"
+            ]
         },
         {
             "id": "WACE2020Q11",
@@ -6769,7 +6798,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Foreign Investment"
+            ]
         },
         {
             "id": "WACE2020Q12",
@@ -6777,7 +6809,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Balance of Payments"
+            ]
         },
         {
             "id": "WACE2020Q13",
@@ -6785,7 +6820,9 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2020Q14",
@@ -6793,7 +6830,9 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2020Q15",
@@ -6801,7 +6840,9 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice"
+            ]
         },
         {
             "id": "WACE2020Q16",
@@ -6809,7 +6850,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "MPC"
+            ]
         },
         {
             "id": "WACE2020Q17",
@@ -6817,7 +6861,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "MPC"
+            ]
         },
         {
             "id": "WACE2020Q18",
@@ -6825,7 +6872,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Aggregate Expenditure"
+            ]
         },
         {
             "id": "WACE2020Q19",
@@ -6833,7 +6883,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Aggregate Demand and Supply"
+            ]
         },
         {
             "id": "WACE2020Q20",
@@ -6841,7 +6894,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Aggregate Expenditure",
+                "Aggregate Demand and Supply"
+            ]
         },
         {
             "id": "WACE2020Q21",
@@ -6849,7 +6906,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2020Q22",
@@ -6857,7 +6917,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy",
+                "Monetary Policy"
+            ]
         },
         {
             "id": "WACE2020Q23",
@@ -6865,7 +6929,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Monetary Policy"
+            ]
         },
         {
             "id": "WACE2020Q24",
@@ -6873,7 +6940,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Multiple-choice",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2020Q25",
@@ -6881,7 +6951,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Removed from Course"
+            ]
         },
         {
             "id": "WACE2020Q26",
@@ -6889,7 +6962,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Exchange rates"
+            ]
         },
         {
             "id": "WACE2020Q27",
@@ -6897,7 +6973,11 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Answer",
+                "Aggregate Demand and Supply",
+                "Labour Productivity"
+            ]
         },
         {
             "id": "WACE2020Q28",
@@ -6905,7 +6985,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Balance of Payments"
+            ]
         },
         {
             "id": "WACE2020Q29",
@@ -6913,7 +6996,10 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Free trade and protection"
+            ]
         },
         {
             "id": "WACE2020Q30",
@@ -6921,7 +7007,12 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Business Cycle",
+                "Aggregate Demand and Supply",
+                "Fiscal Policy"
+            ]
         },
         {
             "id": "WACE2020Q31",
@@ -6929,7 +7020,12 @@
             "year": 2020,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Extended Response",
+                "Aggregate Expenditure",
+                "Fiscal Policy",
+                "Monetary Policy"
+            ]
         }
     ],
     "meth": [
