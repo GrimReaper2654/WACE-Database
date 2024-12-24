@@ -24,18 +24,16 @@ const data = {
     keyboard: {}
 };
 
-let path = window.location.pathname;
-path = path.replace(/\/+$/, '');
-if (path.endsWith("dev.html")) {
-    // Load keybinds
-    window.onkeydown = function(e) {
-        const keyBinds = ['q', 'w', 'e']; // munti choice, short answer, extended
-        console.log(e.key);
-        if (data.activeQuestion && keyBinds.includes(e.key)) {
-            const tag = e.key == keyBinds[0]? 'Multiple-choice': e.key == keyBinds[1]? 'Short Answer' : 'Extended Response';
-            updateTags(tag);
+window.onkeydown = function(e) {
+    const keyBinds = ['q', 'w', 'e']; // munti choice, short answer, extended
+    console.log(e.key);
+    if (data.activeQuestion && keyBinds.includes(e.key)) {
+        const tag = e.key == keyBinds[0]? 'Multiple-choice': e.key == keyBinds[1]? 'Short Answer' : 'Extended Response';
+        if (document.getElementById(`${tag}Modify`)) {
             document.getElementById(`${tag}Modify`).checked = !document.getElementById(`${tag}Modify`).checked;
+            updateTags(tag, document.getElementById(`${tag}Modify`).checked);
         }
+        
     }
 }
 window.addEventListener('resize', packTags);
