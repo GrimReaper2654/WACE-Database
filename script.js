@@ -21,8 +21,23 @@ const data = {
     resetting: false,
     listeners: new Map(),
     unsavedChanges: false,
+    keyboard: {}
 };
 
+let path = window.location.pathname;
+path = path.replace(/\/+$/, '');
+if (path.endsWith("dev.html")) {
+    // Load keybinds
+    window.onkeydown = function(e) {
+        const keyBinds = ['q', 'w', 'e']; // munti choice, short answer, extended
+        console.log(e.key);
+        if (data.activeQuestion && keyBinds.includes(e.key)) {
+            const tag = e.key == keyBinds[0]? 'Multiple-choice': e.key == keyBinds[1]? 'Short Answer' : 'Extended Response';
+            updateTags(tag);
+            document.getElementById(`${tag}Modify`).checked = !document.getElementById(`${tag}Modify`).checked;
+        }
+    }
+}
 window.addEventListener('resize', packTags);
 window.addEventListener('beforeunload', function (event) {
     if (data.unsavedChanges) {
@@ -159,12 +174,13 @@ function remove(array, string) {
     }
 }
 
-function updateTags(id, state) {
+function updateTags(id, state=null) {
     const tagId = id.replace('Modify', '');
     let tagsList = null;
     for (let question of data.questionsRaw[data.filters.subject]) {
         if (question.id == data.activeQuestion) tagsList = question.tags;
     }
+    if (state === null) state = !tagsList.includes(tagId);
     if (state) {
         add(tagsList, tagId);
     } else {
@@ -431,7 +447,7 @@ async function load() {
     // check if the page should have a search function
     let path = window.location.pathname;
     path = path.replace(/\/+$/, '');
-    if (!(path.endsWith("dev") || path.endsWith("index") || path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
+    if (!(path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
         return false;
     } 
     console.info('Loading Search...');
@@ -515,6 +531,7 @@ async function load() {
         }
     }
 
+    // Check if should search
     const { subject, year, questionNum } = getSearchParameters();
     if (subject) {
         console.log(subject, year, questionNum);
