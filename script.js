@@ -272,7 +272,7 @@ function packTags() {
             for (let i = 0; i < elements.length; i++) {
                 let nextElement = elements[i];
 
-                if (x + nextElement.offsetWidth * 2 + margin > window.innerWidth * 0.95) { // This does not actually work, just is pretty close
+                if (x + nextElement.offsetWidth * 2 + margin > window.innerWidth / document.body.style.zoom * 0.95) { // This does not actually work, just is pretty close
                     canCreateColumn = false;
                     continue;
                 }
@@ -317,9 +317,9 @@ function packTags() {
         maxX = Math.max(maxX, rect.right);
         maxY = Math.max(maxY, rect.bottom);
     });
-
-    container.style.width = `${(maxX - minX + 10)}px`;
-    container.style.height = `${(maxY - minY + 10)}px`;
+    console.log(document.body.style.zoom);
+    container.style.width = `${(maxX - minX + 10)/document.body.style.zoom}px`;
+    container.style.height = `${(maxY - minY + 10)/document.body.style.zoom}px`;
     if ((maxX - minX + 10) > document.getElementById('search').offsetWidth) container.classList.add('centred');
     else container.classList.remove('centred');
 }
@@ -445,7 +445,7 @@ async function load() {
     // check if the page should have a search function
     let path = window.location.pathname;
     path = path.replace(/\/+$/, '');
-    if (!(path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
+    if (!(path.endsWith("dev") || path.endsWith("index") || path.endsWith("dev.html") || path.endsWith("index.html") || path === "/" || path === "")) {
         return false;
     } 
     console.info('Loading Search...');
@@ -1028,22 +1028,6 @@ window.addEventListener("load", async function() {
         if (event.key === 'Enter') {
             textSearch();
         }
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    const dropdowns = document.querySelectorAll(".dropdown");
-    console.log('running');
-    console.log(dropdowns);
-    dropdowns.forEach(dropdown => {
-        console.log('dropdown detected');
-        dropdown.addEventListener("mouseenter", function () {
-            console.log("Hover detected on dropdown:", dropdown);
-        });
-
-        dropdown.addEventListener("mouseleave", function () {
-            console.log("Hover ended on dropdown:", dropdown);
-        });
     });
 });
 

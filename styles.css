@@ -146,10 +146,10 @@ footer {
 
 .tagsContainer {
     position: relative;
-    /*border-style: solid;
+    border-style: solid;
     border-color: #404040;
     border-radius: 15px;
-    border-width: 2px;*/
+    border-width: 2px;
     width: 100%;
     padding: 10px;
     top: 10px;
