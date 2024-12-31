@@ -324,25 +324,6 @@ function packTags() {
     else container.classList.remove('centred');
 }
 
-async function setTags() {
-    const tagsList = data.tagsV2[data.filters.subject];
-    let tagsHtml = ``;
-    for (const [tagGroup, subTags] of Object.entries(tagsList)) {
-        tagsHtml += `<span class="tag"><span type="checkbox" id="${tagGroup}" class="checkbox"></span><span class="tagLabel noClick">${tagGroup}</span>`;
-        if (subTags.length > 0) {
-            tagsHtml += `<button id="button${tagGroup}" class="toggleButton" onclick="toggleContent('${tagGroup}')"><span class="arrow">▼</span></button><div class="extraContent" id="extraContent${tagGroup}">`;
-            for (let subTag of subTags) {
-                tagsHtml += `<span class="tag"><span type="checkbox" id="${subTag}" class="checkbox"></span><span class="tagLabel">${subTag}</span></span><br>`;
-            }
-            tagsHtml += `</div>`;
-        }
-        tagsHtml += `</span>`;
-    }
-    document.getElementById('tagsContainer').innerHTML = tagsHtml;
-    if (document.getElementById('modifyTags')) setModifyTags();
-    packTags();
-}
-
 async function search() {
     data.filters.year = document.getElementById('yearSelect').value;
     data.filters.calculator = document.getElementById('calculatorSelect').value;
@@ -357,24 +338,44 @@ async function search() {
     const allQuestions = data.questionsRaw[data.filters.subject];
     
     data.questions = [];
-    allQuestions.forEach(function(question, index) {
-        if (data.filters.mode == 'untagged') {
-            if (question.tags.length == 0) data.questions.push(allQuestions[index]);
-        } else if ((data.filters.year == "all" || JSON.stringify(question.year) == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type || question.soruce == data.filters.type) && (data.filters.calculator == 'all' || (question.calculator == data.filters.calculator)) && !data.filters.nTags.some(tag => question.tags.includes(tag))) {
-            if (data.filters.mode == 'and') {
-                if (data.filters.tags.every(tag => question.tags.includes(tag))) {
-                    data.questions.push(allQuestions[index]);
-                }
-            } else {
-                if (data.filters.tags.length == 0 || data.filters.tags.some(tag => question.tags.includes(tag))) {
-                    data.questions.push(allQuestions[index]);
-                }
-            }
+    allQuestions.forEach(function (question, index) {
+        let matches = true;
+
+        // Check tags (all tags in "tags" must match)
+        if (data.filters.tags.length > 0) {
+            matches = data.filters.tags.every(tag => question.tags.includes(tag));
+        }
+
+        // Check excluded tags (none of the "nTags" should be present)
+        if (matches && data.filters.nTags.some(tag => question.tags.includes(tag))) {
+            matches = false;
+        }
+
+        // Check type
+        if (matches && data.filters.type !== 'all') {
+            matches = question.type === data.filters.type;
+        }
+
+        // Check year
+        if (matches && data.filters.year !== 'all') {
+            matches = question.year == data.filters.year;
+        }
+
+        // Check calculator
+        if (matches && data.filters.calculator !== 'all') {
+            matches = question.calculator === data.filters.calculator;
+        }
+
+        // Add the question if it matches all filters
+        if (matches) {
+            data.questions.push(allQuestions[index]);
         }
     });
 
     data.filters.currentPage = 0;
     renderPageResults();
+}
+
 }
 
 function renderPageResults() {
