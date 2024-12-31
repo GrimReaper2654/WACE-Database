@@ -336,12 +336,12 @@ async function search() {
     localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
 
     const allQuestions = data.questionsRaw[data.filters.subject];
-    
+
     data.questions = [];
     allQuestions.forEach(function (question, index) {
         let matches = true;
 
-        // Check tags (all tags in "tags" must match)
+        // Check included tags (all tags in "tags" must match)
         if (data.filters.tags.length > 0) {
             matches = data.filters.tags.every(tag => question.tags.includes(tag));
         }
@@ -376,7 +376,6 @@ async function search() {
     renderPageResults();
 }
 
-}
 
 function renderPageResults() {
     data.filters.resultsPerPage = parseInt(document.getElementById('lengthSelect').value);
