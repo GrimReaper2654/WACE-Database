@@ -366,7 +366,7 @@ async function search() {
                     data.questions.push(allQuestions[index]);
                 }
             } else {
-                if (data.filters.tags.length == 0 || data.filters.tags.some(tag => question.tags.includes(tag))) {
+                if (data.filters.tags.length == 0 || data.filters.tags.every(tag => question.tags.includes(tag))) {
                     data.questions.push(allQuestions[index]);
                 }
             }
