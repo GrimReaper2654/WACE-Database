@@ -1019,6 +1019,10 @@ function adjustZoomForOverflow() {
     }
 }
 
+if (window.self !== window.top) {
+    window.top.location = window.self.location;
+}
+
 window.addEventListener("load", async function() {
     console.log('loading...');
     await sleep(500); // can't figure out how to wait for load
