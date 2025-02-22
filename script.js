@@ -10,6 +10,7 @@ const data = {
         nTags: [],
         resultsPerPage: 10,
         currentPage: 0,
+        disclaimerRemoved: false
     },
     questions: [],
     allTags: [],
@@ -20,8 +21,7 @@ const data = {
     activeQuestionNum: null,
     resetting: false,
     listeners: new Map(),
-    unsavedChanges: false,
-    keyboard: {}
+    unsavedChanges: false
 };
 
 window.onkeydown = function(e) {
@@ -67,6 +67,7 @@ function clearFilters() {
         nTags: [],
         resultsPerPage: 10,
         currentPage: 0,
+        disclaimerRemoved: document.getElementById('disclaimer')? false : true
     }
 
     document.getElementById('yearSelect').value = data.filters.year;
@@ -456,6 +457,9 @@ async function load() {
 
     console.log('tab duplicated?', document.getElementById('isDuplicated').value);
     let shouldSearch = false;
+    let savedSettings = JSON.parse(localStorage.getItem('WACEDB_FILTERS'));
+    console.log(savedSettings)
+    data.filters.disclaimerRemoved = savedSettings.disclaimerRemoved;
     if (document.getElementById('isDuplicated').value == 'yes') {
         // set filters if the page was duplicated
         data.filters.subject = document.getElementById('subjectSelect').value;
@@ -469,9 +473,8 @@ async function load() {
         shouldSearch = true;
     } else {
         // load settings from localhost
-        let savedSettings = localStorage.getItem('WACEDB_FILTERS');
         if (savedSettings) {
-            data.filters = JSON.parse(savedSettings);
+            data.filters = savedSettings;
             document.getElementById('subjectSelect').value = data.filters.subject;
             document.getElementById('yearSelect').value = data.filters.year;
             document.getElementById('calculatorSelect').value = data.filters.calculator;
@@ -485,6 +488,7 @@ async function load() {
         }
         document.getElementById('isDuplicated').value = 'yes';
     }
+    
 
     // create the tags for the search
     setTags();
@@ -548,7 +552,11 @@ async function load() {
 
         data.filters.currentPage = 0;
         renderPageResults();
-        toggleContent(0, true);
+        try {
+            toggleContent(0, true);
+        } catch (error) {
+            console.error("Question does not exist!");
+        }
     } else if (shouldSearch) {
         let page = data.filters.currentPage;
         search();
@@ -810,6 +818,16 @@ async function downloadAll() {
     URL.revokeObjectURL(url);
 }
 
+function removeDisclaimer(a) {
+    if (!a) alert('This website is not affiliated with the School Curriculum and Standards Authority (SCSA) or the Government of Western Australia. The questions in the database are all owned SCSA.');
+    const disclaimerElement = document.getElementById('footer');
+    if (disclaimerElement) {
+        disclaimerElement.remove();
+    }
+    data.filters.disclaimerRemoved = true;
+    localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
+}
+
 // Infinite Revision Scripts
 function rand(p) {
     return Math.random() < p;
@@ -1025,14 +1043,21 @@ if (window.self !== window.top) {
 
 window.addEventListener("load", async function() {
     console.log('loading...');
-    await sleep(500); // can't figure out how to wait for load
-    adjustZoomForOverflow();
     await load();
     document.getElementById('textSearchBox').addEventListener('keydown', function(event) {
         if (event.key === 'Enter') {
             textSearch();
         }
     });
+    if (data.filters.disclaimerRemoved) {
+        removeDisclaimer(1);
+    }
+    for (let i = 0; i < 50; i++) {
+        // can't figure out how to wait for load
+        await sleep(10);
+        adjustZoomForOverflow();
+        packTags();
+    }
 });
 
 window.addEventListener("resize", adjustZoomForOverflow);
