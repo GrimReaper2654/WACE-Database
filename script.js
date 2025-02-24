@@ -820,7 +820,6 @@ async function downloadAll() {
 
         i++;
         button.innerHTML = button.innerHTML.replace(/\(.*?\)/g, `(${i}/${data.questions.length})`);
-        await sleep(100);
     }
 
     const mergedPdfBytes = await mergedPdf.save();
