@@ -565,10 +565,13 @@ ul {
     right: 20px;
 }
 
-#dowloadAllButton {
-    width: 200px;
+#downloadAllButton {
+    width: 300px;
     position: absolute;
+    white-space: pre;
     zoom: 0.75;
+    font-family: 'Courier New', Courier, 'Lucida Console', 'Monaco', 'Consolas', monospace;
+    font-weight: bold;
     top: 10px;
     right: 10px;
 }

@@ -790,8 +790,12 @@ function textSearch() {
 }
 
 async function downloadAll() {
+    alert('This may take a while. Please be patient. A PDF download of the entire database may take several minutes.');
+    const button = document.getElementById('downloadAllButton');
+    button.innerHTML = 'Downloading...';
+    button.disabled = true;
     const mergedPdf = await PDFLib.PDFDocument.create();
-
+    let i = 0;
     for (const question of data.questions) {
         const path = `./pdfDownloads/${data.filters.subject}/${question.id}.pdf`;
 
@@ -801,6 +805,10 @@ async function downloadAll() {
 
         const copiedPages = await mergedPdf.copyPages(pdf, pdf.getPageIndices());
         copiedPages.forEach(page => mergedPdf.addPage(page));
+
+        i++;
+        let loadingBar = '.'.repeat(i % 3 + 1) + ' '.repeat(2 - i % 3);
+        button.innerHTML = `Downloading${loadingBar} (${i}/${data.questions.length})`;
     }
 
     const mergedPdfBytes = await mergedPdf.save();
@@ -816,6 +824,9 @@ async function downloadAll() {
     document.body.removeChild(link);
 
     URL.revokeObjectURL(url);
+
+    button.innerHTML = 'Download All';
+    button.disabled = false;
 }
 
 function removeDisclaimer(a) {
