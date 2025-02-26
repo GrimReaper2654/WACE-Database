@@ -53,7 +53,10 @@ def rename_images(directory, template):
 
         if not question_number and isMCQ:
             question_number = prev_question_number + 1
-        
+            while os.path.exists(f'{template}Q{question_number}.png') or os.path.exists(f'{template}Q{question_number}.1.png'):
+                question_number += 1
+                prev_question_number += 1
+                
         if question_number is not None:
             question_parts[question_number] = 1
             prev_question_number = question_number

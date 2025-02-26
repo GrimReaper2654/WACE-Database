@@ -1160,6 +1160,110 @@
             "type": "WACE",
             "calculator": "assumed",
             "tags": []
+        },
+        {
+            "id": "WACE2024Q1",
+            "name": "WACE 2024 Calculator Free Question 1",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q2",
+            "name": "WACE 2024 Calculator Free Question 2",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q3",
+            "name": "WACE 2024 Calculator Free Question 3",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q4",
+            "name": "WACE 2024 Calculator Free Question 4",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q5",
+            "name": "WACE 2024 Calculator Free Question 5",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "free",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q6",
+            "name": "WACE 2024 Calculator Assumed Question 6",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q7",
+            "name": "WACE 2024 Calculator Assumed Question 7",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q8",
+            "name": "WACE 2024 Calculator Assumed Question 8",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q9",
+            "name": "WACE 2024 Calculator Assumed Question 9",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q10",
+            "name": "WACE 2024 Calculator Assumed Question 10",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q11",
+            "name": "WACE 2024 Calculator Assumed Question 11",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q12",
+            "name": "WACE 2024 Calculator Assumed Question 12",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q13",
+            "name": "WACE 2024 Calculator Assumed Question 13",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
         }
     ],
     "chem": [
@@ -5543,6 +5647,326 @@
                 "Calculation",
                 "Theory"
             ]
+        },
+        {
+            "id": "WACE2024Q1",
+            "name": "WACE 2024 Question 1",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q2",
+            "name": "WACE 2024 Question 2",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q3",
+            "name": "WACE 2024 Question 3",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q4",
+            "name": "WACE 2024 Question 4",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q5",
+            "name": "WACE 2024 Question 5",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q6",
+            "name": "WACE 2024 Question 6",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q7",
+            "name": "WACE 2024 Question 7",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q8",
+            "name": "WACE 2024 Question 8",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q9",
+            "name": "WACE 2024 Question 9",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q10",
+            "name": "WACE 2024 Question 10",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q11",
+            "name": "WACE 2024 Question 11",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q12",
+            "name": "WACE 2024 Question 12",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q13",
+            "name": "WACE 2024 Question 13",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q14",
+            "name": "WACE 2024 Question 14",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q15",
+            "name": "WACE 2024 Question 15",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q16",
+            "name": "WACE 2024 Question 16",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q17",
+            "name": "WACE 2024 Question 17",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q18",
+            "name": "WACE 2024 Question 18",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q19",
+            "name": "WACE 2024 Question 19",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q20",
+            "name": "WACE 2024 Question 20",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q21",
+            "name": "WACE 2024 Question 21",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q22",
+            "name": "WACE 2024 Question 22",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q23",
+            "name": "WACE 2024 Question 23",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q24",
+            "name": "WACE 2024 Question 24",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q25",
+            "name": "WACE 2024 Question 25",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q26",
+            "name": "WACE 2024 Question 26",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q27",
+            "name": "WACE 2024 Question 27",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q28",
+            "name": "WACE 2024 Question 28",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q29",
+            "name": "WACE 2024 Question 29",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q30",
+            "name": "WACE 2024 Question 30",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q31",
+            "name": "WACE 2024 Question 31",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q32",
+            "name": "WACE 2024 Question 32",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q33",
+            "name": "WACE 2024 Question 33",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q34",
+            "name": "WACE 2024 Question 34",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q35",
+            "name": "WACE 2024 Question 35",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q36",
+            "name": "WACE 2024 Question 36",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q37",
+            "name": "WACE 2024 Question 37",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q38",
+            "name": "WACE 2024 Question 38",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q39",
+            "name": "WACE 2024 Question 39",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q40",
+            "name": "WACE 2024 Question 40",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
         }
     ],
     "econs": [
@@ -11963,6 +12387,158 @@
                 "Emission / Absorption Spectrum",
                 "Theory"
             ]
+        },
+        {
+            "id": "WACE2024Q1",
+            "name": "WACE 2024 Question 1",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q2",
+            "name": "WACE 2024 Question 2",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q3",
+            "name": "WACE 2024 Question 3",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q4",
+            "name": "WACE 2024 Question 4",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q5",
+            "name": "WACE 2024 Question 5",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q6",
+            "name": "WACE 2024 Question 6",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q7",
+            "name": "WACE 2024 Question 7",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q8",
+            "name": "WACE 2024 Question 8",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q9",
+            "name": "WACE 2024 Question 9",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q10",
+            "name": "WACE 2024 Question 10",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q11",
+            "name": "WACE 2024 Question 11",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q12",
+            "name": "WACE 2024 Question 12",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q13",
+            "name": "WACE 2024 Question 13",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q14",
+            "name": "WACE 2024 Question 14",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q15",
+            "name": "WACE 2024 Question 15",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q16",
+            "name": "WACE 2024 Question 16",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q17",
+            "name": "WACE 2024 Question 17",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q18",
+            "name": "WACE 2024 Question 18",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
+        },
+        {
+            "id": "WACE2024Q19",
+            "name": "WACE 2024 Question 19",
+            "year": 2024,
+            "source": "WACE",
+            "calculator": "assumed",
+            "tags": []
         }
     ],
     "spec": [
