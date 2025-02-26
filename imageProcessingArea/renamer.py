@@ -6,7 +6,7 @@ from PIL import Image
 from datetime import datetime
 
 # Set the path to the Tesseract executable (update this according to your installation)
-pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'
 
 def get_text_from_image(image_path):
     # Open the image file
