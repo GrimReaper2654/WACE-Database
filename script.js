@@ -801,16 +801,13 @@ async function loading() {
 }
 
 async function downloadAll() {
-    if (data.questions.length > 100) 
-        alert('This may take a while. Please be patient.');
-
+    if (data.questions > 100) alert('This may take a while. Please be patient. A PDF download of the entire database may take several minutes.');
     const button = document.getElementById('downloadAllButton');
-    button.innerHTML = 'Downloading... (0)';
+    button.innerHTML = 'Downloading... ()';
     button.disabled = true;
-    loading();
-    
     const mergedPdf = await PDFLib.PDFDocument.create();
     let i = 0;
+    loading();
 
     for (const question of data.questions) {
         const path = `./pdfDownloads/${data.filters.subject}/${question.id}.pdf`;
@@ -845,14 +842,15 @@ async function downloadAll() {
             copiedPages.forEach(page => mergedPdf.addPage(page));
 
             i++;
-            button.innerHTML = `Downloading... (${i}/${data.questions.length})`;
+            button.innerHTML = button.innerHTML.replace(/\(.*?\)/g, `(${i}/${data.questions.length})`);
         } catch (err) {
             console.error(`Error parsing ${path}:`, err);
             continue;
         }
     }
-
+    
     const mergedPdfBytes = await mergedPdf.save();
+
     const blob = new Blob([mergedPdfBytes], { type: 'application/pdf' });
     const url = URL.createObjectURL(blob);
 
@@ -864,10 +862,10 @@ async function downloadAll() {
     document.body.removeChild(link);
 
     URL.revokeObjectURL(url);
+
     button.innerHTML = 'Download All';
     button.disabled = false;
 }
-
 
 function removeDisclaimer(a) {
     if (!a) alert('This website is not affiliated with the School Curriculum and Standards Authority (SCSA) or the Government of Western Australia. The questions in the database are all owned SCSA.');
