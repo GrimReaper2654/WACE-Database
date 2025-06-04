@@ -458,8 +458,8 @@ async function load() {
     console.log('tab duplicated?', document.getElementById('isDuplicated').value);
     let shouldSearch = false;
     let savedSettings = JSON.parse(localStorage.getItem('WACEDB_FILTERS'));
-    console.log(savedSettings)
-    data.filters.disclaimerRemoved = savedSettings.disclaimerRemoved;
+
+    if (savedSettings) data.filters.disclaimerRemoved = savedSettings.disclaimerRemoved;
     if (document.getElementById('isDuplicated').value == 'yes') {
         // set filters if the page was duplicated
         data.filters.subject = document.getElementById('subjectSelect').value;
