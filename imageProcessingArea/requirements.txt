@@ -1,6 +1,0 @@
-pillow
-fpdf
-pytesseract
-pyautogui
-keyboard
-simpleaudio
