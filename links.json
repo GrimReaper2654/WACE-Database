@@ -1,0 +1,35 @@
+{
+    "apps": {
+
+    },
+    "chem": {
+
+    },
+    "econs": {
+
+    },
+    "phys": {
+
+    },
+    "meth": {
+
+    },
+    "spec": {
+        "2024": [
+            {
+                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,7],[6,8],[7,10],[8,12],[9,3],[10,4],[11,6],[12,7],[13,8],[14,10],[15,12],[16,14],[17,16],[18,20]],
+                "baseUrl": [
+                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1171474/2024-MAS-Examination-Calculator-Free-Web-Version.PDF",
+                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1171473/2024-MAS-Examination-Calculator-Assumed-Web-Version.PDF"
+                ]
+            },
+            {
+                "questionLayout": [[1,2],[2,3],[3,5],[4,6],[5,7],[6,8],[7,10],[8,11],[9,2],[10,4],[11,6],[12,8],[13,9],[14,11],[15,14],[16,17],[17,20],[18,23]],
+                "baseUrl": [
+                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/1171476/2024-MAS-Ratified-Calc-Free-Marking-Key-Web-Version.PDF",
+                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/1171475/2024-MAS-Ratified-Calc-Assumed-Marking-Key-Web-Version.PDF"
+                ]
+            }
+        ]
+    }
+}

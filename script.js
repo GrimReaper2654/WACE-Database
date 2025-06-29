@@ -21,7 +21,8 @@ const data = {
     activeQuestionNum: null,
     resetting: false,
     listeners: new Map(),
-    unsavedChanges: false
+    unsavedChanges: false,
+    linksJson: null
 };
 
 window.onkeydown = function(e) {
@@ -359,8 +360,9 @@ async function search() {
     
     data.questions = [];
     allQuestions.forEach(function(question, index) {
+        if (question.tags.length == 0) question.tags.push("Missing Tags");
         if (data.filters.mode == 'untagged') {
-            if (question.tags.length == 0) data.questions.push(allQuestions[index]);
+            if (question.tags.includes("Missing Tags")) data.questions.push(allQuestions[index]);
         } else if ((data.filters.year == "all" || JSON.stringify(question.year) == data.filters.year) && (data.filters.source == 'all' || question.source == data.filters.source) && (data.filters.type == 'all' || question.type == data.filters.type || question.soruce == data.filters.type) && (data.filters.calculator == 'all' || (question.calculator == data.filters.calculator)) && !data.filters.nTags.some(tag => question.tags.includes(tag))) {
             if (data.filters.mode == 'and') {
                 if (data.filters.tags.every(tag => question.tags.includes(tag))) {
@@ -374,8 +376,38 @@ async function search() {
         }
     });
 
+    data.questions.sort((a, b) => {
+        const yearA = parseInt(a.id.match(/\d{4}/)?.[0]);
+        const yearB = parseInt(b.id.match(/\d{4}/)?.[0]);
+        const indexA = parseInt(a.id.match(/\d+$/)?.[0]);
+        const indexB = parseInt(b.id.match(/\d+$/)?.[0]);
+
+        if (yearA !== yearB) return yearB - yearA;
+        return indexA - indexB;
+    });
+
     data.filters.currentPage = 0;
     renderPageResults();
+}
+
+function link(qIndex, isKey) {
+    const questionId = data.questions[qIndex].id;
+    const subject = data.filters.subject;
+    const question = [questionId.slice(9)];
+
+    if (!data.linksJson[subject][questionId.slice(4, 8).toLowerCase()]) return "";
+    const baseUrl = data.linksJson[subject][questionId.slice(4, 8).toLowerCase()][isKey].baseUrl[data.questions[qIndex].calculator == "assumed"? 1 : 0];
+    const layout = data.linksJson[subject][questionId.slice(4, 8).toLowerCase()][isKey].questionLayout;
+
+    let page = 0;
+    for (let i of layout) {
+        if (question <= i[0]) {
+            page = i[1];
+            break;
+        }
+    }
+
+    return `${baseUrl}#page=${page}`;
 }
 
 function renderPageResults() {
@@ -394,9 +426,16 @@ function renderPageResults() {
             questionTags += `<label class="tag"><span class="tagLabel">${j}</span></label>`;
         }
         questionTags += `</div>`;
-        questionsHtml += `<div id="result${i}" class="box whiteBackground"><div class="resultTopRow"><button id="button${i}" class="toggleButton" onclick="toggleContent(${i}, true)"><h3 class="alignLeft">${data.questions[i].name}</h3><span class="arrow alignRight">▼</span></button></div><div class="extraContent" id="extraContent${i}">${questionTags}<div id="question${i}" class="questionArea"><img src="questionBank/${data.filters.subject}/${data.questions[i].id}.webp" class="questionImage"></div><div class="verticalSpacer"></div><button class="standardButton" onclick="toggleKey(${i})">Toggle Marking Key</button><div class="horizontalSpacer"></div><a href="pdfDownloads/${data.filters.subject}/${data.questions[i].id}.pdf" download="${data.questions[i].id}.pdf"><button class="standardButton">Download PDF</button></a></div></div>`;
+        questionsHtml += `<div id="result${i}" class="box whiteBackground">
+        <a href="${link(i, 0)}" target="_blank"><button class="questionButton"><strong>${data.questions[i].name}</strong></button></a>
+        <span class="arrow alignRight">
+        <a href="${link(i, 1)}" target="_blank"><button class="standardButton">Marking Key</button></a>
+        </span>
+        ${questionTags}
+        </div>
+        `;
     }
-    if (questionsHtml == `` || true) { // disable search
+    if (questionsHtml == ``) {
         questionsHtml = `<h3>No Results Found</h3>`;
     }
     document.getElementById('searchResults').innerHTML = questionsHtml;
@@ -454,6 +493,9 @@ async function load() {
     // load json data
     data.questionsRaw = await loadJson('questions');
     data.tagsV2 = await loadJson('tagsV2');
+    data.linksJson = await loadJson('links');
+
+    console.log(data.linksJson);
 
     console.log('tab duplicated?', document.getElementById('isDuplicated').value);
     let shouldSearch = false;

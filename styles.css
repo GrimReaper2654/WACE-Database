@@ -231,6 +231,18 @@ footer {
     margin-left: 0;
 }
 
+.questionButton {
+    padding: 0px 0px;
+    background-color: #ffffff;
+    font-size: larger;
+    color: black;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 0px;
+    margin-left: 0;
+}
+
 .content {
     min-height: 25vh;
     margin: auto;
@@ -323,7 +335,7 @@ footer {
 }
 
 .smallTagsContainer {
-    margin: 10px;
+    margin: 0px;
     margin-top: 0;
     zoom: 75%;
 }
