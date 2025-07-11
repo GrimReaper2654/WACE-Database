@@ -400,9 +400,9 @@ function link(qIndex, isKey) {
     const layout = data.linksJson[subject][questionId.slice(4, 8).toLowerCase()][isKey].questionLayout;
 
     let page = 0;
-    for (let i of layout) {
-        if (question <= i[0]) {
-            page = i[1];
+    for (let i in layout) {
+        if (question <= layout[i][0]) {
+            page = layout[i - (layout[i][0] - question > 0)][1];
             break;
         }
     }
