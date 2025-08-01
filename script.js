@@ -10,7 +10,6 @@ const data = {
         nTags: [],
         resultsPerPage: 10,
         currentPage: 0,
-        disclaimerRemoved: false
     },
     questions: [],
     allTags: [],
@@ -68,7 +67,6 @@ function clearFilters() {
         nTags: [],
         resultsPerPage: 10,
         currentPage: 0,
-        disclaimerRemoved: document.getElementById('disclaimer')? false : true
     }
 
     document.getElementById('yearSelect').value = data.filters.year;
@@ -501,7 +499,6 @@ async function load() {
     let shouldSearch = false;
     let savedSettings = JSON.parse(localStorage.getItem('WACEDB_FILTERS'));
 
-    if (savedSettings) data.filters.disclaimerRemoved = savedSettings.disclaimerRemoved;
     if (document.getElementById('isDuplicated').value == 'yes') {
         // set filters if the page was duplicated
         data.filters.subject = document.getElementById('subjectSelect').value;
@@ -909,16 +906,6 @@ async function downloadAll() {
     button.disabled = false;
 }
 
-function removeDisclaimer(a) {
-    if (!a) alert('This website is not affiliated with the School Curriculum and Standards Authority (SCSA) or the Government of Western Australia. The questions in the database are all owned SCSA.');
-    const disclaimerElement = document.getElementById('footer');
-    if (disclaimerElement) {
-        disclaimerElement.remove();
-    }
-    data.filters.disclaimerRemoved = true;
-    localStorage.setItem('WACEDB_FILTERS', JSON.stringify(data.filters));
-}
-
 // Infinite Revision Scripts
 function rand(p) {
     return Math.random() < p;
@@ -1140,9 +1127,6 @@ window.addEventListener("load", async function() {
             textSearch();
         }
     });
-    if (data.filters.disclaimerRemoved) {
-        removeDisclaimer(1);
-    }
     for (let i = 0; i < 50; i++) {
         // can't figure out how to wait for load
         await sleep(10);
