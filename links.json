@@ -1,450 +1,1987 @@
 {
-    "apps": {
-
-    },
-    "chem": {
-        "2024": [
-            {
-                "questionLayout": [[1,3],[4,4],[6,5],[11,6],[17,7],[21,8],[26,9],[27,10],[28,11],[29,12],[30,13],[31,14],[32,15],[33,16],[34,18],[35,19],[36,21],[37,24],[38,28],[39,30],[40,34]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0011/1169588/2024-CHE-Examination-Web-Version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,4],[28,5],[29,6],[30,7],[31,8],[32,9],[33,10],[34,12],[35,13],[36,14],[37,17],[38,21],[39,23],[40,26]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0012/1169589/2024-CHE-Ratified-Marking-Key-WebVersion.PDF"
-                ]
-            }
+  "apps": {},
+  "chem": {
+    "2024": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [4, 4],
+          [6, 5],
+          [11, 6],
+          [17, 7],
+          [21, 8],
+          [26, 9],
+          [27, 10],
+          [28, 11],
+          [29, 12],
+          [30, 13],
+          [31, 14],
+          [32, 15],
+          [33, 16],
+          [34, 18],
+          [35, 19],
+          [36, 21],
+          [37, 24],
+          [38, 28],
+          [39, 30],
+          [40, 34]
         ],
-        "2023": [
-            {
-                "questionLayout": [[1,3],[6,4],[10,5],[15,6],[20,7],[22,8],[24,9],[26,10],[27,12],[28,13],[29,14],[30,15],[31,16],[32,17],[33,18],[34,19],[35,19],[36,22],[37,25],[38,28],[39,29]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/1091289/2023-CHE-Examination.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,4],[28,5],[29,6],[30,7],[31,9],[32,10],[34,11],[35,12],[36,13],[37,15],[38,20],[39,21]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/1091290/2023-CHE-Ratified-Marking-Key.PDF"
-                ]
-            }
-        ],
-        "2022": [
-            {
-                "questionLayout": [[1,3],[5,4],[10,5],[14,6],[18,7],[22,8],[26,9],[27,10],[28,13],[29,14],[30,16],[31,17],[32,19],[33,20],[34,22],[35,24],[36,28],[37,30],[38,32],[39,34]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0016/1042027/2022-CHE-Examination-Web-version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,4],[28,6],[29,7],[30,9],[31,10],[32,11],[33,12],[34,13],[35,14],[36,16],[37,17],[38,19],[39,21]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0017/1042028/2022-CHE-Ratified-Marking-Key-Web-Version.PDF"
-                ]
-            }
-        ],
-        "2021": [
-            {
-                "questionLayout": [[1,3],[3,4],[6,5],[10,6],[12,7],[14,8],[19,9],[24,10],[26,11],[27,12],[28,14],[29,16],[30,17],[31,18],[32,20],[33,22],[34,23],[35,26],[36,28],[37,30],[38,34],[39,36]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/938842/2021_CHE_Written_Examination.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,4],[28,6],[29,7],[30,8],[31,9],[32,11],[33,13],[34,14],[35,17],[36,18],[37,19],[38,21],[39,22]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/938843/2021_CHE_Ratified_Marking_Key.PDF"
-                ]
-            }
-        ],
-        "2020": [
-            {
-                "questionLayout": [[1,3],[5,4],[8,5],[10,6],[12,7],[15,8],[19,9],[21,10],[23,11],[24,12],[26,13],[27,14],[28,15],[29,16],[30,18],[31,20],[32,22],[33,24],[34,26],[35,27],[36,30],[37,32],[38,35],[39,37],[40,39]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0018/643140/2020_CHE_Written_Examination-Web-version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,4],[28,6],[29,7],[30,8],[31,9],[32,11],[33,13],[34,14],[35,15],[36,17],[37,19],[38,22],[39,23],[40,24]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0019/643141/2020_CHE_Ratified_Marking_Key.PDF"
-                ]
-            }
-        ],
-        "2019": [
-            {
-                "questionLayout": [[1,3],[3,4],[5,5],[8,6],[12,7],[14,8],[19,9],[22,10],[26,11],[27,12],[28,14],[29,15],[30,16],[31,18],[32,21],[33,22],[34,24],[35,26],[36,28],[37,32],[38,36],[39,40],[41,45]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/592224/2019_CHE_Written_Examination_Web_Version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,4],[28,5],[29,6],[30,7],[31,8],[32,11],[33,12],[34,13],[35,15],[36,17],[37,20],[38,23],[39,26],[40,28],[41,30]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/592225/2019-CHE_Ratified_Marking_Key_Web_Version.PDF"
-                ]
-            }
-        ],
-        "2018": [
-            {
-                "questionLayout": [[1,3],[4,4],[8,5],[12,6],[14,7],[17,8],[19,9],[20,10],[23,11],[25,12],[26,13],[27,14],[28,16],[29,18],[30,20],[31,22],[32,23],[33,24],[34,27],[35,28],[36,30],[37,33],[38,35],[39,38],[40,41]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0010/542998/2018_CHE_Written_Examination_web-version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,5],[28,7],[29,8],[30,10],[31,11],[32,12],[33,13],[34,16],[35,17],[36,19],[37,21],[38,23],[39,26],[40,29]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/542997/2018_Marking_Key.PDF"
-                ]
-            }
-        ],
-        "2017": [
-            {
-                "questionLayout": [[1,3],[5,4],[8,5],[12,6],[15,7],[19,8],[22,9],[26,10],[27,12],[28,13],[29,14],[30,15],[31,16],[32,18],[33,19],[34,20],[35,22],[36,24],[37,28],[38,32],[39,34],[40,38]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/458799/Chemistry_Examination_2017.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,5],[28,6],[29,7],[30,8],[31,9],[32,10],[33,11],[34,13],[35,14],[36,15],[37,18],[38,22],[39,24],[40,27]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/458800/Ratified-Chemistry-Marking-key-2017.PDF"
-                ]
-            }
-        ],
-        "2016": [
-            {
-                "questionLayout": [[1,3],[4,4],[8,5],[12,6],[17,7],[19,8],[21,9],[23,10],[26,11],[27,12],[28,13],[29,14],[30,16],[31,17],[32,18],[33,19],[34,20],[35,21],[36,22],[37,24],[38,25],[39,28],[40,30],[41,32],[42,34]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0014/344111/Chemistry-Examination-2016.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[26,3],[27,4],[28,5],[29,6],[30,8],[32,9],[33,10],[34,11],[35,12],[36,13],[37,15],[38,16],[39,18],[40,20],[41,21],[42,24]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/344109/Chemistry-Ratified-Marking-Key-2016.PDF"
-                ]
-            }
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0011/1169588/2024-CHE-Examination-Web-Version.PDF"
         ]
-    },
-    "econs": {
-
-    },
-    "phys": {
-        "2024": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,6],[6,7],[7,8],[8,9],[9,10],[10,11],[11,12],[12,13],[13,16],[14,18],[15,20],[16,17],[17,19],[18,21],[19,23]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0019/1172035/2024-PHY-Examination-Web-Version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,2],[3,3],[4,4],[5,4],[6,5],[7,5],[8,6],[9,7],[10,8],[11,8],[12,9],[13,11],[14,13],[15,15],[16,17],[17,20],[18,23]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0020/1172036/2024-PHY-Ratified-Marking-Key-Web-Version.PDF"
-                ]
-            }
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 4],
+          [28, 5],
+          [29, 6],
+          [30, 7],
+          [31, 8],
+          [32, 9],
+          [33, 10],
+          [34, 12],
+          [35, 13],
+          [36, 14],
+          [37, 17],
+          [38, 21],
+          [39, 23],
+          [40, 26]
         ],
-        "2023": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[5,6],[6,7],[7,8],[8,9],[9,10],[10,11],[12,12],[13,14],[14,18],[15,20],[16,22],[17,26],[18,28],[19,30],[20,34]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/1092721/2023-PHY-Examination-Web-Version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[3,4],[6,5],[8,6],[11,7],[13,8],[14,10],[15,11],[16,13],[17,15],[18,16],[19,18],[20,20]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/1092722/2023-PHY-Ratified-Marking-Key.PDF"
-                ]
-            }
-        ],
-        "2022": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,7],[6,8],[7,9],[8,10],[9,12],[10,13],[11,14],[12,16],[13,18],[14,20],[15,22],[16,26],[17,30],[18,32],[19,38]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1042395/2022-PHY-Examination-Web-version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[4,3],[6,4],[8,5],[9,7],[11,8],[12,9],[13,10],[14,11],[15,13],[16,15],[17,16],[18,17],[19,19]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1042396/2022-PHY-Ratified-Marking-key-Web-version.PDF"
-                ]
-            }
-        ],
-        "2021": [
-            {
-                "questionLayout": [[1,4],[3,5],[4,6],[6,7],[7,8],[9,9],[11,10],[12,11],[13,12],[14,14],[15,16],[16,18],[17,22],[18,24],[19,26],[20,28],[21,32]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/941534/2021_PHY_Written_Examination_Web_version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[4,3],[6,4],[9,5],[11,6],[12,7],[13,8],[14,9],[15,11],[16,12],[17,15],[18,17],[19,18],[20,19],[21,21]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/941533/2021-PHY-Ratified-Marking-Key.PDF"
-                ]
-            }
-        ],
-        "2020": [
-            {
-                "questionLayout": [[1,4],[2,5],[4,6],[5,7],[7,8],[8,9],[9,10],[10,11],[11,12],[12,13],[13,14],[14,16],[15,18],[16,19],[17,21],[18,23],[19,26],[20,30],[20,32],[21,34]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/647373/2020_PHY_Written_Examination_Web_version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[5,4],[8,5],[11,6],[13,7],[14,8],[15,10],[16,11],[17,12],[18,13],[19,14],[20,16],[21,18]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/647374/2020_PHY_Ratified_Marking_Key.PDF"
-                ]
-            }
-        ],
-        "2019": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[6,7],[7,8],[8,9],[10,10],[11,11],[12,12],[13,14],[14,16],[15,18],[16,20],[17,22],[18,26],[19,28],[20,32]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/593114/2019_PHY_Written_Examination_web_version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[4,3],[7,4],[10,5],[11,6],[12,7],[13,8],[14,9],[15,11],[16,12],[17,13],[18,15],[19,16],[20,18]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/593115/2019-PHY-Ratified-Marking-Key.PDF"
-                ]
-            }
-        ],
-        "2018": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,7],[6,8],[7,9],[8,10],[9,11],[10,12],[11,14],[12,17],[13,18],[14,20],[15,22],[16,26],[17,28],[18,30],[19,33]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/539188/2018_PHY_Written_Examination.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[3,4],[4,5],[5,6],[7,7],[8,8],[9,9],[10,10],[11,12],[12,14],[13,15],[14,16],[15,17],[16,19],[17,21],[18,22],[19,24]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/539187/2018_PHY_Ratified_Written_Marking-Key.PDF"
-                ]
-            }
-        ],
-        "2017": [
-            {
-                "questionLayout": [[1,3],[3,4],[5,5],[6,6],[7,7],[8,8],[9,10],[10,11],[11,12],[12,13],[13,14],[14,16],[15,20],[16,22],[17,24],[18,26],[19,30],[20,32],[21,34],[22,39]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/460723/WEB-ONLY-VERSION-Physics_exam_2017.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[4,3],[5,4],[6,5],[9,6],[11,7],[13,8],[14,10],[15,11],[16,12],[17,13],[18,14],[19,16],[20,18],[21,20],[22,22]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/460725/Ratified-_Physics_Marking-Key_2017.PDF"
-                ]
-            }
-        ],
-        "2016": [
-            {
-                "questionLayout": [[1,3],[3,4],[4,5],[5,6],[6,7],[7,8],[9,9],[11,10],[12,11],[13,12],[14,14],[15,16],[16,18],[17,20],[18,22],[19,25],[20,26],[21,29],[22,32]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/351445/WEB-VERSION-Physics-exam-2016.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[5,3],[6,4],[8,5],[11,6],[13,7],[14,8],[15,9],[16,10],[17,11],[18,13],[19,14],[20,15],[21,18],[22,19]],
-                "baseUrl": [
-                    "",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/351446/Physics-Ratified-Marking-Key-2016.PDF"
-                ]
-            }
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0012/1169589/2024-CHE-Ratified-Marking-Key-WebVersion.PDF"
         ]
-
-    },
-    "meth": {
-
-    },
-    "spec": {
-        "2024": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,7],[6,8],[7,10],[8,12],[9,3],[10,4],[11,6],[12,7],[13,8],[14,10],[15,12],[16,14],[17,16],[18,20]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1171474/2024-MAS-Examination-Calculator-Free-Web-Version.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1171473/2024-MAS-Examination-Calculator-Assumed-Web-Version.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[3,5],[4,6],[5,7],[6,8],[7,10],[8,11],[9,2],[10,4],[11,6],[12,8],[13,9],[14,11],[15,14],[16,17],[17,20],[18,23]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/1171476/2024-MAS-Ratified-Calc-Free-Marking-Key-Web-Version.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/1171475/2024-MAS-Ratified-Calc-Assumed-Marking-Key-Web-Version.PDF"
-                ]
-            }
+      }
+    ],
+    "2023": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [6, 4],
+          [10, 5],
+          [15, 6],
+          [20, 7],
+          [22, 8],
+          [24, 9],
+          [26, 10],
+          [27, 12],
+          [28, 13],
+          [29, 14],
+          [30, 15],
+          [31, 16],
+          [32, 17],
+          [33, 18],
+          [34, 19],
+          [35, 19],
+          [36, 22],
+          [37, 25],
+          [38, 28],
+          [39, 29]
         ],
-        "2023": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,8],[6,9],[7,10],[8,12],[9,3],[10,4],[11,6],[12,7],[13,8],[14,10],[15,12],[16,14],[17,16],[18,18],[19,20]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/1092740/2023-MAS-Examination-Calculator-Free.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/1092739/2023-MAS-Examination-Calculator-Assumed.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[3,4],[4,5],[5,8],[6,9],[7,10],[8,12],[9,2],[10,3],[11,5],[12,6],[13,8],[14,10],[15,14],[16,16],[17,18],[18,20],[19,22]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1092742/2023-MAS-Ratified-Marking-Key-Calculator-Free.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1092741/2023-MAS-Ratified-Marking-Key-Calculator-Assumed.PDF"
-                ]
-            }
-        ],
-        "2022": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,8],[6,10],[7,12],[8,3],[9,4],[10,6],[11,8],[12,10],[13,12],[14,14],[15,16],[16,17],[17,18],[18,20],[19,22]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0017/1042370/2022-MAS-Examination_Calculator-Free.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1042368/2022-MAS-Examination-Calculator-Assumed.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[3,4],[4,5],[5,7],[6,8],[7,10],[8,2],[9,3],[10,5],[11,7],[12,9],[13,11],[14,13],[15,15],[16,17],[17,18],[18,20],[19,22]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0018/1042371/2022-MAS-Calc-Free-Ratified-Marking-Key.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1042369/2022-MAS-Calc-Assumed-Ratified-Marking-Key.PDF"
-                ]
-            }
-        ],
-        "2021": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,6],[4,7],[5,8],[6,10],[7,11],[8,12],[9,3],[10,4],[11,6],[12,8],[13,9],[14,10],[15,12],[16,14],[17,16],[18,18],[19,20]], 
-                "baseUrl": [ 
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/941526/2021_MAS_Written_Examination_Calculator_Free.PDF", 
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/941525/2021_MAS_Written_Examination_Calculator_Assumed-Web-version.PDF" 
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,4],[3,6],[4,7],[5,8],[6,9],[7,10],[8,12],[9,2],[10,3],[11,5],[12,7],[13,8],[14,9],[15,12],[16,15],[17,18],[18,21],[19,23]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/941523/2021_MAS_Calc_Free_Ratified_Marking_Key.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/941522/2021_MAS_Calc_Assumed_Ratified_Marking_Key-Web-version.PDF"
-                ]
-            }
-        ],
-        "2020": [
-            {
-                "questionLayout": [[1,2],[2,3],[3,4],[4,5],[5,7],[6,9],[7,11],[8,12],[9,2],[10,3],[11,4],[12,5],[13,7],[14,8],[15,9],[16,11],[17,12],[18,13],[19,15],[20,17],[21,19]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/642492/2020_MAS_Written_Examination_Calculator_Free.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/642491/2020_MAS_Written_Examination_Calculator_Assumed.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[3,4],[4,5],[5,7],[6,9],[7,11],[8,12],[9,1],[10,2],[11,4],[12,5],[13,7],[14,8],[15,9],[16,10],[17,11],[18,12],[19,13],[20,15],[21,17]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/642488/2020_MAS_Calc_Free_Ratified_Marking_Key.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/642487/2020_MAS_Calc_Assumed_Ratified_Marking_Key.PDF"
-                ]
-            }
-        ],
-        "2019": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,7],[6,8],[7,9],[8,10],[9,11],[10,3],[11,4],[12,5],[13,7],[14,9],[15,11],[16,13],[17,15],[18,17],[19,19],[20,21],[21,23]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/590836/2019_MAS_Written_Examination_Calculator_Free.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/590835/2019_MAS_Written_Examination_Calculator_Assumed.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,1],[2,2],[3,3],[4,4],[5,7],[6,8],[7,9],[8,10],[9,13],[10,1],[11,2],[12,4],[13,6],[14,8],[15,10],[16,12],[17,14],[18,16],[19,18],[20,20],[21,22]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0011/590834/2019_MAS_Calc_Free_Ratified_Marking_Key.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0010/590833/2019_MAS_Calc_Assumed_Ratified_Marking_Key.PDF"
-                ]
-            }
-        ],
-        "2018": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,6],[4,8],[5,9],[6,10],[7,11],[8,12],[9,14],[10,3],[11,4],[12,6],[13,8],[14,10],[15,12],[16,14],[17,16],[18,18],[19,20],[20,22]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/538981/2018_MAS_Written_Examination_Calculator_Free.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/538980/2018_MAS_Written_Examination_Calculator_Assumed.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[3,5],[4,7],[5,8],[6,9],[7,10],[8,12],[9,14],[10,2],[11,3],[12,5],[13,7],[14,8],[15,11],[16,13],[17,15],[18,17],[19,20],[20,22]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/538979/2018_MAS_Ratified_Calc_Free_Written_Marking_Key.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0012/538977/2018_MAS_Ratified_Calc_Assumed_Written_Marking_Key.PDF"
-                ]
-            }
-        ],
-        "2017": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,8],[6,9],[7,10],[8,12],[9,3],[10,4],[11,6],[12,8],[13,10],[14,12],[15,14],[16,16],[17,18],[18,20],[19,22]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0020/459011/Mathematics_-Specialist_Calc_Free_exam_2017.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/459012/Maths_Specialist_Calc_Assumed_Exam_2017.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1, 2],[2, 3],[3, 4],[4, 5],[5, 7],[6, 8],[7, 10],[8, 13],[9, 2],[10, 3],[11, 5],[12, 7],[13, 9],[14, 11],[15, 13],[16, 15],[17, 17],[18, 20],[19, 24]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/459015/Ratified_Mathematics_Specialist_Calc_Free_Marking_Key_2017.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/459014/Ratified_Mathematics_Specialist_Calc_Assumed_-Marking_Key_2017.PDF"
-                ]
-                }
-        ],
-        "2016": [
-            {
-                "questionLayout": [[1,3],[2,4],[3,5],[4,6],[5,7],[6,8],[7,10],[8,12],[9,3],[10,4],[11,6],[12,8],[13,9],[14,10],[15,12],[16,14],[17,16],[18,18],[19,20],[20,22]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/344516/Maths-Specialist-Calc-Free-exam-2016.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/344517/Maths-Specialist-Calc-Assumed-Exam-2016.PDF"
-                ]
-            },
-            {
-                "questionLayout": [[1,2],[2,3],[3,5],[4,6],[5,7],[6,8],[7,10],[8,12],[9,2],[10,3],[11,6],[12,8],[13,10],[14,11],[15,14],[16,17],[17,19],[18,21],[19,23],[20,26]],
-                "baseUrl": [
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/344514/Maths-Specialist-Calc-Free-Ratified-Marking-Key-2016.PDF",
-                    "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0020/344513/Maths-Specialist-Calc-Assumed-Ratified-Marking-Key-2016.PDF"
-                ]
-            }
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/1091289/2023-CHE-Examination.PDF"
         ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 4],
+          [28, 5],
+          [29, 6],
+          [30, 7],
+          [31, 9],
+          [32, 10],
+          [34, 11],
+          [35, 12],
+          [36, 13],
+          [37, 15],
+          [38, 20],
+          [39, 21]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/1091290/2023-CHE-Ratified-Marking-Key.PDF"
+        ]
+      }
+    ],
+    "2022": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [5, 4],
+          [10, 5],
+          [14, 6],
+          [18, 7],
+          [22, 8],
+          [26, 9],
+          [27, 10],
+          [28, 13],
+          [29, 14],
+          [30, 16],
+          [31, 17],
+          [32, 19],
+          [33, 20],
+          [34, 22],
+          [35, 24],
+          [36, 28],
+          [37, 30],
+          [38, 32],
+          [39, 34]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0016/1042027/2022-CHE-Examination-Web-version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 4],
+          [28, 6],
+          [29, 7],
+          [30, 9],
+          [31, 10],
+          [32, 11],
+          [33, 12],
+          [34, 13],
+          [35, 14],
+          [36, 16],
+          [37, 17],
+          [38, 19],
+          [39, 21]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0017/1042028/2022-CHE-Ratified-Marking-Key-Web-Version.PDF"
+        ]
+      }
+    ],
+    "2021": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [3, 4],
+          [6, 5],
+          [10, 6],
+          [12, 7],
+          [14, 8],
+          [19, 9],
+          [24, 10],
+          [26, 11],
+          [27, 12],
+          [28, 14],
+          [29, 16],
+          [30, 17],
+          [31, 18],
+          [32, 20],
+          [33, 22],
+          [34, 23],
+          [35, 26],
+          [36, 28],
+          [37, 30],
+          [38, 34],
+          [39, 36]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/938842/2021_CHE_Written_Examination.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 4],
+          [28, 6],
+          [29, 7],
+          [30, 8],
+          [31, 9],
+          [32, 11],
+          [33, 13],
+          [34, 14],
+          [35, 17],
+          [36, 18],
+          [37, 19],
+          [38, 21],
+          [39, 22]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/938843/2021_CHE_Ratified_Marking_Key.PDF"
+        ]
+      }
+    ],
+    "2020": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [5, 4],
+          [8, 5],
+          [10, 6],
+          [12, 7],
+          [15, 8],
+          [19, 9],
+          [21, 10],
+          [23, 11],
+          [24, 12],
+          [26, 13],
+          [27, 14],
+          [28, 15],
+          [29, 16],
+          [30, 18],
+          [31, 20],
+          [32, 22],
+          [33, 24],
+          [34, 26],
+          [35, 27],
+          [36, 30],
+          [37, 32],
+          [38, 35],
+          [39, 37],
+          [40, 39]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0018/643140/2020_CHE_Written_Examination-Web-version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 4],
+          [28, 6],
+          [29, 7],
+          [30, 8],
+          [31, 9],
+          [32, 11],
+          [33, 13],
+          [34, 14],
+          [35, 15],
+          [36, 17],
+          [37, 19],
+          [38, 22],
+          [39, 23],
+          [40, 24]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0019/643141/2020_CHE_Ratified_Marking_Key.PDF"
+        ]
+      }
+    ],
+    "2019": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [3, 4],
+          [5, 5],
+          [8, 6],
+          [12, 7],
+          [14, 8],
+          [19, 9],
+          [22, 10],
+          [26, 11],
+          [27, 12],
+          [28, 14],
+          [29, 15],
+          [30, 16],
+          [31, 18],
+          [32, 21],
+          [33, 22],
+          [34, 24],
+          [35, 26],
+          [36, 28],
+          [37, 32],
+          [38, 36],
+          [39, 40],
+          [41, 45]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/592224/2019_CHE_Written_Examination_Web_Version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 4],
+          [28, 5],
+          [29, 6],
+          [30, 7],
+          [31, 8],
+          [32, 11],
+          [33, 12],
+          [34, 13],
+          [35, 15],
+          [36, 17],
+          [37, 20],
+          [38, 23],
+          [39, 26],
+          [40, 28],
+          [41, 30]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/592225/2019-CHE_Ratified_Marking_Key_Web_Version.PDF"
+        ]
+      }
+    ],
+    "2018": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [4, 4],
+          [8, 5],
+          [12, 6],
+          [14, 7],
+          [17, 8],
+          [19, 9],
+          [20, 10],
+          [23, 11],
+          [25, 12],
+          [26, 13],
+          [27, 14],
+          [28, 16],
+          [29, 18],
+          [30, 20],
+          [31, 22],
+          [32, 23],
+          [33, 24],
+          [34, 27],
+          [35, 28],
+          [36, 30],
+          [37, 33],
+          [38, 35],
+          [39, 38],
+          [40, 41]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0010/542998/2018_CHE_Written_Examination_web-version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 5],
+          [28, 7],
+          [29, 8],
+          [30, 10],
+          [31, 11],
+          [32, 12],
+          [33, 13],
+          [34, 16],
+          [35, 17],
+          [36, 19],
+          [37, 21],
+          [38, 23],
+          [39, 26],
+          [40, 29]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/542997/2018_Marking_Key.PDF"
+        ]
+      }
+    ],
+    "2017": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [5, 4],
+          [8, 5],
+          [12, 6],
+          [15, 7],
+          [19, 8],
+          [22, 9],
+          [26, 10],
+          [27, 12],
+          [28, 13],
+          [29, 14],
+          [30, 15],
+          [31, 16],
+          [32, 18],
+          [33, 19],
+          [34, 20],
+          [35, 22],
+          [36, 24],
+          [37, 28],
+          [38, 32],
+          [39, 34],
+          [40, 38]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/458799/Chemistry_Examination_2017.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 5],
+          [28, 6],
+          [29, 7],
+          [30, 8],
+          [31, 9],
+          [32, 10],
+          [33, 11],
+          [34, 13],
+          [35, 14],
+          [36, 15],
+          [37, 18],
+          [38, 22],
+          [39, 24],
+          [40, 27]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/458800/Ratified-Chemistry-Marking-key-2017.PDF"
+        ]
+      }
+    ],
+    "2016": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [4, 4],
+          [8, 5],
+          [12, 6],
+          [17, 7],
+          [19, 8],
+          [21, 9],
+          [23, 10],
+          [26, 11],
+          [27, 12],
+          [28, 13],
+          [29, 14],
+          [30, 16],
+          [31, 17],
+          [32, 18],
+          [33, 19],
+          [34, 20],
+          [35, 21],
+          [36, 22],
+          [37, 24],
+          [38, 25],
+          [39, 28],
+          [40, 30],
+          [41, 32],
+          [42, 34]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0014/344111/Chemistry-Examination-2016.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [26, 3],
+          [27, 4],
+          [28, 5],
+          [29, 6],
+          [30, 8],
+          [32, 9],
+          [33, 10],
+          [34, 11],
+          [35, 12],
+          [36, 13],
+          [37, 15],
+          [38, 16],
+          [39, 18],
+          [40, 20],
+          [41, 21],
+          [42, 24]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/344109/Chemistry-Ratified-Marking-Key-2016.PDF"
+        ]
+      }
+    ]
+  },
+  "econs": {},
+  "phys": {
+    "2024": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 6],
+          [5, 6],
+          [6, 7],
+          [7, 8],
+          [8, 9],
+          [9, 10],
+          [10, 11],
+          [11, 12],
+          [12, 13],
+          [13, 16],
+          [14, 18],
+          [15, 20],
+          [16, 17],
+          [17, 19],
+          [18, 21],
+          [19, 23]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0019/1172035/2024-PHY-Examination-Web-Version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 2],
+          [3, 3],
+          [4, 4],
+          [5, 4],
+          [6, 5],
+          [7, 5],
+          [8, 6],
+          [9, 7],
+          [10, 8],
+          [11, 8],
+          [12, 9],
+          [13, 11],
+          [14, 13],
+          [15, 15],
+          [16, 17],
+          [17, 20],
+          [18, 23]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0020/1172036/2024-PHY-Ratified-Marking-Key-Web-Version.PDF"
+        ]
+      }
+    ],
+    "2023": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [5, 6],
+          [6, 7],
+          [7, 8],
+          [8, 9],
+          [9, 10],
+          [10, 11],
+          [12, 12],
+          [13, 14],
+          [14, 18],
+          [15, 20],
+          [16, 22],
+          [17, 26],
+          [18, 28],
+          [19, 30],
+          [20, 34]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/1092721/2023-PHY-Examination-Web-Version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 4],
+          [6, 5],
+          [8, 6],
+          [11, 7],
+          [13, 8],
+          [14, 10],
+          [15, 11],
+          [16, 13],
+          [17, 15],
+          [18, 16],
+          [19, 18],
+          [20, 20]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/1092722/2023-PHY-Ratified-Marking-Key.PDF"
+        ]
+      }
+    ],
+    "2022": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 6],
+          [5, 7],
+          [6, 8],
+          [7, 9],
+          [8, 10],
+          [9, 12],
+          [10, 13],
+          [11, 14],
+          [12, 16],
+          [13, 18],
+          [14, 20],
+          [15, 22],
+          [16, 26],
+          [17, 30],
+          [18, 32],
+          [19, 38]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1042395/2022-PHY-Examination-Web-version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [4, 3],
+          [6, 4],
+          [8, 5],
+          [9, 7],
+          [11, 8],
+          [12, 9],
+          [13, 10],
+          [14, 11],
+          [15, 13],
+          [16, 15],
+          [17, 16],
+          [18, 17],
+          [19, 19]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1042396/2022-PHY-Ratified-Marking-key-Web-version.PDF"
+        ]
+      }
+    ],
+    "2021": [
+      {
+        "questionLayout": [
+          [1, 4],
+          [3, 5],
+          [4, 6],
+          [6, 7],
+          [7, 8],
+          [9, 9],
+          [11, 10],
+          [12, 11],
+          [13, 12],
+          [14, 14],
+          [15, 16],
+          [16, 18],
+          [17, 22],
+          [18, 24],
+          [19, 26],
+          [20, 28],
+          [21, 32]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/941534/2021_PHY_Written_Examination_Web_version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [4, 3],
+          [6, 4],
+          [9, 5],
+          [11, 6],
+          [12, 7],
+          [13, 8],
+          [14, 9],
+          [15, 11],
+          [16, 12],
+          [17, 15],
+          [18, 17],
+          [19, 18],
+          [20, 19],
+          [21, 21]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/941533/2021-PHY-Ratified-Marking-Key.PDF"
+        ]
+      }
+    ],
+    "2020": [
+      {
+        "questionLayout": [
+          [1, 4],
+          [2, 5],
+          [4, 6],
+          [5, 7],
+          [7, 8],
+          [8, 9],
+          [9, 10],
+          [10, 11],
+          [11, 12],
+          [12, 13],
+          [13, 14],
+          [14, 16],
+          [15, 18],
+          [16, 19],
+          [17, 21],
+          [18, 23],
+          [19, 26],
+          [20, 30],
+          [20, 32],
+          [21, 34]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/647373/2020_PHY_Written_Examination_Web_version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [5, 4],
+          [8, 5],
+          [11, 6],
+          [13, 7],
+          [14, 8],
+          [15, 10],
+          [16, 11],
+          [17, 12],
+          [18, 13],
+          [19, 14],
+          [20, 16],
+          [21, 18]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/647374/2020_PHY_Ratified_Marking_Key.PDF"
+        ]
+      }
+    ],
+    "2019": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 6],
+          [6, 7],
+          [7, 8],
+          [8, 9],
+          [10, 10],
+          [11, 11],
+          [12, 12],
+          [13, 14],
+          [14, 16],
+          [15, 18],
+          [16, 20],
+          [17, 22],
+          [18, 26],
+          [19, 28],
+          [20, 32]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/593114/2019_PHY_Written_Examination_web_version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [4, 3],
+          [7, 4],
+          [10, 5],
+          [11, 6],
+          [12, 7],
+          [13, 8],
+          [14, 9],
+          [15, 11],
+          [16, 12],
+          [17, 13],
+          [18, 15],
+          [19, 16],
+          [20, 18]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/593115/2019-PHY-Ratified-Marking-Key.PDF"
+        ]
+      }
+    ],
+    "2018": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 6],
+          [5, 7],
+          [6, 8],
+          [7, 9],
+          [8, 10],
+          [9, 11],
+          [10, 12],
+          [11, 14],
+          [12, 17],
+          [13, 18],
+          [14, 20],
+          [15, 22],
+          [16, 26],
+          [17, 28],
+          [18, 30],
+          [19, 33]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/539188/2018_PHY_Written_Examination.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 4],
+          [4, 5],
+          [5, 6],
+          [7, 7],
+          [8, 8],
+          [9, 9],
+          [10, 10],
+          [11, 12],
+          [12, 14],
+          [13, 15],
+          [14, 16],
+          [15, 17],
+          [16, 19],
+          [17, 21],
+          [18, 22],
+          [19, 24]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/539187/2018_PHY_Ratified_Written_Marking-Key.PDF"
+        ]
+      }
+    ],
+    "2017": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [3, 4],
+          [5, 5],
+          [6, 6],
+          [7, 7],
+          [8, 8],
+          [9, 10],
+          [10, 11],
+          [11, 12],
+          [12, 13],
+          [13, 14],
+          [14, 16],
+          [15, 20],
+          [16, 22],
+          [17, 24],
+          [18, 26],
+          [19, 30],
+          [20, 32],
+          [21, 34],
+          [22, 39]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/460723/WEB-ONLY-VERSION-Physics_exam_2017.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [4, 3],
+          [5, 4],
+          [6, 5],
+          [9, 6],
+          [11, 7],
+          [13, 8],
+          [14, 10],
+          [15, 11],
+          [16, 12],
+          [17, 13],
+          [18, 14],
+          [19, 16],
+          [20, 18],
+          [21, 20],
+          [22, 22]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/460725/Ratified-_Physics_Marking-Key_2017.PDF"
+        ]
+      }
+    ],
+    "2016": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [3, 4],
+          [4, 5],
+          [5, 6],
+          [6, 7],
+          [7, 8],
+          [9, 9],
+          [11, 10],
+          [12, 11],
+          [13, 12],
+          [14, 14],
+          [15, 16],
+          [16, 18],
+          [17, 20],
+          [18, 22],
+          [19, 25],
+          [20, 26],
+          [21, 29],
+          [22, 32]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/351445/WEB-VERSION-Physics-exam-2016.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [5, 3],
+          [6, 4],
+          [8, 5],
+          [11, 6],
+          [13, 7],
+          [14, 8],
+          [15, 9],
+          [16, 10],
+          [17, 11],
+          [18, 13],
+          [19, 14],
+          [20, 15],
+          [21, 18],
+          [22, 19]
+        ],
+        "baseUrl": [
+          "",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/351446/Physics-Ratified-Marking-Key-2016.PDF"
+        ]
+      }
+    ]
+  },
+
+  "meth": {
+    "2024": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 6],
+          [4, 7],
+          [5, 8],
+          [6, 10],
+          [7, 12],
+          [8, 4],
+          [9, 6],
+          [10, 8],
+          [11, 10],
+          [12, 12],
+          [13, 14],
+          [14, 17],
+          [15, 20],
+          [16, 22],
+          [17, 24]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/1169531/2024-MAM-Examination-Calculator-Free-Web-Version.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1169529/2024-MAM-Examination-Calculator-Assumed-Web-Version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 5],
+          [4, 6],
+          [5, 8],
+          [6, 10],
+          [7, 13],
+          [8, 2],
+          [9, 4],
+          [10, 5],
+          [11, 7],
+          [12, 9],
+          [13, 11],
+          [14, 13],
+          [15, 15],
+          [16, 17],
+          [17, 19]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0010/1169533/2024-MAM-Ratified-Calc-Free-Marking-Key-Web-Version.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/1169532/2024-MAM-Ratified-Calc-Assumed-Marking-Key-Web-Version.PDF"
+        ]
+      }
+    ],
+
+    "2023": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 6],
+          [4, 8],
+          [5, 10],
+          [6, 4],
+          [7, 6],
+          [8, 8],
+          [9, 10],
+          [10, 12],
+          [11, 14],
+          [12, 17],
+          [13, 20],
+          [14, 22]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/1091561/2023-MAM-Examination-Calculator-Free.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/1091560/2023-MAM-Examination-Calculator-Assumed.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 4],
+          [3, 7],
+          [4, 10],
+          [5, 12],
+          [6, 2],
+          [7, 4],
+          [8, 6],
+          [9, 8],
+          [10, 10],
+          [11, 11],
+          [12, 13],
+          [13, 16],
+          [14, 18]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1091562/2023-MAM-Ratified-Marking-Key-Calculator-Free.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1091563/2023-MAM-Ratified-Marking-Key-Calculator-Assumed.PDF"
+        ]
+      }
+    ],
+
+    "2022": [
+      {
+        "questionLayout": [
+          [1, 4],
+          [2, 5],
+          [3, 6],
+          [4, 8],
+          [5, 11],
+          [6, 12],
+          [7, 4],
+          [8, 6],
+          [9, 8],
+          [10, 11],
+          [11, 12],
+          [12, 14],
+          [13, 16],
+          [14, 18],
+          [15, 21]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0017/1042361/2022-MAM-Examination-Calculator-Free.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1042359/2022-MAM-Examination-Calculator-Assumed.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 4],
+          [3, 5],
+          [4, 8],
+          [5, 12],
+          [6, 13],
+          [7, 2],
+          [8, 4],
+          [9, 6],
+          [10, 9],
+          [11, 11],
+          [12, 13],
+          [13, 16],
+          [14, 18],
+          [15, 22]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0018/1042362/2022-MAM-Ratified-Calc-Free-Marking-Key.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0016/1042360/2022-MAM-Ratified-Calc-Assumed-Marking-Key.PDF"
+        ]
+      }
+    ],
+
+    "2021": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 6],
+          [5, 7],
+          [6, 8],
+          [7, 10],
+          [8, 3],
+          [9, 4],
+          [10, 6],
+          [11, 8],
+          [12, 10],
+          [13, 12],
+          [14, 14],
+          [15, 15],
+          [16, 16],
+          [17, 18]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/941319/2021_MAM_Written_Examination_Calculator_Free.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/941318/2021_MAM_Written_Examination_Calculator_Assumed.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 5],
+          [4, 6],
+          [5, 7],
+          [6, 8],
+          [7, 11],
+          [8, 2],
+          [9, 4],
+          [10, 6],
+          [11, 8],
+          [12, 11],
+          [13, 13],
+          [14, 15],
+          [15, 16],
+          [16, 17],
+          [17, 19]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/941316/2021_MAM_Calc_Free_Ratified_Marking_Key.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/941315/2021_MAM_Calc_Assumed_Ratified_Marking_Key.PDF"
+        ]
+      }
+    ],
+
+    "2020": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 6],
+          [5, 8],
+          [6, 9],
+          [7, 10],
+          [8, 3],
+          [9, 4],
+          [10, 5],
+          [11, 6],
+          [12, 8],
+          [13, 10],
+          [14, 11],
+          [15, 12],
+          [16, 14],
+          [17, 16]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0010/643735/2020_MAM_Written_Examination_Calculator_Free.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/643730/2020_MAM_Written_Examination_Calculator_Assumed.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 4],
+          [4, 5],
+          [5, 7],
+          [6, 8],
+          [7, 9],
+          [8, 2],
+          [9, 3],
+          [10, 4],
+          [11, 6],
+          [12, 8],
+          [13, 11],
+          [14, 12],
+          [15, 13],
+          [16, 15],
+          [17, 17]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0011/643736/2020_MAM_Calc_Free_Ratified_Marking_Key.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/643734/2020_MAM_Calc_Assumed_Marking_key.PDF"
+        ]
+      }
+    ],
+
+    "2019": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 6],
+          [5, 8],
+          [6, 9],
+          [7, 10],
+          [8, 3],
+          [9, 4],
+          [10, 5],
+          [11, 6],
+          [12, 7],
+          [13, 8],
+          [14, 9],
+          [15, 10],
+          [16, 12],
+          [17, 14],
+          [18, 16]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/590832/2019_MAM_Written_Examination_Calculator_Free.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/590831/2019_MAM_Written_Examination_Calculator_Assumed.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 4],
+          [4, 6],
+          [5, 8],
+          [6, 9],
+          [7, 11],
+          [8, 2],
+          [9, 4],
+          [10, 6],
+          [11, 8],
+          [12, 9],
+          [13, 11],
+          [14, 12],
+          [15, 13],
+          [16, 16],
+          [17, 18],
+          [18, 21]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/590830/2019_MAM_Calc_Free_Ratified_Marking_Key.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/590829/2019_MAM_Calc_Assumed_-Ratified_Marking_key.PDF"
+        ]
+      }
+    ],
+
+    "2018": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 7],
+          [5, 7],
+          [6, 8],
+          [7, 10],
+          [8, 3],
+          [9, 4],
+          [10, 5],
+          [11, 6],
+          [12, 8],
+          [13, 10],
+          [14, 11],
+          [15, 12],
+          [16, 13],
+          [17, 14],
+          [18, 16]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/538971/2018_MAM_Written_Examination_Calculator_Free.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/538970/2018_MAM_Written_Examination_Calculator_Assumed.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 4],
+          [3, 5],
+          [4, 7],
+          [5, 8],
+          [6, 9],
+          [7, 11],
+          [8, 2],
+          [9, 4],
+          [10, 6],
+          [11, 7],
+          [12, 9],
+          [13, 11],
+          [14, 13],
+          [15, 14],
+          [16, 15],
+          [17, 16],
+          [18, 18]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/538969/2018_MAM_Calc_Free_Ratified_Marking_Key.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0012/538968/2018_MAM_Calc_Assumed_Ratified_-Marking_key.PDF"
+        ]
+      }
+    ],
+
+    "2017": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 5],
+          [5, 6],
+          [6, 7],
+          [7, 8],
+          [8, 9],
+          [9, 10],
+          [10, 3],
+          [11, 4],
+          [12, 6],
+          [13, 8],
+          [14, 9],
+          [15, 10],
+          [16, 12],
+          [17, 13],
+          [18, 14],
+          [19, 16],
+          [20, 18]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/459004/Mathematics_Methods_Calc_Free_exam_2017.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/459003/Mathematical_Methods_Calc_Assumed_Exam_2017.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 5],
+          [4, 5],
+          [5, 6],
+          [6, 8],
+          [7, 9],
+          [8, 10],
+          [9, 11],
+          [10, 2],
+          [11, 3],
+          [12, 5],
+          [13, 7],
+          [14, 9],
+          [15, 11],
+          [16, 13],
+          [17, 14],
+          [18, 15],
+          [19, 17],
+          [20, 20]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/459006/Ratified_Mathematics_Methods_Calc_Free_marking_Key_2017.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/459005/Ratified_Mathematics_Methods_calc_assumed_Marking_key_2017.PDF"
+        ]
+      }
+    ],
+
+    "2016": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 7],
+          [5, 8],
+          [6, 9],
+          [7, 10],
+          [8, 12],
+          [9, 3],
+          [10, 4],
+          [11, 6],
+          [12, 6],
+          [13, 7],
+          [14, 8],
+          [15, 10],
+          [16, 11],
+          [17, 12],
+          [18, 13],
+          [19, 14],
+          [20, 16],
+          [21, 18]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0020/344504/Mathematical-Methods-Exam-Calc-Free-2016.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0019/344503/Mathematical-Methods-Calc-Assumed-Exam-2016.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 4],
+          [4, 6],
+          [5, 8],
+          [6, 9],
+          [7, 10],
+          [8, 11],
+          [9, 2],
+          [10, 4],
+          [11, 6],
+          [12, 7],
+          [13, 8],
+          [14, 10],
+          [15, 12],
+          [16, 14],
+          [17, 16],
+          [18, 17],
+          [19, 18],
+          [20, 21],
+          [21, 24]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0019/344512/Mathematics-Methods-Calc-Free-Ratified-Marking-Key-2016.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0018/344511/Mathematics-Methods-Calc-Assumed-Ratified-Marking-Key-2016.PDF"
+        ]
+      }
+    ]
+  },
+
+  "spec": {
+    "2024": [
+      {
+        "questionLayout": [
+          [1, 3],
+          [2, 4],
+          [3, 5],
+          [4, 6],
+          [5, 7],
+          [6, 8],
+          [7, 10],
+          [8, 12],
+          [9, 3],
+          [10, 4],
+          [11, 6],
+          [12, 7],
+          [13, 8],
+          [14, 10],
+          [15, 12],
+          [16, 14],
+          [17, 16],
+          [18, 20]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1171474/2024-MAS-Examination-Calculator-Free-Web-Version.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1171473/2024-MAS-Examination-Calculator-Assumed-Web-Version.PDF"
+        ]
+      },
+      {
+        "questionLayout": [
+          [1, 2],
+          [2, 3],
+          [3, 5],
+          [4, 6],
+          [5, 7],
+          [6, 8],
+          [7, 10],
+          [8, 11],
+          [9, 2],
+          [10, 4],
+          [11, 6],
+          [12, 8],
+          [13, 9],
+          [14, 11],
+          [15, 14],
+          [16, 17],
+          [17, 20],
+          [18, 23]
+        ],
+        "baseUrl": [
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/1171476/2024-MAS-Ratified-Calc-Free-Marking-Key-Web-Version.PDF",
+          "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/1171475/2024-MAS-Ratified-Calc-Assumed-Marking-Key-Web-Version.PDF"
+        ]
+      }
+    ]
+  },
+
+  "2023": [
+    {
+      "questionLayout": [
+        [1, 3],
+        [2, 4],
+        [3, 5],
+        [4, 6],
+        [5, 8],
+        [6, 9],
+        [7, 10],
+        [8, 12],
+        [9, 3],
+        [10, 4],
+        [11, 6],
+        [12, 7],
+        [13, 8],
+        [14, 10],
+        [15, 12],
+        [16, 14],
+        [17, 16],
+        [18, 18],
+        [19, 20]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/1092740/2023-MAS-Examination-Calculator-Free.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/1092739/2023-MAS-Examination-Calculator-Assumed.PDF"
+      ]
+    },
+    {
+      "questionLayout": [
+        [1, 2],
+        [2, 3],
+        [3, 4],
+        [4, 5],
+        [5, 8],
+        [6, 9],
+        [7, 10],
+        [8, 12],
+        [9, 2],
+        [10, 3],
+        [11, 5],
+        [12, 6],
+        [13, 8],
+        [14, 10],
+        [15, 14],
+        [16, 16],
+        [17, 18],
+        [18, 20],
+        [19, 22]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1092742/2023-MAS-Ratified-Marking-Key-Calculator-Free.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1092741/2023-MAS-Ratified-Marking-Key-Calculator-Assumed.PDF"
+      ]
     }
+  ],
+
+  "2022": [
+    {
+      "questionLayout": [
+        [1, 3],
+        [2, 4],
+        [3, 5],
+        [4, 6],
+        [5, 8],
+        [6, 10],
+        [7, 12],
+        [9, 4],
+        [10, 6],
+        [11, 8],
+        [12, 10],
+        [13, 12],
+        [14, 14],
+        [15, 16],
+        [16, 17],
+        [17, 18],
+        [18, 20],
+        [19, 22]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0017/1042370/2022-MAS-Examination_Calculator-Free.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/1042368/2022-MAS-Examination-Calculator-Assumed.PDF"
+      ]
+    },
+    {
+      "questionLayout": [
+        [1, 2],
+        [2, 3],
+        [3, 4],
+        [4, 5],
+        [5, 7],
+        [6, 8],
+        [7, 10],
+        [9, 3],
+        [10, 5],
+        [11, 7],
+        [12, 9],
+        [13, 11],
+        [14, 13],
+        [15, 15],
+        [16, 17],
+        [17, 18],
+        [18, 20],
+        [19, 22]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0018/1042371/2022-MAS-Calc-Free-Ratified-Marking-Key.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/1042369/2022-MAS-Calc-Assumed-Ratified-Marking-Key.PDF"
+      ]
+    }
+  ],
+
+  "2021": [
+    {
+      "questionLayout": [
+        [1, 3],
+        [2, 4],
+        [3, 6],
+        [4, 7],
+        [5, 8],
+        [6, 10],
+        [7, 11],
+        [9, 3],
+        [10, 4],
+        [11, 6],
+        [12, 8],
+        [13, 9],
+        [14, 10],
+        [15, 12],
+        [16, 14],
+        [17, 16],
+        [18, 18],
+        [19, 20]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/941526/2021_MAS_Written_Examination_Calculator_Free.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/941525/2021_MAS_Written_Examination_Calculator_Assumed-Web-version.PDF"
+      ]
+    },
+    {
+      "questionLayout": [
+        [1, 2],
+        [2, 4],
+        [3, 6],
+        [4, 7],
+        [5, 8],
+        [6, 9],
+        [7, 10],
+        [9, 2],
+        [10, 3],
+        [11, 5],
+        [12, 7],
+        [13, 8],
+        [14, 9],
+        [15, 12],
+        [16, 15],
+        [17, 18],
+        [18, 21],
+        [19, 23]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/941523/2021_MAS_Calc_Free_Ratified_Marking_Key.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/941522/2021_MAS_Calc_Assumed_Ratified_Marking_Key-Web-version.PDF"
+      ]
+    }
+  ],
+
+  "2020": [
+    {
+      "questionLayout": [
+        [1, 3],
+        [2, 4],
+        [3, 5],
+        [4, 6],
+        [5, 8],
+        [6, 10],
+        [7, 12],
+        [9, 3],
+        [10, 4],
+        [11, 5],
+        [12, 6],
+        [13, 8],
+        [14, 9],
+        [15, 10],
+        [16, 12],
+        [17, 13],
+        [18, 14],
+        [19, 16],
+        [20, 18],
+        [21, 20]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0009/642492/2020_MAS_Written_Examination_Calculator_Free.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0008/642491/2020_MAS_Written_Examination_Calculator_Assumed.PDF"
+      ]
+    },
+    {
+      "questionLayout": [
+        [1, 2],
+        [2, 3],
+        [3, 4],
+        [4, 5],
+        [5, 7],
+        [6, 9],
+        [7, 11],
+        [9, 2],
+        [10, 3],
+        [11, 5],
+        [12, 6],
+        [13, 8],
+        [14, 9],
+        [15, 10],
+        [16, 11],
+        [17, 12],
+        [18, 13],
+        [19, 15],
+        [20, 18],
+        [21, 20]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/642488/2020_MAS_Calc_Free_Ratified_Marking_Key.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/642487/2020_MAS_Calc_Assumed_Ratified_Marking_Key.PDF"
+      ]
+    }
+  ],
+
+  "2019": [
+    {
+      "questionLayout": [
+        [1, 3],
+        [2, 4],
+        [3, 5],
+        [4, 6],
+        [5, 7],
+        [6, 8],
+        [7, 9],
+        [8, 10],
+        [9, 12],
+        [10, 3],
+        [11, 4],
+        [12, 6],
+        [13, 8],
+        [14, 10],
+        [15, 12],
+        [16, 14],
+        [17, 16],
+        [18, 18],
+        [19, 20]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0004/590836/2019_MAS_Written_Examination_Calculator_Free.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/590835/2019_MAS_Written_Examination_Calculator_Assumed.PDF"
+      ]
+    },
+    {
+      "questionLayout": [
+        [1, 2],
+        [2, 3],
+        [3, 4],
+        [4, 5],
+        [5, 8],
+        [6, 9],
+        [7, 10],
+        [8, 12],
+        [9, 14],
+        [10, 2],
+        [11, 3],
+        [12, 5],
+        [13, 7],
+        [14, 9],
+        [15, 11],
+        [16, 13],
+        [17, 16],
+        [18, 19],
+        [19, 22]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0011/590834/2019_MAS_Calc_Free_Ratified_Marking_Key.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0010/590833/2019_MAS_Calc_Assumed_Ratified_Marking_Key.PDF"
+      ]
+    }
+  ],
+
+  "2018": [
+    {
+      "questionLayout": [
+        [1, 3],
+        [2, 4],
+        [3, 6],
+        [4, 8],
+        [5, 9],
+        [6, 10],
+        [7, 11],
+        [8, 12],
+        [9, 14],
+        [10, 3],
+        [11, 4],
+        [12, 6],
+        [13, 8],
+        [14, 10],
+        [15, 12],
+        [16, 14],
+        [17, 16],
+        [18, 18],
+        [19, 20],
+        [20, 22]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0007/538981/2018_MAS_Written_Examination_Calculator_Free.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/538980/2018_MAS_Written_Examination_Calculator_Assumed.PDF"
+      ]
+    },
+    {
+      "questionLayout": [
+        [1, 2],
+        [2, 3],
+        [3, 5],
+        [4, 7],
+        [5, 8],
+        [6, 9],
+        [7, 10],
+        [8, 12],
+        [9, 14],
+        [10, 2],
+        [11, 3],
+        [12, 5],
+        [13, 7],
+        [14, 8],
+        [15, 11],
+        [16, 13],
+        [17, 15],
+        [18, 17],
+        [19, 20],
+        [20, 22]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/538979/2018_MAS_Ratified_Calc_Free_Written_Marking_Key.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0012/538977/2018_MAS_Ratified_Calc_Assumed_Written_Marking_Key.PDF"
+      ]
+    }
+  ],
+
+  "2017": [
+    {
+      "questionLayout": [
+        [1, 3],
+        [2, 4],
+        [3, 5],
+        [4, 6],
+        [5, 8],
+        [6, 9],
+        [7, 10],
+        [8, 12],
+        [9, 3],
+        [10, 4],
+        [11, 6],
+        [12, 8],
+        [13, 10],
+        [14, 12],
+        [15, 14],
+        [16, 16],
+        [17, 18],
+        [18, 20],
+        [19, 22]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0020/459011/Mathematics_-Specialist_Calc_Free_exam_2017.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/459012/Maths_Specialist_Calc_Assumed_Exam_2017.PDF"
+      ]
+    },
+    {
+      "questionLayout": [
+        [1, 2],
+        [2, 3],
+        [3, 4],
+        [4, 5],
+        [5, 7],
+        [6, 8],
+        [7, 10],
+        [8, 13],
+        [9, 2],
+        [10, 3],
+        [11, 5],
+        [12, 7],
+        [13, 9],
+        [14, 11],
+        [15, 13],
+        [16, 15],
+        [17, 17],
+        [18, 20],
+        [19, 24]
+      ],
+      "baseUrl": [
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/459015/Ratified_Mathematics_Specialist_Calc_Free_Marking_Key_2017.PDF",
+        "https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/459014/Ratified_Mathematics_Specialist_Calc_Assumed_-Marking_Key_2017.PDF"
+      ]
+    }
+  ],
+
+	"2016": [
+		{
+			"questionLayout": [
+				[1, 3],
+				[2, 4],
+				[3, 5],
+				[4, 6],
+				[5, 7],
+				[6, 8],
+				[7, 10],
+				[8, 12],
+				[9, 3],
+				[10, 4],
+				[11, 6],
+				[12, 8],
+				[13, 9],
+				[14, 10],
+				[15, 12],
+				[16, 14],
+				[17, 16],
+				[18, 18],
+				[19, 20],
+				[20, 22]
+			],
+			"baseUrl": [
+				"https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0005/344516/Maths-Specialist-Calc-Free-exam-2016.PDF",
+				"https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0006/344517/Maths-Specialist-Calc-Assumed-Exam-2016.PDF"
+			]
+		},
+		{
+			"questionLayout": [
+				[1, 2],
+				[2, 3],
+				[3, 5],
+				[4, 6],
+				[5, 7],
+				[6, 8],
+				[7, 10],
+				[8, 12],
+				[9, 2],
+				[10, 3],
+				[11, 6],
+				[12, 8],
+				[13, 10],
+				[14, 11],
+				[15, 14],
+				[16, 17],
+				[17, 19],
+				[18, 21],
+				[19, 23],
+				[20, 26]
+			],
+			"baseUrl": [
+				"https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0003/344514/Maths-Specialist-Calc-Free-Ratified-Marking-Key-2016.PDF",
+				"https://senior-secondary.scsa.wa.edu.au/__data/assets/pdf_file/0020/344513/Maths-Specialist-Calc-Assumed-Ratified-Marking-Key-2016.PDF"
+			]
+		}
+	]
 }
