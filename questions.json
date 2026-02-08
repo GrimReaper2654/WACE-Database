@@ -9855,7 +9855,15 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Product Rule",
+                "Logarithms",
+                "Logarithm Laws"
+            ]
         },
         {
             "id": "WACE2024Q2",
@@ -9863,7 +9871,14 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Differentiation",
+                "Antidifferentiation",
+                "Applications of Calculus",
+                "Rectilinear Motion"
+            ]
         },
         {
             "id": "WACE2024Q3",
@@ -9871,7 +9886,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Probability",
+                "Discrete Random Variables"
+            ]
         },
         {
             "id": "WACE2024Q4",
@@ -9879,7 +9898,15 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Probability",
+                "Continuous Random Variables",
+                "Calculus",
+                "Binomial Distribution",
+                "Discrete Random Variables",
+                "Antidifferentiation"
+            ]
         },
         {
             "id": "WACE2024Q5",
@@ -9887,7 +9914,14 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Logarithms",
+                "Logarithm Laws",
+                "Solving",
+                "Functions",
+                "Logarithmic"
+            ]
         },
         {
             "id": "WACE2024Q6",
@@ -9895,7 +9929,15 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Graphing",
+                "Calculus",
+                "Area Under a Curve",
+                "Antidifferentiation",
+                "Functions",
+                "Trignometric"
+            ]
         },
         {
             "id": "WACE2024Q7",
@@ -9903,7 +9945,14 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Differentiation",
+                "Applications of Calculus",
+                "Increments Formula",
+                "Quotient Rule"
+            ]
         },
         {
             "id": "WACE2024Q8",
@@ -9911,7 +9960,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Functions",
+                "Exponential",
+                "Calculus",
+                "Differentiation"
+            ]
         },
         {
             "id": "WACE2024Q9",
@@ -9919,7 +9974,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Interval Proportions",
+                "Confidence Intervals",
+                "Probability",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2024Q10",
@@ -9927,7 +9988,15 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Interval Proportions",
+                "Random Sampling",
+                "Sample Proportions",
+                "Confidence Intervals",
+                "Probability",
+                "Normal Distribution"
+            ]
         },
         {
             "id": "WACE2024Q11",
@@ -9935,7 +10004,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Interval Proportions",
+                "Sample Proportions",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2024Q12",
@@ -9943,7 +10017,14 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Differentiation",
+                "Applications of Calculus",
+                "Second Derivative",
+                "Optimisation"
+            ]
         },
         {
             "id": "WACE2024Q13",
@@ -9951,7 +10032,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Probability",
+                "Normal Distribution",
+                "Z Scores"
+            ]
         },
         {
             "id": "WACE2024Q14",
@@ -9959,7 +10045,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Probability",
+                "Discrete Random Variables",
+                "Binomial Distribution"
+            ]
         },
         {
             "id": "WACE2024Q15",
@@ -9967,7 +10058,15 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Graphing",
+                "Logarithms",
+                "Logarithm Laws",
+                "Functions",
+                "Logarithmic",
+                "Solving"
+            ]
         },
         {
             "id": "WACE2024Q16",
@@ -9975,7 +10074,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Antidifferentiation",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2024Q17",
@@ -9983,7 +10087,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Functions",
+                "Logarithmic",
+                "Logarithms",
+                "Solving"
+            ]
         }
     ],
     "phys": [
@@ -14567,7 +14677,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q2",
@@ -14575,7 +14687,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q3",
@@ -14583,7 +14697,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q4",
@@ -14591,7 +14707,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q5",
@@ -14599,7 +14717,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q6",
@@ -14607,7 +14727,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q7",
@@ -14615,7 +14737,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q8",
@@ -14623,7 +14747,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q9",
@@ -14631,7 +14757,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q10",
@@ -14639,7 +14767,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q11",
@@ -14647,7 +14777,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q12",
@@ -14655,7 +14787,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q13",
@@ -14663,7 +14797,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q14",
@@ -14671,7 +14807,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q15",
@@ -14679,7 +14817,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q16",
@@ -14687,7 +14827,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q17",
@@ -14695,7 +14837,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         },
         {
             "id": "WACE2024Q18",
@@ -14703,7 +14847,9 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags"
+            ]
         }
     ]
 }
