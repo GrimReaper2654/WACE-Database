@@ -14567,7 +14567,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Complex Numbers",
+                "Polar Form"
+            ]
         },
         {
             "id": "WACE2024Q2",
@@ -14575,7 +14579,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Functions",
+                "Reciprocal Functions"
+            ]
         },
         {
             "id": "WACE2024Q3",
@@ -14583,7 +14591,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Integration By Substitution"
+            ]
         },
         {
             "id": "WACE2024Q4",
@@ -14591,7 +14603,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Partial Fractions"
+            ]
         },
         {
             "id": "WACE2024Q5",
@@ -14599,7 +14615,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Functions",
+                "Reciprocal Functions"
+            ]
         },
         {
             "id": "WACE2024Q6",
@@ -14607,7 +14627,10 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Systems of Linear Equations"
+            ]
         },
         {
             "id": "WACE2024Q7",
@@ -14615,7 +14638,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Complex Numbers",
+                "Factorisation"
+            ]
         },
         {
             "id": "WACE2024Q8",
@@ -14623,7 +14650,15 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "free",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Functions",
+                "Inverse Functions",
+                "Graphing",
+                "Calculus",
+                "Area Under a Curve",
+                "Implicit Differentiation"
+            ]
         },
         {
             "id": "WACE2024Q9",
@@ -14631,7 +14666,14 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Complex Numbers",
+                "Component Form",
+                "Polar Form",
+                "Roots of Complex Numbers",
+                "The Complex Plane"
+            ]
         },
         {
             "id": "WACE2024Q10",
@@ -14639,7 +14681,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Complex Numbers",
+                "The Complex Plane",
+                "Graphing"
+            ]
         },
         {
             "id": "WACE2024Q11",
@@ -14647,7 +14694,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Volume of Revolution"
+            ]
         },
         {
             "id": "WACE2024Q12",
@@ -14655,7 +14706,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Functions",
+                "Trigonometric Integration",
+                "Simple Harmonic Motion"
+            ]
         },
         {
             "id": "WACE2024Q13",
@@ -14663,7 +14720,10 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Logistic Model"
+            ]
         },
         {
             "id": "WACE2024Q14",
@@ -14671,7 +14731,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Statistical Inference",
+                "Sample Means",
+                "Confidence Intervals"
+            ]
         },
         {
             "id": "WACE2024Q15",
@@ -14679,7 +14744,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Functions",
+                "Absolute Value Functions",
+                "Graphing",
+                "Area Under a Curve"
+            ]
         },
         {
             "id": "WACE2024Q16",
@@ -14687,7 +14758,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Vectors",
+                "3D Vectors",
+                "Closest Approach"
+            ]
         },
         {
             "id": "WACE2024Q17",
@@ -14695,7 +14771,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Calculus",
+                "Separation of Variables"
+            ]
         },
         {
             "id": "WACE2024Q18",
@@ -14703,7 +14783,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Missing Tags",
+                "Vectors",
+                "2D Vectors",
+                "Vector Calculus"
+            ]
         }
     ]
 }
