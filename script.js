@@ -86,7 +86,8 @@ function clearFilters() {
 
     localStorage.removeItem('WACEDB_FILTERS');
 
-    document.getElementById('searchResults').innerHTML = `<h3>Press 'Search' to get started.</h3>`;
+    if (document.getElementById('searchResults')) document.getElementById('searchResults').innerHTML = `<h3>Press 'Search' to get started.</h3>`;
+    else document.getElementById('searchResultsClickable').innerHTML = `<h3>Press 'Search' to get started.</h3>`;
 }
 
 function removeAllEventListeners() {
@@ -424,7 +425,7 @@ function renderPageResults() {
             questionTags += `<label class="tag"><span class="tagLabel">${j}</span></label>`;
         }
         questionTags += `</div>`;
-        questionsHtml += `<div id="result${i}" class="box whiteBackground">
+        questionsHtml += `<div id="result${i}" class="box whiteBackground clickable" role="button">
         <a href="${link(i, 0)}" target="_blank"><button class="questionButton"><strong>${data.questions[i].name}</strong></button></a>
         <span class="arrow alignRight">
         <a href="${link(i, 1)}" target="_blank"><button class="standardButton">Marking Key</button></a>
@@ -436,7 +437,9 @@ function renderPageResults() {
     if (questionsHtml == ``) {
         questionsHtml = `<h3>No Results Found</h3>`;
     }
-    document.getElementById('searchResults').innerHTML = questionsHtml;
+
+    if (document.getElementById('searchResults')) document.getElementById('searchResults').innerHTML = questionsHtml;
+    else document.getElementById('searchResultsClickable').innerHTML = questionsHtml;
 
     if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Select question to modify tags.`;
     data.activeQuestion = null;
@@ -1115,9 +1118,33 @@ function adjustZoomForOverflow() {
     }
 }
 
+function initFooterSpacerSync() {
+  const footer = document.querySelector(".footer");
+  const spacer = document.getElementById("footerSpacer");
+
+  if (!footer || !spacer) {
+    console.warn("Footer or spacer not found — skipping sync.");
+    return;
+  }
+
+  function syncSpacer() {
+    spacer.style.height = footer.offsetHeight + "px";
+  }
+
+  syncSpacer();
+  window.addEventListener("resize", syncSpacer);
+
+  // Observe dynamic height changes
+  const observer = new ResizeObserver(syncSpacer);
+  observer.observe(footer);
+}
+
+
 if (window.self !== window.top) {
     window.top.location = window.self.location;
 }
+
+initFooterSpacerSync();
 
 window.addEventListener("load", async function() {
     console.log('loading...');
@@ -1136,3 +1163,51 @@ window.addEventListener("load", async function() {
 });
 
 window.addEventListener("resize", adjustZoomForOverflow);
+
+const container = document.getElementById("searchResultsClickable");
+
+function selectCard(card) {
+  // Remove selection from all cards
+  container.querySelectorAll(".clickable.selected")
+    .forEach(c => c.classList.remove("selected"));
+
+  // Select the clicked one
+  card.classList.add("selected");
+
+  console.log("Selected:", card);
+  const id = card.id.split('result')[1];
+  if (Number(id) >= 0) {
+        data.activeQuestion = data.questions[id].id;
+        data.activeQuestionNum = id;
+        if (document.getElementById('activeQuestion')) document.getElementById('activeQuestion').innerHTML = `Modify tags for: ${data.filters.subject} ${data.questions[id].id}`;
+        if (document.getElementById('modifyTags')) {
+            data.resetting = true;
+            for (let tag of data.allTags) {
+                if(document.getElementById(`${tag}Modify`)) document.getElementById(`${tag}Modify`).checked = false;
+            }
+            for (let tag of data.questions[id].tags) {
+                if(document.getElementById(`${tag}Modify`)) document.getElementById(`${tag}Modify`).checked = true;
+            }
+            data.resetting = false;
+        }
+    }
+}
+
+container.addEventListener("click", (e) => {
+  const card = e.target.closest(".clickable");
+  if (!card) return;
+  if (e.target.closest("button")) return; // ignore inner buttons
+
+  selectCard(card);
+});
+
+container.addEventListener("keydown", (e) => {
+  if (e.key !== "Enter" && e.key !== " ") return;
+
+  const card = e.target.closest(".clickable");
+  if (!card) return;
+
+  e.preventDefault();
+  selectCard(card);
+});
+

@@ -26,6 +26,11 @@ footer {
     padding-left: 20px;
 }
 
+#footerSpacer {
+  width: 100%;
+  height: 0; /* JS sets this */
+}
+
 #searchContainer {
     display: flex;
     gap: 0px;
@@ -267,6 +272,27 @@ footer {
     border-radius: 15px;
     border-width: 3px;
     margin: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.clickable:focus {
+    outline: 2px solid #4da3ff;
+    outline-offset: 3px;
+}
+
+.clickable:active {
+    transform: scale(0.98);
+}
+
+.clickable:hover {
+    background-color: #f5f5f5;
+    border-color: #666;
+}
+
+.clickable.selected {
+  outline: 3px solid #4da3ff;
+  outline-offset: 3px;
 }
 
 .whiteBackground {
@@ -379,12 +405,17 @@ ul {
 }
 
 .footer {
-    background-color: #303030;
-    color: white;
-    padding: 10px 0;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
+  background-color: #303030;
+  color: white;
+  padding: 10px 0;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  z-index: 999999;      /* make sure it’s on top */
 }
 
 .footer-content {
@@ -607,10 +638,6 @@ ul {
 .var {
     font-family: 'Playfair Display', serif;
     font-style: italic;
-}
-
-.footer {
-    position: absolute;
 }
 
 .closeButtonIcon {
