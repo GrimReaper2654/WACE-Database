@@ -339,8 +339,11 @@ async function setTags() {
         }
         tagsHtml += `</span>`;
     }
+    if (document.getElementById('modifyTags')) {
+        tagsHtml += `<span class="tag"><span type="checkbox" id="Missing Tags" class="checkbox"></span><span class="tagLabel noClick">Missing Tags</span>`;
+        setModifyTags();
+    }
     document.getElementById('tagsContainer').innerHTML = tagsHtml;
-    if (document.getElementById('modifyTags')) setModifyTags();
     packTags();
 }
 
