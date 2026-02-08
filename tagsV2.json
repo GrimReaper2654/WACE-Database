@@ -240,9 +240,9 @@
             "Closest Approach",
             "Cross Product",
             "Planes",
-            "Systems of Linear Equations",
             "Vector Calculus"
         ],
+        "Systems of Linear Equations": [],
         "Calculus": [
             "Implicit Differentiation",
             "Related Rates",
@@ -252,9 +252,9 @@
             "Area Under a Curve",
             "Volume of Revolution",
             "Separation of Variables",
-            "Logistic Model",
             "Slope Field"
         ],
+        "Logistic Model": [],
         "Simple Harmonic Motion": [],
         "Statistical Inference": [
             "Sample Means",
