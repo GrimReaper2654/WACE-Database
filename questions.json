@@ -14678,7 +14678,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Missing Tags"
+                "Complex Numbers",
+                "Polar Form"
             ]
         },
         {
@@ -14688,7 +14689,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Missing Tags"
+                "Functions",
+                "Reciprocal Functions"
             ]
         },
         {
@@ -14698,7 +14700,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Missing Tags"
+                "Calculus",
+                "Integration By Substitution"
             ]
         },
         {
@@ -14708,7 +14711,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Missing Tags"
+                "Calculus",
+                "Partial Fractions"
             ]
         },
         {
@@ -14718,7 +14722,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Missing Tags"
+                "Functions",
+                "Reciprocal Functions"
             ]
         },
         {
@@ -14728,7 +14733,7 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Missing Tags"
+                "Systems of Linear Equations"
             ]
         },
         {
@@ -14738,7 +14743,8 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Missing Tags"
+                "Complex Numbers",
+                "Factorisation"
             ]
         },
         {
@@ -14748,7 +14754,12 @@
             "source": "WACE",
             "calculator": "free",
             "tags": [
-                "Missing Tags"
+                "Functions",
+                "Inverse Functions",
+                "Graphing",
+                "Calculus",
+                "Area Under a Curve",
+                "Implicit Differentiation"
             ]
         },
         {
@@ -14758,7 +14769,11 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Complex Numbers",
+                "Component Form",
+                "Polar Form",
+                "Roots of Complex Numbers",
+                "The Complex Plane"
             ]
         },
         {
@@ -14768,7 +14783,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Complex Numbers",
+                "The Complex Plane",
+                "Graphing"
             ]
         },
         {
@@ -14778,7 +14795,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Calculus",
+                "Volume of Revolution"
             ]
         },
         {
@@ -14788,7 +14806,10 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Calculus",
+                "Functions",
+                "Trigonometric Integration",
+                "Simple Harmonic Motion"
             ]
         },
         {
@@ -14798,7 +14819,7 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Logistic Model"
             ]
         },
         {
@@ -14808,7 +14829,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Statistical Inference",
+                "Sample Means",
+                "Confidence Intervals"
             ]
         },
         {
@@ -14818,7 +14841,10 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Functions",
+                "Absolute Value Functions",
+                "Graphing",
+                "Area Under a Curve"
             ]
         },
         {
@@ -14828,7 +14854,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Vectors",
+                "3D Vectors",
+                "Closest Approach"
             ]
         },
         {
@@ -14838,7 +14866,8 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Calculus",
+                "Separation of Variables"
             ]
         },
         {
@@ -14848,7 +14877,9 @@
             "source": "WACE",
             "calculator": "assumed",
             "tags": [
-                "Missing Tags"
+                "Vectors",
+                "2D Vectors",
+                "Vector Calculus"
             ]
         }
     ]
