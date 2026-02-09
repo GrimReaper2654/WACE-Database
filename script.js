@@ -182,8 +182,10 @@ function updateTags(id, state=null) {
     if (state === null) state = !tagsList.includes(tagId);
     if (state) {
         add(tagsList, tagId);
+        remove(tagsList, `Missing Tags`);
     } else {
         remove(tagsList, tagId);
+        if (tagsList.length == 0) add(tagsList, `Missing Tags`);
     }
     console.log(`editing: ${data.activeQuestion}`);
     console.log(tagsList);
