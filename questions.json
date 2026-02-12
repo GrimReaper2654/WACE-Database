@@ -12694,7 +12694,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electromagnetism",
+                "Electric Fields",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2024Q2",
@@ -12702,7 +12708,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Waves",
+                "Blackbody Radiation",
+                "Light",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2024Q3",
@@ -12710,7 +12722,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Projectile Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2024Q4",
@@ -12718,7 +12735,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Standard Model",
+                "Big Bang Theory",
+                "Subatomic Particles",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2024Q5",
@@ -12726,7 +12749,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Circular Motion",
+                "Calculation",
+                "Short Response"
+            ]
         },
         {
             "id": "WACE2024Q6",
@@ -12734,7 +12761,11 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Standard Model",
+                "Subatomic Particles"
+            ]
         },
         {
             "id": "WACE2024Q7",
@@ -12742,7 +12773,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Gravity and Motion",
+                "Projectile Motion",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2024Q8",
@@ -12750,7 +12786,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Circular Motion",
+                "Banked Track",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2024Q9",
@@ -12758,7 +12800,16 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Electricity",
+                "AC Current",
+                "Power Transmission",
+                "Electromagnetism",
+                "Transformers",
+                "Calculation",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2024Q10",
@@ -12766,7 +12817,10 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2024Q11",
@@ -12774,7 +12828,12 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Short Response",
+                "Standard Model",
+                "Big Bang Theory",
+                "Theory"
+            ]
         },
         {
             "id": "WACE2024Q12",
@@ -12782,7 +12841,14 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Theory",
+                "Calculation",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2024Q13",
@@ -12790,7 +12856,16 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Static Equilibrium",
+                "Electricity",
+                "Charged Particles",
+                "Calculation",
+                "Theory",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2024Q14",
@@ -12798,7 +12873,16 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Standard Model",
+                "Subatomic Particles",
+                "Particle Accelerators",
+                "Calculation",
+                "Theory",
+                "Special Relativity",
+                "Relativistic Energy"
+            ]
         },
         {
             "id": "WACE2024Q15",
@@ -12806,7 +12890,16 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Waves",
+                "Light",
+                "Emission / Absorption Spectrum",
+                "Photoelectric Effect",
+                "Theory",
+                "Calculation",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2024Q16",
@@ -12814,7 +12907,16 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Equilibrium of Forces",
+                "Torque",
+                "Static Equilibrium",
+                "Theory",
+                "Calculation",
+                "Graphing",
+                "Diagrams"
+            ]
         },
         {
             "id": "WACE2024Q17",
@@ -12822,7 +12924,14 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Problem Solving",
+                "Electromagnetism",
+                "Magnetic Fields",
+                "Generators",
+                "Graphing",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2024Q18",
@@ -12830,7 +12939,13 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Comprehension",
+                "Waves",
+                "Light",
+                "Theory",
+                "Calculation"
+            ]
         },
         {
             "id": "WACE2024Q19",
@@ -12838,7 +12953,14 @@
             "year": 2024,
             "source": "WACE",
             "calculator": "assumed",
-            "tags": []
+            "tags": [
+                "Waves",
+                "De Broglie Wavelength",
+                "Theory",
+                "Calculation",
+                "Diagrams",
+                "Comprehension"
+            ]
         }
     ],
     "spec": [
